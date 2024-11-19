@@ -105,6 +105,11 @@ class arforms_modules{
     function arforms_load_hcaptcha_module(){
         global $arformsmain;
         
+        $arf_is_hcaptcha_enabled = $arformsmain->arforms_get_settings( 'arforms_hcaptcha', 'arforms_module' );
+
+        if( 1 == $arf_is_hcaptcha_enabled ){
+            require_once ARFLITE_FORMPATH . '/integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php';
+        }
     }
     
     function arforms_load_paypal_module(){

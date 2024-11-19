@@ -47,6 +47,8 @@ class arflitenotifymodel {
 
 	function arformslite_wp_mail_success_response( $mesage ){
 
+		global $arf_debug_log_id;
+
         if( true == $this->arforms_wpmail_sending ){
 			$backtrace = wp_debug_backtrace_summary( null, 0, false );
             $arf_error_msg=array(	
@@ -59,6 +61,8 @@ class arflitenotifymodel {
     }
 	
     function arformslite_wp_mail_failed_response( $error ){
+
+		global $arf_debug_log_id;
 		
 		if( true == $this->arforms_wpmail_sending ){
 			$backtrace = wp_debug_backtrace_summary( null, 0, false );
@@ -736,7 +740,7 @@ class arflitenotifymodel {
 		$get_default    = true;
 		$mail_body      = '';
 		if ( isset( $form_options['ar_admin_email_message'] ) && trim( $form_options['ar_admin_email_message'] ) != '' ) {
-			if ( ! preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+			if ( ! preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) && ! preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
 				$get_default = false;
 			}
 			$custom_message = true;
@@ -746,9 +750,11 @@ class arflitenotifymodel {
 
 		if ( $get_default ) {
 			$default = '';
+			$default_new = '';
 		}
 		if ( $get_default && ! $plain_text ) {
-			$default     .= "<table cellspacing='0' border='1' style='font-size:12px;line-height:135%;'><tbody>";
+			$default     .= "<table cellspacing='0' style='font-size:12px;line-height:135%;'><tbody>";
+			$default_new .= "<table cellspacing='0' style='font-size:12px;line-height:135%;'><tbody>";
 			$bg_color     = " style='background-color:#ffffff;'";
 			$bg_color_alt = " style='background-color:#ffffff;'";
 		}
@@ -761,23 +767,98 @@ class arflitenotifymodel {
 
 			$val = apply_filters( 'arfliteemailvalue', maybe_unserialize( $value->entry_value ), $value, $entry );
 
+			$arf_value = '';
+
+			if ( $value->field_type == 'checkbox' || $value->field_type == 'radio' || $value->field_type == 'select' ) {
+				if ( isset( $value->entry_value ) ) {
+					if ( is_array( maybe_unserialize( $value->entry_value ) ) ) {
+						$val = implode( ', ', maybe_unserialize( $value->entry_value ) );
+						$arf_value = implode( ', ', maybe_unserialize( $value->entry_value ) );
+					} else {
+						$val = $value->entry_value;
+						$arf_value = $value->entry_value;
+					}
+				}
+			}
+
 			if ( $value->field_type == 'select' || $value->field_type == 'checkbox' || $value->field_type == 'radio' ) {
+
 				global $wpdb,$ARFLiteMdlDb, $tbl_arf_entry_values;
+				
 				$field_opts = $wpdb->get_row( $wpdb->prepare( 'SELECT entry_value FROM ' . $tbl_arf_entry_values . " WHERE field_id='%d' AND entry_id='%d'", '-' . $value->field_id, $entry->id ) ); //phpcs:ignore
 				if ( $field_opts ) {
 					$field_opts = maybe_unserialize( $field_opts->entry_value );
 					if ( $value->field_type == 'checkbox' ) {
 						if ( $field_opts && count( $field_opts ) > 0 ) {
 							$temp_value = '';
+							$temp_value_1 = '';
+
 							foreach ( $field_opts as $new_field_opt ) {
-								$temp_value .= $new_field_opt['label'] . ' (' . $new_field_opt['value'] . '), ';
+
+								if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
+									$temp_value_1 .= $new_field_opt['label'].',';
+								} 
+								if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+									$temp_value .= $new_field_opt['label'] . ' (' . $new_field_opt['value'] . '), ';
+								}
+
 							}
-							$temp_value = trim( $temp_value );
-							$val        = rtrim( $temp_value, ',' );
+
+							if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
+
+								$temp_value_1 = trim( $temp_value_1 );
+								$arf_value        = rtrim( $temp_value_1, ',' );
+							} 
+							if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+
+								$temp_value = trim( $temp_value );
+								$val        = rtrim( $temp_value, ',' );
+							}
 						}
 					} else {
-						global $wpdb,$ARFLiteMdlDb;
-							$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+						if ( $value->field_type == 'select' ) {
+							$field_id       = $value->field_id;
+							$field_tmp      = $wpdb->get_row( $wpdb->prepare( 'SELECT * FROM ' . $tbl_arf_fields . " WHERE id = '%d'", $field_id ) ); //phpcs:ignore
+							$field_tmp_opts = json_decode( $field_tmp->field_options, true );
+							if ( json_last_error() != JSON_ERROR_NONE ) {
+								$field_tmp_opts = maybe_unserialize( $field_tmp->field_options );
+							}
+							if ( $field_tmp_opts['separate_value'] ) {
+								$label_field_id  = ( $value->field_id * 100 );
+								$get_field_label = $wpdb->get_row( $wpdb->prepare( 'SELECT entry_value FROM ' . $tbl_arf_entry_values . ' WHERE field_id = "-%d" and entry_id="%d"', $label_field_id, $value->entry_id ) ); //phpcs:ignore
+								$field_label     = isset( $get_field_label->entry_value ) ? $get_field_label->entry_value : '';
+								if ( $field_label != '' ) {
+									if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
+										$arf_value = stripslashes( $get_field_label->entry_value );
+									}
+									if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+										$val = stripslashes( $get_field_label->entry_value ) . ' (' . stripslashes( $field_opts['value'] ) . ')';
+									}
+								} else {
+
+									if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
+										$arf_value = $field_opts['label'];
+									} 
+									if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+										$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+									}
+								}
+							} else {
+								if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
+									$arf_value = $field_opts['label'];
+								}
+								if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+									$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+								}
+							}
+						} else {
+							if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
+								$arf_value = $field_opts['label'];
+							} 
+							if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+								$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+							}
+						}
 					}
 				}
 			}
@@ -788,11 +869,22 @@ class arflitenotifymodel {
 				$val = implode( ', ', $val );
 			}
 
+			
+
 			if ( $get_default && $plain_text ) {
 				$default .= $value->field_name . ': ' . $val . "\r\n\r\n";
 			} elseif ( $get_default ) {
 				$row_style = "valign='top' style='text-align:left;color:#17181c;padding:7px 9px;'";
-				$default  .= '<tr' . ( ( $odd ) ? $bg_color : $bg_color_alt ) . "><th $row_style>$value->field_name</th><td $row_style>$val</td></tr>";
+				
+				if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_admin_email_message'] ) ) {
+					$default  .= '<tr' . ( ( $odd ) ? $bg_color : $bg_color_alt ) . "><th $row_style>$value->field_name</th><td $row_style>$val</td></tr>";
+				} 
+				if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_admin_email_message'] ) ) {
+					if( $value->field_type == 'select' || $value->field_type == 'checkbox' || $value->field_type == 'radio' ){
+						$val = $arf_value;
+					}
+					$default_new  .= '<tr' . ( ( $odd ) ? $bg_color : $bg_color_alt ) . "><th $row_style>$value->field_name</th><td $row_style>$val</td></tr>";
+				}
 				$odd       = ( $odd ) ? false : true;
 			}
 
@@ -893,6 +985,7 @@ class arflitenotifymodel {
 
 		if ( $get_default && $custom_message ) {
 			$mail_body = str_replace( '[ARFLite_form_all_values]', $default, $mail_body );
+			$mail_body = str_replace( '[ARFLite_form_all_values_no_separate_value]', $default_new, $mail_body );
 		} elseif ( $get_default ) {
 			$mail_body = $default;
 		}
@@ -1127,21 +1220,30 @@ class arflitenotifymodel {
 		if ( ! isset( $to_email ) ) {
 			return;
 		}
+
 		$get_default = true;
+		$arf_separate_value = false;
 		$mail_body   = '';
+
 		if ( isset( $form_options['ar_email_message'] ) && trim( $form_options['ar_email_message'] ) != '' ) {
-			if ( ! preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+			if ( ! preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) && ! preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
 				$get_default = false;
 			}
+			 
+
 			$custom_message = true;
 			$shortcodes     = $arflitemainhelper->arfliteget_shortcodes( $form_options['ar_email_message'], $entry->form_id );
 			$mail_body      = $arflitefieldhelper->arflitereplaceshortcodes( $form_options['ar_email_message'], $entry, $shortcodes );
 			$mail_body      = $arflitefieldhelper->arflite_replace_shortcodes( $mail_body, $entry, true );
 		}
 
+		 
+
 		$default = '';
+		$default_new = '';
 		if ( $get_default && ! $plain_text ) {
-			$default     .= "<table cellspacing='0' border='1' style='font-size:12px;line-height:135%;'><tbody>";
+			$default     .= "<table cellspacing='0' style='font-size:12px;line-height:135%;'><tbody>";
+			$default_new     .= "<table cellspacing='0' style='font-size:12px;line-height:135%;'><tbody>";
 			$bg_color     = " style='background-color:#ffffff;'";
 			$bg_color_alt = " style='background-color:#ffffff;'";
 		}
@@ -1149,35 +1251,58 @@ class arflitenotifymodel {
 		$attachments = array();
 
 		foreach ( $values as $value ) {
+
 			$value = apply_filters( 'arflite_brfore_send_mail_change_value', $value, $entry_id, $form_id );
 
 			$val = apply_filters( 'arfliteemailvalue', maybe_unserialize( $value->entry_value ), $value, $entry );
+
+			$arf_value = '';
 
 			if ( $value->field_type == 'checkbox' || $value->field_type == 'radio' || $value->field_type == 'select' ) {
 				if ( isset( $value->entry_value ) ) {
 					if ( is_array( maybe_unserialize( $value->entry_value ) ) ) {
 						$val = implode( ', ', maybe_unserialize( $value->entry_value ) );
+						$arf_value = implode( ', ', maybe_unserialize( $value->entry_value ) );
 					} else {
 						$val = $value->entry_value;
+						$arf_value = $value->entry_value;
 					}
 				}
 			}
 
 			if ( $value->field_type == 'select' || $value->field_type == 'checkbox' || $value->field_type == 'radio' ) {
+
 				global $wpdb,$ARFLiteMdlDb, $tbl_arf_entry_values, $tbl_arf_fields;
 				$field_opts = $wpdb->get_row( $wpdb->prepare( 'SELECT entry_value FROM ' . $tbl_arf_entry_values . " WHERE field_id='%d' AND entry_id='%d'", '-' . $value->field_id, $entry->id ) ); //phpcs:ignore
-
 				if ( $field_opts ) {
 					$field_opts = maybe_unserialize( $field_opts->entry_value );
 
 					if ( $value->field_type == 'checkbox' ) {
 						if ( $field_opts && count( $field_opts ) > 0 ) {
 							$temp_value = '';
+							$temp_value_1 = '';
 							foreach ( $field_opts as $new_field_opt ) {
-								$temp_value .= $new_field_opt['label'] . ' (' . $new_field_opt['value'] . '), ';
+								
+							 
+								if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
+									$temp_value_1 .= $new_field_opt['label'].',' ;
+								} 
+								if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+									$temp_value .= $new_field_opt['label'] . ' (' . $new_field_opt['value'] . '), ';
+
+								}
 							}
-							$temp_value = trim( $temp_value );
-							$val        = rtrim( $temp_value, ',' );
+
+							if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+								$temp_value = trim( $temp_value );
+								$val        = rtrim( $temp_value, ',' );
+							}
+
+							if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
+								$temp_value_1 = trim( $temp_value_1 );
+								$arf_value        = rtrim( $temp_value_1, ',' );
+							}
+							
 						}
 					} else {
 						if ( $value->field_type == 'select' ) {
@@ -1192,22 +1317,46 @@ class arflitenotifymodel {
 								$get_field_label = $wpdb->get_row( $wpdb->prepare( 'SELECT entry_value FROM ' . $tbl_arf_entry_values . ' WHERE field_id = "-%d" and entry_id="%d"', $label_field_id, $value->entry_id ) ); //phpcs:ignore
 								$field_label     = isset( $get_field_label->entry_value ) ? $get_field_label->entry_value : '';
 								if ( $field_label != '' ) {
-									$val = stripslashes( $get_field_label->entry_value ) . ' (' . stripslashes( $field_opts['value'] ) . ')';
+									if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
+										$arf_value = stripslashes( $get_field_label->entry_value );
+									}
+									if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+										$val = stripslashes( $get_field_label->entry_value ) . ' (' . stripslashes( $field_opts['value'] ) . ')';
+									}
 								} else {
-									$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+
+									if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
+										$arf_value = $field_opts['label'];
+									} 
+									if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+										$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+									}
 								}
 							} else {
-								$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+								if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
+									$arf_value = $field_opts['label'];
+								}
+								if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+									$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+								}
 							}
 						} else {
-							$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+							if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
+								$arf_value = $field_opts['label'];
+							} 
+							if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+								$val = $field_opts['label'] . ' (' . $field_opts['value'] . ')';
+							}
 						}
 					}
 				}
+
 			}
+			 
 			if ( $value->field_type == 'textarea' && ! $plain_text ) {
 				$val = str_replace( array( "\r\n", "\r", "\n" ), ' <br/>', $val );
 			}
+ 
 			if ( is_array( $val ) ) {
 				$val = implode( ', ', $val );
 			}
@@ -1216,7 +1365,17 @@ class arflitenotifymodel {
 				$default .= $value->field_name . ': ' . $val . "\r\n\r\n";
 			} elseif ( $get_default ) {
 				$row_style = "valign='top' style='text-align:left;color:#17181C;padding:7px 9px;'";
-				$default  .= '<tr' . ( ( $odd ) ? $bg_color : $bg_color_alt ) . "><th $row_style>$value->field_name</th><td $row_style>$val</td></tr>";
+				if ( preg_match( '/\[ARFLite_form_all_values\]/', $form_options['ar_email_message'] ) ) {
+					$default  .= '<tr' . ( ( $odd ) ? $bg_color : $bg_color_alt ) . "><th $row_style>$value->field_name</th><td $row_style>$val</td></tr>";
+				} 
+				if ( preg_match( '/\[ARFLite_form_all_values_no_separate_value\]/', $form_options['ar_email_message'] ) ) {
+
+					if( $value->field_type == 'select' || $value->field_type == 'checkbox' || $value->field_type == 'radio' ){
+						$val = $arf_value;
+					}
+
+					$default_new  .= '<tr' . ( ( $odd ) ? $bg_color : $bg_color_alt ) . "><th $row_style>$value->field_name</th><td $row_style>$val</td></tr>";
+				}
 				$odd       = ( $odd ) ? false : true;
 			}
 
@@ -1271,6 +1430,7 @@ class arflitenotifymodel {
 
 		if ( $get_default && $custom_message ) {
 			$mail_body = str_replace( '[ARFLite_form_all_values]', $default, $mail_body );
+			$mail_body = str_replace( '[ARFLite_form_all_values_no_separate_value]', $default_new, $mail_body );
 		} elseif ( $get_default ) {
 			$mail_body = $default;
 		}

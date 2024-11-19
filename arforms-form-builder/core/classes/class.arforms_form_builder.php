@@ -870,7 +870,6 @@ class arforms_form_builder{
 			wp_enqueue_script('arflitedatatables');
 			wp_enqueue_script('buttons-colvis');
 			wp_enqueue_style('datatables');
-
 			
 			wp_register_script( 'arforms-settings', ARFLITEURL . '/js/arforms_settings.js', array( 'jquery', 'wp-hooks' ), $this->arforms_get_assets_version() );
 			wp_enqueue_script( 'arforms-settings' );
@@ -1704,6 +1703,8 @@ class arforms_form_builder{
 			'tc_privkey'              		=> '',
 			'tc_msg'              			=> 'Invalid Turnstile Captcha. Please try again',
 			'tc_theme'              		=> 'light',
+			'hcaptcha_public_key'           => '',
+			'hcaptcha_private_key'          => '',
 		);
 	}
 
@@ -1799,8 +1800,8 @@ class arforms_form_builder{
 		
 		do_action('arformslite_rearrange_submanu');
         $arf_current_date = current_time('timestamp', true );
-		$arf_sale_start_time = '1700503200';
-		$arf_sale_end_time = '1701561600';
+		$arf_sale_start_time = '1732064400';
+		$arf_sale_end_time = '1733270399';
 
 		if( $arf_current_date >= $arf_sale_start_time && $arf_current_date <= $arf_sale_end_time ){
 			add_submenu_page( 'ARForms', 'ARForms | ' . __( 'Black Friday Sale', 'arforms-form-builder' ), __( 'Black Friday Sale', 'arforms-form-builder' ), 'arfchangesettings', 'ARForms&amp;upgrade-to-pro=yes' , array( $this, 'arforms_router' ) );

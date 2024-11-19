@@ -3,9 +3,9 @@ Contributors: reputeinfosystems, dimplemodi
 Tags: contact form, popup forms, survey form, payment form, multi-step form
 Donate link: https://codecanyon.net/item/addon-bundle-for-arforms-wordpress-form-builder/23946744
 Requires at least: 5.0
-Tested up to: 6.6.2
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,7 +22,7 @@ ARForms Form Builder is an outstanding WordPress form builder plugin that lets y
 Not a technical person? With ARForms, creating WordPress forms is a breeze. No need for a professional web developer and no coding skills are required - just a few clicks and you're all set with drag-and-drop form fields to design forms with ease.
 
 
-Even a novice person can easily create and build WordPress forms within minutes, that too spam-free. The built-in Google reCAPTCHA and Cloudflare Turnstile CAPTCHA help keep your forms safe from bots and spam.
+Even a novice person can easily create and build WordPress forms within minutes, that too spam-free. The built-in Google reCAPTCHA, Cloudflare Turnstile CAPTCHA, and hCaptcha help keep your forms safe from bots and spam.
 
 Better yet, with the excellent loading performance, WordPress forms created using ARForms are highly optimized for speed mobile-ready and tend to load only the necessary resources of the plugin. The cherry on the cake? Built-in PayPal support makes it easy to accept payments on your WordPress site through forms.
 
@@ -79,6 +79,7 @@ ARForms supports prominent page builders like Gutenberg Blocks, Elementor, Divi 
 
 - Google reCAPTCHA
 - Cloudflare Turnstile CAPTCHA
+- hCaptcha
 
 **💸 Payment Gateway Support in Lite Version**
 
@@ -401,6 +402,11 @@ Please follow the steps for your ARForms installation below:
 8. ARForms - View Entry
 
 == Changelog ==
+
+=1.7.2=
+Added new built-in option for hCaptcha
+Added new option to localize the timepicker field
+Other minor bug fixes
 
 =1.7.1=
 Minor bug fixes

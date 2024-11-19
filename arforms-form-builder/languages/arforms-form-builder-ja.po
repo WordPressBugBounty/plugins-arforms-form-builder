@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARForms Form Builder v1.7.1\n"
+"Project-Id-Version: ARForms Form Builder v1.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-10-31 07:10:28+0000\n"
+"PO-Revision-Date: 2024-11-18 08:39:36+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +20,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: core/views/arflite_edit.php:5054
+#: core/views/arflite_edit.php:5056
 #@ arforms-form-builder
 msgid " inside code.)"
 msgstr "コード内）"
 
-#: core/models/arflitenotifymodel.php:103
+#: core/models/arflitenotifymodel.php:107
 #, php-format
 #@ arforms-form-builder
 msgid "%1$s form has been submitted on %2$s."
 msgstr "%1$s フォームは %2$s に送信されました。"
 
-#: core/models/arflitenotifymodel.php:165
-#: core/models/arflitenotifymodel.php:1249
+#: core/models/arflitenotifymodel.php:169
+#: core/models/arflitenotifymodel.php:1405
 #, php-format
 #@ arforms-form-builder
 msgid "%1$s Form submitted on %2$s"
@@ -50,17 +50,17 @@ msgstr "%s 送信および %s 非アクティブ化"
 msgid "( Not recommended - If you have any js/css loading issue in your theme, only in that case you should enable this settings )"
 msgstr "（非推奨-テーマにjs / cssの読み込みの問題がある場合、その場合のみ、この設定を有効にする必要があります）"
 
-#: core/controllers/arflitemaincontroller.php:2368
+#: core/controllers/arflitemaincontroller.php:2370
 #@ arforms-form-builder
 msgid "(Click here to add description or instructions)"
 msgstr "（説明または手順を追加するには、ここをクリックしてください）"
 
-#: core/controllers/arflitemaincontroller.php:2366
+#: core/controllers/arflitemaincontroller.php:2368
 #@ arforms-form-builder
 msgid "(Click here to add text)"
 msgstr "（テキストを追加するには、ここをクリックしてください）"
 
-#: core/views/arflite_edit.php:5054
+#: core/views/arflite_edit.php:5056
 #@ arforms-form-builder
 msgid "(Do not insert script tag"
 msgstr "（スクリプトタグを挿入しないでください"
@@ -317,7 +317,7 @@ msgid "Account ID"
 msgstr "アカウントID"
 
 #: core/views/arf_view_records.php:473
-#: core/views/arflite_edit.php:4992
+#: core/views/arflite_edit.php:4994
 #: core/views/arflite_list.php:129
 #: integrations/Payments/PayPal/core/list_forms_3.0.php:86
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:158
@@ -340,7 +340,7 @@ msgstr "アクティブ"
 msgid "Active State Background"
 msgstr "アクティブな状態の背景"
 
-#: core/controllers/arflitemaincontroller.php:2396
+#: core/controllers/arflitemaincontroller.php:2398
 #@ arforms-form-builder
 msgid "Add"
 msgstr "追加"
@@ -361,7 +361,7 @@ msgid "Add ARForms Lite Form"
 msgstr "ARForms Liteフォームを追加"
 
 #: core/views/arflite_edit.php:3138
-#: core/views/arflite_edit.php:5132
+#: core/views/arflite_edit.php:5134
 #@ arforms-form-builder
 msgid "Add CSS Elements"
 msgstr "CSS要素を追加"
@@ -375,19 +375,19 @@ msgstr "管理領域からエントリを追加"
 #: core/views/arflite_edit.php:4238
 #: core/views/arflite_edit.php:4285
 #: core/views/arflite_edit.php:4351
-#: core/views/arflite_edit.php:4456
-#: core/views/arflite_edit.php:4484
-#: core/views/arflite_edit.php:4525
-#: core/views/arflite_edit.php:4559
-#: core/views/arflite_edit.php:4587
-#: core/views/arflite_edit.php:4618
-#: core/views/arflite_edit.php:4655
-#: core/views/arflite_edit.php:4718
+#: core/views/arflite_edit.php:4457
+#: core/views/arflite_edit.php:4485
+#: core/views/arflite_edit.php:4526
+#: core/views/arflite_edit.php:4560
+#: core/views/arflite_edit.php:4588
+#: core/views/arflite_edit.php:4619
+#: core/views/arflite_edit.php:4656
+#: core/views/arflite_edit.php:4719
 #@ arforms-form-builder
 msgid "Add Field"
 msgstr "フィールドを追加"
 
-#: core/controllers/arflitemaincontroller.php:2424
+#: core/controllers/arflitemaincontroller.php:2426
 #@ arforms-form-builder
 msgid "Add Icon"
 msgstr "アイコンを追加"
@@ -397,13 +397,13 @@ msgstr "アイコンを追加"
 msgid "Add icon (Bootstrap style)"
 msgstr "アイコンを追加（Bootstrapスタイル）"
 
-#: core/controllers/arflitemaincontroller.php:2317
-#: core/controllers/arflitemaincontroller.php:2414
+#: core/controllers/arflitemaincontroller.php:2319
+#: core/controllers/arflitemaincontroller.php:2416
 #@ arforms-form-builder
 msgid "Add Image"
 msgstr "画像を追加"
 
-#: core/classes/class.arforms_form_builder.php:1787
+#: core/classes/class.arforms_form_builder.php:1788
 #: core/controllers/arfliteformcontroller.php:260
 #: core/controllers/arfliteprocontroller.php:65
 #: core/views/arflite_list.php:90
@@ -411,7 +411,7 @@ msgstr "画像を追加"
 msgid "Add New Form"
 msgstr "新しいフォームを追加"
 
-#: core/views/arflite_edit.php:4988
+#: core/views/arflite_edit.php:4990
 #@ arforms-form-builder
 msgid "Add new hidden field"
 msgstr "新しい非表示フィールドを追加"
@@ -437,7 +437,7 @@ msgstr "ページに追加"
 msgid "Add-On listing is currently unavailable. Please try again later."
 msgstr "アドオンリストは現在利用できません。 後でもう一度やり直してください。"
 
-#: core/classes/class.arforms_form_builder.php:1795
+#: core/classes/class.arforms_form_builder.php:1796
 #: core/controllers/arfliteprocontroller.php:75
 #@ arforms-form-builder
 msgid "Add-ons"
@@ -453,29 +453,29 @@ msgstr "カスタム表示の追加/編集"
 msgid "Add/Edit Forms and Templates"
 msgstr "フォームとテンプレートの追加/編集"
 
-#: core/classes/class.arforms_form_builder.php:1795
+#: core/classes/class.arforms_form_builder.php:1796
 #: core/controllers/arfliteprocontroller.php:75
 #: core/controllers/arflitesettingcontroller.php:130
 #@ arforms-form-builder
 msgid "Addons"
 msgstr "アドオン"
 
-#: core/views/arflite_edit.php:4557
+#: core/views/arflite_edit.php:4558
 #@ arforms-form-builder
 msgid "Admin BCC Email"
 msgstr "管理BCCメール"
 
-#: core/views/arflite_edit.php:4523
+#: core/views/arflite_edit.php:4524
 #@ arforms-form-builder
 msgid "Admin CC Email"
 msgstr "管理者CCメール"
 
-#: core/views/arflite_edit.php:4454
+#: core/views/arflite_edit.php:4455
 #@ arforms-form-builder
 msgid "Admin E-mail"
 msgstr "管理者のメール"
 
-#: core/views/arflite_edit.php:4699
+#: core/views/arflite_edit.php:4700
 #@ arforms-form-builder
 msgid "Admin Message"
 msgstr "管理メッセージ"
@@ -500,11 +500,12 @@ msgid "Afghanistan"
 msgstr "アフガニスタン"
 
 #: core/views/arflite_field_option_popup.php:418
+#: core/views/arflite_field_option_popup.php:480
 #@ arforms-form-builder
 msgid "Afrikaans"
 msgstr "アフリカーンス語"
 
-#: core/views/arflite_edit.php:5045
+#: core/views/arflite_edit.php:5047
 #@ arforms-form-builder
 msgid "After Submission Tracking Script"
 msgstr "提出後追跡スクリプト"
@@ -531,6 +532,7 @@ msgid "Albania"
 msgstr "アルバニア"
 
 #: core/views/arflite_field_option_popup.php:419
+#: core/views/arflite_field_option_popup.php:481
 #@ arforms-form-builder
 msgid "Albanian"
 msgstr "アルバニア語"
@@ -546,23 +548,23 @@ msgstr "アルジェリア"
 msgid "Alignment"
 msgstr "整列"
 
-#: core/controllers/arflitemaincontroller.php:2400
+#: core/controllers/arflitemaincontroller.php:2402
 #: core/views/arf_debug_log.php:100
 #@ arforms-form-builder
 msgid "All"
 msgstr "すべて"
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Allow alpha numeric characters and length must be between 8 to 16 characters"
 msgstr "英数字を許可し、長さは8〜16文字にする必要があります"
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Allow only digits upto 6 digits. e.g. : pincode"
 msgstr "6桁までの数字のみを許可します。 例えば ： ピンコード"
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Allow phone number like"
 msgstr "次のような電話番号を許可"
@@ -573,8 +575,8 @@ msgstr "次のような電話番号を許可"
 msgid "American Samoa"
 msgstr "アメリカ領サモア"
 
-#: core/classes/class.arforms_form_builder.php:999
-#: core/classes/class.arforms_form_builder.php:1006
+#: core/classes/class.arforms_form_builder.php:998
+#: core/classes/class.arforms_form_builder.php:1005
 #@ arforms-form-builder
 msgid "Analytics / Chart"
 msgstr "分析/グラフ"
@@ -626,7 +628,7 @@ msgstr "南極大陸"
 msgid "Antigua and Barbuda"
 msgstr "アンティグアバーブーダ"
 
-#: core/controllers/arflitemaincontroller.php:2401
+#: core/controllers/arflitemaincontroller.php:2403
 #@ arforms-form-builder
 msgid "Any"
 msgstr "どれか"
@@ -679,27 +681,28 @@ msgid "April"
 msgstr "4月"
 
 #: core/views/arflite_field_option_popup.php:420
+#: core/views/arflite_field_option_popup.php:482
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:71
 #@ arforms-form-builder
 msgid "Arabic"
 msgstr "アラビア語"
 
-#: core/controllers/arflitemaincontroller.php:2341
+#: core/controllers/arflitemaincontroller.php:2343
 #@ arforms-form-builder
 msgid "Are you sure to delete configuration?"
 msgstr "設定を削除してもよろしいですか？"
 
-#: core/controllers/arflitemaincontroller.php:2314
+#: core/controllers/arflitemaincontroller.php:2316
 #@ arforms-form-builder
 msgid "Are you sure want to reset style?"
 msgstr "スタイルをリセットしてもよろしいですか?"
 
-#: core/controllers/arflitemaincontroller.php:2342
+#: core/controllers/arflitemaincontroller.php:2344
 #@ arforms-form-builder
 msgid "Are you sure you want to  delete this field?"
 msgstr "このフィールドを削除してもよろしいですか?"
 
-#: core/controllers/arflitemaincontroller.php:2389
+#: core/controllers/arflitemaincontroller.php:2391
 #@ arforms-form-builder
 msgid "Are you sure you want to delete image?"
 msgstr "画像を削除してもよろしいですか？"
@@ -709,24 +712,24 @@ msgstr "画像を削除してもよろしいですか？"
 msgid "Are you sure you want to delete this entries?"
 msgstr "このエントリを削除してもよろしいですか?"
 
-#: core/controllers/arflitemaincontroller.php:2310
+#: core/controllers/arflitemaincontroller.php:2312
 #: core/views/arf_view_records.php:512
 #: core/views/arflite_list.php:177
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this entry?"
 msgstr "このエントリを削除してもよろしいですか？"
 
-#: core/controllers/arflitemaincontroller.php:2312
+#: core/controllers/arflitemaincontroller.php:2314
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this file?"
 msgstr "このファイルを削除してもよろしいですか?"
 
-#: core/controllers/arflitemaincontroller.php:2308
+#: core/controllers/arflitemaincontroller.php:2310
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this form?"
 msgstr "このフォームを削除してもよろしいですか?"
 
-#: core/controllers/arflitemaincontroller.php:2334
+#: core/controllers/arflitemaincontroller.php:2336
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this image?"
 msgstr "この画像を削除してもよろしいですか?"
@@ -813,6 +816,7 @@ msgid "Armenia"
 msgstr "アルメニア"
 
 #: core/views/arflite_field_option_popup.php:421
+#: core/views/arflite_field_option_popup.php:483
 #@ arforms-form-builder
 msgid "Armenian"
 msgstr "アルメニア人"
@@ -880,7 +884,7 @@ msgstr "承認されたリダイレクト URI"
 msgid "Autocomplete"
 msgstr "オートコンプリート"
 
-#: core/controllers/arflitemaincontroller.php:2921
+#: core/controllers/arflitemaincontroller.php:2923
 #@ arforms-form-builder
 msgid "Available Add-ons"
 msgstr "利用可能なアドオン"
@@ -897,6 +901,7 @@ msgid "Azerbaijan"
 msgstr "アゼルバイジャン"
 
 #: core/views/arflite_field_option_popup.php:422
+#: core/views/arflite_field_option_popup.php:484
 #@ arforms-form-builder
 msgid "Azerbaijani"
 msgstr "アゼルバイジャン語"
@@ -968,6 +973,7 @@ msgid "Basic Styling Options"
 msgstr "基本的なスタイルオプション"
 
 #: core/views/arflite_field_option_popup.php:423
+#: core/views/arflite_field_option_popup.php:485
 #@ arforms-form-builder
 msgid "Basque"
 msgstr "バスク人"
@@ -978,7 +984,7 @@ msgstr "バスク人"
 msgid "Before you deactivate the ARForms Lite plugin, would you quickly give us your reason for doing so?"
 msgstr "ARForms Liteプラグインを非アクティブ化する前に、そうする理由を簡単に教えてください。"
 
-#: core/controllers/arflitemaincontroller.php:2422
+#: core/controllers/arflitemaincontroller.php:2424
 #@ arforms-form-builder
 msgid "begin"
 msgstr "ベギン"
@@ -1024,7 +1030,7 @@ msgstr "バミューダ"
 msgid "Bhutan"
 msgstr "ブータン"
 
-#: core/classes/class.arforms_form_builder.php:1806
+#: core/classes/class.arforms_form_builder.php:1807
 #: core/controllers/arflitesettingcontroller.php:143
 #@ arforms-form-builder
 msgid "Black Friday Sale"
@@ -1045,7 +1051,7 @@ msgstr "空白のフォーム"
 msgid "Blur"
 msgstr "ぼかし"
 
-#: core/views/arflite_field_option_popup.php:742
+#: core/views/arflite_field_option_popup.php:804
 #@ arforms-form-builder
 msgid "bold"
 msgstr "大胆な"
@@ -1108,6 +1114,7 @@ msgid "Bosnia and Herzegovina"
 msgstr "ボスニア・ヘルツェゴビナ"
 
 #: core/views/arflite_field_option_popup.php:424
+#: core/views/arflite_field_option_popup.php:486
 #@ arforms-form-builder
 msgid "Bosnian"
 msgstr "ボスニア語"
@@ -1165,6 +1172,7 @@ msgid "Bulgaria"
 msgstr "ブルガリア"
 
 #: core/views/arflite_field_option_popup.php:425
+#: core/views/arflite_field_option_popup.php:487
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:73
 #@ arforms-form-builder
 msgid "Bulgarian"
@@ -1243,7 +1251,7 @@ msgstr "カメルーン"
 msgid "Campaign Name"
 msgstr "キャンペーン名"
 
-#: core/controllers/arflitemaincontroller.php:2191
+#: core/controllers/arflitemaincontroller.php:2193
 #: core/controllers/arfliteprocontroller.php:297
 #@ arforms-form-builder
 msgid "Can you mention it?"
@@ -1256,8 +1264,8 @@ msgid "Canada"
 msgstr "カナダ"
 
 #: core/controllers/arflitemaincontroller.php:1216
-#: core/controllers/arflitemaincontroller.php:2330
-#: core/controllers/arflitemaincontroller.php:2418
+#: core/controllers/arflitemaincontroller.php:2332
+#: core/controllers/arflitemaincontroller.php:2420
 #: core/views/arf_debug_log.php:149
 #: core/views/arf_view_records.php:516
 #: core/views/arf_view_records.php:538
@@ -1265,10 +1273,10 @@ msgstr "カナダ"
 #: core/views/arflite_edit.php:870
 #: core/views/arflite_edit.php:3587
 #: core/views/arflite_edit.php:4056
-#: core/views/arflite_edit.php:5085
+#: core/views/arflite_edit.php:5087
 #: core/views/arflite_field_editor.php:1465
 #: core/views/arflite_field_editor.php:1482
-#: core/views/arflite_field_option_popup.php:816
+#: core/views/arflite_field_option_popup.php:878
 #: core/views/arflite_field_values_popup.php:245
 #: core/views/arflite_field_values_popup.php:270
 #: core/views/arflite_field_values_popup.php:339
@@ -1301,12 +1309,14 @@ msgstr "カナダ"
 #: core/views/arflite_new_field_array.php:149
 #: core/views/arflite_new_field_array.php:150
 #: core/views/arflite_new_field_array.php:151
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:756
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:829
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:639
 #: integrations/Payments/PayPal/core/edit_3.0.php:677
 #: integrations/Payments/PayPal/core/list_forms_3.0.php:205
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:306
-#: integrations/Turnstile/class.arforms_turnstile.php:393
-#: integrations/Turnstile/class.arforms_turnstile.php:446
+#: integrations/Turnstile/class.arforms_turnstile.php:394
+#: integrations/Turnstile/class.arforms_turnstile.php:448
 #@ arforms-form-builder
 msgid "Cancel"
 msgstr "キャンセル"
@@ -1323,6 +1333,7 @@ msgid "Caribbean Netherlands"
 msgstr "カリブ海オランダ"
 
 #: core/views/arflite_field_option_popup.php:426
+#: core/views/arflite_field_option_popup.php:488
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:74
 #@ arforms-form-builder
 msgid "Catalan"
@@ -1358,12 +1369,12 @@ msgstr "チャド"
 msgid "Check All"
 msgstr "すべて調べる"
 
-#: core/models/arflitenotifymodel.php:332
+#: core/models/arflitenotifymodel.php:336
 #@ arforms-form-builder
 msgid "Check Full Log"
 msgstr "完全なログを確認"
 
-#: core/controllers/arflitemaincontroller.php:2290
+#: core/controllers/arflitemaincontroller.php:2292
 #: core/views/arflite_field_type_conversion.php:124
 #@ arforms-form-builder
 msgid "Checkbox"
@@ -1415,11 +1426,13 @@ msgid "China"
 msgstr "中国"
 
 #: core/views/arflite_field_option_popup.php:427
+#: core/views/arflite_field_option_popup.php:489
 #@ arforms-form-builder
 msgid "Chinese Simplified"
 msgstr "中国語（簡体字"
 
 #: core/views/arflite_field_option_popup.php:428
+#: core/views/arflite_field_option_popup.php:490
 #@ arforms-form-builder
 msgid "Chinese Traditional"
 msgstr "中国の伝統的な"
@@ -1439,12 +1452,12 @@ msgstr "中国の伝統的な）"
 msgid "Choose Color"
 msgstr "色を選択"
 
-#: core/views/arflite_edit.php:4406
+#: core/views/arflite_edit.php:4407
 #@ arforms-form-builder
 msgid "Choose File"
 msgstr "ファイルを選ぶ"
 
-#: core/controllers/arflitemaincontroller.php:3262
+#: core/controllers/arflitemaincontroller.php:3264
 #@ arforms-form-builder
 msgid "Choose Option"
 msgstr "オプションを選択"
@@ -1459,7 +1472,7 @@ msgstr "クリスマス島"
 msgid "Clear default text on focus"
 msgstr "フォーカスのあるデフォルトのテキストをクリア"
 
-#: core/controllers/arflitemaincontroller.php:2438
+#: core/controllers/arflitemaincontroller.php:2440
 #@ arforms-form-builder
 msgid "Clear default text on focus."
 msgstr "フォーカスのあるデフォルトのテキストをクリアします。"
@@ -1475,30 +1488,30 @@ msgid "Click here to enter form title"
 msgstr "フォームのタイトルを入力するには、ここをクリックしてください"
 
 #: core/controllers/arfliteformcontroller.php:840
-#: core/controllers/arflitemaincontroller.php:2320
+#: core/controllers/arflitemaincontroller.php:2322
 #: core/controllers/arfliterecordcontroller.php:2470
 #: core/views/arflite_settings_form.php:392
 #@ arforms-form-builder
 msgid "Click to Copy"
 msgstr "クリックしてコピー"
 
-#: core/controllers/arflitemaincontroller.php:2444
+#: core/controllers/arflitemaincontroller.php:2446
 #@ arforms-form-builder
 msgid "Click to edit"
 msgstr "クリックして編集する"
 
-#: core/helpers/arflitefieldhelper.php:2511
+#: core/helpers/arflitefieldhelper.php:2513
 #: core/views/arflite_field_editor.php:438
 #@ arforms-form-builder
 msgid "Click to mark as"
 msgstr "クリックしてマーク"
 
-#: core/controllers/arflitemaincontroller.php:2360
+#: core/controllers/arflitemaincontroller.php:2362
 #@ arforms-form-builder
 msgid "Click to mark as compulsory field"
 msgstr "クリックして必須フィールドとしてマーク"
 
-#: core/controllers/arflitemaincontroller.php:2358
+#: core/controllers/arflitemaincontroller.php:2360
 #: core/views/arflite_new_field_array.php:122
 #: core/views/arflite_new_field_array.php:123
 #: core/views/arflite_new_field_array.php:124
@@ -1537,7 +1550,7 @@ msgstr "クライアントID"
 msgid "Client Secret"
 msgstr "クライアントシークレット"
 
-#: core/views/arflite_field_option_popup.php:493
+#: core/views/arflite_field_option_popup.php:555
 #@ arforms-form-builder
 msgid "Clock Settings"
 msgstr "時計設定"
@@ -1594,20 +1607,20 @@ msgstr "完了しました"
 msgid "Completed Date"
 msgstr "完了日"
 
-#: core/helpers/arflitefieldhelper.php:2511
+#: core/helpers/arflitefieldhelper.php:2513
 #: core/views/arflite_field_editor.php:438
 #@ arforms-form-builder
 msgid "compulsory field."
 msgstr "強制フィールド。"
 
-#: core/views/arflite_edit.php:5114
+#: core/views/arflite_edit.php:5116
 #: core/views/arflite_list.php:188
 #@ arforms-form-builder
 msgid "Computer View"
 msgstr "コンピュータビュー"
 
 #: core/views/arflite_edit.php:764
-#: core/views/arflite_edit.php:4767
+#: core/views/arflite_edit.php:4769
 #@ arforms-form-builder
 msgid "Conditional Rule"
 msgstr "条件付きルール"
@@ -1617,7 +1630,7 @@ msgstr "条件付きルール"
 msgid "Configure Conditional Email Notification"
 msgstr "条件付きメール通知を構成する"
 
-#: core/views/arflite_edit.php:4916
+#: core/views/arflite_edit.php:4918
 #@ arforms-form-builder
 msgid "Configure conditional submission"
 msgstr "条件付き送信を構成する"
@@ -1627,13 +1640,13 @@ msgstr "条件付き送信を構成する"
 msgid "Confirm"
 msgstr "確認"
 
-#: core/helpers/arflitefieldhelper.php:847
+#: core/helpers/arflitefieldhelper.php:848
 #: core/views/arflite_field_option_popup.php:347
 #@ arforms-form-builder
 msgid "Confirm Email"
 msgstr "Eメール確認"
 
-#: core/helpers/arflitefieldhelper.php:848
+#: core/helpers/arflitefieldhelper.php:849
 #@ arforms-form-builder
 msgid "Confirm Email does not match with email"
 msgstr "メールがメールと一致しないことを確認"
@@ -1648,7 +1661,7 @@ msgstr "メールラベルの確認"
 msgid "Confirm email placeholder"
 msgstr "メールのプレースホルダーを確認する"
 
-#: core/views/arflite_edit.php:4851
+#: core/views/arflite_edit.php:4853
 #: integrations/Payments/PayPal/core/edit_3.0.php:527
 #@ arforms-form-builder
 msgid "Confirmation Message"
@@ -1669,13 +1682,13 @@ msgstr "コンゴ（DRC）"
 msgid "Congo (Republic)"
 msgstr "コンゴ（共和国）"
 
-#: core/controllers/arflitemaincontroller.php:2379
+#: core/controllers/arflitemaincontroller.php:2381
 #@ arforms-form-builder
 msgid "contains"
 msgstr "含む"
 
 #: core/vc/arflite_class_vc_extend.php:44
-#: core/views/arflite_field_option_popup.php:651
+#: core/views/arflite_field_option_popup.php:713
 #@ arforms-form-builder
 msgid "Content"
 msgstr "コンテンツ"
@@ -1701,7 +1714,7 @@ msgstr "フィールドタイプに変換"
 msgid "Cook Islands"
 msgstr "クック諸島"
 
-#: core/controllers/arflitemaincontroller.php:2321
+#: core/controllers/arflitemaincontroller.php:2323
 #@ arforms-form-builder
 msgid "copied"
 msgstr "コピーした"
@@ -1762,6 +1775,7 @@ msgid "Croatia"
 msgstr "クロアチア"
 
 #: core/views/arflite_field_option_popup.php:429
+#: core/views/arflite_field_option_popup.php:491
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:77
 #@ arforms-form-builder
 msgid "Croatian"
@@ -1807,7 +1821,7 @@ msgid "Custom Color"
 msgstr "カスタムカラー"
 
 #: core/views/arflite_edit.php:1091
-#: core/views/arflite_edit.php:5130
+#: core/views/arflite_edit.php:5132
 #@ arforms-form-builder
 msgid "Custom CSS"
 msgstr "カスタムCSS"
@@ -1817,7 +1831,7 @@ msgstr "カスタムCSS"
 msgid "Custom Font Options"
 msgstr "カスタムフォントオプション"
 
-#: core/views/arflite_field_option_popup.php:786
+#: core/views/arflite_field_option_popup.php:848
 #@ arforms-form-builder
 msgid "CVC/CVV"
 msgstr "CVC / CVV"
@@ -1829,6 +1843,7 @@ msgid "Cyprus"
 msgstr "キプロス"
 
 #: core/views/arflite_field_option_popup.php:430
+#: core/views/arflite_field_option_popup.php:492
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:78
 #@ arforms-form-builder
 msgid "Czech"
@@ -1847,7 +1862,8 @@ msgid "Danish"
 msgstr "デンマーク語"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:63
-#: integrations/Turnstile/class.arforms_turnstile.php:577
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:292
+#: integrations/Turnstile/class.arforms_turnstile.php:579
 #@ arforms-form-builder
 msgid "Dark"
 msgstr "闇"
@@ -1857,7 +1873,7 @@ msgstr "闇"
 msgid "Dashed"
 msgstr "破線"
 
-#: core/controllers/arflitemaincontroller.php:2296
+#: core/controllers/arflitemaincontroller.php:2298
 #: core/helpers/arflitefieldhelper.php:440
 #@ arforms-form-builder
 msgid "Date"
@@ -1873,12 +1889,12 @@ msgstr "日付要素"
 msgid "Date Format"
 msgstr "日付形式"
 
-#: core/helpers/arflitefieldhelper.php:876
+#: core/helpers/arflitefieldhelper.php:877
 #@ arforms-form-builder
 msgid "Date is invalid"
 msgstr "日付が無効です"
 
-#: core/views/arflite_field_option_popup.php:537
+#: core/views/arflite_field_option_popup.php:599
 #@ arforms-form-builder
 msgid "Date range"
 msgstr "期間"
@@ -1937,7 +1953,7 @@ msgstr "デフォルト"
 #: core/views/arflite_edit.php:3862
 #: core/views/arflite_edit.php:3937
 #: core/views/arflite_edit.php:4015
-#: core/views/arflite_field_option_popup.php:676
+#: core/views/arflite_field_option_popup.php:738
 #@ arforms-form-builder
 msgid "Default Fonts"
 msgstr "デフォルトのフォント"
@@ -1968,8 +1984,8 @@ msgid "Default Value"
 msgstr "デフォルト値"
 
 #: core/controllers/arfliteformcontroller.php:889
-#: core/controllers/arflitemaincontroller.php:2328
-#: core/controllers/arflitemaincontroller.php:2397
+#: core/controllers/arflitemaincontroller.php:2330
+#: core/controllers/arflitemaincontroller.php:2399
 #: core/controllers/arfliterecordcontroller.php:2324
 #: core/controllers/arfliterecordcontroller.php:2530
 #: core/views/arf_debug_log.php:148
@@ -2028,7 +2044,7 @@ msgstr "フォームとテンプレートを削除する"
 msgid "Denmark"
 msgstr "デンマーク"
 
-#: core/controllers/arflitemaincontroller.php:2386
+#: core/controllers/arflitemaincontroller.php:2388
 #@ arforms-form-builder
 msgid "Disable"
 msgstr "無効にする"
@@ -2048,13 +2064,13 @@ msgstr "フォームのマルチカラムを無効にする"
 msgid "Dislike Button Color"
 msgstr "嫌いなボタンの色"
 
-#: core/views/arflite_edit.php:4817
+#: core/views/arflite_edit.php:4819
 #: integrations/Payments/PayPal/core/edit_3.0.php:505
 #@ arforms-form-builder
 msgid "Display a Message"
 msgstr "メッセージを表示する"
 
-#: core/views/arflite_edit.php:4845
+#: core/views/arflite_edit.php:4847
 #: integrations/Payments/PayPal/core/edit_3.0.php:506
 #@ arforms-form-builder
 msgid "Display content from another page"
@@ -2076,12 +2092,12 @@ msgstr "タイトルと説明を表示"
 msgid "Djibouti"
 msgstr "ジブチ"
 
-#: core/controllers/arflitemaincontroller.php:2436
+#: core/controllers/arflitemaincontroller.php:2438
 #@ arforms-form-builder
 msgid "Do not clear default text on focus."
 msgstr "フォーカスのあるデフォルトのテキストをクリアしないでください。"
 
-#: core/controllers/arflitemaincontroller.php:2442
+#: core/controllers/arflitemaincontroller.php:2444
 #@ arforms-form-builder
 msgid "Do not pass the validation with default value."
 msgstr "デフォルト値で検証をパスしないでください。"
@@ -2108,7 +2124,7 @@ msgstr "点在"
 msgid "Drop Down"
 msgstr "落ちる"
 
-#: core/controllers/arflitemaincontroller.php:2292
+#: core/controllers/arflitemaincontroller.php:2294
 #: core/helpers/arflitefieldhelper.php:355
 #: core/views/arflite_field_type_conversion.php:126
 #@ arforms-form-builder
@@ -2196,7 +2212,7 @@ msgstr "エルサルバドル"
 msgid "Email"
 msgstr "Eメール"
 
-#: core/controllers/arflitemaincontroller.php:2293
+#: core/controllers/arflitemaincontroller.php:2295
 #: core/helpers/arflitefieldhelper.php:428
 #: core/models/arflitetemplate.php:380
 #: core/models/arflitetemplate.php:820
@@ -2205,7 +2221,7 @@ msgstr "Eメール"
 msgid "Email Address"
 msgstr "電子メールアドレス"
 
-#: core/views/arflite_edit.php:4393
+#: core/views/arflite_edit.php:4394
 #@ arforms-form-builder
 msgid "Email Attachment:"
 msgstr "電子メールの添付ファイル："
@@ -2220,13 +2236,13 @@ msgstr "メール要素"
 msgid "Email Format"
 msgstr "メールフォーマット"
 
-#: core/helpers/arflitefieldhelper.php:868
+#: core/helpers/arflitefieldhelper.php:869
 #@ arforms-form-builder
 msgid "Email is invalid"
 msgstr "メールが無効です"
 
-#: core/classes/class.arforms_form_builder.php:1020
-#: core/classes/class.arforms_form_builder.php:1032
+#: core/classes/class.arforms_form_builder.php:1019
+#: core/classes/class.arforms_form_builder.php:1031
 #@ arforms-form-builder
 msgid "Email Marketing Tools"
 msgstr "メールマーケティングツール"
@@ -2252,12 +2268,12 @@ msgstr "メール設定"
 msgid "Embed Inline Form"
 msgstr "インラインフォームを埋め込む"
 
-#: core/views/arflite_field_option_popup.php:657
+#: core/views/arflite_field_option_popup.php:719
 #@ arforms-form-builder
 msgid "Embedded tags for youtube, map etc are supported."
 msgstr "YouTube、マップなどの埋め込みタグがサポートされています。"
 
-#: core/controllers/arflitemaincontroller.php:2385
+#: core/controllers/arflitemaincontroller.php:2387
 #: core/views/arflite_settings_form.php:819
 #@ arforms-form-builder
 msgid "Enable"
@@ -2273,7 +2289,7 @@ msgstr "国旗のドロップダウンを有効にする"
 msgid "Enable Readonly"
 msgstr "読み取り専用を有効にする"
 
-#: core/views/arflite_field_option_popup.php:646
+#: core/views/arflite_field_option_popup.php:708
 #@ arforms-form-builder
 msgid "Enable Running Total"
 msgstr "累計を有効にする"
@@ -2300,21 +2316,23 @@ msgid "English (US)"
 msgstr "英語（米国）"
 
 #: core/views/arflite_field_option_popup.php:433
+#: core/views/arflite_field_option_popup.php:495
 #@ arforms-form-builder
 msgid "English/UK"
 msgstr "英語/英国"
 
 #: core/views/arflite_field_option_popup.php:417
+#: core/views/arflite_field_option_popup.php:479
 #@ arforms-form-builder
 msgid "English/Western"
 msgstr "英語/西洋"
 
-#: core/views/arflite_edit.php:5047
+#: core/views/arflite_edit.php:5049
 #@ arforms-form-builder
 msgid "Enter After submission tracking script"
 msgstr "提出後追跡スクリプトを入力"
 
-#: core/helpers/arflitefieldhelper.php:860
+#: core/helpers/arflitefieldhelper.php:861
 #: core/models/arflitetemplate.php:346
 #: core/models/arflitetemplate.php:364
 #: core/models/arflitetemplate.php:787
@@ -2322,7 +2340,7 @@ msgstr "提出後追跡スクリプトを入力"
 #: core/models/arflitetemplate.php:1175
 #: core/models/arflitetemplate.php:1191
 #: core/models/arflitetemplate.php:1227
-#: core/views/arflite_field_option_popup.php:773
+#: core/views/arflite_field_option_popup.php:835
 #@ arforms-form-builder
 msgid "Entered value is invalid"
 msgstr "入力した値は無効です"
@@ -2383,7 +2401,7 @@ msgstr "エントリーキー"
 msgid "Entry not found for selected time period"
 msgstr "選択した期間にエントリが見つかりませんでした"
 
-#: core/controllers/arflitemaincontroller.php:2374
+#: core/controllers/arflitemaincontroller.php:2376
 #@ arforms-form-builder
 msgid "equals"
 msgstr "等しい"
@@ -2435,6 +2453,7 @@ msgid "Error State Background"
 msgstr "エラー状態の背景"
 
 #: core/views/arflite_field_option_popup.php:434
+#: core/views/arflite_field_option_popup.php:496
 #@ arforms-form-builder
 msgid "Esperanto"
 msgstr "エスペラント"
@@ -2446,6 +2465,7 @@ msgid "Estonia"
 msgstr "エストニア"
 
 #: core/views/arflite_field_option_popup.php:435
+#: core/views/arflite_field_option_popup.php:497
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:82
 #@ arforms-form-builder
 msgid "Estonian"
@@ -2467,7 +2487,7 @@ msgstr "偶数行"
 msgid "Every 12 hours"
 msgstr "12時間ごと"
 
-#: core/views/arflite_edit.php:5047
+#: core/views/arflite_edit.php:5049
 #@ arforms-form-builder
 msgid "Example: Google Tracking Code"
 msgstr "例：Googleトラッキングコード"
@@ -2534,11 +2554,13 @@ msgid "Faroe Islands"
 msgstr "フェロー諸島"
 
 #: core/views/arflite_field_option_popup.php:436
+#: core/views/arflite_field_option_popup.php:498
 #@ arforms-form-builder
 msgid "Faroese"
 msgstr "フェロー語"
 
 #: core/views/arflite_field_option_popup.php:437
+#: core/views/arflite_field_option_popup.php:499
 #@ arforms-form-builder
 msgid "Farsi/Persian"
 msgstr "ペルシア語/ペルシア語"
@@ -2607,8 +2629,10 @@ msgstr "フィールドラベル"
 #: core/views/arflite_new_field_array.php:149
 #: core/views/arflite_new_field_array.php:150
 #: core/views/arflite_new_field_array.php:151
-#: integrations/Turnstile/class.arforms_turnstile.php:388
-#: integrations/Turnstile/class.arforms_turnstile.php:441
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:751
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:824
+#: integrations/Turnstile/class.arforms_turnstile.php:389
+#: integrations/Turnstile/class.arforms_turnstile.php:443
 #@ arforms-form-builder
 msgid "Field Options"
 msgstr "フィールドオプション"
@@ -2635,12 +2659,12 @@ msgstr "フィールドツールチップ"
 msgid "Field Transparency"
 msgstr "フィールドの透明性"
 
-#: core/controllers/arflitemaincontroller.php:2470
+#: core/controllers/arflitemaincontroller.php:2472
 #@ arforms-form-builder
 msgid "Field type changing also may affect email notification section, conditional rule section, payment gateways configuration and other add-ons configuration. So it is highly recommend to verify all these settings after changing field type"
 msgstr "フィールドタイプの変更は、電子メール通知セクション、条件付きルールセクション、支払いゲートウェイの構成、およびその他のアドオンの構成にも影響を与える可能性があります。 したがって、フィールドタイプを変更した後、これらの設定をすべて確認することを強くお勧めします。"
 
-#: core/controllers/arflitemaincontroller.php:2463
+#: core/controllers/arflitemaincontroller.php:2465
 #@ arforms-form-builder
 msgid "Field values will be lost once converted to"
 msgstr "に変換すると、フィールド値は失われます"
@@ -2664,14 +2688,14 @@ msgstr "フィールドラッパー"
 #: core/views/arflite_edit.php:4245
 #: core/views/arflite_edit.php:4293
 #: core/views/arflite_edit.php:4358
-#: core/views/arflite_edit.php:4461
-#: core/views/arflite_edit.php:4489
-#: core/views/arflite_edit.php:4530
-#: core/views/arflite_edit.php:4564
-#: core/views/arflite_edit.php:4592
-#: core/views/arflite_edit.php:4623
-#: core/views/arflite_edit.php:4663
-#: core/views/arflite_edit.php:4723
+#: core/views/arflite_edit.php:4462
+#: core/views/arflite_edit.php:4490
+#: core/views/arflite_edit.php:4531
+#: core/views/arflite_edit.php:4565
+#: core/views/arflite_edit.php:4593
+#: core/views/arflite_edit.php:4624
+#: core/views/arflite_edit.php:4664
+#: core/views/arflite_edit.php:4724
 #@ arforms-form-builder
 msgid "Fields"
 msgstr "田畑"
@@ -2719,13 +2743,14 @@ msgid "Finland"
 msgstr "フィンランド"
 
 #: core/views/arflite_field_option_popup.php:438
+#: core/views/arflite_field_option_popup.php:500
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:84
 #@ arforms-form-builder
 msgid "Finnish"
 msgstr "フィンランド人"
 
-#: core/classes/class.arforms_form_builder.php:985
-#: core/controllers/arflitemaincontroller.php:2452
+#: core/classes/class.arforms_form_builder.php:984
+#: core/controllers/arflitemaincontroller.php:2454
 #@ arforms-form-builder
 msgid "First"
 msgstr "最初"
@@ -2736,7 +2761,7 @@ msgid "Flat"
 msgstr "平らな"
 
 #: core/controllers/arfliteformcontroller.php:6565
-#: core/views/arflite_edit.php:5075
+#: core/views/arflite_edit.php:5077
 #@ arforms-form-builder
 msgid "Font Awesome"
 msgstr "素晴らしいフォント"
@@ -2746,7 +2771,7 @@ msgstr "素晴らしいフォント"
 msgid "Font Family"
 msgstr "フォントファミリー"
 
-#: core/views/arflite_field_option_popup.php:664
+#: core/views/arflite_field_option_popup.php:726
 #@ arforms-form-builder
 msgid "Font family"
 msgstr "フォントファミリー"
@@ -2767,12 +2792,12 @@ msgstr "フォント設定"
 msgid "Font Size"
 msgstr "フォントサイズ"
 
-#: core/views/arflite_field_option_popup.php:704
+#: core/views/arflite_field_option_popup.php:766
 #@ arforms-form-builder
 msgid "Font size"
 msgstr "フォントサイズ"
 
-#: core/views/arflite_field_option_popup.php:730
+#: core/views/arflite_field_option_popup.php:792
 #@ arforms-form-builder
 msgid "Font style"
 msgstr "フォントスタイル"
@@ -2806,7 +2831,7 @@ msgstr "フォームの説明"
 msgid "Form description"
 msgstr "フォームの説明"
 
-#: core/classes/class.arforms_form_builder.php:1789
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteprocontroller.php:67
 #: core/controllers/arfliterecordcontroller.php:330
 #: core/views/arf_view_records.php:315
@@ -2814,8 +2839,8 @@ msgstr "フォームの説明"
 msgid "Form Entries"
 msgstr "フォームエントリ"
 
-#: core/classes/class.arforms_form_builder.php:997
-#: core/classes/class.arforms_form_builder.php:1005
+#: core/classes/class.arforms_form_builder.php:996
+#: core/classes/class.arforms_form_builder.php:1004
 #@ arforms-form-builder
 msgid "Form Entries Data"
 msgstr "フォームエントリデータ"
@@ -2884,7 +2909,7 @@ msgstr "フォームのパディング"
 msgid "Form Settings"
 msgstr "フォーム設定"
 
-#: core/views/arflite_edit.php:4797
+#: core/views/arflite_edit.php:4799
 #@ arforms-form-builder
 msgid "Form submission action"
 msgstr "フォーム送信アクション"
@@ -2896,7 +2921,7 @@ msgstr "フォーム提出方法"
 
 #: core/helpers/arfliteformhelper.php:128
 #: core/helpers/arfliteformhelper.php:395
-#: core/models/arflitenotifymodel.php:850
+#: core/models/arflitenotifymodel.php:939
 #@ arforms-form-builder
 msgid "Form submitted on"
 msgstr "提出されたフォーム"
@@ -2940,7 +2965,7 @@ msgstr "フォームの幅の設定"
 msgid "Form(s) Only"
 msgstr "フォームのみ"
 
-#: core/classes/class.arforms_form_builder.php:1785
+#: core/classes/class.arforms_form_builder.php:1786
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #@ arforms-form-builder
@@ -3004,11 +3029,12 @@ msgid "French Polynesia"
 msgstr "フランス領ポリネシア"
 
 #: core/views/arflite_field_option_popup.php:440
+#: core/views/arflite_field_option_popup.php:502
 #@ arforms-form-builder
 msgid "French/Swiss"
 msgstr "フランス語/スイス"
 
-#: core/views/arflite_field_option_popup.php:532
+#: core/views/arflite_field_option_popup.php:594
 #: core/views/arflite_field_values_popup.php:83
 #@ arforms-form-builder
 msgid "Friday"
@@ -3016,7 +3042,7 @@ msgstr "金曜日"
 
 #: core/views/arf_debug_log.php:125
 #: core/views/arf_view_records.php:391
-#: core/views/arflite_field_option_popup.php:539
+#: core/views/arflite_field_option_popup.php:601
 #: core/views/arforms_import_export_form.php:150
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:97
 #@ arforms-form-builder
@@ -3024,7 +3050,7 @@ msgid "From"
 msgstr "から"
 
 #: core/views/arflite_edit.php:4224
-#: core/views/arflite_edit.php:4605
+#: core/views/arflite_edit.php:4606
 #@ arforms-form-builder
 msgid "From E-mail"
 msgstr "メールから"
@@ -3035,7 +3061,7 @@ msgid "From Email"
 msgstr "メールから"
 
 #: core/views/arflite_edit.php:4219
-#: core/views/arflite_edit.php:4581
+#: core/views/arflite_edit.php:4582
 #: core/views/arflite_settings_form.php:237
 #@ arforms-form-builder
 msgid "From/Replyto Name"
@@ -3060,7 +3086,7 @@ msgstr "一般的なアイコン"
 
 #: core/views/arflite_edit.php:806
 #: core/views/arflite_edit.php:2809
-#: core/views/arflite_edit.php:4949
+#: core/views/arflite_edit.php:4951
 #@ arforms-form-builder
 msgid "General Options"
 msgstr "一般的なオプション"
@@ -3071,9 +3097,9 @@ msgstr "一般的なオプション"
 msgid "General setting saved successfully."
 msgstr "一般設定が正常に保存されました。"
 
-#: core/classes/class.arforms_form_builder.php:1017
-#: core/classes/class.arforms_form_builder.php:1029
-#: core/classes/class.arforms_form_builder.php:1791
+#: core/classes/class.arforms_form_builder.php:1016
+#: core/classes/class.arforms_form_builder.php:1028
+#: core/classes/class.arforms_form_builder.php:1792
 #: core/controllers/arfliteprocontroller.php:69
 #: core/controllers/arflitesettingcontroller.php:126
 #: core/views/arflite_settings_form.php:64
@@ -3088,6 +3114,7 @@ msgid "Georgia"
 msgstr "ジョージア"
 
 #: core/views/arflite_field_option_popup.php:441
+#: core/views/arflite_field_option_popup.php:503
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:87
 #@ arforms-form-builder
 msgid "German"
@@ -3150,7 +3177,7 @@ msgstr "行く"
 #: core/views/arflite_edit.php:3863
 #: core/views/arflite_edit.php:3938
 #: core/views/arflite_edit.php:4016
-#: core/views/arflite_field_option_popup.php:690
+#: core/views/arflite_field_option_popup.php:752
 #@ arforms-form-builder
 msgid "Google Fonts"
 msgstr "Googleフォント"
@@ -3160,7 +3187,7 @@ msgstr "Googleフォント"
 msgid "Google/Gmail API"
 msgstr "Google/Gmail API"
 
-#: core/controllers/arflitemaincontroller.php:2377
+#: core/controllers/arflitemaincontroller.php:2379
 #@ arforms-form-builder
 msgid "greater than"
 msgstr "より大きい"
@@ -3172,6 +3199,7 @@ msgid "Greece"
 msgstr "ギリシャ"
 
 #: core/views/arflite_field_option_popup.php:442
+#: core/views/arflite_field_option_popup.php:504
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:91
 #@ arforms-form-builder
 msgid "Greek"
@@ -3194,7 +3222,7 @@ msgstr "グレナダ"
 msgid "Group Name"
 msgstr "グループ名"
 
-#: core/classes/class.arforms_form_builder.php:1797
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arflitesettingcontroller.php:134
 #@ arforms-form-builder
 msgid "Growth Plugins"
@@ -3252,6 +3280,7 @@ msgid "Haiti"
 msgstr "ハイチ"
 
 #: core/views/arflite_field_option_popup.php:443
+#: core/views/arflite_field_option_popup.php:505
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:92
 #@ arforms-form-builder
 msgid "Hebrew"
@@ -3262,34 +3291,34 @@ msgstr "ヘブライ語"
 msgid "Hidden Input Fields"
 msgstr "非表示の入力フィールド"
 
-#: core/views/arflite_edit.php:4966
+#: core/views/arflite_edit.php:4968
 #@ arforms-form-builder
 msgid "Hidden Input Fields Options"
 msgstr "非表示の入力フィールドオプション"
 
-#: core/views/arflite_edit.php:4978
+#: core/views/arflite_edit.php:4980
 #@ arforms-form-builder
 msgid "Hidden Input Fields Setup"
 msgstr "非表示の入力フィールドの設定"
 
-#: core/controllers/arflitemaincontroller.php:2384
+#: core/controllers/arflitemaincontroller.php:2386
 #@ arforms-form-builder
 msgid "Hide"
 msgstr "隠す"
 
 #: core/views/arflite_edit.php:4323
-#: core/views/arflite_edit.php:4692
+#: core/views/arflite_edit.php:4693
 #@ arforms-form-builder
 msgid "Hide Empty Fields From Email Content"
 msgstr "電子メール コンテンツから空のフィールドを非表示にする"
 
 #: core/views/arflite_edit.php:4323
-#: core/views/arflite_edit.php:4692
+#: core/views/arflite_edit.php:4693
 #@ arforms-form-builder
 msgid "Hide Empty Fields From Email Content."
 msgstr "電子メール コンテンツから空のフィールドを非表示にします。"
 
-#: core/views/arflite_edit.php:4896
+#: core/views/arflite_edit.php:4898
 #@ arforms-form-builder
 msgid "Hide Form after submission"
 msgstr "送信後にフォームを非表示にする"
@@ -3336,7 +3365,7 @@ msgstr "針"
 msgid "Horizontal"
 msgstr "横型"
 
-#: core/views/arflite_field_option_popup.php:518
+#: core/views/arflite_field_option_popup.php:580
 #@ arforms-form-builder
 msgid "Hour"
 msgstr "時"
@@ -3362,7 +3391,7 @@ msgstr "ホバー背景"
 msgid "How could we improve ?"
 msgstr "どうすれば改善できますか？"
 
-#: core/controllers/arflitemaincontroller.php:2190
+#: core/controllers/arflitemaincontroller.php:2192
 #: core/controllers/arfliteprocontroller.php:296
 #@ arforms-form-builder
 msgid "How could we improve?"
@@ -3373,7 +3402,7 @@ msgstr "どうすれば改善できるでしょうか？"
 msgid "Hrs"
 msgstr "時間"
 
-#: core/controllers/arflitemaincontroller.php:2300
+#: core/controllers/arflitemaincontroller.php:2302
 #: core/helpers/arflitefieldhelper.php:461
 #: core/views/arflite_settings_form.php:343
 #@ arforms-form-builder
@@ -3381,6 +3410,7 @@ msgid "HTML"
 msgstr "HTML"
 
 #: core/views/arflite_field_option_popup.php:444
+#: core/views/arflite_field_option_popup.php:506
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:94
 #@ arforms-form-builder
 msgid "Hungarian"
@@ -3392,7 +3422,7 @@ msgstr "ハンガリー人"
 msgid "Hungary"
 msgstr "ハンガリー"
 
-#: core/controllers/arflitemaincontroller.php:2839
+#: core/controllers/arflitemaincontroller.php:2841
 #@ arforms-form-builder
 msgid "I already did"
 msgstr "私はすでにやった"
@@ -3415,6 +3445,7 @@ msgid "Iceland"
 msgstr "アイスランド"
 
 #: core/views/arflite_field_option_popup.php:445
+#: core/views/arflite_field_option_popup.php:507
 #@ arforms-form-builder
 msgid "Icelandic"
 msgstr "アイスランド語"
@@ -3440,7 +3471,7 @@ msgstr "アイコンの色"
 msgid "ID"
 msgstr "ID"
 
-#: core/controllers/arflitemaincontroller.php:2399
+#: core/controllers/arflitemaincontroller.php:2401
 #@ arforms-form-builder
 msgid "IF"
 msgstr "IF"
@@ -3456,12 +3487,12 @@ msgstr "これをオフにすると、フィードバックとともにメール
 msgid "Image"
 msgstr "画像"
 
-#: core/helpers/arflitefieldhelper.php:874
+#: core/helpers/arflitefieldhelper.php:875
 #@ arforms-form-builder
 msgid "Image is invalid"
 msgstr "画像が無効です"
 
-#: core/controllers/arflitemaincontroller.php:2299
+#: core/controllers/arflitemaincontroller.php:2301
 #: core/helpers/arflitefieldhelper.php:452
 #@ arforms-form-builder
 msgid "Image URL"
@@ -3482,7 +3513,7 @@ msgstr "画像幅"
 msgid "Import"
 msgstr "インポート"
 
-#: core/classes/class.arforms_form_builder.php:1793
+#: core/classes/class.arforms_form_builder.php:1794
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3494,7 +3525,7 @@ msgstr "インポート・エクスポート"
 msgid "Import / Export Forms"
 msgstr "フォームのインポート/エクスポート"
 
-#: core/classes/class.arforms_form_builder.php:1793
+#: core/classes/class.arforms_form_builder.php:1794
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3632,7 +3663,7 @@ msgstr "ファイルサイズが無効です。"
 msgid "Invalid maximum characters length"
 msgstr "無効な最大文字長"
 
-#: core/helpers/arflitefieldhelper.php:845
+#: core/helpers/arflitefieldhelper.php:846
 #: core/models/arflitetemplate.php:345
 #: core/models/arflitetemplate.php:363
 #: core/models/arflitetemplate.php:415
@@ -3651,7 +3682,7 @@ msgid "Invalid minimum characters length"
 msgstr "無効な最小文字長"
 
 #: core/views/arf_view_records.php:469
-#: core/views/arflite_field_option_popup.php:784
+#: core/views/arflite_field_option_popup.php:846
 #@ arforms-form-builder
 msgid "IP Address"
 msgstr "IPアドレス"
@@ -3674,7 +3705,7 @@ msgstr "イラク"
 msgid "Ireland"
 msgstr "アイルランド"
 
-#: core/controllers/arflitemaincontroller.php:2406
+#: core/controllers/arflitemaincontroller.php:2408
 #@ arforms-form-builder
 msgid "is"
 msgstr "です"
@@ -3691,12 +3722,13 @@ msgid "Israel"
 msgstr "イスラエル"
 
 #: core/views/arflite_field_option_popup.php:446
+#: core/views/arflite_field_option_popup.php:508
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:96
 #@ arforms-form-builder
 msgid "Italian"
 msgstr "イタリアの"
 
-#: core/views/arflite_field_option_popup.php:743
+#: core/views/arflite_field_option_popup.php:805
 #@ arforms-form-builder
 msgid "italic"
 msgstr "イタリック"
@@ -3725,6 +3757,7 @@ msgid "Japan"
 msgstr "日本"
 
 #: core/views/arflite_field_option_popup.php:447
+#: core/views/arflite_field_option_popup.php:509
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:97
 #@ arforms-form-builder
 msgid "Japanese"
@@ -3775,6 +3808,7 @@ msgid "Kiribati"
 msgstr "キリバス"
 
 #: core/views/arflite_field_option_popup.php:448
+#: core/views/arflite_field_option_popup.php:510
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:99
 #@ arforms-form-builder
 msgid "Korean"
@@ -3797,7 +3831,7 @@ msgstr "クウェート"
 msgid "Kyrgyzstan"
 msgstr "キルギスタン"
 
-#: core/views/arflite_edit.php:4990
+#: core/views/arflite_edit.php:4992
 #@ arforms-form-builder
 msgid "Label"
 msgstr "ラベル"
@@ -3849,8 +3883,8 @@ msgstr "ドキュメントの欠如"
 msgid "Laos"
 msgstr "ラオス"
 
-#: core/classes/class.arforms_form_builder.php:984
-#: core/controllers/arflitemaincontroller.php:2450
+#: core/classes/class.arforms_form_builder.php:983
+#: core/controllers/arflitemaincontroller.php:2452
 #@ arforms-form-builder
 msgid "Last"
 msgstr "最終"
@@ -3862,6 +3896,7 @@ msgid "Latvia"
 msgstr "ラトビア"
 
 #: core/views/arflite_field_option_popup.php:449
+#: core/views/arflite_field_option_popup.php:511
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:100
 #@ arforms-form-builder
 msgid "Latvian"
@@ -3901,7 +3936,7 @@ msgstr "左から右へ"
 msgid "Lesotho"
 msgstr "レソト"
 
-#: core/controllers/arflitemaincontroller.php:2378
+#: core/controllers/arflitemaincontroller.php:2380
 #@ arforms-form-builder
 msgid "less than"
 msgstr "未満"
@@ -3925,7 +3960,9 @@ msgid "Liechtenstein"
 msgstr "`リヒテンシュタイン"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:62
-#: integrations/Turnstile/class.arforms_turnstile.php:576
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:291
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:406
+#: integrations/Turnstile/class.arforms_turnstile.php:578
 #@ arforms-form-builder
 msgid "Light"
 msgstr "光"
@@ -3970,6 +4007,7 @@ msgid "Lithuania"
 msgstr "リトアニア"
 
 #: core/views/arflite_field_option_popup.php:450
+#: core/views/arflite_field_option_popup.php:512
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:101
 #@ arforms-form-builder
 msgid "Lithuanian"
@@ -4052,7 +4090,7 @@ msgstr "マリ"
 msgid "Malta"
 msgstr "マルタ"
 
-#: core/classes/class.arforms_form_builder.php:1785
+#: core/classes/class.arforms_form_builder.php:1786
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #: core/views/arflite_list.php:50
@@ -4150,7 +4188,7 @@ msgstr "モーリタニア"
 msgid "Mauritius"
 msgstr "モーリシャス"
 
-#: core/views/arflite_field_option_popup.php:586
+#: core/views/arflite_field_option_popup.php:648
 #@ arforms-form-builder
 msgid "Max Date e.g. 31/12/2020"
 msgstr "最大日付、例えば 2020年12月31日"
@@ -4213,12 +4251,12 @@ msgstr "無効な送信のメッセージ"
 msgid "Message for minimum length"
 msgstr "最小長のメッセージ"
 
-#: core/views/arflite_field_option_popup.php:771
+#: core/views/arflite_field_option_popup.php:833
 #@ arforms-form-builder
 msgid "Message for regular expression"
 msgstr "正規表現のメッセージ"
 
-#: core/views/arflite_field_option_popup.php:806
+#: core/views/arflite_field_option_popup.php:868
 #@ arforms-form-builder
 msgid "Message for tooltip"
 msgstr "ツールチップのメッセージ"
@@ -4255,7 +4293,7 @@ msgstr "ミクロネシア"
 msgid "Min"
 msgstr "最小"
 
-#: core/views/arflite_field_option_popup.php:558
+#: core/views/arflite_field_option_popup.php:620
 #@ arforms-form-builder
 msgid "Min Date e.g. 20/01/2000"
 msgstr "最小日付、例えば 2000/01/20"
@@ -4276,7 +4314,7 @@ msgstr "最小オプション選択メッセージ"
 msgid "Minimum"
 msgstr "最小"
 
-#: core/views/arflite_field_option_popup.php:519
+#: core/views/arflite_field_option_popup.php:581
 #@ arforms-form-builder
 msgid "Minute"
 msgstr "分"
@@ -4296,7 +4334,7 @@ msgstr "分"
 msgid "Miss"
 msgstr "お嬢"
 
-#: core/views/arflite_edit.php:5116
+#: core/views/arflite_edit.php:5118
 #: core/views/arflite_list.php:190
 #@ arforms-form-builder
 msgid "Mobile View"
@@ -4319,7 +4357,7 @@ msgstr "モルドバ"
 msgid "Monaco"
 msgstr "モナコ"
 
-#: core/views/arflite_field_option_popup.php:528
+#: core/views/arflite_field_option_popup.php:590
 #: core/views/arflite_field_values_popup.php:79
 #@ arforms-form-builder
 msgid "Monday"
@@ -4401,7 +4439,7 @@ msgstr "MS"
 msgid "Multi Select"
 msgstr "複数選択"
 
-#: core/controllers/arflitemaincontroller.php:2289
+#: core/controllers/arflitemaincontroller.php:2291
 #: core/helpers/arflitefieldhelper.php:343
 #: core/views/arflite_field_type_conversion.php:123
 #@ arforms-form-builder
@@ -4469,8 +4507,8 @@ msgstr "新しいフォーム"
 msgid "New Zealand"
 msgstr "ニュージーランド"
 
-#: core/classes/class.arforms_form_builder.php:983
-#: core/controllers/arflitemaincontroller.php:2448
+#: core/classes/class.arforms_form_builder.php:982
+#: core/controllers/arflitemaincontroller.php:2450
 #: core/helpers/arflitefieldhelper.php:815
 #@ arforms-form-builder
 msgid "Next"
@@ -4508,11 +4546,11 @@ msgstr "ニウエ"
 #: core/views/arflite_field_option_popup.php:255
 #: core/views/arflite_field_option_popup.php:318
 #: core/views/arflite_field_option_popup.php:350
-#: core/views/arflite_field_option_popup.php:480
-#: core/views/arflite_field_option_popup.php:548
-#: core/views/arflite_field_option_popup.php:576
-#: core/views/arflite_field_option_popup.php:599
-#: core/views/arflite_field_option_popup.php:793
+#: core/views/arflite_field_option_popup.php:542
+#: core/views/arflite_field_option_popup.php:610
+#: core/views/arflite_field_option_popup.php:638
+#: core/views/arflite_field_option_popup.php:661
+#: core/views/arflite_field_option_popup.php:855
 #@ arforms-form-builder
 msgid "NO"
 msgstr "番号"
@@ -4594,12 +4632,12 @@ msgstr "誰も！ 権限がありません"
 msgid "No plugin specified."
 msgstr "プラグインが指定されていません。"
 
-#: core/controllers/arflitemaincontroller.php:2838
+#: core/controllers/arflitemaincontroller.php:2840
 #@ arforms-form-builder
 msgid "No, Maybe later"
 msgstr "いいえ、たぶん後で"
 
-#: core/views/arflite_field_option_popup.php:755
+#: core/views/arflite_field_option_popup.php:817
 #: core/views/arflite_settings_form.php:536
 #@ arforms-form-builder
 msgid "None"
@@ -4610,7 +4648,7 @@ msgstr "無し"
 msgid "Norfolk Island"
 msgstr "ノーフォーク島"
 
-#: core/views/arflite_field_option_popup.php:741
+#: core/views/arflite_field_option_popup.php:803
 #@ arforms-form-builder
 msgid "normal"
 msgstr "正常"
@@ -4645,17 +4683,18 @@ msgid "Norway"
 msgstr "ノルウェー"
 
 #: core/views/arflite_field_option_popup.php:451
+#: core/views/arflite_field_option_popup.php:513
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:105
 #@ arforms-form-builder
 msgid "Norwegian"
 msgstr "ノルウェー語"
 
-#: core/controllers/arflitemaincontroller.php:2380
+#: core/controllers/arflitemaincontroller.php:2382
 #@ arforms-form-builder
 msgid "not contains"
 msgstr "含まない"
 
-#: core/controllers/arflitemaincontroller.php:2376
+#: core/controllers/arflitemaincontroller.php:2378
 #@ arforms-form-builder
 msgid "not equals"
 msgstr "等しくない"
@@ -4679,7 +4718,7 @@ msgstr "欲しかった機能ではない"
 msgid "Not Verified"
 msgstr "検証されていない"
 
-#: core/views/arflite_edit.php:4980
+#: core/views/arflite_edit.php:4982
 #: core/views/arflite_field_type_conversion.php:42
 #@ arforms-form-builder
 msgid "Note"
@@ -4709,7 +4748,7 @@ msgstr "注: Gmail メーラーは、送信するメールの数が少ないサ�
 msgid "Note: This field will not show in the form. Enter the value to be hidden."
 msgstr "注：このフィールドはフォームに表示されません。 非表示にする値を入力します。"
 
-#: core/controllers/arflitemaincontroller.php:2356
+#: core/controllers/arflitemaincontroller.php:2358
 #: core/views/arflite_autoresponder_settings.php:85
 #: core/views/arflite_autoresponder_settings.php:177
 #: core/views/arflite_autoresponder_settings.php:293
@@ -4729,7 +4768,7 @@ msgstr "何も選択されていません"
 msgid "November"
 msgstr "11月"
 
-#: core/controllers/arflitemaincontroller.php:2294
+#: core/controllers/arflitemaincontroller.php:2296
 #: core/helpers/arflitefieldhelper.php:432
 #: core/views/arflite_field_type_conversion.php:128
 #@ arforms-form-builder
@@ -4741,7 +4780,7 @@ msgstr "数"
 msgid "Number Elements"
 msgstr "番号要素"
 
-#: core/helpers/arflitefieldhelper.php:870
+#: core/helpers/arflitefieldhelper.php:871
 #@ arforms-form-builder
 msgid "Number is out of range"
 msgstr "数値が範囲外です"
@@ -4774,24 +4813,24 @@ msgstr "奇数行"
 msgid "of"
 msgstr "の"
 
-#: core/views/arflite_field_option_popup.php:524
+#: core/views/arflite_field_option_popup.php:586
 #@ arforms-form-builder
 msgid "Off days"
 msgstr "休日"
 
-#: core/controllers/arflitemaincontroller.php:2947
-#: core/views/arflite_edit.php:4758
-#: core/views/arflite_edit.php:4778
-#: core/views/arflite_edit.php:4926
-#: core/views/arflite_edit.php:4942
-#: core/views/arflite_edit.php:4958
-#: core/views/arflite_edit.php:5023
-#: core/views/arflite_edit.php:5062
-#: core/views/arflite_edit.php:5086
-#: core/views/arflite_edit.php:5150
+#: core/controllers/arflitemaincontroller.php:2949
+#: core/views/arflite_edit.php:4760
+#: core/views/arflite_edit.php:4780
+#: core/views/arflite_edit.php:4928
+#: core/views/arflite_edit.php:4944
+#: core/views/arflite_edit.php:4960
+#: core/views/arflite_edit.php:5025
+#: core/views/arflite_edit.php:5064
+#: core/views/arflite_edit.php:5088
+#: core/views/arflite_edit.php:5152
 #: core/views/arflite_field_editor.php:1466
 #: core/views/arflite_field_editor.php:1483
-#: core/views/arflite_field_option_popup.php:817
+#: core/views/arflite_field_option_popup.php:879
 #: core/views/arflite_field_values_popup.php:340
 #: core/views/arflite_new_field_array.php:122
 #: core/views/arflite_new_field_array.php:123
@@ -4819,13 +4858,15 @@ msgstr "休日"
 #: core/views/arflite_new_field_array.php:149
 #: core/views/arflite_new_field_array.php:150
 #: core/views/arflite_new_field_array.php:151
-#: integrations/Turnstile/class.arforms_turnstile.php:394
-#: integrations/Turnstile/class.arforms_turnstile.php:447
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:757
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:830
+#: integrations/Turnstile/class.arforms_turnstile.php:395
+#: integrations/Turnstile/class.arforms_turnstile.php:449
 #@ arforms-form-builder
 msgid "OK"
 msgstr "OK"
 
-#: core/controllers/arflitemaincontroller.php:2837
+#: core/controllers/arflitemaincontroller.php:2839
 #@ arforms-form-builder
 msgid "OK, you deserve it"
 msgstr "OK、あなたはそれに値する"
@@ -4850,17 +4891,17 @@ msgstr "オマーン"
 msgid "On Load Animation"
 msgstr "ロードアニメーションについて"
 
-#: core/views/arflite_field_option_popup.php:756
+#: core/views/arflite_field_option_popup.php:818
 #@ arforms-form-builder
 msgid "Only Alphabets"
 msgstr "アルファベットのみ"
 
-#: core/views/arflite_field_option_popup.php:758
+#: core/views/arflite_field_option_popup.php:820
 #@ arforms-form-builder
 msgid "Only Alphabets & Numbers"
 msgstr "アルファベットと数字のみ"
 
-#: core/views/arflite_field_option_popup.php:757
+#: core/views/arflite_field_option_popup.php:819
 #@ arforms-form-builder
 msgid "Only Numbers"
 msgstr "数字のみ"
@@ -4870,7 +4911,7 @@ msgstr "数字のみ"
 msgid "Opt-ins"
 msgstr "オプトイン"
 
-#: core/views/arflite_edit.php:4933
+#: core/views/arflite_edit.php:4935
 #@ arforms-form-builder
 msgid "Opt-ins (email marketing) configuration"
 msgstr "オプトイン（メールマーケティング）の構成"
@@ -4924,7 +4965,7 @@ msgstr "その他の設定"
 msgid "Overall Steps"
 msgstr "全体的な手順"
 
-#: core/controllers/arflitemaincontroller.php:2420
+#: core/controllers/arflitemaincontroller.php:2422
 #@ arforms-form-builder
 msgid "Page"
 msgstr "ページ"
@@ -4997,13 +5038,13 @@ msgstr "パプアニューギニア"
 msgid "Paraguay"
 msgstr "パラグアイ"
 
-#: core/classes/class.arforms_form_builder.php:1001
-#: core/classes/class.arforms_form_builder.php:1007
+#: core/classes/class.arforms_form_builder.php:1000
+#: core/classes/class.arforms_form_builder.php:1006
 #@ arforms-form-builder
 msgid "Partial Filled Form Entries"
 msgstr "部分的に記入されたフォームのエントリ"
 
-#: core/controllers/arflitemaincontroller.php:2440
+#: core/controllers/arflitemaincontroller.php:2442
 #@ arforms-form-builder
 msgid "Pass the validation with default value."
 msgstr "デフォルト値で検証を渡します。"
@@ -5046,12 +5087,12 @@ msgstr "電話"
 msgid "Phone Elements"
 msgstr "電話の要素"
 
-#: core/helpers/arflitefieldhelper.php:872
+#: core/helpers/arflitefieldhelper.php:873
 #@ arforms-form-builder
 msgid "Phone is invalid"
 msgstr "電話が無効です"
 
-#: core/controllers/arflitemaincontroller.php:2295
+#: core/controllers/arflitemaincontroller.php:2297
 #: core/helpers/arflitefieldhelper.php:436
 #@ arforms-form-builder
 msgid "Phone Number"
@@ -5087,13 +5128,13 @@ msgstr "プレースホルダーテキスト"
 msgid "Plain Text"
 msgstr "平文"
 
-#: core/controllers/arflitemaincontroller.php:2381
+#: core/controllers/arflitemaincontroller.php:2383
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:634
 #@ arforms-form-builder
 msgid "Please add one or more rules"
 msgstr "1つ以上のルールを追加してください"
 
-#: core/controllers/arflitemaincontroller.php:2469
+#: core/controllers/arflitemaincontroller.php:2471
 #@ arforms-form-builder
 msgid "Please do needful"
 msgstr "必要に応じてください"
@@ -5113,13 +5154,13 @@ msgstr "クライアント シークレットを入力してください"
 msgid "Please enter content"
 msgstr "コンテンツを入力してください"
 
-#: core/controllers/arflitemaincontroller.php:2336
+#: core/controllers/arflitemaincontroller.php:2338
 #: core/views/arflite_new-selection-modal.php:73
 #@ arforms-form-builder
 msgid "Please enter form title"
 msgstr "フォームのタイトルを入力してください"
 
-#: core/controllers/arflitemaincontroller.php:2324
+#: core/controllers/arflitemaincontroller.php:2326
 #@ arforms-form-builder
 msgid "Please Enter preset title"
 msgstr "プリセットのタイトルを入力してください"
@@ -5131,7 +5172,7 @@ msgid "Please insert a message for your auto responder."
 msgstr "自動応答のメッセージを挿入してください。"
 
 #: core/views/arflite_conditional_redirect_to_url.php:32
-#: core/views/arflite_edit.php:4863
+#: core/views/arflite_edit.php:4865
 #@ arforms-form-builder
 msgid "Please insert url with http:// or https://."
 msgstr "http：//またはhttps：//でURLを挿入してください。"
@@ -5158,7 +5199,7 @@ msgstr "フォームを保存してショートコードを生成してくださ
 msgid "Please select a CSV file"
 msgstr "CSVファイルを選択してください"
 
-#: core/controllers/arflitemaincontroller.php:2496
+#: core/controllers/arflitemaincontroller.php:2498
 #@ arforms-form-builder
 msgid "Please select a custom display"
 msgstr "カスタムディスプレイを選択してください"
@@ -5169,7 +5210,7 @@ msgid "Please select a file to process"
 msgstr "処理するファイルを選択してください"
 
 #: core/classes/class.arforms_beaver_builder.php:31
-#: core/controllers/arflitemaincontroller.php:2495
+#: core/controllers/arflitemaincontroller.php:2497
 #: core/views/arf_view_records.php:396
 #: integrations/Divi/modules/arforms-divi-module/arforms-divi-module.php:29
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:111
@@ -5189,7 +5230,7 @@ msgstr "有効なフォームを選択してください"
 msgid "Please select any Sample."
 msgstr "サンプルを選択してください。"
 
-#: core/controllers/arflitemaincontroller.php:2319
+#: core/controllers/arflitemaincontroller.php:2321
 #@ arforms-form-builder
 msgid "Please Select Field"
 msgstr "フィールドを選択してください"
@@ -5201,7 +5242,7 @@ msgid "Please Select Form"
 msgstr "フォームを選択してください"
 
 #: core/controllers/arflite_elm_widgets/arflite_element_add.php:68
-#: core/controllers/arflitemaincontroller.php:2348
+#: core/controllers/arflitemaincontroller.php:2350
 #@ arforms-form-builder
 msgid "Please select form"
 msgstr "フォームを選択してください"
@@ -5212,8 +5253,8 @@ msgstr "フォームを選択してください"
 msgid "Please select image file only."
 msgstr "画像ファイルのみを選択してください。"
 
-#: core/controllers/arflitemaincontroller.php:2316
-#: core/controllers/arflitemaincontroller.php:2354
+#: core/controllers/arflitemaincontroller.php:2318
+#: core/controllers/arflitemaincontroller.php:2356
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:633
 #@ arforms-form-builder
 msgid "Please select one or more record to perform action"
@@ -5247,7 +5288,7 @@ msgstr "1つ以上のレコードを選択してください。"
 msgid "Please select options to send an automatic response to user."
 msgstr "ユーザーに自動応答を送信するオプションを選択してください。"
 
-#: core/controllers/arflitemaincontroller.php:2326
+#: core/controllers/arflitemaincontroller.php:2328
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:632
 #@ arforms-form-builder
 msgid "Please select valid action"
@@ -5264,7 +5305,7 @@ msgstr "有効なアクションを選択してください。"
 #: core/classes/class.arforms_block_widget.php:102
 #: core/controllers/arfliteformcontroller.php:7143
 #: core/controllers/arfliteformcontroller.php:7155
-#: core/controllers/arflitemaincontroller.php:1971
+#: core/controllers/arflitemaincontroller.php:1973
 #: core/views/arflite_form_preview.php:10
 #@ arforms-form-builder
 msgid "Please select valid form"
@@ -5285,24 +5326,24 @@ msgstr "ファイルを検証するために拡張子を設定してください
 msgid "Please setup site key and private key in Global Settings otherwise recaptcha will not appear"
 msgstr "グローバル設定でサイトキーと秘密キーを設定してください。そうしないと、再キャプチャが表示されません"
 
-#: core/controllers/arflitemaincontroller.php:2194
+#: core/controllers/arflitemaincontroller.php:2196
 #: core/controllers/arfliteprocontroller.php:300
 #@ arforms-form-builder
 msgid "Please specify"
 msgstr "ご指定ください"
 
-#: core/controllers/arflitemaincontroller.php:2193
+#: core/controllers/arflitemaincontroller.php:2195
 #: core/controllers/arfliteprocontroller.php:299
 #@ arforms-form-builder
 msgid "Please specify experience"
 msgstr "経験を明記してください"
 
-#: core/controllers/arflitemaincontroller.php:2344
+#: core/controllers/arflitemaincontroller.php:2346
 #@ arforms-form-builder
 msgid "Please try again"
 msgstr "もう一度お試しください"
 
-#: core/controllers/arflitemaincontroller.php:2322
+#: core/controllers/arflitemaincontroller.php:2324
 #@ arforms-form-builder
 msgid "Please upload csv file"
 msgstr "csvファイルをアップロードしてください"
@@ -5327,7 +5368,7 @@ msgstr "タブ区切りのCSVファイルをアップロードしてください
 msgid "Please wait while you are redirected."
 msgstr "リダイレクトされるまでお待ちください。"
 
-#: core/controllers/arflitemaincontroller.php:2395
+#: core/controllers/arflitemaincontroller.php:2397
 #@ arforms-form-builder
 msgid "Please, Select appropriate option"
 msgstr "適切なオプションを選択してください"
@@ -5339,6 +5380,7 @@ msgid "Poland"
 msgstr "ポーランド"
 
 #: core/views/arflite_field_option_popup.php:452
+#: core/views/arflite_field_option_popup.php:514
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:107
 #@ arforms-form-builder
 msgid "Polish"
@@ -5366,6 +5408,7 @@ msgid "Portuguese (Portugal)"
 msgstr "ポルトガル語（ポルトガル）"
 
 #: core/views/arflite_field_option_popup.php:453
+#: core/views/arflite_field_option_popup.php:515
 #@ arforms-form-builder
 msgid "Portuguese/Brazilian"
 msgstr "ポルトガル語/ブラジル"
@@ -5404,8 +5447,8 @@ msgstr "プリセットタイトル"
 msgid "Preview"
 msgstr "プレビュー"
 
-#: core/classes/class.arforms_form_builder.php:986
-#: core/controllers/arflitemaincontroller.php:2454
+#: core/classes/class.arforms_form_builder.php:985
+#: core/controllers/arflitemaincontroller.php:2456
 #: core/helpers/arflitefieldhelper.php:814
 #@ arforms-form-builder
 msgid "Previous"
@@ -5416,7 +5459,7 @@ msgstr "前"
 msgid "Previous Entry"
 msgstr "前のエントリ"
 
-#: core/controllers/arflitemaincontroller.php:2929
+#: core/controllers/arflitemaincontroller.php:2931
 #: core/views/arflite_edit.php:932
 #: core/views/arflite_edit.php:1010
 #@ arforms-form-builder
@@ -5440,7 +5483,7 @@ msgstr "プエルトリコ"
 msgid "Qatar"
 msgstr "カタール"
 
-#: core/controllers/arflitemaincontroller.php:2291
+#: core/controllers/arflitemaincontroller.php:2293
 #@ arforms-form-builder
 msgid "Radio"
 msgstr "無線"
@@ -5515,7 +5558,7 @@ msgstr "レコードを削除できませんでした"
 msgid "Record is deleted successfully."
 msgstr "レコードは正常に削除されました。"
 
-#: core/views/arflite_edit.php:4831
+#: core/views/arflite_edit.php:4833
 #: integrations/Payments/PayPal/core/edit_3.0.php:504
 #: integrations/Payments/PayPal/core/edit_3.0.php:519
 #@ arforms-form-builder
@@ -5547,12 +5590,12 @@ msgstr "参照URL"
 msgid "Refresh List"
 msgstr "リストを更新"
 
-#: core/views/arflite_field_option_popup.php:777
+#: core/views/arflite_field_option_popup.php:839
 #@ arforms-form-builder
 msgid "Regular expression"
 msgstr "正規表現"
 
-#: core/views/arflite_field_option_popup.php:759
+#: core/views/arflite_field_option_popup.php:821
 #@ arforms-form-builder
 msgid "Regular Expression (custom)"
 msgstr "正規表現（カスタム）"
@@ -5568,7 +5611,7 @@ msgid "Repeater"
 msgstr "`リピータ"
 
 #: core/views/arflite_edit.php:4267
-#: core/views/arflite_edit.php:4639
+#: core/views/arflite_edit.php:4640
 #@ arforms-form-builder
 msgid "Reply to E-mail"
 msgstr "メールに返信"
@@ -5583,7 +5626,7 @@ msgstr "メールに返信"
 msgid "Required"
 msgstr "必須"
 
-#: core/controllers/arflitemaincontroller.php:2332
+#: core/controllers/arflitemaincontroller.php:2334
 #: core/views/arflite_field_values_popup.php:184
 #@ arforms-form-builder
 msgid "Reset"
@@ -5633,6 +5676,7 @@ msgid "Romania"
 msgstr "ルーマニア"
 
 #: core/views/arflite_field_option_popup.php:454
+#: core/views/arflite_field_option_popup.php:516
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:111
 #@ arforms-form-builder
 msgid "Romanian"
@@ -5661,6 +5705,7 @@ msgid "Russia"
 msgstr "ロシア"
 
 #: core/views/arflite_field_option_popup.php:455
+#: core/views/arflite_field_option_popup.php:517
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:112
 #@ arforms-form-builder
 msgid "Russian"
@@ -5721,7 +5766,7 @@ msgstr "サモア"
 msgid "Sample Forms"
 msgstr "サンプルフォーム"
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Sample RegExp"
 msgstr "RegExpのサンプル"
@@ -5748,7 +5793,7 @@ msgstr "満足"
 msgid "Satisfied"
 msgstr "満足"
 
-#: core/views/arflite_field_option_popup.php:533
+#: core/views/arflite_field_option_popup.php:595
 #: core/views/arflite_field_values_popup.php:84
 #@ arforms-form-builder
 msgid "Saturday"
@@ -5824,7 +5869,8 @@ msgid "seconds"
 msgstr "秒"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:147
-#: integrations/Turnstile/class.arforms_turnstile.php:608
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:382
+#: integrations/Turnstile/class.arforms_turnstile.php:610
 #@ arforms-form-builder
 msgid "Secret Key"
 msgstr "秘密鍵"
@@ -5866,7 +5912,7 @@ msgstr "選択1"
 msgid "Select a form to insert into page"
 msgstr "ページに挿入するフォームを選択してください"
 
-#: core/controllers/arflitemaincontroller.php:2393
+#: core/controllers/arflitemaincontroller.php:2395
 #@ arforms-form-builder
 msgid "Select atleast one flag"
 msgstr "少なくとも1つのフラグを選択します"
@@ -5883,8 +5929,8 @@ msgstr "Googleフォントの文字セットを選択する"
 msgid "Select Date"
 msgstr "日付を選択"
 
-#: core/controllers/arflitemaincontroller.php:2343
-#: core/controllers/arflitemaincontroller.php:2404
+#: core/controllers/arflitemaincontroller.php:2345
+#: core/controllers/arflitemaincontroller.php:2406
 #: core/views/arflite_edit.php:4103
 #: core/views/arflite_field_type_conversion.php:51
 #: core/views/arflite_field_type_conversion.php:57
@@ -5935,7 +5981,7 @@ msgstr "フォームを選択"
 msgid "Select form"
 msgstr "フォームを選択"
 
-#: core/views/arflite_edit.php:4881
+#: core/views/arflite_edit.php:4883
 #@ arforms-form-builder
 msgid "Select Page"
 msgstr "ページを選択"
@@ -5956,7 +6002,7 @@ msgstr "テーマを選択"
 msgid "Semicolon ( ; )"
 msgstr "セミコロン（;）"
 
-#: core/views/arflite_edit.php:4431
+#: core/views/arflite_edit.php:4432
 #@ arforms-form-builder
 msgid "Send an automatic response to admin user after form submission."
 msgstr "フォーム送信後、管理ユーザーに自動応答を送信します。"
@@ -5982,7 +6028,7 @@ msgstr "メールを送信SMTP"
 msgid "Send Form Data internaly to Custom URL"
 msgstr "フォームデータを内部的にカスタムURLに送信する"
 
-#: core/views/arflite_edit.php:4873
+#: core/views/arflite_edit.php:4875
 #@ arforms-form-builder
 msgid "Send form data to redirected page/post"
 msgstr "リダイレクトされたページ/投稿にフォームデータを送信する"
@@ -6021,12 +6067,14 @@ msgid "Serbia and Montenegro"
 msgstr "セルビアとモンテネグロ"
 
 #: core/views/arflite_field_option_popup.php:456
+#: core/views/arflite_field_option_popup.php:518
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:113
 #@ arforms-form-builder
 msgid "Serbian"
 msgstr "セルビア語"
 
 #: core/views/arflite_field_option_popup.php:457
+#: core/views/arflite_field_option_popup.php:519
 #@ arforms-form-builder
 msgid "Serbian Cyrillic"
 msgstr "セルビア語キリル文字"
@@ -6036,28 +6084,28 @@ msgstr "セルビア語キリル文字"
 msgid "Set conditional redirect URL"
 msgstr "条件付きリダイレクトURLを設定する"
 
-#: core/views/arflite_field_option_popup.php:547
-#: core/views/arflite_field_option_popup.php:575
+#: core/views/arflite_field_option_popup.php:609
+#: core/views/arflite_field_option_popup.php:637
 #@ arforms-form-builder
 msgid "Set Current Date"
 msgstr "現在の日付を設定"
 
-#: core/views/arflite_field_option_popup.php:598
+#: core/views/arflite_field_option_popup.php:660
 #@ arforms-form-builder
 msgid "Set Current Date:"
 msgstr "現在の日付を設定："
 
-#: core/views/arflite_field_option_popup.php:627
+#: core/views/arflite_field_option_popup.php:689
 #@ arforms-form-builder
 msgid "Set Date e.g."
 msgstr "日付を設定します。例:"
 
-#: core/views/arflite_field_option_popup.php:593
+#: core/views/arflite_field_option_popup.php:655
 #@ arforms-form-builder
 msgid "Set default date"
 msgstr "デフォルトの日付を設定"
 
-#: core/views/arflite_edit.php:4860
+#: core/views/arflite_edit.php:4862
 #@ arforms-form-builder
 msgid "Set Static Redirect URL"
 msgstr "静的リダイレクトURLを設定する"
@@ -6083,7 +6131,7 @@ msgstr "透明な背景を設定する"
 msgid "Set up is too difficult"
 msgstr "セットアップが難しすぎる"
 
-#: core/controllers/arflitemaincontroller.php:2387
+#: core/controllers/arflitemaincontroller.php:2389
 #@ arforms-form-builder
 msgid "Set Value of"
 msgstr "設定値"
@@ -6129,7 +6177,7 @@ msgstr "影のオプション"
 msgid "Shortcodes"
 msgstr "ショートコード"
 
-#: core/controllers/arflitemaincontroller.php:2383
+#: core/controllers/arflitemaincontroller.php:2385
 #: core/views/arf_view_records.php:417
 #: core/views/arflite_list.php:144
 #: integrations/Payments/PayPal/core/list_forms_3.0.php:164
@@ -6151,7 +6199,7 @@ msgstr "列を表示/非表示"
 msgid "Show confirmation (Summary)"
 msgstr "確認を表示（概要）"
 
-#: core/views/arflite_field_option_popup.php:477
+#: core/views/arflite_field_option_popup.php:539
 #@ arforms-form-builder
 msgid "Show time picker"
 msgstr "時間ピッカーを表示"
@@ -6187,7 +6235,7 @@ msgstr "正常にサインアウトしました。"
 msgid "Singapore"
 msgstr "シンガポール"
 
-#: core/controllers/arflitemaincontroller.php:2288
+#: core/controllers/arflitemaincontroller.php:2290
 #: core/helpers/arflitefieldhelper.php:339
 #: core/views/arflite_field_type_conversion.php:122
 #@ arforms-form-builder
@@ -6200,7 +6248,8 @@ msgid "Sint Maarten"
 msgstr "シントマールテン"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:139
-#: integrations/Turnstile/class.arforms_turnstile.php:600
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:371
+#: integrations/Turnstile/class.arforms_turnstile.php:602
 #@ arforms-form-builder
 msgid "Site Key"
 msgstr "サイトキー"
@@ -6237,6 +6286,7 @@ msgid "Slider Track"
 msgstr "スライダートラック"
 
 #: core/views/arflite_field_option_popup.php:458
+#: core/views/arflite_field_option_popup.php:520
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:114
 #@ arforms-form-builder
 msgid "Slovak"
@@ -6255,6 +6305,7 @@ msgid "Slovenia"
 msgstr "スロベニア"
 
 #: core/views/arflite_field_option_popup.php:459
+#: core/views/arflite_field_option_popup.php:521
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:115
 #@ arforms-form-builder
 msgid "Slovenian"
@@ -6341,7 +6392,7 @@ msgid "Sorry, this file type is not permitted for security reasons"
 msgstr "このファイルタイプはセキュリティ上の理由から許可されていません"
 
 #: core/controllers/arflitemaincontroller.php:438
-#: core/controllers/arflitemaincontroller.php:2982
+#: core/controllers/arflitemaincontroller.php:2984
 #: core/controllers/arflitesettingcontroller.php:608
 #@ arforms-form-builder
 msgid "Sorry, you are not allowed to install plugins on this site."
@@ -6364,8 +6415,8 @@ msgstr "この操作を実行するための十分な権限がありません"
 #: core/classes/class.arforms_general_settings.php:86
 #: core/classes/class.arforms_general_settings.php:201
 #: core/classes/class.arforms_import_export.php:937
-#: core/controllers/arflitemaincontroller.php:2456
-#: core/controllers/arflitemaincontroller.php:3022
+#: core/controllers/arflitemaincontroller.php:2458
+#: core/controllers/arflitemaincontroller.php:3024
 #: core/controllers/arfliterecordcontroller.php:1622
 #: core/controllers/arfliterecordcontroller.php:1660
 #: core/controllers/arfliterecordcontroller.php:1888
@@ -6401,9 +6452,9 @@ msgstr "セキュリティ上の理由により、リクエストを処理でき
 #: core/classes/class.arforms_divi_module.php:15
 #: core/classes/class.arforms_general_settings.php:192
 #: core/classes/class.arforms_import_export.php:943
-#: core/controllers/arflitemaincontroller.php:2458
-#: core/controllers/arflitemaincontroller.php:3041
-#: core/controllers/arflitemaincontroller.php:3061
+#: core/controllers/arflitemaincontroller.php:2460
+#: core/controllers/arflitemaincontroller.php:3043
+#: core/controllers/arflitemaincontroller.php:3063
 #: core/controllers/arfliterecordcontroller.php:1613
 #: core/controllers/arfliterecordcontroller.php:1874
 #: core/controllers/arfliterecordcontroller.php:2368
@@ -6454,6 +6505,7 @@ msgid "Spam Detected"
 msgstr "スパムを検出しました"
 
 #: core/views/arflite_field_option_popup.php:460
+#: core/views/arflite_field_option_popup.php:522
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:116
 #@ arforms-form-builder
 msgid "Spanish"
@@ -6548,7 +6600,7 @@ msgid "Style Options"
 msgstr "スタイルオプション"
 
 #: core/views/arflite_edit.php:4156
-#: core/views/arflite_edit.php:4474
+#: core/views/arflite_edit.php:4475
 #@ arforms-form-builder
 msgid "Subject E-mail"
 msgstr "件名メール"
@@ -6559,7 +6611,7 @@ msgid "Submission Failed Message"
 msgstr "送信失敗メッセージ"
 
 #: core/views/arflite_edit.php:774
-#: core/views/arflite_edit.php:4787
+#: core/views/arflite_edit.php:4789
 #@ arforms-form-builder
 msgid "Submit Action"
 msgstr "アクションを送信"
@@ -6585,7 +6637,7 @@ msgid "Submit Font Settings"
 msgstr "フォント設定を送信"
 
 #: core/views/arflite_edit.php:808
-#: core/views/arflite_edit.php:5031
+#: core/views/arflite_edit.php:5033
 #@ arforms-form-builder
 msgid "Submit Tracking Script"
 msgstr "追跡スクリプトを送信"
@@ -6631,7 +6683,7 @@ msgstr "成功メッセージの色"
 msgid "Success/Error Message Position"
 msgstr "成功/エラーメッセージの位置"
 
-#: core/controllers/arflitemaincontroller.php:2346
+#: core/controllers/arflitemaincontroller.php:2348
 #@ arforms-form-builder
 msgid "Successfully removed file"
 msgstr "ファイルを削除しました"
@@ -6647,7 +6699,7 @@ msgstr "スーダン"
 msgid "Suffix"
 msgstr "サフィックス"
 
-#: core/views/arflite_field_option_popup.php:527
+#: core/views/arflite_field_option_popup.php:589
 #: core/views/arflite_field_values_popup.php:78
 #@ arforms-form-builder
 msgid "Sunday"
@@ -6677,6 +6729,7 @@ msgid "Sweden"
 msgstr "スウェーデン"
 
 #: core/views/arflite_field_option_popup.php:461
+#: core/views/arflite_field_option_popup.php:523
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:118
 #@ arforms-form-builder
 msgid "Swedish"
@@ -6700,7 +6753,7 @@ msgstr "スイス"
 msgid "Syria"
 msgstr "シリア"
 
-#: core/views/arflite_edit.php:5115
+#: core/views/arflite_edit.php:5117
 #: core/views/arflite_list.php:189
 #@ arforms-form-builder
 msgid "Tablet View"
@@ -6719,6 +6772,7 @@ msgid "Tajikistan"
 msgstr "タジキスタン"
 
 #: core/views/arflite_field_option_popup.php:462
+#: core/views/arflite_field_option_popup.php:524
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:119
 #@ arforms-form-builder
 msgid "Tamil"
@@ -6785,6 +6839,7 @@ msgid "Textbox Elements"
 msgstr "テキストボックス要素"
 
 #: core/views/arflite_field_option_popup.php:463
+#: core/views/arflite_field_option_popup.php:525
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:121
 #@ arforms-form-builder
 msgid "Thai"
@@ -6814,8 +6869,8 @@ msgstr "これは、自動応答の有効な返信先メールアドレスでは
 msgid "That template cannot be edited"
 msgstr "そのテンプレートは編集できません"
 
-#: core/views/arflite_field_option_popup.php:540
-#: core/views/arflite_field_option_popup.php:568
+#: core/views/arflite_field_option_popup.php:602
+#: core/views/arflite_field_option_popup.php:630
 #@ arforms-form-builder
 msgid "the above shortcode will set minimum date to 10 year before current date. ( possible values for unit are Y - year, M - month, and D - days )."
 msgstr "上記のショートコードは、最小日付を現在の日付の 10 年前に設定します。 (単位の可能な値は Y - 年、M - 月、および D - 日です)。"
@@ -6830,27 +6885,27 @@ msgstr "悪意のあるコードが含まれているため、セキュリティ
 msgid "The file could not be uploaded due to security reasons."
 msgstr "セキュリティ上の理由により、ファイルをアップロードできませんでした。"
 
-#: core/helpers/arflitefieldhelper.php:866
+#: core/helpers/arflitefieldhelper.php:867
 #@ arforms-form-builder
 msgid "The reCAPTCHA was not entered correctly"
 msgstr "reCAPTCHAが正しく入力されていません"
 
-#: core/models/arflitenotifymodel.php:333
+#: core/models/arflitenotifymodel.php:337
 #@ arforms-form-builder
 msgid "The SMTP debugging output is shown below:"
 msgstr "SMTPデバッグ出力を以下に示します。"
 
-#: core/controllers/arflitemaincontroller.php:2402
+#: core/controllers/arflitemaincontroller.php:2404
 #@ arforms-form-builder
 msgid "THEN"
 msgstr "その後"
 
-#: core/controllers/arflitemaincontroller.php:2408
+#: core/controllers/arflitemaincontroller.php:2410
 #@ arforms-form-builder
 msgid "Then Mail Send To"
 msgstr "次にメールを送信"
 
-#: core/controllers/arflitemaincontroller.php:2410
+#: core/controllers/arflitemaincontroller.php:2412
 #@ arforms-form-builder
 msgid "Then Redirect to"
 msgstr "次にリダイレクトします"
@@ -6865,25 +6920,25 @@ msgstr "そのエントリの削除中にエラーが発生しました"
 msgid "There is an issue while uploading a file. Please try again"
 msgstr "ファイルのアップロード中に問題が発生しました。 もう一度やり直してください"
 
-#: core/classes/class.arforms_form_builder.php:951
-#: core/controllers/arflitemaincontroller.php:2446
+#: core/classes/class.arforms_form_builder.php:950
+#: core/controllers/arflitemaincontroller.php:2448
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:631
 #@ arforms-form-builder
 msgid "There is no any form found"
 msgstr "フォームは見つかりませんでした"
 
-#: core/classes/class.arforms_form_builder.php:982
-#: core/controllers/arflitemaincontroller.php:2434
+#: core/classes/class.arforms_form_builder.php:981
+#: core/controllers/arflitemaincontroller.php:2436
 #@ arforms-form-builder
 msgid "There is no entry found"
 msgstr "エントリが見つかりません"
 
-#: core/controllers/arflitemaincontroller.php:2428
+#: core/controllers/arflitemaincontroller.php:2430
 #@ arforms-form-builder
 msgid "There is something error while saving form"
 msgstr "フォームの保存中にエラーが発生しました"
 
-#: core/views/arflite_edit.php:4980
+#: core/views/arflite_edit.php:4982
 #@ arforms-form-builder
 msgid "These fields will not shown in the form. Enter the value to be hidden"
 msgstr "これらのフィールドはフォームに表示されません。 非表示にする値を入力してください"
@@ -6894,26 +6949,26 @@ msgid "This feature is only recommended when you have big amount of entries in t
 msgstr "この機能は、フォームに大量のエントリがあり、そのフィールドのエントリデータを失わずに特定のフィールドタイプを変更する場合にのみお勧めします。"
 
 #: core/controllers/arfliteformcontroller.php:3343
-#: core/controllers/arflitemaincontroller.php:2391
+#: core/controllers/arflitemaincontroller.php:2393
 #: core/controllers/arfliterecordcontroller.php:531
 #: core/controllers/arfliterecordcontroller.php:597
 #: core/controllers/arfliterecordcontroller.php:2966
 #: core/views/arflite_edit.php:4347
-#: core/views/arflite_edit.php:4735
-#: core/views/arflite_edit.php:4854
-#: core/views/arflite_edit.php:4862
-#: core/views/arflite_edit.php:4883
-#: core/views/arflite_edit.php:5051
+#: core/views/arflite_edit.php:4736
+#: core/views/arflite_edit.php:4856
+#: core/views/arflite_edit.php:4864
+#: core/views/arflite_edit.php:4885
+#: core/views/arflite_edit.php:5053
 #@ arforms-form-builder
 msgid "This field cannot be blank"
 msgstr "このフィールドは空白にできません"
 
-#: core/controllers/arflitemaincontroller.php:2339
-#: core/controllers/arflitemaincontroller.php:2372
+#: core/controllers/arflitemaincontroller.php:2341
+#: core/controllers/arflitemaincontroller.php:2374
 #: core/helpers/arflitefieldhelper.php:800
-#: core/helpers/arflitefieldhelper.php:908
-#: core/helpers/arflitefieldhelper.php:2555
-#: core/helpers/arflitefieldhelper.php:2558
+#: core/helpers/arflitefieldhelper.php:909
+#: core/helpers/arflitefieldhelper.php:2557
+#: core/helpers/arflitefieldhelper.php:2560
 #: core/models/arflitetemplate.php:1273
 #: core/models/arflitetemplate.php:1289
 #: core/models/arflitetemplate.php:1305
@@ -6947,6 +7002,7 @@ msgstr "このフィールドは空白にできません"
 #: core/views/arflite_settings_form.php:251
 #: core/views/arflite_settings_form.php:260
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:249
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:431
 #: integrations/Payments/PayPal/core/edit_3.0.php:251
 #: integrations/Payments/PayPal/core/edit_3.0.php:283
 #: integrations/Payments/PayPal/core/edit_3.0.php:331
@@ -6960,7 +7016,7 @@ msgstr "このフィールドは空白にできません"
 msgid "This field cannot be blank."
 msgstr "このフィールドを空白にすることはできません。"
 
-#: core/helpers/arflitefieldhelper.php:910
+#: core/helpers/arflitefieldhelper.php:911
 #@ arforms-form-builder
 msgid "This field is invalid"
 msgstr "このフィールドは無効です"
@@ -6970,105 +7026,105 @@ msgstr "このフィールドは無効です"
 msgid "This form is already deleted."
 msgstr "このフォームはすでに削除されています。"
 
-#: core/views/arflite_edit.php:4985
+#: core/views/arflite_edit.php:4987
 #@ arforms-form-builder
 msgid "This shortcode replace the value with current Date."
 msgstr "このショートコードは、値を現在の日付に置き換えます。"
 
-#: core/views/arflite_edit.php:4984
+#: core/views/arflite_edit.php:4986
 #@ arforms-form-builder
 msgid "This shortcode replace the value with currently logged-in User Email."
 msgstr "このショートコードは、値を現在ログインしているユーザーのメールに置き換えます。"
 
-#: core/views/arflite_edit.php:4982
+#: core/views/arflite_edit.php:4984
 #@ arforms-form-builder
 msgid "This shortcode replace the value with currently logged-in User ID."
 msgstr "このショートコードは、値を現在ログインしているユーザーIDに置き換えます。"
 
-#: core/views/arflite_edit.php:4983
+#: core/views/arflite_edit.php:4985
 #@ arforms-form-builder
 msgid "This shortcode replace the value with currently logged-in User Name."
 msgstr "このショートコードは、値を現在ログインしているユーザー名に置き換えます。"
 
-#: core/views/arflite_edit.php:4386
-#: core/views/arflite_edit.php:4746
+#: core/views/arflite_edit.php:4387
+#: core/views/arflite_edit.php:4748
 #@ arforms-form-builder
 msgid "This will be replaced with current form's page URL."
 msgstr "これは、現在のフォームのページURLに置き換えられます。"
 
-#: core/views/arflite_edit.php:4383
-#: core/views/arflite_edit.php:4743
+#: core/views/arflite_edit.php:4384
+#: core/views/arflite_edit.php:4745
 #@ arforms-form-builder
 msgid "This will be replaced with current login ID."
 msgstr "これは現在のログインIDに置き換えられます。"
 
-#: core/views/arflite_edit.php:4385
-#: core/views/arflite_edit.php:4745
+#: core/views/arflite_edit.php:4386
+#: core/views/arflite_edit.php:4747
 #@ arforms-form-builder
 msgid "This will be replaced with current login user email."
 msgstr "これは、現在のログインユーザーのメールに置き換えられます。"
 
-#: core/views/arflite_edit.php:4384
-#: core/views/arflite_edit.php:4744
+#: core/views/arflite_edit.php:4385
+#: core/views/arflite_edit.php:4746
 #@ arforms-form-builder
 msgid "This will be replaced with current login user name."
 msgstr "これは、現在のログインユーザー名に置き換えられます。"
 
-#: core/views/arflite_edit.php:4379
-#: core/views/arflite_edit.php:4739
+#: core/views/arflite_edit.php:4380
+#: core/views/arflite_edit.php:4741
 #@ arforms-form-builder
 msgid "This will be replaced with entry added time."
 msgstr "これはエントリ追加時間に置き換えられます。"
 
-#: core/views/arflite_edit.php:4382
-#: core/views/arflite_edit.php:4742
+#: core/views/arflite_edit.php:4383
+#: core/views/arflite_edit.php:4744
 #@ arforms-form-builder
 msgid "This will be replaced with Entry ID."
 msgstr "これはエントリIDに置き換えられます。"
 
-#: core/views/arflite_edit.php:4378
-#: core/views/arflite_edit.php:4738
+#: core/views/arflite_edit.php:4379
+#: core/views/arflite_edit.php:4740
 #@ arforms-form-builder
 msgid "This will be replaced with entry referer."
 msgstr "これはエントリ参照に置き換えられます。"
 
 #: core/views/arflite_edit.php:4187
-#: core/views/arflite_edit.php:4501
+#: core/views/arflite_edit.php:4502
 #@ arforms-form-builder
 msgid "This will be replaced with form name."
 msgstr "これはフォーム名に置き換えられます。"
 
 #: core/views/arflite_edit.php:4377
-#: core/views/arflite_edit.php:4737
+#: core/views/arflite_edit.php:4738
 #@ arforms-form-builder
 msgid "This will be replaced with form's all fields & labels."
 msgstr "これは、フォームのすべてのフィールドとラベルに置き換えられます。"
 
-#: core/views/arflite_edit.php:4380
-#: core/views/arflite_edit.php:4740
+#: core/views/arflite_edit.php:4381
+#: core/views/arflite_edit.php:4742
 #@ arforms-form-builder
 msgid "This will be replaced with IP Address."
 msgstr "これはIPアドレスに置き換えられます。"
 
 #: core/views/arflite_edit.php:4188
-#: core/views/arflite_edit.php:4502
+#: core/views/arflite_edit.php:4503
 #@ arforms-form-builder
 msgid "This will be replaced with name of site."
 msgstr "これはサイトの名前に置き換えられます。"
 
-#: core/views/arflite_edit.php:4381
-#: core/views/arflite_edit.php:4741
+#: core/views/arflite_edit.php:4382
+#: core/views/arflite_edit.php:4743
 #@ arforms-form-builder
 msgid "This will be replaced with user browser name."
 msgstr "これはユーザーのブラウザー名に置き換えられます。"
 
-#: core/views/arflite_field_option_popup.php:531
+#: core/views/arflite_field_option_popup.php:593
 #: core/views/arflite_field_values_popup.php:82
 #@ arforms-form-builder
 msgid "Thursday"
 msgstr "木曜日"
 
-#: core/controllers/arflitemaincontroller.php:2297
+#: core/controllers/arflitemaincontroller.php:2299
 #: core/helpers/arflitefieldhelper.php:444
 #@ arforms-form-builder
 msgid "Time"
@@ -7113,7 +7169,7 @@ msgstr "TLS"
 
 #: core/views/arf_debug_log.php:129
 #: core/views/arf_view_records.php:391
-#: core/views/arflite_field_option_popup.php:567
+#: core/views/arflite_field_option_popup.php:629
 #: core/views/arflite_settings_form.php:447
 #: core/views/arflite_settings_form.php:605
 #: core/views/arforms_import_export_form.php:150
@@ -7130,18 +7186,18 @@ msgstr "に"
 msgid "to"
 msgstr "に"
 
-#: core/controllers/arflitemaincontroller.php:2395
+#: core/controllers/arflitemaincontroller.php:2397
 #@ arforms-form-builder
 msgid "to change/delete image"
 msgstr "画像を変更/削除する"
 
-#: core/controllers/arflitemaincontroller.php:2426
+#: core/controllers/arflitemaincontroller.php:2428
 #@ arforms-form-builder
 msgid "To export this form, first you need to save it"
 msgstr "このフォームをエクスポートするには、まず保存する必要があります"
 
-#: core/views/arflite_field_option_popup.php:540
-#: core/views/arflite_field_option_popup.php:568
+#: core/views/arflite_field_option_popup.php:602
+#: core/views/arflite_field_option_popup.php:630
 #@ arforms-form-builder
 msgid "to set dynamic minimum date please use the below short-code"
 msgstr "動的最小日付を設定するには、以下のショートコードを使用してください"
@@ -7164,7 +7220,7 @@ msgid "Tonga"
 msgstr "トンガ"
 
 #: core/controllers/arfliteformcontroller.php:6577
-#: core/views/arflite_field_option_popup.php:790
+#: core/views/arflite_field_option_popup.php:852
 #@ arforms-form-builder
 msgid "Tooltip"
 msgstr "ツールチップ"
@@ -7202,7 +7258,7 @@ msgstr "合計"
 msgid "Trinidad and Tobago"
 msgstr "トリニダード・トバゴ"
 
-#: core/views/arflite_field_option_popup.php:529
+#: core/views/arflite_field_option_popup.php:591
 #: core/views/arflite_field_values_popup.php:80
 #@ arforms-form-builder
 msgid "Tuesday"
@@ -7221,6 +7277,7 @@ msgid "Turkey"
 msgstr "七面鳥"
 
 #: core/views/arflite_field_option_popup.php:464
+#: core/views/arflite_field_option_popup.php:526
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:122
 #@ arforms-form-builder
 msgid "Turkish"
@@ -7243,19 +7300,19 @@ msgstr "タークスカイコス諸島"
 msgid "Tuvalu"
 msgstr "ツバル"
 
-#: core/controllers/arflitemaincontroller.php:2464
+#: core/controllers/arflitemaincontroller.php:2466
 #: core/views/arflite_edit.php:1335
 #@ arforms-form-builder
 msgid "Type"
 msgstr "タイプ"
 
-#: core/controllers/arflitemaincontroller.php:2466
 #: core/controllers/arflitemaincontroller.php:2468
+#: core/controllers/arflitemaincontroller.php:2470
 #@ arforms-form-builder
 msgid "type to"
 msgstr "入力する"
 
-#: core/controllers/arflitemaincontroller.php:2467
+#: core/controllers/arflitemaincontroller.php:2469
 #@ arforms-form-builder
 msgid "type, field options will be different from"
 msgstr "タイプ、フィールドオプションは"
@@ -7288,6 +7345,7 @@ msgid "Ukraine"
 msgstr "ウクライナ"
 
 #: core/views/arflite_field_option_popup.php:465
+#: core/views/arflite_field_option_popup.php:527
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:123
 #@ arforms-form-builder
 msgid "Ukrainian"
@@ -7331,8 +7389,8 @@ msgstr "アメリカ"
 msgid "Unsatisfied"
 msgstr "不満"
 
-#: core/controllers/arflitemaincontroller.php:2412
-#: core/helpers/arflitefieldhelper.php:901
+#: core/controllers/arflitemaincontroller.php:2414
+#: core/helpers/arflitefieldhelper.php:902
 #@ arforms-form-builder
 msgid "Untitled"
 msgstr "無題"
@@ -7353,7 +7411,7 @@ msgstr "更新"
 msgid "Update ARForms Database"
 msgstr "ARForms データベースを更新する"
 
-#: core/classes/class.arforms_form_builder.php:1808
+#: core/classes/class.arforms_form_builder.php:1809
 #: core/controllers/arfliteformcontroller.php:134
 #: core/controllers/arflitesettingcontroller.php:145
 #@ arforms-form-builder
@@ -7370,7 +7428,7 @@ msgstr "CSVファイルのみをアップロードします。"
 msgid "Urdu"
 msgstr "ウルドゥー語"
 
-#: core/views/arflite_field_option_popup.php:783
+#: core/views/arflite_field_option_popup.php:845
 #@ arforms-form-builder
 msgid "URL"
 msgstr "URL"
@@ -7397,7 +7455,7 @@ msgstr "オプションに画像を使用"
 msgid "Use separate value"
 msgstr "別の値を使用"
 
-#: core/views/arflite_field_option_popup.php:785
+#: core/views/arflite_field_option_popup.php:847
 #@ arforms-form-builder
 msgid "User Name"
 msgstr "ユーザー名"
@@ -7443,7 +7501,7 @@ msgstr "ウズベキスタン"
 msgid "Validate default value"
 msgstr "デフォルト値を検証する"
 
-#: core/views/arflite_field_option_popup.php:751
+#: core/views/arflite_field_option_popup.php:813
 #@ arforms-form-builder
 msgid "Validation"
 msgstr "検証"
@@ -7469,7 +7527,7 @@ msgstr "検証メッセージの色"
 msgid "Validation Message Style"
 msgstr "検証メッセージスタイル"
 
-#: core/views/arflite_edit.php:4991
+#: core/views/arflite_edit.php:4993
 #@ arforms-form-builder
 msgid "Value"
 msgstr "値"
@@ -7540,6 +7598,7 @@ msgid "Vietnam"
 msgstr "ベトナム"
 
 #: core/views/arflite_field_option_popup.php:466
+#: core/views/arflite_field_option_popup.php:528
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:125
 #@ arforms-form-builder
 msgid "Vietnamese"
@@ -7620,19 +7679,19 @@ msgstr "Webhook"
 msgid "Website Elements"
 msgstr "ウェブサイトの要素"
 
-#: core/helpers/arflitefieldhelper.php:878
+#: core/helpers/arflitefieldhelper.php:879
 #@ arforms-form-builder
 msgid "Website is invalid"
 msgstr "ウェブサイトが無効です"
 
-#: core/controllers/arflitemaincontroller.php:2298
+#: core/controllers/arflitemaincontroller.php:2300
 #: core/helpers/arflitefieldhelper.php:448
 #: core/views/arflite_field_type_conversion.php:130
 #@ arforms-form-builder
 msgid "Website/URL"
 msgstr "ウェブサイトのURL"
 
-#: core/views/arflite_field_option_popup.php:530
+#: core/views/arflite_field_option_popup.php:592
 #: core/views/arflite_field_values_popup.php:81
 #@ arforms-form-builder
 msgid "Wednesday"
@@ -7658,7 +7717,7 @@ msgstr "週間"
 msgid "Western Sahara"
 msgstr "西サハラ"
 
-#: core/controllers/arflitemaincontroller.php:2189
+#: core/controllers/arflitemaincontroller.php:2191
 #: core/controllers/arfliteprocontroller.php:295
 #@ arforms-form-builder
 msgid "What can we describe more?"
@@ -7669,13 +7728,13 @@ msgstr "もっと何を説明できますか？"
 msgid "What Personal Data we collect and why we collect it."
 msgstr "収集する個人データとその理由。"
 
-#: core/controllers/arflitemaincontroller.php:2188
+#: core/controllers/arflitemaincontroller.php:2190
 #: core/controllers/arfliteprocontroller.php:294
 #@ arforms-form-builder
 msgid "What was the dificult part?"
 msgstr "難しい部分は何でしたか？"
 
-#: core/controllers/arflitemaincontroller.php:2879
+#: core/controllers/arflitemaincontroller.php:2881
 #@ arforms-form-builder
 msgid "What's New in ARForms Form Builder"
 msgstr "ARForms FormBuilderの新機能"
@@ -7696,7 +7755,7 @@ msgstr "幅"
 msgid "Window Opacity"
 msgstr "ウィンドウの不透明度"
 
-#: core/controllers/arflitemaincontroller.php:2192
+#: core/controllers/arflitemaincontroller.php:2194
 #: core/controllers/arfliteprocontroller.php:298
 #@ arforms-form-builder
 msgid "With what plugin or theme is incompatible?"
@@ -7754,15 +7813,15 @@ msgstr "イエメン"
 #: core/views/arflite_field_option_popup.php:262
 #: core/views/arflite_field_option_popup.php:325
 #: core/views/arflite_field_option_popup.php:357
-#: core/views/arflite_field_option_popup.php:487
-#: core/views/arflite_field_option_popup.php:555
-#: core/views/arflite_field_option_popup.php:583
-#: core/views/arflite_field_option_popup.php:800
+#: core/views/arflite_field_option_popup.php:549
+#: core/views/arflite_field_option_popup.php:617
+#: core/views/arflite_field_option_popup.php:645
+#: core/views/arflite_field_option_popup.php:862
 #@ arforms-form-builder
 msgid "YES"
 msgstr "はい"
 
-#: core/controllers/arflitemaincontroller.php:2416
+#: core/controllers/arflitemaincontroller.php:2418
 #: core/views/arflite_edit.php:1400
 #: core/views/arflite_edit.php:1895
 #: core/views/arflite_edit.php:2046
@@ -7771,7 +7830,7 @@ msgstr "はい"
 #: core/views/arflite_edit.php:2754
 #: core/views/arflite_field_option_popup.php:146
 #: core/views/arflite_field_option_popup.php:160
-#: core/views/arflite_field_option_popup.php:606
+#: core/views/arflite_field_option_popup.php:668
 #: core/views/arflite_field_values_popup.php:141
 #: core/views/arflite_field_values_popup.php:157
 #: core/views/arflite_field_values_popup.php:174
@@ -7785,7 +7844,7 @@ msgstr "はい"
 msgid "Yes"
 msgstr "はい"
 
-#: core/controllers/arflitemaincontroller.php:2465
+#: core/controllers/arflitemaincontroller.php:2467
 #@ arforms-form-builder
 msgid "You are converting"
 msgstr "変換しています"
@@ -7795,9 +7854,9 @@ msgstr "変換しています"
 msgid "You are using ARForms Premium plugin on your website and it is an extension to ARForms Lite, so, If you deactivate ARForms Lite then it will automatically deactivate ARForms Premium and all the add-ons"
 msgstr "ウェブサイトで ARForms Premium プラグインを使用していますが、これは ARForms Lite の拡張機能であるため、ARForms Lite を非アクティブ化すると、ARForms Premium とすべてのアドオンが自動的に非アクティブ化されます。"
 
-#: core/classes/class.arforms_form_builder.php:1698
+#: core/classes/class.arforms_form_builder.php:1697
 #: core/helpers/arfliteformhelper.php:133
-#: core/models/arflitesettingmodel.php:114
+#: core/models/arflitesettingmodel.php:116
 #@ arforms-form-builder
 msgid "You have already submitted this form before. You are not allowed to submit this form again."
 msgstr "このフォームは以前に送信済みです。 このフォームを再度送信することはできません。"
@@ -7812,12 +7871,12 @@ msgstr "システムでサポートされていない可能性がある必須フ
 msgid "Your entry is successfully deleted"
 msgstr "エントリは正常に削除されました"
 
-#: core/controllers/arflitemaincontroller.php:2350
+#: core/controllers/arflitemaincontroller.php:2352
 #@ arforms-form-builder
 msgid "Your formula is invalid"
 msgstr "数式が無効です"
 
-#: core/controllers/arflitemaincontroller.php:2352
+#: core/controllers/arflitemaincontroller.php:2354
 #@ arforms-form-builder
 msgid "Your formula is valid"
 msgstr "数式は有効です"
@@ -7900,8 +7959,8 @@ msgstr "何か問題が発生しました"
 msgid "log download successfully"
 msgstr "ログのダウンロードが成功しました"
 
-#: core/classes/class.arforms_form_builder.php:1023
-#: core/classes/class.arforms_form_builder.php:1035
+#: core/classes/class.arforms_form_builder.php:1022
+#: core/classes/class.arforms_form_builder.php:1034
 #: core/views/arf_debug_log.php:71
 #@ arforms-form-builder
 msgid "Debug Logs"
@@ -7958,13 +8017,13 @@ msgstr "ごめん！ アドオンをアクティブ化する権限がありま�
 msgid "Sorry! you do not have permission to deactivate the add-on"
 msgstr "ごめん！ アドオンを非アクティブ化する権限がありません"
 
-#: core/helpers/arflitefieldhelper.php:909
+#: core/helpers/arflitefieldhelper.php:910
 #@ arforms-form-builder
 msgid "This value must be unique."
 msgstr "この値は一意である必要があります。"
 
-#: core/models/arflitenotifymodel.php:472
-#: core/models/arflitenotifymodel.php:478
+#: core/models/arflitenotifymodel.php:476
+#: core/models/arflitenotifymodel.php:482
 #@ arforms-form-builder
 msgid "Something went wrong please check your configuration."
 msgstr "問題が発生しました。構成を確認してください。"
@@ -8096,7 +8155,7 @@ msgstr "能力_エラー"
 msgid "success"
 msgstr "成功"
 
-#: core/classes/class.arforms_form_builder.php:896
+#: core/classes/class.arforms_form_builder.php:895
 #@ arforms-form-builder
 msgid "Settings saved successfully"
 msgstr "設定が正常に保存されました"
@@ -8145,7 +8204,7 @@ msgstr "アコーディオン"
 
 #: core/classes/class.arforms_general_settings.php:79
 #: core/controllers/arflitemaincontroller.php:445
-#: core/controllers/arflitemaincontroller.php:2991
+#: core/controllers/arflitemaincontroller.php:2993
 #: core/controllers/arfliterecordcontroller.php:1671
 #@ arforms-form-builder
 msgid "Sorry, your request cannot be processed due to security reason."
@@ -8163,7 +8222,7 @@ msgstr "ARForms を使用していないため、このプラグインをイン�
 msgid "Aria Label"
 msgstr "アリアレーベル"
 
-#: core/models/arflitenotifymodel.php:402
+#: core/models/arflitenotifymodel.php:406
 #@ arforms-form-builder
 msgid "Email Sent Successfully"
 msgstr "電子メールを正常に送信"
@@ -8439,6 +8498,7 @@ msgstr "Google reCaptcha"
 
 #: core/views/arflite_view_addons.php:39
 #: core/views/arflite_view_addons.php:47
+#: core/views/arflite_view_addons.php:55
 #: core/views/arflite_view_addons.php:63
 #@ arforms-form-builder
 msgid "Add reCaptcha with Google reCaptcha Add-On of ARForms"
@@ -8970,27 +9030,27 @@ msgstr "ARForms 用の Turnstile captcha アドオンを使用するには、バ
 msgid "Invalid Turnstile Captcha. Please try again"
 msgstr "ターンスタイル キャプチャが無効です。もう一度お試しください。"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:589
+#: integrations/Turnstile/class.arforms_turnstile.php:591
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA Configuration"
 msgstr "ターンスタイル CAPTCHA 設定"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:595
+#: integrations/Turnstile/class.arforms_turnstile.php:597
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA requires an API key, consisting of a \"site\" and a \"secret\" key. You can sign up for a"
 msgstr "Turnstile CAPTCHAには、\"サイト\"と\"シークレット\"キーで構成されるAPIキーが必要です。"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:595
+#: integrations/Turnstile/class.arforms_turnstile.php:597
 #@ arforms-form-builder
 msgid "free Turnstile CAPTCHA key"
 msgstr "無料のターンスタイル CAPTCHA キー"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:616
+#: integrations/Turnstile/class.arforms_turnstile.php:618
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA Failed Message"
 msgstr "ターンスタイル CAPTCHA 失敗メッセージ"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:624
+#: integrations/Turnstile/class.arforms_turnstile.php:626
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA Theme"
 msgstr "ターンスタイル CAPTCHA テーマ"
@@ -9000,7 +9060,7 @@ msgstr "ターンスタイル CAPTCHA テーマ"
 msgid "Sorry, you are not allowed to activate/deactivate additional module on this site."
 msgstr "申し訳ありませんが、このサイトでは追加モジュールを有効化/無効化することはできません。"
 
-#: core/models/arflitenotifymodel.php:332
+#: core/models/arflitenotifymodel.php:336
 #@ arforms-form-builder
 msgid "Sorry! Email was not sent successfully."
 msgstr "申し訳ございません。メールは正常に送信されませんでした。"
@@ -9018,6 +9078,63 @@ msgstr "Paypal デバッグ ログ"
 #. translators: plugin header field 'Version'
 #: arforms-form-builder.php:0
 #@ arforms-form-builder
-msgid "1.7.1"
-msgstr "1.7.1"
+msgid "1.7.2"
+msgstr "1.7.2"
+
+#: core/views/arflite_edit.php:4378
+#@ arforms-form-builder
+msgid "ARFLite_form_all_values_no_separate_valueThis will be replaced with form's all fields & labels without separate values."
+msgstr "ARFLite_form_all_values_no_separate_value これは、個別の値のないフォームのすべてのフィールドとラベルに置き換えられます。"
+
+#: core/views/arflite_edit.php:4739
+#@ arforms-form-builder
+msgid "This will be replaced with form's all fields & labels without separate values."
+msgstr "これは、個別の値のないすべてのフィールドとラベルのフォームに置き換えられます。"
+
+#: core/views/arflite_field_option_popup.php:531
+#@ arforms-form-builder
+msgid "Timepicker localization"
+msgstr "タイムピッカーのローカリゼーション"
+
+#: core/views/arflite_view_addons.php:53
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:494
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:544
+#@ arforms-form-builder
+msgid "hCaptcha"
+msgstr "hキャプチャ"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:315
+#@ arforms-form-builder
+msgid "Hcaptcha add-on for ARForms requires ARForms installed with version 6.4 or higher."
+msgstr "ARForms 用の Hcaptcha アドオンを使用するには、バージョン 6.4 以降の ARForms がインストールされている必要があります。"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:357
+#@ arforms-form-builder
+msgid "hCaptcha Configuration"
+msgstr "hCaptcha の設定"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:364
+#@ arforms-form-builder
+msgid "hCaptcha requires an API key, consisting of a \"site\" and a \"private\" key. You can sign up for a"
+msgstr "hCaptchaには、\"サイト\"と\"プライベート\"キーで構成されるAPIキーが必要です。"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:364
+#@ arforms-form-builder
+msgid "free hCaptcha key"
+msgstr "無料のhCaptchaキー"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:394
+#@ arforms-form-builder
+msgid "hCaptcha Theme"
+msgstr "hCaptcha テーマ"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:425
+#@ arforms-form-builder
+msgid "hCaptcha Failed Message"
+msgstr "hCaptcha 失敗メッセージ"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:1068
+#@ arforms-form-builder
+msgid "Invalid hCaptcha. Please try again"
+msgstr "無効な hCaptcha。もう一度お試しください"
 

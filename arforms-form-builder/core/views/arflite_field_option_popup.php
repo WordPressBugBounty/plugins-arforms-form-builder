@@ -473,6 +473,68 @@ if( !defined( 'ABSPATH' ) ) exit;
 					?>
 				</div>
 			</div>
+			<div class="arf_field_option_content_cell" data-sort="-1" id="timepickerlocalization">
+				<?php
+				$timepickerlocales = array(
+					'en'      => addslashes( esc_html__( 'English/Western', 'arforms-form-builder' ) ),
+					'af'      => addslashes( esc_html__( 'Afrikaans', 'arforms-form-builder' ) ),
+					'sq'      => addslashes( esc_html__( 'Albanian', 'arforms-form-builder' ) ),
+					'ar'      => addslashes( esc_html__( 'Arabic', 'arforms-form-builder' ) ),
+					'hy-am'   => addslashes( esc_html__( 'Armenian', 'arforms-form-builder' ) ),
+					'az'      => addslashes( esc_html__( 'Azerbaijani', 'arforms-form-builder' ) ),
+					'eu'      => addslashes( esc_html__( 'Basque', 'arforms-form-builder' ) ),
+					'bs'      => addslashes( esc_html__( 'Bosnian', 'arforms-form-builder' ) ),
+					'bg'      => addslashes( esc_html__( 'Bulgarian', 'arforms-form-builder' ) ),
+					'ca'      => addslashes( esc_html__( 'Catalan', 'arforms-form-builder' ) ),
+					'zh-CN'   => addslashes( esc_html__( 'Chinese Simplified', 'arforms-form-builder' ) ),
+					'zh-TW'   => addslashes( esc_html__( 'Chinese Traditional', 'arforms-form-builder' ) ),
+					'hr'      => addslashes( esc_html__( 'Croatian', 'arforms-form-builder' ) ),
+					'cs'      => addslashes( esc_html__( 'Czech', 'arforms-form-builder' ) ),
+					/* 'da'      => addslashes( esc_html__( 'Danish', 'arforms-form-builder' ) ), */
+					/* 'nl'      => addslashes( esc_html__( 'Dutch', 'arforms-form-builder' ) ), */
+					'en-GB'   => addslashes( esc_html__( 'English/UK', 'arforms-form-builder' ) ),
+					'eo'      => addslashes( esc_html__( 'Esperanto', 'arforms-form-builder' ) ),
+					'et'      => addslashes( esc_html__( 'Estonian', 'arforms-form-builder' ) ),
+					'fo'      => addslashes( esc_html__( 'Faroese', 'arforms-form-builder' ) ),
+					'fa'      => addslashes( esc_html__( 'Farsi/Persian', 'arforms-form-builder' ) ),
+					'fi'      => addslashes( esc_html__( 'Finnish', 'arforms-form-builder' ) ),
+					/* 'fr'      => addslashes( esc_html__( 'French', 'arforms-form-builder' ) ), */
+					'fr-CH'   => addslashes( esc_html__( 'French/Swiss', 'arforms-form-builder' ) ),
+					'de'      => addslashes( esc_html__( 'German', 'arforms-form-builder' ) ),
+					'el'      => addslashes( esc_html__( 'Greek', 'arforms-form-builder' ) ),
+					'he'      => addslashes( esc_html__( 'Hebrew', 'arforms-form-builder' ) ),
+					'hu'      => addslashes( esc_html__( 'Hungarian', 'arforms-form-builder' ) ),
+					'is'      => addslashes( esc_html__( 'Icelandic', 'arforms-form-builder' ) ),
+					'it'      => addslashes( esc_html__( 'Italian', 'arforms-form-builder' ) ),
+					'ja'      => addslashes( esc_html__( 'Japanese', 'arforms-form-builder' ) ),
+					'ko'      => addslashes( esc_html__( 'Korean', 'arforms-form-builder' ) ),
+					'lv'      => addslashes( esc_html__( 'Latvian', 'arforms-form-builder' ) ),
+					'lt'      => addslashes( esc_html__( 'Lithuanian', 'arforms-form-builder' ) ),
+					'nb'      => addslashes( esc_html__( 'Norwegian', 'arforms-form-builder' ) ),
+					'pl'      => addslashes( esc_html__( 'Polish', 'arforms-form-builder' ) ),
+					'pt-BR'   => addslashes( esc_html__( 'Portuguese/Brazilian', 'arforms-form-builder' ) ),
+					'ro'      => addslashes( esc_html__( 'Romanian', 'arforms-form-builder' ) ),
+					'ru'      => addslashes( esc_html__( 'Russian', 'arforms-form-builder' ) ),
+					'sr'      => addslashes( esc_html__( 'Serbian', 'arforms-form-builder' ) ),
+					'sr-cyrl' => addslashes( esc_html__( 'Serbian Cyrillic', 'arforms-form-builder' ) ),
+					'sk'      => addslashes( esc_html__( 'Slovak', 'arforms-form-builder' ) ),
+					'sl'      => addslashes( esc_html__( 'Slovenian', 'arforms-form-builder' ) ),
+					'es'      => addslashes( esc_html__( 'Spanish', 'arforms-form-builder' ) ),
+					'sv'      => addslashes( esc_html__( 'Swedish', 'arforms-form-builder' ) ),
+					'ta'      => addslashes( esc_html__( 'Tamil', 'arforms-form-builder' ) ),
+					'th'      => addslashes( esc_html__( 'Thai', 'arforms-form-builder' ) ),
+					'tr'      => addslashes( esc_html__( 'Turkish', 'arforms-form-builder' ) ),
+					'uk'      => addslashes( esc_html__( 'Ukrainian', 'arforms-form-builder' ) ),
+					'vi'      => addslashes( esc_html__( 'Vietnamese', 'arforms-form-builder' ) ),
+				);
+				?>
+				<label class="arf_field_option_content_cell_label"><?php echo esc_html__( 'Timepicker localization', 'arforms-form-builder' ); ?></label>
+				<div class="arf_field_option_content_cell_input">
+					<?php
+						echo $arflitemaincontroller->arflite_selectpicker_dom( 'timepickerlocalization', 'field_timepicker_locale-{arf_field_id}', '', '', 'en', array(), $timepickerlocales ); //phpcs:ignore
+					?>
+				</div>
+			</div>
 			<div class="arf_field_option_content_cell" data-sort="-1" id="calendartimehideshow">
 				<label class="arf_field_option_content_cell_label"><?php echo esc_html__( 'Show time picker', 'arforms-form-builder' ); ?></label>
 				<div class="arf_field_option_content_cell_input">

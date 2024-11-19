@@ -4375,6 +4375,7 @@ $arfliteaction = !empty( sanitize_text_field($_GET['arfaction'] )) ? esc_attr( s
 							<div class="arflite-clear-float"></div>
 							<div class="email-msg-shortcode">
 								<div><label><code>[ARFLite_form_all_values]</code> - <?php echo esc_html__( 'This will be replaced with form\'s all fields & labels.', 'arforms-form-builder' ); ?></label></div>
+								<div><label><code>[ARFLite_form_all_values_no_separate_value]</code> - <?php echo esc_html__( 'ARFLite_form_all_values_no_separate_valueThis will be replaced with form\'s all fields & labels without separate values.', 'arforms-form-builder' ); ?></label></div>
 								<div><label><code>[ARFLite_form_referer]</code> - <?php echo esc_html__( 'This will be replaced with entry referer.', 'arforms-form-builder' ); ?></label></div>
 								<div><label><code>[ARFLite_form_added_date_time]</code> - <?php echo esc_html__( 'This will be replaced with entry added time.', 'arforms-form-builder' ); ?></label></div>
 								<div><label><code>[ARFLite_form_ipaddress]</code> - <?php echo esc_html__( 'This will be replaced with IP Address.', 'arforms-form-builder' ); ?></label></div>
@@ -4735,6 +4736,7 @@ $arfliteaction = !empty( sanitize_text_field($_GET['arfaction'] )) ? esc_attr( s
 							<span class="arferrmessage" id="ar_admin_email_message_error" style="top:0px;"><?php echo esc_html__( 'This field cannot be blank', 'arforms-form-builder' ); ?></span>
 							<div class="arflite-clear-float email-msg-shortcode">
 								<div><label><code>[ARFLite_form_all_values]</code> - <?php echo esc_html__( 'This will be replaced with form\'s all fields & labels.', 'arforms-form-builder' ); ?></label></div>
+								<div><label><code>[ARFLite_form_all_values_no_separate_value]</code> - <?php echo esc_html__( 'This will be replaced with form\'s all fields & labels without separate values.', 'arforms-form-builder' ); ?></label></div>
 								<div><label><code>[ARFLite_form_referer]</code> - <?php echo esc_html__( 'This will be replaced with entry referer.', 'arforms-form-builder' ); ?></label></div>
 								<div><label><code>[ARFLite_form_added_date_time]</code> - <?php echo esc_html__( 'This will be replaced with entry added time.', 'arforms-form-builder' ); ?></label></div>
 								<div><label><code>[ARFLite_form_ipaddress]</code> - <?php echo esc_html__( 'This will be replaced with IP Address.', 'arforms-form-builder' ); ?></label></div>

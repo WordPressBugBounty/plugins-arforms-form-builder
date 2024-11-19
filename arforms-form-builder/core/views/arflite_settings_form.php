@@ -725,7 +725,7 @@ $arf_character_arr = array(
 								<?php $arforms_general_settings->arforms_render_pro_settings( 'decimal_separator' ); ?>
 
 								<tr>
-									<td class="tdclass font-general-setting" valign="top"><label class="lblsubtitle"><?php echo esc_html__( 'Select character sets for google fonts', 'arforms-form-builder' ); ?></label> </td>
+									<td class="tdclass font-general-setting arf_vertical_align_top" valign="top"><label class="lblsubtitle" style="margin-top: -8px !important;"><?php echo esc_html__( 'Select character sets for google fonts', 'arforms-form-builder' ); ?></label> </td>
 									<td valign="top" class="email-setting-input-td">
 										<div class="font-setting-div">
 											<span class="font-setting-span">
@@ -764,7 +764,7 @@ $arf_character_arr = array(
 								</tr>
 
 								<tr>
-									<td class="tdclass email-setting-label-td" valign="top"><label class="lblsubtitle arfform-global-css"><?php echo esc_html__( 'Form Global CSS', 'arforms-form-builder' ); ?></label></td>
+									<td class="tdclass email-setting-label-td arf_vertical_align_top mt-0" valign="top"><label class="lblsubtitle arfform-global-css" style="margin-top: -8px !important;"><?php echo esc_html__( 'Form Global CSS', 'arforms-form-builder' ); ?></label></td>
 
 									<td valign="top" class="email-setting-input-td"><div class="arf_gloabal_css_wrapper"><textarea name="arf_global_css" id="arf_global_css" class="txtmultinew"><?php echo stripslashes_deep( $arflitesettings->arf_global_css );//phpcs:ignore ?></textarea></div></td>
 

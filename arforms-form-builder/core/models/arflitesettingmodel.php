@@ -65,6 +65,8 @@ class arflitesettingmodel {
 	var $tc_privkey;
 	var $tc_msg;
 	var $tc_theme;
+	var $hcaptcha_private_key;
+	var $hcaptcha_public_key;
 
 	function __construct() {
 		$this->arflite_set_default_options();

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARForms Form Builder v1.7.1\n"
+"Project-Id-Version: ARForms Form Builder v1.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-10-31 07:05:14+0000\n"
+"PO-Revision-Date: 2024-11-18 08:41:35+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +20,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: core/views/arflite_edit.php:5054
+#: core/views/arflite_edit.php:5056
 #@ arforms-form-builder
 msgid " inside code.)"
 msgstr "내부 코드)"
 
-#: core/models/arflitenotifymodel.php:103
+#: core/models/arflitenotifymodel.php:107
 #, php-format
 #@ arforms-form-builder
 msgid "%1$s form has been submitted on %2$s."
 msgstr "%1$s 양식이 %2$s 에 제출되었습니다."
 
-#: core/models/arflitenotifymodel.php:165
-#: core/models/arflitenotifymodel.php:1249
+#: core/models/arflitenotifymodel.php:169
+#: core/models/arflitenotifymodel.php:1405
 #, php-format
 #@ arforms-form-builder
 msgid "%1$s Form submitted on %2$s"
@@ -50,17 +50,17 @@ msgstr "%s 제출 및 %s 비활성화"
 msgid "( Not recommended - If you have any js/css loading issue in your theme, only in that case you should enable this settings )"
 msgstr "(권장하지 않음-테마에 js / css 로딩 문제가있는 경우이 경우에만이 설정을 사용해야합니다)"
 
-#: core/controllers/arflitemaincontroller.php:2368
+#: core/controllers/arflitemaincontroller.php:2370
 #@ arforms-form-builder
 msgid "(Click here to add description or instructions)"
 msgstr "(설명 또는 지침을 추가하려면 여기를 클릭하십시오)"
 
-#: core/controllers/arflitemaincontroller.php:2366
+#: core/controllers/arflitemaincontroller.php:2368
 #@ arforms-form-builder
 msgid "(Click here to add text)"
 msgstr "(텍스트를 추가하려면 여기를 클릭하십시오)"
 
-#: core/views/arflite_edit.php:5054
+#: core/views/arflite_edit.php:5056
 #@ arforms-form-builder
 msgid "(Do not insert script tag"
 msgstr "(스크립트 태그를 삽입하지 마십시오"
@@ -317,7 +317,7 @@ msgid "Account ID"
 msgstr "계정 ID"
 
 #: core/views/arf_view_records.php:473
-#: core/views/arflite_edit.php:4992
+#: core/views/arflite_edit.php:4994
 #: core/views/arflite_list.php:129
 #: integrations/Payments/PayPal/core/list_forms_3.0.php:86
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:158
@@ -340,7 +340,7 @@ msgstr "유효한"
 msgid "Active State Background"
 msgstr "활성 상태 배경"
 
-#: core/controllers/arflitemaincontroller.php:2396
+#: core/controllers/arflitemaincontroller.php:2398
 #@ arforms-form-builder
 msgid "Add"
 msgstr "더하다"
@@ -361,7 +361,7 @@ msgid "Add ARForms Lite Form"
 msgstr "ARForms Lite 양식 추가"
 
 #: core/views/arflite_edit.php:3138
-#: core/views/arflite_edit.php:5132
+#: core/views/arflite_edit.php:5134
 #@ arforms-form-builder
 msgid "Add CSS Elements"
 msgstr "CSS 요소 추가"
@@ -375,19 +375,19 @@ msgstr "관리 영역에서 항목 추가"
 #: core/views/arflite_edit.php:4238
 #: core/views/arflite_edit.php:4285
 #: core/views/arflite_edit.php:4351
-#: core/views/arflite_edit.php:4456
-#: core/views/arflite_edit.php:4484
-#: core/views/arflite_edit.php:4525
-#: core/views/arflite_edit.php:4559
-#: core/views/arflite_edit.php:4587
-#: core/views/arflite_edit.php:4618
-#: core/views/arflite_edit.php:4655
-#: core/views/arflite_edit.php:4718
+#: core/views/arflite_edit.php:4457
+#: core/views/arflite_edit.php:4485
+#: core/views/arflite_edit.php:4526
+#: core/views/arflite_edit.php:4560
+#: core/views/arflite_edit.php:4588
+#: core/views/arflite_edit.php:4619
+#: core/views/arflite_edit.php:4656
+#: core/views/arflite_edit.php:4719
 #@ arforms-form-builder
 msgid "Add Field"
 msgstr "필드 추가"
 
-#: core/controllers/arflitemaincontroller.php:2424
+#: core/controllers/arflitemaincontroller.php:2426
 #@ arforms-form-builder
 msgid "Add Icon"
 msgstr "아이콘 추가"
@@ -397,13 +397,13 @@ msgstr "아이콘 추가"
 msgid "Add icon (Bootstrap style)"
 msgstr "아이콘 추가 (부트 스트랩 스타일)"
 
-#: core/controllers/arflitemaincontroller.php:2317
-#: core/controllers/arflitemaincontroller.php:2414
+#: core/controllers/arflitemaincontroller.php:2319
+#: core/controllers/arflitemaincontroller.php:2416
 #@ arforms-form-builder
 msgid "Add Image"
 msgstr "이미지 추가"
 
-#: core/classes/class.arforms_form_builder.php:1787
+#: core/classes/class.arforms_form_builder.php:1788
 #: core/controllers/arfliteformcontroller.php:260
 #: core/controllers/arfliteprocontroller.php:65
 #: core/views/arflite_list.php:90
@@ -411,7 +411,7 @@ msgstr "이미지 추가"
 msgid "Add New Form"
 msgstr "새 양식 추가"
 
-#: core/views/arflite_edit.php:4988
+#: core/views/arflite_edit.php:4990
 #@ arforms-form-builder
 msgid "Add new hidden field"
 msgstr "새로운 숨겨진 필드 추가"
@@ -437,7 +437,7 @@ msgstr "페이지에 추가"
 msgid "Add-On listing is currently unavailable. Please try again later."
 msgstr "애드온 목록은 현재 사용할 수 없습니다. 나중에 다시 시도하십시오."
 
-#: core/classes/class.arforms_form_builder.php:1795
+#: core/classes/class.arforms_form_builder.php:1796
 #: core/controllers/arfliteprocontroller.php:75
 #@ arforms-form-builder
 msgid "Add-ons"
@@ -453,29 +453,29 @@ msgstr "사용자 정의 디스플레이 추가 / 편집"
 msgid "Add/Edit Forms and Templates"
 msgstr "양식 및 템플릿 추가 / 편집"
 
-#: core/classes/class.arforms_form_builder.php:1795
+#: core/classes/class.arforms_form_builder.php:1796
 #: core/controllers/arfliteprocontroller.php:75
 #: core/controllers/arflitesettingcontroller.php:130
 #@ arforms-form-builder
 msgid "Addons"
 msgstr "애드온"
 
-#: core/views/arflite_edit.php:4557
+#: core/views/arflite_edit.php:4558
 #@ arforms-form-builder
 msgid "Admin BCC Email"
 msgstr "관리자 숨은 참조 이메일"
 
-#: core/views/arflite_edit.php:4523
+#: core/views/arflite_edit.php:4524
 #@ arforms-form-builder
 msgid "Admin CC Email"
 msgstr "관리 CC 이메일"
 
-#: core/views/arflite_edit.php:4454
+#: core/views/arflite_edit.php:4455
 #@ arforms-form-builder
 msgid "Admin E-mail"
 msgstr "관리자 이메일"
 
-#: core/views/arflite_edit.php:4699
+#: core/views/arflite_edit.php:4700
 #@ arforms-form-builder
 msgid "Admin Message"
 msgstr "관리자 메시지"
@@ -500,11 +500,12 @@ msgid "Afghanistan"
 msgstr "아프가니스탄"
 
 #: core/views/arflite_field_option_popup.php:418
+#: core/views/arflite_field_option_popup.php:480
 #@ arforms-form-builder
 msgid "Afrikaans"
 msgstr "아프리카 어"
 
-#: core/views/arflite_edit.php:5045
+#: core/views/arflite_edit.php:5047
 #@ arforms-form-builder
 msgid "After Submission Tracking Script"
 msgstr "제출 후 추적 스크립트"
@@ -531,6 +532,7 @@ msgid "Albania"
 msgstr "알바니아"
 
 #: core/views/arflite_field_option_popup.php:419
+#: core/views/arflite_field_option_popup.php:481
 #@ arforms-form-builder
 msgid "Albanian"
 msgstr "알바니아"
@@ -546,23 +548,23 @@ msgstr "알제리"
 msgid "Alignment"
 msgstr "조정"
 
-#: core/controllers/arflitemaincontroller.php:2400
+#: core/controllers/arflitemaincontroller.php:2402
 #: core/views/arf_debug_log.php:100
 #@ arforms-form-builder
 msgid "All"
 msgstr "모두"
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Allow alpha numeric characters and length must be between 8 to 16 characters"
 msgstr "영숫자 및 길이는 8-16 자 사이 여야합니다."
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Allow only digits upto 6 digits. e.g. : pincode"
 msgstr "최대 6 자리 숫자 만 허용하십시오. 예 : : 핀 코드"
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Allow phone number like"
 msgstr "다음과 같은 전화 번호 허용"
@@ -573,8 +575,8 @@ msgstr "다음과 같은 전화 번호 허용"
 msgid "American Samoa"
 msgstr "아메리칸 사모아"
 
-#: core/classes/class.arforms_form_builder.php:999
-#: core/classes/class.arforms_form_builder.php:1006
+#: core/classes/class.arforms_form_builder.php:998
+#: core/classes/class.arforms_form_builder.php:1005
 #@ arforms-form-builder
 msgid "Analytics / Chart"
 msgstr "분석 / 차트"
@@ -626,7 +628,7 @@ msgstr "남극"
 msgid "Antigua and Barbuda"
 msgstr "앤티가 바부 다"
 
-#: core/controllers/arflitemaincontroller.php:2401
+#: core/controllers/arflitemaincontroller.php:2403
 #@ arforms-form-builder
 msgid "Any"
 msgstr "어떤"
@@ -679,27 +681,28 @@ msgid "April"
 msgstr "4 월"
 
 #: core/views/arflite_field_option_popup.php:420
+#: core/views/arflite_field_option_popup.php:482
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:71
 #@ arforms-form-builder
 msgid "Arabic"
 msgstr "아라비아 말"
 
-#: core/controllers/arflitemaincontroller.php:2341
+#: core/controllers/arflitemaincontroller.php:2343
 #@ arforms-form-builder
 msgid "Are you sure to delete configuration?"
 msgstr "구성을 삭제 하시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2314
+#: core/controllers/arflitemaincontroller.php:2316
 #@ arforms-form-builder
 msgid "Are you sure want to reset style?"
 msgstr "스타일을 재설정하시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2342
+#: core/controllers/arflitemaincontroller.php:2344
 #@ arforms-form-builder
 msgid "Are you sure you want to  delete this field?"
 msgstr "이 필드를 삭제하시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2389
+#: core/controllers/arflitemaincontroller.php:2391
 #@ arforms-form-builder
 msgid "Are you sure you want to delete image?"
 msgstr "이미지를 삭제 하시겠습니까?"
@@ -709,24 +712,24 @@ msgstr "이미지를 삭제 하시겠습니까?"
 msgid "Are you sure you want to delete this entries?"
 msgstr "이 항목을 삭제하시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2310
+#: core/controllers/arflitemaincontroller.php:2312
 #: core/views/arf_view_records.php:512
 #: core/views/arflite_list.php:177
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this entry?"
 msgstr "이 항목을 삭제 하시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2312
+#: core/controllers/arflitemaincontroller.php:2314
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this file?"
 msgstr "이 파일을 삭제하시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2308
+#: core/controllers/arflitemaincontroller.php:2310
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this form?"
 msgstr "이 양식을 삭제하시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2334
+#: core/controllers/arflitemaincontroller.php:2336
 #@ arforms-form-builder
 msgid "Are you sure you want to delete this image?"
 msgstr "이 이미지를 삭제하시겠습니까?"
@@ -813,6 +816,7 @@ msgid "Armenia"
 msgstr "아르메니아"
 
 #: core/views/arflite_field_option_popup.php:421
+#: core/views/arflite_field_option_popup.php:483
 #@ arforms-form-builder
 msgid "Armenian"
 msgstr "아르메니아 사람"
@@ -880,7 +884,7 @@ msgstr "승인된 리디렉션 URI"
 msgid "Autocomplete"
 msgstr "자동 완성"
 
-#: core/controllers/arflitemaincontroller.php:2921
+#: core/controllers/arflitemaincontroller.php:2923
 #@ arforms-form-builder
 msgid "Available Add-ons"
 msgstr "사용 가능한 추가 기능"
@@ -897,6 +901,7 @@ msgid "Azerbaijan"
 msgstr "아제르바이잔"
 
 #: core/views/arflite_field_option_popup.php:422
+#: core/views/arflite_field_option_popup.php:484
 #@ arforms-form-builder
 msgid "Azerbaijani"
 msgstr "아제르바이잔"
@@ -968,6 +973,7 @@ msgid "Basic Styling Options"
 msgstr "기본 스타일링 옵션"
 
 #: core/views/arflite_field_option_popup.php:423
+#: core/views/arflite_field_option_popup.php:485
 #@ arforms-form-builder
 msgid "Basque"
 msgstr "바스크 사람"
@@ -978,7 +984,7 @@ msgstr "바스크 사람"
 msgid "Before you deactivate the ARForms Lite plugin, would you quickly give us your reason for doing so?"
 msgstr "ARForms Lite 플러그인을 비활성화하기 전에 신속하게 이유를 알려주시겠습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2422
+#: core/controllers/arflitemaincontroller.php:2424
 #@ arforms-form-builder
 msgid "begin"
 msgstr "시작하다"
@@ -1024,7 +1030,7 @@ msgstr "버뮤다"
 msgid "Bhutan"
 msgstr "부탄"
 
-#: core/classes/class.arforms_form_builder.php:1806
+#: core/classes/class.arforms_form_builder.php:1807
 #: core/controllers/arflitesettingcontroller.php:143
 #@ arforms-form-builder
 msgid "Black Friday Sale"
@@ -1045,7 +1051,7 @@ msgstr "빈칸"
 msgid "Blur"
 msgstr "흐림"
 
-#: core/views/arflite_field_option_popup.php:742
+#: core/views/arflite_field_option_popup.php:804
 #@ arforms-form-builder
 msgid "bold"
 msgstr "굵게"
@@ -1108,6 +1114,7 @@ msgid "Bosnia and Herzegovina"
 msgstr "보스니아 헤르체고비나"
 
 #: core/views/arflite_field_option_popup.php:424
+#: core/views/arflite_field_option_popup.php:486
 #@ arforms-form-builder
 msgid "Bosnian"
 msgstr "보스니아 어"
@@ -1165,6 +1172,7 @@ msgid "Bulgaria"
 msgstr "불가리아"
 
 #: core/views/arflite_field_option_popup.php:425
+#: core/views/arflite_field_option_popup.php:487
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:73
 #@ arforms-form-builder
 msgid "Bulgarian"
@@ -1243,7 +1251,7 @@ msgstr "카메룬"
 msgid "Campaign Name"
 msgstr "캠페인 이름"
 
-#: core/controllers/arflitemaincontroller.php:2191
+#: core/controllers/arflitemaincontroller.php:2193
 #: core/controllers/arfliteprocontroller.php:297
 #@ arforms-form-builder
 msgid "Can you mention it?"
@@ -1256,8 +1264,8 @@ msgid "Canada"
 msgstr "캐나다"
 
 #: core/controllers/arflitemaincontroller.php:1216
-#: core/controllers/arflitemaincontroller.php:2330
-#: core/controllers/arflitemaincontroller.php:2418
+#: core/controllers/arflitemaincontroller.php:2332
+#: core/controllers/arflitemaincontroller.php:2420
 #: core/views/arf_debug_log.php:149
 #: core/views/arf_view_records.php:516
 #: core/views/arf_view_records.php:538
@@ -1265,10 +1273,10 @@ msgstr "캐나다"
 #: core/views/arflite_edit.php:870
 #: core/views/arflite_edit.php:3587
 #: core/views/arflite_edit.php:4056
-#: core/views/arflite_edit.php:5085
+#: core/views/arflite_edit.php:5087
 #: core/views/arflite_field_editor.php:1465
 #: core/views/arflite_field_editor.php:1482
-#: core/views/arflite_field_option_popup.php:816
+#: core/views/arflite_field_option_popup.php:878
 #: core/views/arflite_field_values_popup.php:245
 #: core/views/arflite_field_values_popup.php:270
 #: core/views/arflite_field_values_popup.php:339
@@ -1301,12 +1309,14 @@ msgstr "캐나다"
 #: core/views/arflite_new_field_array.php:149
 #: core/views/arflite_new_field_array.php:150
 #: core/views/arflite_new_field_array.php:151
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:756
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:829
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:639
 #: integrations/Payments/PayPal/core/edit_3.0.php:677
 #: integrations/Payments/PayPal/core/list_forms_3.0.php:205
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:306
-#: integrations/Turnstile/class.arforms_turnstile.php:393
-#: integrations/Turnstile/class.arforms_turnstile.php:446
+#: integrations/Turnstile/class.arforms_turnstile.php:394
+#: integrations/Turnstile/class.arforms_turnstile.php:448
 #@ arforms-form-builder
 msgid "Cancel"
 msgstr "취소"
@@ -1323,6 +1333,7 @@ msgid "Caribbean Netherlands"
 msgstr "캐리비안 네덜란드"
 
 #: core/views/arflite_field_option_popup.php:426
+#: core/views/arflite_field_option_popup.php:488
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:74
 #@ arforms-form-builder
 msgid "Catalan"
@@ -1358,12 +1369,12 @@ msgstr "차드"
 msgid "Check All"
 msgstr "모두 확인"
 
-#: core/models/arflitenotifymodel.php:332
+#: core/models/arflitenotifymodel.php:336
 #@ arforms-form-builder
 msgid "Check Full Log"
 msgstr "전체 로그 확인"
 
-#: core/controllers/arflitemaincontroller.php:2290
+#: core/controllers/arflitemaincontroller.php:2292
 #: core/views/arflite_field_type_conversion.php:124
 #@ arforms-form-builder
 msgid "Checkbox"
@@ -1415,11 +1426,13 @@ msgid "China"
 msgstr "중국"
 
 #: core/views/arflite_field_option_popup.php:427
+#: core/views/arflite_field_option_popup.php:489
 #@ arforms-form-builder
 msgid "Chinese Simplified"
 msgstr "중국어 (간체"
 
 #: core/views/arflite_field_option_popup.php:428
+#: core/views/arflite_field_option_popup.php:490
 #@ arforms-form-builder
 msgid "Chinese Traditional"
 msgstr "중국 전통"
@@ -1439,12 +1452,12 @@ msgstr "중국 전통)"
 msgid "Choose Color"
 msgstr "색상을 선택하십시오"
 
-#: core/views/arflite_edit.php:4406
+#: core/views/arflite_edit.php:4407
 #@ arforms-form-builder
 msgid "Choose File"
 msgstr "파일을 선택"
 
-#: core/controllers/arflitemaincontroller.php:3262
+#: core/controllers/arflitemaincontroller.php:3264
 #@ arforms-form-builder
 msgid "Choose Option"
 msgstr "옵션 선택"
@@ -1459,7 +1472,7 @@ msgstr "크리스마스 섬"
 msgid "Clear default text on focus"
 msgstr "초점을 맞춘 기본 텍스트 지우기"
 
-#: core/controllers/arflitemaincontroller.php:2438
+#: core/controllers/arflitemaincontroller.php:2440
 #@ arforms-form-builder
 msgid "Clear default text on focus."
 msgstr "초점을 맞춘 기본 텍스트를 지 웁니다."
@@ -1475,30 +1488,30 @@ msgid "Click here to enter form title"
 msgstr "양식 제목을 입력하려면 여기를 클릭하십시오"
 
 #: core/controllers/arfliteformcontroller.php:840
-#: core/controllers/arflitemaincontroller.php:2320
+#: core/controllers/arflitemaincontroller.php:2322
 #: core/controllers/arfliterecordcontroller.php:2470
 #: core/views/arflite_settings_form.php:392
 #@ arforms-form-builder
 msgid "Click to Copy"
 msgstr "클릭하여 복사"
 
-#: core/controllers/arflitemaincontroller.php:2444
+#: core/controllers/arflitemaincontroller.php:2446
 #@ arforms-form-builder
 msgid "Click to edit"
 msgstr "클릭하여 수정"
 
-#: core/helpers/arflitefieldhelper.php:2511
+#: core/helpers/arflitefieldhelper.php:2513
 #: core/views/arflite_field_editor.php:438
 #@ arforms-form-builder
 msgid "Click to mark as"
 msgstr "클릭하여 표시"
 
-#: core/controllers/arflitemaincontroller.php:2360
+#: core/controllers/arflitemaincontroller.php:2362
 #@ arforms-form-builder
 msgid "Click to mark as compulsory field"
 msgstr "필수 입력란으로 표시하려면 클릭"
 
-#: core/controllers/arflitemaincontroller.php:2358
+#: core/controllers/arflitemaincontroller.php:2360
 #: core/views/arflite_new_field_array.php:122
 #: core/views/arflite_new_field_array.php:123
 #: core/views/arflite_new_field_array.php:124
@@ -1537,7 +1550,7 @@ msgstr "클라이언트 ID"
 msgid "Client Secret"
 msgstr "클라이언트 비밀번호"
 
-#: core/views/arflite_field_option_popup.php:493
+#: core/views/arflite_field_option_popup.php:555
 #@ arforms-form-builder
 msgid "Clock Settings"
 msgstr "시계 설정"
@@ -1594,20 +1607,20 @@ msgstr "완전한"
 msgid "Completed Date"
 msgstr "완료 날짜"
 
-#: core/helpers/arflitefieldhelper.php:2511
+#: core/helpers/arflitefieldhelper.php:2513
 #: core/views/arflite_field_editor.php:438
 #@ arforms-form-builder
 msgid "compulsory field."
 msgstr "필수 분야."
 
-#: core/views/arflite_edit.php:5114
+#: core/views/arflite_edit.php:5116
 #: core/views/arflite_list.php:188
 #@ arforms-form-builder
 msgid "Computer View"
 msgstr "컴퓨터보기"
 
 #: core/views/arflite_edit.php:764
-#: core/views/arflite_edit.php:4767
+#: core/views/arflite_edit.php:4769
 #@ arforms-form-builder
 msgid "Conditional Rule"
 msgstr "조건부 규칙"
@@ -1617,7 +1630,7 @@ msgstr "조건부 규칙"
 msgid "Configure Conditional Email Notification"
 msgstr "조건부 이메일 알림 구성"
 
-#: core/views/arflite_edit.php:4916
+#: core/views/arflite_edit.php:4918
 #@ arforms-form-builder
 msgid "Configure conditional submission"
 msgstr "조건부 제출 구성"
@@ -1627,13 +1640,13 @@ msgstr "조건부 제출 구성"
 msgid "Confirm"
 msgstr "확인"
 
-#: core/helpers/arflitefieldhelper.php:847
+#: core/helpers/arflitefieldhelper.php:848
 #: core/views/arflite_field_option_popup.php:347
 #@ arforms-form-builder
 msgid "Confirm Email"
 msgstr "이메일 확인"
 
-#: core/helpers/arflitefieldhelper.php:848
+#: core/helpers/arflitefieldhelper.php:849
 #@ arforms-form-builder
 msgid "Confirm Email does not match with email"
 msgstr "이메일이 이메일과 일치하지 않는지 확인"
@@ -1648,7 +1661,7 @@ msgstr "이메일 라벨 확인"
 msgid "Confirm email placeholder"
 msgstr "이메일 자리 표시 자 확인"
 
-#: core/views/arflite_edit.php:4851
+#: core/views/arflite_edit.php:4853
 #: integrations/Payments/PayPal/core/edit_3.0.php:527
 #@ arforms-form-builder
 msgid "Confirmation Message"
@@ -1669,13 +1682,13 @@ msgstr "콩고 (DRC)"
 msgid "Congo (Republic)"
 msgstr "콩고 (공화국)"
 
-#: core/controllers/arflitemaincontroller.php:2379
+#: core/controllers/arflitemaincontroller.php:2381
 #@ arforms-form-builder
 msgid "contains"
 msgstr "포함"
 
 #: core/vc/arflite_class_vc_extend.php:44
-#: core/views/arflite_field_option_popup.php:651
+#: core/views/arflite_field_option_popup.php:713
 #@ arforms-form-builder
 msgid "Content"
 msgstr "함유량"
@@ -1701,7 +1714,7 @@ msgstr "필드 유형으로 변환"
 msgid "Cook Islands"
 msgstr "쿡 제도"
 
-#: core/controllers/arflitemaincontroller.php:2321
+#: core/controllers/arflitemaincontroller.php:2323
 #@ arforms-form-builder
 msgid "copied"
 msgstr "복사"
@@ -1762,6 +1775,7 @@ msgid "Croatia"
 msgstr "크로아티아"
 
 #: core/views/arflite_field_option_popup.php:429
+#: core/views/arflite_field_option_popup.php:491
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:77
 #@ arforms-form-builder
 msgid "Croatian"
@@ -1807,7 +1821,7 @@ msgid "Custom Color"
 msgstr "커스텀 컬러"
 
 #: core/views/arflite_edit.php:1091
-#: core/views/arflite_edit.php:5130
+#: core/views/arflite_edit.php:5132
 #@ arforms-form-builder
 msgid "Custom CSS"
 msgstr "맞춤 CSS"
@@ -1817,7 +1831,7 @@ msgstr "맞춤 CSS"
 msgid "Custom Font Options"
 msgstr "사용자 정의 글꼴 옵션"
 
-#: core/views/arflite_field_option_popup.php:786
+#: core/views/arflite_field_option_popup.php:848
 #@ arforms-form-builder
 msgid "CVC/CVV"
 msgstr "CVC / CVV"
@@ -1829,6 +1843,7 @@ msgid "Cyprus"
 msgstr "키프로스"
 
 #: core/views/arflite_field_option_popup.php:430
+#: core/views/arflite_field_option_popup.php:492
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:78
 #@ arforms-form-builder
 msgid "Czech"
@@ -1847,7 +1862,8 @@ msgid "Danish"
 msgstr "덴마크 말"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:63
-#: integrations/Turnstile/class.arforms_turnstile.php:577
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:292
+#: integrations/Turnstile/class.arforms_turnstile.php:579
 #@ arforms-form-builder
 msgid "Dark"
 msgstr "어두운"
@@ -1857,7 +1873,7 @@ msgstr "어두운"
 msgid "Dashed"
 msgstr "파선"
 
-#: core/controllers/arflitemaincontroller.php:2296
+#: core/controllers/arflitemaincontroller.php:2298
 #: core/helpers/arflitefieldhelper.php:440
 #@ arforms-form-builder
 msgid "Date"
@@ -1873,12 +1889,12 @@ msgstr "날짜 요소"
 msgid "Date Format"
 msgstr "날짜 형식"
 
-#: core/helpers/arflitefieldhelper.php:876
+#: core/helpers/arflitefieldhelper.php:877
 #@ arforms-form-builder
 msgid "Date is invalid"
 msgstr "날짜가 잘못되었습니다"
 
-#: core/views/arflite_field_option_popup.php:537
+#: core/views/arflite_field_option_popup.php:599
 #@ arforms-form-builder
 msgid "Date range"
 msgstr "날짜 범위"
@@ -1937,7 +1953,7 @@ msgstr "기본"
 #: core/views/arflite_edit.php:3862
 #: core/views/arflite_edit.php:3937
 #: core/views/arflite_edit.php:4015
-#: core/views/arflite_field_option_popup.php:676
+#: core/views/arflite_field_option_popup.php:738
 #@ arforms-form-builder
 msgid "Default Fonts"
 msgstr "기본 글꼴"
@@ -1968,8 +1984,8 @@ msgid "Default Value"
 msgstr "기본값"
 
 #: core/controllers/arfliteformcontroller.php:889
-#: core/controllers/arflitemaincontroller.php:2328
-#: core/controllers/arflitemaincontroller.php:2397
+#: core/controllers/arflitemaincontroller.php:2330
+#: core/controllers/arflitemaincontroller.php:2399
 #: core/controllers/arfliterecordcontroller.php:2324
 #: core/controllers/arfliterecordcontroller.php:2530
 #: core/views/arf_debug_log.php:148
@@ -2028,7 +2044,7 @@ msgstr "양식 및 템플릿 삭제"
 msgid "Denmark"
 msgstr "덴마크"
 
-#: core/controllers/arflitemaincontroller.php:2386
+#: core/controllers/arflitemaincontroller.php:2388
 #@ arforms-form-builder
 msgid "Disable"
 msgstr "비활성화"
@@ -2048,13 +2064,13 @@ msgstr "양식에서 Mutlicolumn 비활성화"
 msgid "Dislike Button Color"
 msgstr "싫어하는 버튼 색상"
 
-#: core/views/arflite_edit.php:4817
+#: core/views/arflite_edit.php:4819
 #: integrations/Payments/PayPal/core/edit_3.0.php:505
 #@ arforms-form-builder
 msgid "Display a Message"
 msgstr "메시지 표시"
 
-#: core/views/arflite_edit.php:4845
+#: core/views/arflite_edit.php:4847
 #: integrations/Payments/PayPal/core/edit_3.0.php:506
 #@ arforms-form-builder
 msgid "Display content from another page"
@@ -2076,12 +2092,12 @@ msgstr "제목 및 설명 표시"
 msgid "Djibouti"
 msgstr "지부티"
 
-#: core/controllers/arflitemaincontroller.php:2436
+#: core/controllers/arflitemaincontroller.php:2438
 #@ arforms-form-builder
 msgid "Do not clear default text on focus."
 msgstr "초점을 맞춘 기본 텍스트를 지우지 마십시오."
 
-#: core/controllers/arflitemaincontroller.php:2442
+#: core/controllers/arflitemaincontroller.php:2444
 #@ arforms-form-builder
 msgid "Do not pass the validation with default value."
 msgstr "기본값으로 유효성 검사를 통과하지 마십시오."
@@ -2108,7 +2124,7 @@ msgstr "점이 찍힌"
 msgid "Drop Down"
 msgstr "쓰러지 다"
 
-#: core/controllers/arflitemaincontroller.php:2292
+#: core/controllers/arflitemaincontroller.php:2294
 #: core/helpers/arflitefieldhelper.php:355
 #: core/views/arflite_field_type_conversion.php:126
 #@ arforms-form-builder
@@ -2196,7 +2212,7 @@ msgstr "엘살바도르"
 msgid "Email"
 msgstr "이메일"
 
-#: core/controllers/arflitemaincontroller.php:2293
+#: core/controllers/arflitemaincontroller.php:2295
 #: core/helpers/arflitefieldhelper.php:428
 #: core/models/arflitetemplate.php:380
 #: core/models/arflitetemplate.php:820
@@ -2205,7 +2221,7 @@ msgstr "이메일"
 msgid "Email Address"
 msgstr "이메일 주소"
 
-#: core/views/arflite_edit.php:4393
+#: core/views/arflite_edit.php:4394
 #@ arforms-form-builder
 msgid "Email Attachment:"
 msgstr "이메일 첨부:"
@@ -2220,13 +2236,13 @@ msgstr "이메일 요소"
 msgid "Email Format"
 msgstr "이메일 형식"
 
-#: core/helpers/arflitefieldhelper.php:868
+#: core/helpers/arflitefieldhelper.php:869
 #@ arforms-form-builder
 msgid "Email is invalid"
 msgstr "이메일이 유효하지 않습니다"
 
-#: core/classes/class.arforms_form_builder.php:1020
-#: core/classes/class.arforms_form_builder.php:1032
+#: core/classes/class.arforms_form_builder.php:1019
+#: core/classes/class.arforms_form_builder.php:1031
 #@ arforms-form-builder
 msgid "Email Marketing Tools"
 msgstr "이메일 마케팅 도구"
@@ -2252,12 +2268,12 @@ msgstr "이메일 설정"
 msgid "Embed Inline Form"
 msgstr "인라인 양식 포함"
 
-#: core/views/arflite_field_option_popup.php:657
+#: core/views/arflite_field_option_popup.php:719
 #@ arforms-form-builder
 msgid "Embedded tags for youtube, map etc are supported."
 msgstr "YouTube,지도 등의 내장 태그가 지원됩니다."
 
-#: core/controllers/arflitemaincontroller.php:2385
+#: core/controllers/arflitemaincontroller.php:2387
 #: core/views/arflite_settings_form.php:819
 #@ arforms-form-builder
 msgid "Enable"
@@ -2273,7 +2289,7 @@ msgstr "국가 플래그 드롭 다운 사용"
 msgid "Enable Readonly"
 msgstr "읽기 전용 활성화"
 
-#: core/views/arflite_field_option_popup.php:646
+#: core/views/arflite_field_option_popup.php:708
 #@ arforms-form-builder
 msgid "Enable Running Total"
 msgstr "누계 사용"
@@ -2300,21 +2316,23 @@ msgid "English (US)"
 msgstr "영어 (미국)"
 
 #: core/views/arflite_field_option_popup.php:433
+#: core/views/arflite_field_option_popup.php:495
 #@ arforms-form-builder
 msgid "English/UK"
 msgstr "영어 / 영국"
 
 #: core/views/arflite_field_option_popup.php:417
+#: core/views/arflite_field_option_popup.php:479
 #@ arforms-form-builder
 msgid "English/Western"
 msgstr "영어 / 서부"
 
-#: core/views/arflite_edit.php:5047
+#: core/views/arflite_edit.php:5049
 #@ arforms-form-builder
 msgid "Enter After submission tracking script"
 msgstr "제출 후 추적 스크립트 입력"
 
-#: core/helpers/arflitefieldhelper.php:860
+#: core/helpers/arflitefieldhelper.php:861
 #: core/models/arflitetemplate.php:346
 #: core/models/arflitetemplate.php:364
 #: core/models/arflitetemplate.php:787
@@ -2322,7 +2340,7 @@ msgstr "제출 후 추적 스크립트 입력"
 #: core/models/arflitetemplate.php:1175
 #: core/models/arflitetemplate.php:1191
 #: core/models/arflitetemplate.php:1227
-#: core/views/arflite_field_option_popup.php:773
+#: core/views/arflite_field_option_popup.php:835
 #@ arforms-form-builder
 msgid "Entered value is invalid"
 msgstr "입력 한 값이 유효하지 않습니다"
@@ -2383,7 +2401,7 @@ msgstr "엔트리 키"
 msgid "Entry not found for selected time period"
 msgstr "선택한 기간 동안 항목을 찾을 수 없습니다."
 
-#: core/controllers/arflitemaincontroller.php:2374
+#: core/controllers/arflitemaincontroller.php:2376
 #@ arforms-form-builder
 msgid "equals"
 msgstr "같다"
@@ -2435,6 +2453,7 @@ msgid "Error State Background"
 msgstr "오류 상태 배경"
 
 #: core/views/arflite_field_option_popup.php:434
+#: core/views/arflite_field_option_popup.php:496
 #@ arforms-form-builder
 msgid "Esperanto"
 msgstr "에스페란토 말"
@@ -2446,6 +2465,7 @@ msgid "Estonia"
 msgstr "에스토니아"
 
 #: core/views/arflite_field_option_popup.php:435
+#: core/views/arflite_field_option_popup.php:497
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:82
 #@ arforms-form-builder
 msgid "Estonian"
@@ -2467,7 +2487,7 @@ msgstr "짝수 행"
 msgid "Every 12 hours"
 msgstr "12 시간마다"
 
-#: core/views/arflite_edit.php:5047
+#: core/views/arflite_edit.php:5049
 #@ arforms-form-builder
 msgid "Example: Google Tracking Code"
 msgstr "예 : Google 추적 코드"
@@ -2534,11 +2554,13 @@ msgid "Faroe Islands"
 msgstr "페로 제도"
 
 #: core/views/arflite_field_option_popup.php:436
+#: core/views/arflite_field_option_popup.php:498
 #@ arforms-form-builder
 msgid "Faroese"
 msgstr "파로 어"
 
 #: core/views/arflite_field_option_popup.php:437
+#: core/views/arflite_field_option_popup.php:499
 #@ arforms-form-builder
 msgid "Farsi/Persian"
 msgstr "페르시아어 / 페르시아어"
@@ -2607,8 +2629,10 @@ msgstr "필드 라벨"
 #: core/views/arflite_new_field_array.php:149
 #: core/views/arflite_new_field_array.php:150
 #: core/views/arflite_new_field_array.php:151
-#: integrations/Turnstile/class.arforms_turnstile.php:388
-#: integrations/Turnstile/class.arforms_turnstile.php:441
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:751
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:824
+#: integrations/Turnstile/class.arforms_turnstile.php:389
+#: integrations/Turnstile/class.arforms_turnstile.php:443
 #@ arforms-form-builder
 msgid "Field Options"
 msgstr "필드 옵션"
@@ -2635,12 +2659,12 @@ msgstr "필드 툴팁"
 msgid "Field Transparency"
 msgstr "필드 투명도"
 
-#: core/controllers/arflitemaincontroller.php:2470
+#: core/controllers/arflitemaincontroller.php:2472
 #@ arforms-form-builder
 msgid "Field type changing also may affect email notification section, conditional rule section, payment gateways configuration and other add-ons configuration. So it is highly recommend to verify all these settings after changing field type"
 msgstr "필드 유형 변경은 이메일 알림 섹션, 조건부 규칙 섹션, 지불 게이트웨이 구성 및 기타 애드온 구성에도 영향을 줄 수 있습니다. 따라서 필드 유형을 변경 한 후 이러한 모든 설정을 확인하는 것이 좋습니다."
 
-#: core/controllers/arflitemaincontroller.php:2463
+#: core/controllers/arflitemaincontroller.php:2465
 #@ arforms-form-builder
 msgid "Field values will be lost once converted to"
 msgstr "로 변환되면 필드 값이 손실됩니다"
@@ -2664,14 +2688,14 @@ msgstr "필드 포장지"
 #: core/views/arflite_edit.php:4245
 #: core/views/arflite_edit.php:4293
 #: core/views/arflite_edit.php:4358
-#: core/views/arflite_edit.php:4461
-#: core/views/arflite_edit.php:4489
-#: core/views/arflite_edit.php:4530
-#: core/views/arflite_edit.php:4564
-#: core/views/arflite_edit.php:4592
-#: core/views/arflite_edit.php:4623
-#: core/views/arflite_edit.php:4663
-#: core/views/arflite_edit.php:4723
+#: core/views/arflite_edit.php:4462
+#: core/views/arflite_edit.php:4490
+#: core/views/arflite_edit.php:4531
+#: core/views/arflite_edit.php:4565
+#: core/views/arflite_edit.php:4593
+#: core/views/arflite_edit.php:4624
+#: core/views/arflite_edit.php:4664
+#: core/views/arflite_edit.php:4724
 #@ arforms-form-builder
 msgid "Fields"
 msgstr "필드"
@@ -2719,13 +2743,14 @@ msgid "Finland"
 msgstr "핀란드"
 
 #: core/views/arflite_field_option_popup.php:438
+#: core/views/arflite_field_option_popup.php:500
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:84
 #@ arforms-form-builder
 msgid "Finnish"
 msgstr "핀란드어"
 
-#: core/classes/class.arforms_form_builder.php:985
-#: core/controllers/arflitemaincontroller.php:2452
+#: core/classes/class.arforms_form_builder.php:984
+#: core/controllers/arflitemaincontroller.php:2454
 #@ arforms-form-builder
 msgid "First"
 msgstr "먼저"
@@ -2736,7 +2761,7 @@ msgid "Flat"
 msgstr "플랫"
 
 #: core/controllers/arfliteformcontroller.php:6565
-#: core/views/arflite_edit.php:5075
+#: core/views/arflite_edit.php:5077
 #@ arforms-form-builder
 msgid "Font Awesome"
 msgstr "멋진 글꼴"
@@ -2746,7 +2771,7 @@ msgstr "멋진 글꼴"
 msgid "Font Family"
 msgstr "폰트 패밀리"
 
-#: core/views/arflite_field_option_popup.php:664
+#: core/views/arflite_field_option_popup.php:726
 #@ arforms-form-builder
 msgid "Font family"
 msgstr "폰트 패밀리"
@@ -2767,12 +2792,12 @@ msgstr "폰트 설정"
 msgid "Font Size"
 msgstr "폰트 크기"
 
-#: core/views/arflite_field_option_popup.php:704
+#: core/views/arflite_field_option_popup.php:766
 #@ arforms-form-builder
 msgid "Font size"
 msgstr "폰트 사이즈"
 
-#: core/views/arflite_field_option_popup.php:730
+#: core/views/arflite_field_option_popup.php:792
 #@ arforms-form-builder
 msgid "Font style"
 msgstr "폰트 스타일"
@@ -2806,7 +2831,7 @@ msgstr "양식 설명"
 msgid "Form description"
 msgstr "양식 설명"
 
-#: core/classes/class.arforms_form_builder.php:1789
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteprocontroller.php:67
 #: core/controllers/arfliterecordcontroller.php:330
 #: core/views/arf_view_records.php:315
@@ -2814,8 +2839,8 @@ msgstr "양식 설명"
 msgid "Form Entries"
 msgstr "양식 항목"
 
-#: core/classes/class.arforms_form_builder.php:997
-#: core/classes/class.arforms_form_builder.php:1005
+#: core/classes/class.arforms_form_builder.php:996
+#: core/classes/class.arforms_form_builder.php:1004
 #@ arforms-form-builder
 msgid "Form Entries Data"
 msgstr "양식 항목 데이터"
@@ -2884,7 +2909,7 @@ msgstr "폼 패딩"
 msgid "Form Settings"
 msgstr "양식 설정"
 
-#: core/views/arflite_edit.php:4797
+#: core/views/arflite_edit.php:4799
 #@ arforms-form-builder
 msgid "Form submission action"
 msgstr "양식 제출 조치"
@@ -2896,7 +2921,7 @@ msgstr "양식 제출 방법"
 
 #: core/helpers/arfliteformhelper.php:128
 #: core/helpers/arfliteformhelper.php:395
-#: core/models/arflitenotifymodel.php:850
+#: core/models/arflitenotifymodel.php:939
 #@ arforms-form-builder
 msgid "Form submitted on"
 msgstr "제출 양식"
@@ -2940,7 +2965,7 @@ msgstr "양식 너비 설정"
 msgid "Form(s) Only"
 msgstr "양식 만"
 
-#: core/classes/class.arforms_form_builder.php:1785
+#: core/classes/class.arforms_form_builder.php:1786
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #@ arforms-form-builder
@@ -3004,11 +3029,12 @@ msgid "French Polynesia"
 msgstr "프랑스 령 폴리네시아의"
 
 #: core/views/arflite_field_option_popup.php:440
+#: core/views/arflite_field_option_popup.php:502
 #@ arforms-form-builder
 msgid "French/Swiss"
 msgstr "프랑스어 / 스위스"
 
-#: core/views/arflite_field_option_popup.php:532
+#: core/views/arflite_field_option_popup.php:594
 #: core/views/arflite_field_values_popup.php:83
 #@ arforms-form-builder
 msgid "Friday"
@@ -3016,7 +3042,7 @@ msgstr "금요일"
 
 #: core/views/arf_debug_log.php:125
 #: core/views/arf_view_records.php:391
-#: core/views/arflite_field_option_popup.php:539
+#: core/views/arflite_field_option_popup.php:601
 #: core/views/arforms_import_export_form.php:150
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:97
 #@ arforms-form-builder
@@ -3024,7 +3050,7 @@ msgid "From"
 msgstr "에서"
 
 #: core/views/arflite_edit.php:4224
-#: core/views/arflite_edit.php:4605
+#: core/views/arflite_edit.php:4606
 #@ arforms-form-builder
 msgid "From E-mail"
 msgstr "이메일에서"
@@ -3035,7 +3061,7 @@ msgid "From Email"
 msgstr "이메일에서"
 
 #: core/views/arflite_edit.php:4219
-#: core/views/arflite_edit.php:4581
+#: core/views/arflite_edit.php:4582
 #: core/views/arflite_settings_form.php:237
 #@ arforms-form-builder
 msgid "From/Replyto Name"
@@ -3060,7 +3086,7 @@ msgstr "일반 아이콘"
 
 #: core/views/arflite_edit.php:806
 #: core/views/arflite_edit.php:2809
-#: core/views/arflite_edit.php:4949
+#: core/views/arflite_edit.php:4951
 #@ arforms-form-builder
 msgid "General Options"
 msgstr "일반 옵션"
@@ -3071,9 +3097,9 @@ msgstr "일반 옵션"
 msgid "General setting saved successfully."
 msgstr "일반 설정이 성공적으로 저장되었습니다."
 
-#: core/classes/class.arforms_form_builder.php:1017
-#: core/classes/class.arforms_form_builder.php:1029
-#: core/classes/class.arforms_form_builder.php:1791
+#: core/classes/class.arforms_form_builder.php:1016
+#: core/classes/class.arforms_form_builder.php:1028
+#: core/classes/class.arforms_form_builder.php:1792
 #: core/controllers/arfliteprocontroller.php:69
 #: core/controllers/arflitesettingcontroller.php:126
 #: core/views/arflite_settings_form.php:64
@@ -3088,6 +3114,7 @@ msgid "Georgia"
 msgstr "그루지야"
 
 #: core/views/arflite_field_option_popup.php:441
+#: core/views/arflite_field_option_popup.php:503
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:87
 #@ arforms-form-builder
 msgid "German"
@@ -3150,7 +3177,7 @@ msgstr "가다"
 #: core/views/arflite_edit.php:3863
 #: core/views/arflite_edit.php:3938
 #: core/views/arflite_edit.php:4016
-#: core/views/arflite_field_option_popup.php:690
+#: core/views/arflite_field_option_popup.php:752
 #@ arforms-form-builder
 msgid "Google Fonts"
 msgstr "구글 글꼴"
@@ -3160,7 +3187,7 @@ msgstr "구글 글꼴"
 msgid "Google/Gmail API"
 msgstr "구글/지메일 API"
 
-#: core/controllers/arflitemaincontroller.php:2377
+#: core/controllers/arflitemaincontroller.php:2379
 #@ arforms-form-builder
 msgid "greater than"
 msgstr "~보다 큰"
@@ -3172,6 +3199,7 @@ msgid "Greece"
 msgstr "그리스"
 
 #: core/views/arflite_field_option_popup.php:442
+#: core/views/arflite_field_option_popup.php:504
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:91
 #@ arforms-form-builder
 msgid "Greek"
@@ -3194,7 +3222,7 @@ msgstr "그레나다"
 msgid "Group Name"
 msgstr "그룹 이름"
 
-#: core/classes/class.arforms_form_builder.php:1797
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arflitesettingcontroller.php:134
 #@ arforms-form-builder
 msgid "Growth Plugins"
@@ -3252,6 +3280,7 @@ msgid "Haiti"
 msgstr "아이티"
 
 #: core/views/arflite_field_option_popup.php:443
+#: core/views/arflite_field_option_popup.php:505
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:92
 #@ arforms-form-builder
 msgid "Hebrew"
@@ -3262,34 +3291,34 @@ msgstr "헤브라이 사람"
 msgid "Hidden Input Fields"
 msgstr "숨겨진 입력 필드"
 
-#: core/views/arflite_edit.php:4966
+#: core/views/arflite_edit.php:4968
 #@ arforms-form-builder
 msgid "Hidden Input Fields Options"
 msgstr "숨겨진 입력 필드 옵션"
 
-#: core/views/arflite_edit.php:4978
+#: core/views/arflite_edit.php:4980
 #@ arforms-form-builder
 msgid "Hidden Input Fields Setup"
 msgstr "숨겨진 입력 필드 설정"
 
-#: core/controllers/arflitemaincontroller.php:2384
+#: core/controllers/arflitemaincontroller.php:2386
 #@ arforms-form-builder
 msgid "Hide"
 msgstr "숨는 장소"
 
 #: core/views/arflite_edit.php:4323
-#: core/views/arflite_edit.php:4692
+#: core/views/arflite_edit.php:4693
 #@ arforms-form-builder
 msgid "Hide Empty Fields From Email Content"
 msgstr "이메일 콘텐츠에서 빈 필드 숨기기"
 
 #: core/views/arflite_edit.php:4323
-#: core/views/arflite_edit.php:4692
+#: core/views/arflite_edit.php:4693
 #@ arforms-form-builder
 msgid "Hide Empty Fields From Email Content."
 msgstr "이메일 콘텐츠에서 빈 필드를 숨깁니다."
 
-#: core/views/arflite_edit.php:4896
+#: core/views/arflite_edit.php:4898
 #@ arforms-form-builder
 msgid "Hide Form after submission"
 msgstr "제출 후 양식 숨기기"
@@ -3336,7 +3365,7 @@ msgstr "훅"
 msgid "Horizontal"
 msgstr "수평"
 
-#: core/views/arflite_field_option_popup.php:518
+#: core/views/arflite_field_option_popup.php:580
 #@ arforms-form-builder
 msgid "Hour"
 msgstr "시"
@@ -3362,7 +3391,7 @@ msgstr "호버 배경"
 msgid "How could we improve ?"
 msgstr "우리는 어떻게 개선 할 수 있습니까?"
 
-#: core/controllers/arflitemaincontroller.php:2190
+#: core/controllers/arflitemaincontroller.php:2192
 #: core/controllers/arfliteprocontroller.php:296
 #@ arforms-form-builder
 msgid "How could we improve?"
@@ -3373,7 +3402,7 @@ msgstr "우리는 어떻게 개선 할 수 있습니까?"
 msgid "Hrs"
 msgstr "시간"
 
-#: core/controllers/arflitemaincontroller.php:2300
+#: core/controllers/arflitemaincontroller.php:2302
 #: core/helpers/arflitefieldhelper.php:461
 #: core/views/arflite_settings_form.php:343
 #@ arforms-form-builder
@@ -3381,6 +3410,7 @@ msgid "HTML"
 msgstr "HTML"
 
 #: core/views/arflite_field_option_popup.php:444
+#: core/views/arflite_field_option_popup.php:506
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:94
 #@ arforms-form-builder
 msgid "Hungarian"
@@ -3392,7 +3422,7 @@ msgstr "헝가리 인"
 msgid "Hungary"
 msgstr "헝가리"
 
-#: core/controllers/arflitemaincontroller.php:2839
+#: core/controllers/arflitemaincontroller.php:2841
 #@ arforms-form-builder
 msgid "I already did"
 msgstr "나는 이미했다"
@@ -3415,6 +3445,7 @@ msgid "Iceland"
 msgstr "아이슬란드"
 
 #: core/views/arflite_field_option_popup.php:445
+#: core/views/arflite_field_option_popup.php:507
 #@ arforms-form-builder
 msgid "Icelandic"
 msgstr "아이슬란드 어"
@@ -3440,7 +3471,7 @@ msgstr "아이콘 색상"
 msgid "ID"
 msgstr "신분증"
 
-#: core/controllers/arflitemaincontroller.php:2399
+#: core/controllers/arflitemaincontroller.php:2401
 #@ arforms-form-builder
 msgid "IF"
 msgstr "만약"
@@ -3456,12 +3487,12 @@ msgstr "이것을 체크 해제하면 이메일 주소가 피드백과 함께 �
 msgid "Image"
 msgstr "영상"
 
-#: core/helpers/arflitefieldhelper.php:874
+#: core/helpers/arflitefieldhelper.php:875
 #@ arforms-form-builder
 msgid "Image is invalid"
 msgstr "이미지가 유효하지 않습니다"
 
-#: core/controllers/arflitemaincontroller.php:2299
+#: core/controllers/arflitemaincontroller.php:2301
 #: core/helpers/arflitefieldhelper.php:452
 #@ arforms-form-builder
 msgid "Image URL"
@@ -3482,7 +3513,7 @@ msgstr "이미지 너비"
 msgid "Import"
 msgstr "수입"
 
-#: core/classes/class.arforms_form_builder.php:1793
+#: core/classes/class.arforms_form_builder.php:1794
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3494,7 +3525,7 @@ msgstr "수입 수출"
 msgid "Import / Export Forms"
 msgstr "가져 오기 / 내보내기 양식"
 
-#: core/classes/class.arforms_form_builder.php:1793
+#: core/classes/class.arforms_form_builder.php:1794
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3632,7 +3663,7 @@ msgstr "잘못된 파일 크기입니다."
 msgid "Invalid maximum characters length"
 msgstr "유효하지 않은 최대 문자 길이"
 
-#: core/helpers/arflitefieldhelper.php:845
+#: core/helpers/arflitefieldhelper.php:846
 #: core/models/arflitetemplate.php:345
 #: core/models/arflitetemplate.php:363
 #: core/models/arflitetemplate.php:415
@@ -3651,7 +3682,7 @@ msgid "Invalid minimum characters length"
 msgstr "잘못된 최소 문자 길이"
 
 #: core/views/arf_view_records.php:469
-#: core/views/arflite_field_option_popup.php:784
+#: core/views/arflite_field_option_popup.php:846
 #@ arforms-form-builder
 msgid "IP Address"
 msgstr "IP 주소"
@@ -3674,7 +3705,7 @@ msgstr "이라크"
 msgid "Ireland"
 msgstr "아일랜드"
 
-#: core/controllers/arflitemaincontroller.php:2406
+#: core/controllers/arflitemaincontroller.php:2408
 #@ arforms-form-builder
 msgid "is"
 msgstr "이다"
@@ -3691,12 +3722,13 @@ msgid "Israel"
 msgstr "이스라엘"
 
 #: core/views/arflite_field_option_popup.php:446
+#: core/views/arflite_field_option_popup.php:508
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:96
 #@ arforms-form-builder
 msgid "Italian"
 msgstr "이탈리아 사람"
 
-#: core/views/arflite_field_option_popup.php:743
+#: core/views/arflite_field_option_popup.php:805
 #@ arforms-form-builder
 msgid "italic"
 msgstr "이탤릭체"
@@ -3725,6 +3757,7 @@ msgid "Japan"
 msgstr "일본"
 
 #: core/views/arflite_field_option_popup.php:447
+#: core/views/arflite_field_option_popup.php:509
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:97
 #@ arforms-form-builder
 msgid "Japanese"
@@ -3775,6 +3808,7 @@ msgid "Kiribati"
 msgstr "키리바시"
 
 #: core/views/arflite_field_option_popup.php:448
+#: core/views/arflite_field_option_popup.php:510
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:99
 #@ arforms-form-builder
 msgid "Korean"
@@ -3797,7 +3831,7 @@ msgstr "쿠웨이트"
 msgid "Kyrgyzstan"
 msgstr "키르기스스탄"
 
-#: core/views/arflite_edit.php:4990
+#: core/views/arflite_edit.php:4992
 #@ arforms-form-builder
 msgid "Label"
 msgstr "상표"
@@ -3849,8 +3883,8 @@ msgstr "문서 부족"
 msgid "Laos"
 msgstr "라오스"
 
-#: core/classes/class.arforms_form_builder.php:984
-#: core/controllers/arflitemaincontroller.php:2450
+#: core/classes/class.arforms_form_builder.php:983
+#: core/controllers/arflitemaincontroller.php:2452
 #@ arforms-form-builder
 msgid "Last"
 msgstr "마지막"
@@ -3862,6 +3896,7 @@ msgid "Latvia"
 msgstr "라트비아"
 
 #: core/views/arflite_field_option_popup.php:449
+#: core/views/arflite_field_option_popup.php:511
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:100
 #@ arforms-form-builder
 msgid "Latvian"
@@ -3901,7 +3936,7 @@ msgstr "왼쪽에서 오른쪽으로"
 msgid "Lesotho"
 msgstr "레소토"
 
-#: core/controllers/arflitemaincontroller.php:2378
+#: core/controllers/arflitemaincontroller.php:2380
 #@ arforms-form-builder
 msgid "less than"
 msgstr "이하"
@@ -3925,7 +3960,9 @@ msgid "Liechtenstein"
 msgstr "리히텐슈타인"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:62
-#: integrations/Turnstile/class.arforms_turnstile.php:576
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:291
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:406
+#: integrations/Turnstile/class.arforms_turnstile.php:578
 #@ arforms-form-builder
 msgid "Light"
 msgstr "빛"
@@ -3970,6 +4007,7 @@ msgid "Lithuania"
 msgstr "리투아니아"
 
 #: core/views/arflite_field_option_popup.php:450
+#: core/views/arflite_field_option_popup.php:512
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:101
 #@ arforms-form-builder
 msgid "Lithuanian"
@@ -4052,7 +4090,7 @@ msgstr "말리"
 msgid "Malta"
 msgstr "몰타"
 
-#: core/classes/class.arforms_form_builder.php:1785
+#: core/classes/class.arforms_form_builder.php:1786
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #: core/views/arflite_list.php:50
@@ -4150,7 +4188,7 @@ msgstr "모리타니"
 msgid "Mauritius"
 msgstr "모리셔스"
 
-#: core/views/arflite_field_option_popup.php:586
+#: core/views/arflite_field_option_popup.php:648
 #@ arforms-form-builder
 msgid "Max Date e.g. 31/12/2020"
 msgstr "최대 날짜 (예 : 31/12/2020"
@@ -4213,12 +4251,12 @@ msgstr "잘못된 제출 메시지"
 msgid "Message for minimum length"
 msgstr "최소 길이에 대한 메시지"
 
-#: core/views/arflite_field_option_popup.php:771
+#: core/views/arflite_field_option_popup.php:833
 #@ arforms-form-builder
 msgid "Message for regular expression"
 msgstr "정규식 메시지"
 
-#: core/views/arflite_field_option_popup.php:806
+#: core/views/arflite_field_option_popup.php:868
 #@ arforms-form-builder
 msgid "Message for tooltip"
 msgstr "툴팁에 대한 메시지"
@@ -4255,7 +4293,7 @@ msgstr "미크로네시아"
 msgid "Min"
 msgstr "분"
 
-#: core/views/arflite_field_option_popup.php:558
+#: core/views/arflite_field_option_popup.php:620
 #@ arforms-form-builder
 msgid "Min Date e.g. 20/01/2000"
 msgstr "최소 날짜 (예 : 2000 년 1 월 20 일"
@@ -4276,7 +4314,7 @@ msgstr "최소 옵션 선택 메시지"
 msgid "Minimum"
 msgstr "최저한의"
 
-#: core/views/arflite_field_option_popup.php:519
+#: core/views/arflite_field_option_popup.php:581
 #@ arforms-form-builder
 msgid "Minute"
 msgstr "분"
@@ -4296,7 +4334,7 @@ msgstr "의사록"
 msgid "Miss"
 msgstr "미스"
 
-#: core/views/arflite_edit.php:5116
+#: core/views/arflite_edit.php:5118
 #: core/views/arflite_list.php:190
 #@ arforms-form-builder
 msgid "Mobile View"
@@ -4319,7 +4357,7 @@ msgstr "몰도바"
 msgid "Monaco"
 msgstr "모나코"
 
-#: core/views/arflite_field_option_popup.php:528
+#: core/views/arflite_field_option_popup.php:590
 #: core/views/arflite_field_values_popup.php:79
 #@ arforms-form-builder
 msgid "Monday"
@@ -4401,7 +4439,7 @@ msgstr "MS"
 msgid "Multi Select"
 msgstr "다중 선택"
 
-#: core/controllers/arflitemaincontroller.php:2289
+#: core/controllers/arflitemaincontroller.php:2291
 #: core/helpers/arflitefieldhelper.php:343
 #: core/views/arflite_field_type_conversion.php:123
 #@ arforms-form-builder
@@ -4469,8 +4507,8 @@ msgstr "새로운 형태"
 msgid "New Zealand"
 msgstr "뉴질랜드"
 
-#: core/classes/class.arforms_form_builder.php:983
-#: core/controllers/arflitemaincontroller.php:2448
+#: core/classes/class.arforms_form_builder.php:982
+#: core/controllers/arflitemaincontroller.php:2450
 #: core/helpers/arflitefieldhelper.php:815
 #@ arforms-form-builder
 msgid "Next"
@@ -4508,11 +4546,11 @@ msgstr "니우에"
 #: core/views/arflite_field_option_popup.php:255
 #: core/views/arflite_field_option_popup.php:318
 #: core/views/arflite_field_option_popup.php:350
-#: core/views/arflite_field_option_popup.php:480
-#: core/views/arflite_field_option_popup.php:548
-#: core/views/arflite_field_option_popup.php:576
-#: core/views/arflite_field_option_popup.php:599
-#: core/views/arflite_field_option_popup.php:793
+#: core/views/arflite_field_option_popup.php:542
+#: core/views/arflite_field_option_popup.php:610
+#: core/views/arflite_field_option_popup.php:638
+#: core/views/arflite_field_option_popup.php:661
+#: core/views/arflite_field_option_popup.php:855
 #@ arforms-form-builder
 msgid "NO"
 msgstr "아니"
@@ -4594,12 +4632,12 @@ msgstr "아무도! 당신은 권한이 없습니다"
 msgid "No plugin specified."
 msgstr "지정된 플러그인이 없습니다."
 
-#: core/controllers/arflitemaincontroller.php:2838
+#: core/controllers/arflitemaincontroller.php:2840
 #@ arforms-form-builder
 msgid "No, Maybe later"
 msgstr "아니요, 나중에"
 
-#: core/views/arflite_field_option_popup.php:755
+#: core/views/arflite_field_option_popup.php:817
 #: core/views/arflite_settings_form.php:536
 #@ arforms-form-builder
 msgid "None"
@@ -4610,7 +4648,7 @@ msgstr "없음"
 msgid "Norfolk Island"
 msgstr "노 포크 섬"
 
-#: core/views/arflite_field_option_popup.php:741
+#: core/views/arflite_field_option_popup.php:803
 #@ arforms-form-builder
 msgid "normal"
 msgstr "표준"
@@ -4645,17 +4683,18 @@ msgid "Norway"
 msgstr "노르웨이"
 
 #: core/views/arflite_field_option_popup.php:451
+#: core/views/arflite_field_option_popup.php:513
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:105
 #@ arforms-form-builder
 msgid "Norwegian"
 msgstr "노르웨이 인"
 
-#: core/controllers/arflitemaincontroller.php:2380
+#: core/controllers/arflitemaincontroller.php:2382
 #@ arforms-form-builder
 msgid "not contains"
 msgstr "포함하지"
 
-#: core/controllers/arflitemaincontroller.php:2376
+#: core/controllers/arflitemaincontroller.php:2378
 #@ arforms-form-builder
 msgid "not equals"
 msgstr "같지 않다"
@@ -4679,7 +4718,7 @@ msgstr "내가 원하는 기능이 아님"
 msgid "Not Verified"
 msgstr "확인되지 않음"
 
-#: core/views/arflite_edit.php:4980
+#: core/views/arflite_edit.php:4982
 #: core/views/arflite_field_type_conversion.php:42
 #@ arforms-form-builder
 msgid "Note"
@@ -4709,7 +4748,7 @@ msgstr "참고: Gmail 메일러는 적은 수의 이메일을 보내는 사이�
 msgid "Note: This field will not show in the form. Enter the value to be hidden."
 msgstr "참고 :이 필드는 양식에 표시되지 않습니다. 숨길 값을 입력하십시오."
 
-#: core/controllers/arflitemaincontroller.php:2356
+#: core/controllers/arflitemaincontroller.php:2358
 #: core/views/arflite_autoresponder_settings.php:85
 #: core/views/arflite_autoresponder_settings.php:177
 #: core/views/arflite_autoresponder_settings.php:293
@@ -4729,7 +4768,7 @@ msgstr "선택된 것이 없습니다"
 msgid "November"
 msgstr "십일월"
 
-#: core/controllers/arflitemaincontroller.php:2294
+#: core/controllers/arflitemaincontroller.php:2296
 #: core/helpers/arflitefieldhelper.php:432
 #: core/views/arflite_field_type_conversion.php:128
 #@ arforms-form-builder
@@ -4741,7 +4780,7 @@ msgstr "번호"
 msgid "Number Elements"
 msgstr "숫자 요소"
 
-#: core/helpers/arflitefieldhelper.php:870
+#: core/helpers/arflitefieldhelper.php:871
 #@ arforms-form-builder
 msgid "Number is out of range"
 msgstr "숫자가 범위를 벗어났습니다"
@@ -4774,24 +4813,24 @@ msgstr "홀수 행"
 msgid "of"
 msgstr "의"
 
-#: core/views/arflite_field_option_popup.php:524
+#: core/views/arflite_field_option_popup.php:586
 #@ arforms-form-builder
 msgid "Off days"
 msgstr "휴무일"
 
-#: core/controllers/arflitemaincontroller.php:2947
-#: core/views/arflite_edit.php:4758
-#: core/views/arflite_edit.php:4778
-#: core/views/arflite_edit.php:4926
-#: core/views/arflite_edit.php:4942
-#: core/views/arflite_edit.php:4958
-#: core/views/arflite_edit.php:5023
-#: core/views/arflite_edit.php:5062
-#: core/views/arflite_edit.php:5086
-#: core/views/arflite_edit.php:5150
+#: core/controllers/arflitemaincontroller.php:2949
+#: core/views/arflite_edit.php:4760
+#: core/views/arflite_edit.php:4780
+#: core/views/arflite_edit.php:4928
+#: core/views/arflite_edit.php:4944
+#: core/views/arflite_edit.php:4960
+#: core/views/arflite_edit.php:5025
+#: core/views/arflite_edit.php:5064
+#: core/views/arflite_edit.php:5088
+#: core/views/arflite_edit.php:5152
 #: core/views/arflite_field_editor.php:1466
 #: core/views/arflite_field_editor.php:1483
-#: core/views/arflite_field_option_popup.php:817
+#: core/views/arflite_field_option_popup.php:879
 #: core/views/arflite_field_values_popup.php:340
 #: core/views/arflite_new_field_array.php:122
 #: core/views/arflite_new_field_array.php:123
@@ -4819,13 +4858,15 @@ msgstr "휴무일"
 #: core/views/arflite_new_field_array.php:149
 #: core/views/arflite_new_field_array.php:150
 #: core/views/arflite_new_field_array.php:151
-#: integrations/Turnstile/class.arforms_turnstile.php:394
-#: integrations/Turnstile/class.arforms_turnstile.php:447
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:757
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:830
+#: integrations/Turnstile/class.arforms_turnstile.php:395
+#: integrations/Turnstile/class.arforms_turnstile.php:449
 #@ arforms-form-builder
 msgid "OK"
 msgstr "확인"
 
-#: core/controllers/arflitemaincontroller.php:2837
+#: core/controllers/arflitemaincontroller.php:2839
 #@ arforms-form-builder
 msgid "OK, you deserve it"
 msgstr "좋아, 넌 그럴 자격이있어"
@@ -4850,17 +4891,17 @@ msgstr "오만"
 msgid "On Load Animation"
 msgstr "로드 애니메이션"
 
-#: core/views/arflite_field_option_popup.php:756
+#: core/views/arflite_field_option_popup.php:818
 #@ arforms-form-builder
 msgid "Only Alphabets"
 msgstr "알파벳 만"
 
-#: core/views/arflite_field_option_popup.php:758
+#: core/views/arflite_field_option_popup.php:820
 #@ arforms-form-builder
 msgid "Only Alphabets & Numbers"
 msgstr "알파벳과 숫자 만"
 
-#: core/views/arflite_field_option_popup.php:757
+#: core/views/arflite_field_option_popup.php:819
 #@ arforms-form-builder
 msgid "Only Numbers"
 msgstr "숫자 만"
@@ -4870,7 +4911,7 @@ msgstr "숫자 만"
 msgid "Opt-ins"
 msgstr "옵트 인"
 
-#: core/views/arflite_edit.php:4933
+#: core/views/arflite_edit.php:4935
 #@ arforms-form-builder
 msgid "Opt-ins (email marketing) configuration"
 msgstr "옵트 인 (이메일 마케팅) 구성"
@@ -4924,7 +4965,7 @@ msgstr "다른 설정"
 msgid "Overall Steps"
 msgstr "전체 단계"
 
-#: core/controllers/arflitemaincontroller.php:2420
+#: core/controllers/arflitemaincontroller.php:2422
 #@ arforms-form-builder
 msgid "Page"
 msgstr "페이지"
@@ -4997,13 +5038,13 @@ msgstr "파푸아 뉴기니"
 msgid "Paraguay"
 msgstr "파라과이"
 
-#: core/classes/class.arforms_form_builder.php:1001
-#: core/classes/class.arforms_form_builder.php:1007
+#: core/classes/class.arforms_form_builder.php:1000
+#: core/classes/class.arforms_form_builder.php:1006
 #@ arforms-form-builder
 msgid "Partial Filled Form Entries"
 msgstr "부분적으로 채워진 양식 항목"
 
-#: core/controllers/arflitemaincontroller.php:2440
+#: core/controllers/arflitemaincontroller.php:2442
 #@ arforms-form-builder
 msgid "Pass the validation with default value."
 msgstr "기본값으로 유효성 검사를 전달하십시오."
@@ -5046,12 +5087,12 @@ msgstr "전화"
 msgid "Phone Elements"
 msgstr "전화 요소"
 
-#: core/helpers/arflitefieldhelper.php:872
+#: core/helpers/arflitefieldhelper.php:873
 #@ arforms-form-builder
 msgid "Phone is invalid"
 msgstr "전화가 잘못되었습니다"
 
-#: core/controllers/arflitemaincontroller.php:2295
+#: core/controllers/arflitemaincontroller.php:2297
 #: core/helpers/arflitefieldhelper.php:436
 #@ arforms-form-builder
 msgid "Phone Number"
@@ -5087,13 +5128,13 @@ msgstr "자리 표시 자 텍스트"
 msgid "Plain Text"
 msgstr "일반 텍스트"
 
-#: core/controllers/arflitemaincontroller.php:2381
+#: core/controllers/arflitemaincontroller.php:2383
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:634
 #@ arforms-form-builder
 msgid "Please add one or more rules"
 msgstr "하나 이상의 규칙을 추가하십시오"
 
-#: core/controllers/arflitemaincontroller.php:2469
+#: core/controllers/arflitemaincontroller.php:2471
 #@ arforms-form-builder
 msgid "Please do needful"
 msgstr "필요하세요"
@@ -5113,13 +5154,13 @@ msgstr "클라이언트 비밀번호를 입력하세요"
 msgid "Please enter content"
 msgstr "내용을 입력하십시오"
 
-#: core/controllers/arflitemaincontroller.php:2336
+#: core/controllers/arflitemaincontroller.php:2338
 #: core/views/arflite_new-selection-modal.php:73
 #@ arforms-form-builder
 msgid "Please enter form title"
 msgstr "양식 제목을 입력하십시오"
 
-#: core/controllers/arflitemaincontroller.php:2324
+#: core/controllers/arflitemaincontroller.php:2326
 #@ arforms-form-builder
 msgid "Please Enter preset title"
 msgstr "사전 설정 제목을 입력하십시오"
@@ -5131,7 +5172,7 @@ msgid "Please insert a message for your auto responder."
 msgstr "자동 응답기에 대한 메시지를 입력하십시오."
 
 #: core/views/arflite_conditional_redirect_to_url.php:32
-#: core/views/arflite_edit.php:4863
+#: core/views/arflite_edit.php:4865
 #@ arforms-form-builder
 msgid "Please insert url with http:// or https://."
 msgstr "http : // 또는 https : //로 URL을 삽입하십시오."
@@ -5158,7 +5199,7 @@ msgstr "단축 코드를 생성하려면 양식을 저장하십시오."
 msgid "Please select a CSV file"
 msgstr "CSV 파일을 선택하십시오"
 
-#: core/controllers/arflitemaincontroller.php:2496
+#: core/controllers/arflitemaincontroller.php:2498
 #@ arforms-form-builder
 msgid "Please select a custom display"
 msgstr "맞춤형 디스플레이를 선택하십시오"
@@ -5169,7 +5210,7 @@ msgid "Please select a file to process"
 msgstr "처리 할 파일을 선택하십시오"
 
 #: core/classes/class.arforms_beaver_builder.php:31
-#: core/controllers/arflitemaincontroller.php:2495
+#: core/controllers/arflitemaincontroller.php:2497
 #: core/views/arf_view_records.php:396
 #: integrations/Divi/modules/arforms-divi-module/arforms-divi-module.php:29
 #: integrations/Payments/PayPal/core/list_orders_3.0.php:111
@@ -5189,7 +5230,7 @@ msgstr "유효한 양식을 선택하십시오"
 msgid "Please select any Sample."
 msgstr "샘플을 선택하십시오."
 
-#: core/controllers/arflitemaincontroller.php:2319
+#: core/controllers/arflitemaincontroller.php:2321
 #@ arforms-form-builder
 msgid "Please Select Field"
 msgstr "필드를 선택하십시오"
@@ -5201,7 +5242,7 @@ msgid "Please Select Form"
 msgstr "양식을 선택하십시오"
 
 #: core/controllers/arflite_elm_widgets/arflite_element_add.php:68
-#: core/controllers/arflitemaincontroller.php:2348
+#: core/controllers/arflitemaincontroller.php:2350
 #@ arforms-form-builder
 msgid "Please select form"
 msgstr "양식을 선택하십시오"
@@ -5212,8 +5253,8 @@ msgstr "양식을 선택하십시오"
 msgid "Please select image file only."
 msgstr "이미지 파일 만 선택하십시오."
 
-#: core/controllers/arflitemaincontroller.php:2316
-#: core/controllers/arflitemaincontroller.php:2354
+#: core/controllers/arflitemaincontroller.php:2318
+#: core/controllers/arflitemaincontroller.php:2356
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:633
 #@ arforms-form-builder
 msgid "Please select one or more record to perform action"
@@ -5247,7 +5288,7 @@ msgstr "하나 이상의 레코드를 선택하십시오."
 msgid "Please select options to send an automatic response to user."
 msgstr "사용자에게 자동 응답을 보내려면 옵션을 선택하십시오."
 
-#: core/controllers/arflitemaincontroller.php:2326
+#: core/controllers/arflitemaincontroller.php:2328
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:632
 #@ arforms-form-builder
 msgid "Please select valid action"
@@ -5264,7 +5305,7 @@ msgstr "유효한 조치를 선택하십시오."
 #: core/classes/class.arforms_block_widget.php:102
 #: core/controllers/arfliteformcontroller.php:7143
 #: core/controllers/arfliteformcontroller.php:7155
-#: core/controllers/arflitemaincontroller.php:1971
+#: core/controllers/arflitemaincontroller.php:1973
 #: core/views/arflite_form_preview.php:10
 #@ arforms-form-builder
 msgid "Please select valid form"
@@ -5285,24 +5326,24 @@ msgstr "파일의 유효성을 검사하려면 확장자를 설정하십시오."
 msgid "Please setup site key and private key in Global Settings otherwise recaptcha will not appear"
 msgstr "전역 설정에서 사이트 키와 개인 키를 설정하십시오. 그렇지 않으면 recaptcha가 나타나지 않습니다."
 
-#: core/controllers/arflitemaincontroller.php:2194
+#: core/controllers/arflitemaincontroller.php:2196
 #: core/controllers/arfliteprocontroller.php:300
 #@ arforms-form-builder
 msgid "Please specify"
 msgstr "명시 해주세요"
 
-#: core/controllers/arflitemaincontroller.php:2193
+#: core/controllers/arflitemaincontroller.php:2195
 #: core/controllers/arfliteprocontroller.php:299
 #@ arforms-form-builder
 msgid "Please specify experience"
 msgstr "경험을 지정하십시오"
 
-#: core/controllers/arflitemaincontroller.php:2344
+#: core/controllers/arflitemaincontroller.php:2346
 #@ arforms-form-builder
 msgid "Please try again"
 msgstr "다시 시도하십시오"
 
-#: core/controllers/arflitemaincontroller.php:2322
+#: core/controllers/arflitemaincontroller.php:2324
 #@ arforms-form-builder
 msgid "Please upload csv file"
 msgstr "CSV 파일을 업로드하십시오"
@@ -5327,7 +5368,7 @@ msgstr "탭으로 구분 된 CSV 파일을 업로드하십시오."
 msgid "Please wait while you are redirected."
 msgstr "리디렉션되는 동안 기다리십시오."
 
-#: core/controllers/arflitemaincontroller.php:2395
+#: core/controllers/arflitemaincontroller.php:2397
 #@ arforms-form-builder
 msgid "Please, Select appropriate option"
 msgstr "적절한 옵션을 선택하십시오"
@@ -5339,6 +5380,7 @@ msgid "Poland"
 msgstr "폴란드"
 
 #: core/views/arflite_field_option_popup.php:452
+#: core/views/arflite_field_option_popup.php:514
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:107
 #@ arforms-form-builder
 msgid "Polish"
@@ -5366,6 +5408,7 @@ msgid "Portuguese (Portugal)"
 msgstr "포르투갈어 (포르투갈)"
 
 #: core/views/arflite_field_option_popup.php:453
+#: core/views/arflite_field_option_popup.php:515
 #@ arforms-form-builder
 msgid "Portuguese/Brazilian"
 msgstr "포르투갈어 / 브라질"
@@ -5404,8 +5447,8 @@ msgstr "사전 제목"
 msgid "Preview"
 msgstr "시사"
 
-#: core/classes/class.arforms_form_builder.php:986
-#: core/controllers/arflitemaincontroller.php:2454
+#: core/classes/class.arforms_form_builder.php:985
+#: core/controllers/arflitemaincontroller.php:2456
 #: core/helpers/arflitefieldhelper.php:814
 #@ arforms-form-builder
 msgid "Previous"
@@ -5416,7 +5459,7 @@ msgstr "이전"
 msgid "Previous Entry"
 msgstr "이전 항목"
 
-#: core/controllers/arflitemaincontroller.php:2929
+#: core/controllers/arflitemaincontroller.php:2931
 #: core/views/arflite_edit.php:932
 #: core/views/arflite_edit.php:1010
 #@ arforms-form-builder
@@ -5440,7 +5483,7 @@ msgstr "푸에르토 리코"
 msgid "Qatar"
 msgstr "카타르"
 
-#: core/controllers/arflitemaincontroller.php:2291
+#: core/controllers/arflitemaincontroller.php:2293
 #@ arforms-form-builder
 msgid "Radio"
 msgstr "라디오"
@@ -5515,7 +5558,7 @@ msgstr "레코드를 삭제할 수 없습니다"
 msgid "Record is deleted successfully."
 msgstr "레코드가 성공적으로 삭제되었습니다."
 
-#: core/views/arflite_edit.php:4831
+#: core/views/arflite_edit.php:4833
 #: integrations/Payments/PayPal/core/edit_3.0.php:504
 #: integrations/Payments/PayPal/core/edit_3.0.php:519
 #@ arforms-form-builder
@@ -5547,12 +5590,12 @@ msgstr "추천자 URL"
 msgid "Refresh List"
 msgstr "새로 고침 목록"
 
-#: core/views/arflite_field_option_popup.php:777
+#: core/views/arflite_field_option_popup.php:839
 #@ arforms-form-builder
 msgid "Regular expression"
 msgstr "정규식"
 
-#: core/views/arflite_field_option_popup.php:759
+#: core/views/arflite_field_option_popup.php:821
 #@ arforms-form-builder
 msgid "Regular Expression (custom)"
 msgstr "정규 표현식(커스텀)"
@@ -5568,7 +5611,7 @@ msgid "Repeater"
 msgstr "연발총"
 
 #: core/views/arflite_edit.php:4267
-#: core/views/arflite_edit.php:4639
+#: core/views/arflite_edit.php:4640
 #@ arforms-form-builder
 msgid "Reply to E-mail"
 msgstr "이메일 답장"
@@ -5583,7 +5626,7 @@ msgstr "이메일에 회신"
 msgid "Required"
 msgstr "필수"
 
-#: core/controllers/arflitemaincontroller.php:2332
+#: core/controllers/arflitemaincontroller.php:2334
 #: core/views/arflite_field_values_popup.php:184
 #@ arforms-form-builder
 msgid "Reset"
@@ -5633,6 +5676,7 @@ msgid "Romania"
 msgstr "루마니아"
 
 #: core/views/arflite_field_option_popup.php:454
+#: core/views/arflite_field_option_popup.php:516
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:111
 #@ arforms-form-builder
 msgid "Romanian"
@@ -5661,6 +5705,7 @@ msgid "Russia"
 msgstr "러시아"
 
 #: core/views/arflite_field_option_popup.php:455
+#: core/views/arflite_field_option_popup.php:517
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:112
 #@ arforms-form-builder
 msgid "Russian"
@@ -5721,7 +5766,7 @@ msgstr "사모아"
 msgid "Sample Forms"
 msgstr "샘플 양식"
 
-#: core/views/arflite_field_option_popup.php:778
+#: core/views/arflite_field_option_popup.php:840
 #@ arforms-form-builder
 msgid "Sample RegExp"
 msgstr "RegExp 샘플"
@@ -5748,7 +5793,7 @@ msgstr "만족감"
 msgid "Satisfied"
 msgstr "만족"
 
-#: core/views/arflite_field_option_popup.php:533
+#: core/views/arflite_field_option_popup.php:595
 #: core/views/arflite_field_values_popup.php:84
 #@ arforms-form-builder
 msgid "Saturday"
@@ -5824,7 +5869,8 @@ msgid "seconds"
 msgstr "초"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:147
-#: integrations/Turnstile/class.arforms_turnstile.php:608
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:382
+#: integrations/Turnstile/class.arforms_turnstile.php:610
 #@ arforms-form-builder
 msgid "Secret Key"
 msgstr "비밀 키"
@@ -5866,7 +5912,7 @@ msgstr "1을 선택하십시오"
 msgid "Select a form to insert into page"
 msgstr "페이지에 삽입 할 양식을 선택하십시오."
 
-#: core/controllers/arflitemaincontroller.php:2393
+#: core/controllers/arflitemaincontroller.php:2395
 #@ arforms-form-builder
 msgid "Select atleast one flag"
 msgstr "플래그를 하나 이상 선택하십시오."
@@ -5883,8 +5929,8 @@ msgstr "Google 글꼴의 문자 세트를 선택하십시오."
 msgid "Select Date"
 msgstr "날짜 선택"
 
-#: core/controllers/arflitemaincontroller.php:2343
-#: core/controllers/arflitemaincontroller.php:2404
+#: core/controllers/arflitemaincontroller.php:2345
+#: core/controllers/arflitemaincontroller.php:2406
 #: core/views/arflite_edit.php:4103
 #: core/views/arflite_field_type_conversion.php:51
 #: core/views/arflite_field_type_conversion.php:57
@@ -5935,7 +5981,7 @@ msgstr "양식을 선택하십시오"
 msgid "Select form"
 msgstr "양식을 선택하십시오"
 
-#: core/views/arflite_edit.php:4881
+#: core/views/arflite_edit.php:4883
 #@ arforms-form-builder
 msgid "Select Page"
 msgstr "페이지 선택"
@@ -5956,7 +6002,7 @@ msgstr "테마 선택"
 msgid "Semicolon ( ; )"
 msgstr "세미콜론 (;)"
 
-#: core/views/arflite_edit.php:4431
+#: core/views/arflite_edit.php:4432
 #@ arforms-form-builder
 msgid "Send an automatic response to admin user after form submission."
 msgstr "양식 제출 후 관리자에게 자동 응답을 보냅니다."
@@ -5982,7 +6028,7 @@ msgstr "이메일 보내기 SMTP"
 msgid "Send Form Data internaly to Custom URL"
 msgstr "내부적으로 양식 데이터를 사용자 정의 URL로 보내기"
 
-#: core/views/arflite_edit.php:4873
+#: core/views/arflite_edit.php:4875
 #@ arforms-form-builder
 msgid "Send form data to redirected page/post"
 msgstr "리디렉션 된 페이지 / 게시물에 양식 데이터 보내기"
@@ -6021,12 +6067,14 @@ msgid "Serbia and Montenegro"
 msgstr "세르비아와 몬테네그로"
 
 #: core/views/arflite_field_option_popup.php:456
+#: core/views/arflite_field_option_popup.php:518
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:113
 #@ arforms-form-builder
 msgid "Serbian"
 msgstr "세르비아 사람"
 
 #: core/views/arflite_field_option_popup.php:457
+#: core/views/arflite_field_option_popup.php:519
 #@ arforms-form-builder
 msgid "Serbian Cyrillic"
 msgstr "세르비아 키릴 어"
@@ -6036,28 +6084,28 @@ msgstr "세르비아 키릴 어"
 msgid "Set conditional redirect URL"
 msgstr "조건부 리디렉션 URL 설정"
 
-#: core/views/arflite_field_option_popup.php:547
-#: core/views/arflite_field_option_popup.php:575
+#: core/views/arflite_field_option_popup.php:609
+#: core/views/arflite_field_option_popup.php:637
 #@ arforms-form-builder
 msgid "Set Current Date"
 msgstr "현재 날짜 설정"
 
-#: core/views/arflite_field_option_popup.php:598
+#: core/views/arflite_field_option_popup.php:660
 #@ arforms-form-builder
 msgid "Set Current Date:"
 msgstr "현재 날짜 설정 :"
 
-#: core/views/arflite_field_option_popup.php:627
+#: core/views/arflite_field_option_popup.php:689
 #@ arforms-form-builder
 msgid "Set Date e.g."
 msgstr "날짜 설정 예:"
 
-#: core/views/arflite_field_option_popup.php:593
+#: core/views/arflite_field_option_popup.php:655
 #@ arforms-form-builder
 msgid "Set default date"
 msgstr "기본 날짜 설정"
 
-#: core/views/arflite_edit.php:4860
+#: core/views/arflite_edit.php:4862
 #@ arforms-form-builder
 msgid "Set Static Redirect URL"
 msgstr "정적 리디렉션 URL 설정"
@@ -6083,7 +6131,7 @@ msgstr "투명 배경 설정"
 msgid "Set up is too difficult"
 msgstr "설정이 너무 어렵다"
 
-#: core/controllers/arflitemaincontroller.php:2387
+#: core/controllers/arflitemaincontroller.php:2389
 #@ arforms-form-builder
 msgid "Set Value of"
 msgstr "설정 값"
@@ -6129,7 +6177,7 @@ msgstr "그림자 옵션"
 msgid "Shortcodes"
 msgstr "단축"
 
-#: core/controllers/arflitemaincontroller.php:2383
+#: core/controllers/arflitemaincontroller.php:2385
 #: core/views/arf_view_records.php:417
 #: core/views/arflite_list.php:144
 #: integrations/Payments/PayPal/core/list_forms_3.0.php:164
@@ -6151,7 +6199,7 @@ msgstr "열 표시 / 숨기기"
 msgid "Show confirmation (Summary)"
 msgstr "확인 표시 (요약)"
 
-#: core/views/arflite_field_option_popup.php:477
+#: core/views/arflite_field_option_popup.php:539
 #@ arforms-form-builder
 msgid "Show time picker"
 msgstr "시간 선택기 표시"
@@ -6187,7 +6235,7 @@ msgstr "성공적으로 로그아웃되었습니다."
 msgid "Singapore"
 msgstr "싱가포르"
 
-#: core/controllers/arflitemaincontroller.php:2288
+#: core/controllers/arflitemaincontroller.php:2290
 #: core/helpers/arflitefieldhelper.php:339
 #: core/views/arflite_field_type_conversion.php:122
 #@ arforms-form-builder
@@ -6200,7 +6248,8 @@ msgid "Sint Maarten"
 msgstr "신트 마르 턴"
 
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:139
-#: integrations/Turnstile/class.arforms_turnstile.php:600
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:371
+#: integrations/Turnstile/class.arforms_turnstile.php:602
 #@ arforms-form-builder
 msgid "Site Key"
 msgstr "사이트 키"
@@ -6237,6 +6286,7 @@ msgid "Slider Track"
 msgstr "슬라이더 트랙"
 
 #: core/views/arflite_field_option_popup.php:458
+#: core/views/arflite_field_option_popup.php:520
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:114
 #@ arforms-form-builder
 msgid "Slovak"
@@ -6255,6 +6305,7 @@ msgid "Slovenia"
 msgstr "슬로베니아"
 
 #: core/views/arflite_field_option_popup.php:459
+#: core/views/arflite_field_option_popup.php:521
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:115
 #@ arforms-form-builder
 msgid "Slovenian"
@@ -6341,7 +6392,7 @@ msgid "Sorry, this file type is not permitted for security reasons"
 msgstr "이 파일 형식은 보안상의 이유로 허용되지 않습니다."
 
 #: core/controllers/arflitemaincontroller.php:438
-#: core/controllers/arflitemaincontroller.php:2982
+#: core/controllers/arflitemaincontroller.php:2984
 #: core/controllers/arflitesettingcontroller.php:608
 #@ arforms-form-builder
 msgid "Sorry, you are not allowed to install plugins on this site."
@@ -6364,8 +6415,8 @@ msgstr "죄송합니다.이 작업을 수행 할 수있는 권한이 없습니�
 #: core/classes/class.arforms_general_settings.php:86
 #: core/classes/class.arforms_general_settings.php:201
 #: core/classes/class.arforms_import_export.php:937
-#: core/controllers/arflitemaincontroller.php:2456
-#: core/controllers/arflitemaincontroller.php:3022
+#: core/controllers/arflitemaincontroller.php:2458
+#: core/controllers/arflitemaincontroller.php:3024
 #: core/controllers/arfliterecordcontroller.php:1622
 #: core/controllers/arfliterecordcontroller.php:1660
 #: core/controllers/arfliterecordcontroller.php:1888
@@ -6401,9 +6452,9 @@ msgstr "보안상의 이유로 요청을 처리하지 못했습니다."
 #: core/classes/class.arforms_divi_module.php:15
 #: core/classes/class.arforms_general_settings.php:192
 #: core/classes/class.arforms_import_export.php:943
-#: core/controllers/arflitemaincontroller.php:2458
-#: core/controllers/arflitemaincontroller.php:3041
-#: core/controllers/arflitemaincontroller.php:3061
+#: core/controllers/arflitemaincontroller.php:2460
+#: core/controllers/arflitemaincontroller.php:3043
+#: core/controllers/arflitemaincontroller.php:3063
 #: core/controllers/arfliterecordcontroller.php:1613
 #: core/controllers/arfliterecordcontroller.php:1874
 #: core/controllers/arfliterecordcontroller.php:2368
@@ -6454,6 +6505,7 @@ msgid "Spam Detected"
 msgstr "스팸 감지"
 
 #: core/views/arflite_field_option_popup.php:460
+#: core/views/arflite_field_option_popup.php:522
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:116
 #@ arforms-form-builder
 msgid "Spanish"
@@ -6548,7 +6600,7 @@ msgid "Style Options"
 msgstr "스타일 옵션"
 
 #: core/views/arflite_edit.php:4156
-#: core/views/arflite_edit.php:4474
+#: core/views/arflite_edit.php:4475
 #@ arforms-form-builder
 msgid "Subject E-mail"
 msgstr "제목 이메일"
@@ -6559,7 +6611,7 @@ msgid "Submission Failed Message"
 msgstr "제출 실패 메시지"
 
 #: core/views/arflite_edit.php:774
-#: core/views/arflite_edit.php:4787
+#: core/views/arflite_edit.php:4789
 #@ arforms-form-builder
 msgid "Submit Action"
 msgstr "조치 제출"
@@ -6585,7 +6637,7 @@ msgid "Submit Font Settings"
 msgstr "글꼴 설정 제출"
 
 #: core/views/arflite_edit.php:808
-#: core/views/arflite_edit.php:5031
+#: core/views/arflite_edit.php:5033
 #@ arforms-form-builder
 msgid "Submit Tracking Script"
 msgstr "추적 스크립트 제출"
@@ -6631,7 +6683,7 @@ msgstr "성공 메시지 색상"
 msgid "Success/Error Message Position"
 msgstr "성공/오류 메시지 위치"
 
-#: core/controllers/arflitemaincontroller.php:2346
+#: core/controllers/arflitemaincontroller.php:2348
 #@ arforms-form-builder
 msgid "Successfully removed file"
 msgstr "파일을 성공적으로 제거했습니다"
@@ -6647,7 +6699,7 @@ msgstr "수단"
 msgid "Suffix"
 msgstr "접미사"
 
-#: core/views/arflite_field_option_popup.php:527
+#: core/views/arflite_field_option_popup.php:589
 #: core/views/arflite_field_values_popup.php:78
 #@ arforms-form-builder
 msgid "Sunday"
@@ -6677,6 +6729,7 @@ msgid "Sweden"
 msgstr "스웨덴"
 
 #: core/views/arflite_field_option_popup.php:461
+#: core/views/arflite_field_option_popup.php:523
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:118
 #@ arforms-form-builder
 msgid "Swedish"
@@ -6700,7 +6753,7 @@ msgstr "스위스"
 msgid "Syria"
 msgstr "시리아"
 
-#: core/views/arflite_edit.php:5115
+#: core/views/arflite_edit.php:5117
 #: core/views/arflite_list.php:189
 #@ arforms-form-builder
 msgid "Tablet View"
@@ -6719,6 +6772,7 @@ msgid "Tajikistan"
 msgstr "타지키스탄"
 
 #: core/views/arflite_field_option_popup.php:462
+#: core/views/arflite_field_option_popup.php:524
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:119
 #@ arforms-form-builder
 msgid "Tamil"
@@ -6785,6 +6839,7 @@ msgid "Textbox Elements"
 msgstr "텍스트 상자 요소"
 
 #: core/views/arflite_field_option_popup.php:463
+#: core/views/arflite_field_option_popup.php:525
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:121
 #@ arforms-form-builder
 msgid "Thai"
@@ -6814,8 +6869,8 @@ msgstr "자동 응답기의 올바른 회신 이메일 주소가 아닙니다."
 msgid "That template cannot be edited"
 msgstr "해당 템플릿을 편집 할 수 없습니다"
 
-#: core/views/arflite_field_option_popup.php:540
-#: core/views/arflite_field_option_popup.php:568
+#: core/views/arflite_field_option_popup.php:602
+#: core/views/arflite_field_option_popup.php:630
 #@ arforms-form-builder
 msgid "the above shortcode will set minimum date to 10 year before current date. ( possible values for unit are Y - year, M - month, and D - days )."
 msgstr "위의 단축 코드는 최소 날짜를 현재 날짜보다 10년 앞선 날짜로 설정합니다. ( 가능한 단위 값은 Y - 년, M - 월 및 D - 일입니다 )."
@@ -6830,27 +6885,27 @@ msgstr "악성 코드가 포함되어있어 보안상의 이유로 파일을 업
 msgid "The file could not be uploaded due to security reasons."
 msgstr "보안상의 이유로 파일을 업로드 할 수 없습니다."
 
-#: core/helpers/arflitefieldhelper.php:866
+#: core/helpers/arflitefieldhelper.php:867
 #@ arforms-form-builder
 msgid "The reCAPTCHA was not entered correctly"
 msgstr "reCAPTCHA가 올바르게 입력되지 않았습니다"
 
-#: core/models/arflitenotifymodel.php:333
+#: core/models/arflitenotifymodel.php:337
 #@ arforms-form-builder
 msgid "The SMTP debugging output is shown below:"
 msgstr "SMTP 디버깅 출력은 다음과 같습니다."
 
-#: core/controllers/arflitemaincontroller.php:2402
+#: core/controllers/arflitemaincontroller.php:2404
 #@ arforms-form-builder
 msgid "THEN"
 msgstr "그때"
 
-#: core/controllers/arflitemaincontroller.php:2408
+#: core/controllers/arflitemaincontroller.php:2410
 #@ arforms-form-builder
 msgid "Then Mail Send To"
 msgstr "그런 다음 메일 보내기"
 
-#: core/controllers/arflitemaincontroller.php:2410
+#: core/controllers/arflitemaincontroller.php:2412
 #@ arforms-form-builder
 msgid "Then Redirect to"
 msgstr "그런 다음 리디렉션"
@@ -6865,25 +6920,25 @@ msgstr "해당 항목을 삭제하는 중에 오류가 발생했습니다"
 msgid "There is an issue while uploading a file. Please try again"
 msgstr "파일을 업로드하는 동안 문제가 있습니다. 다시 시도하십시오"
 
-#: core/classes/class.arforms_form_builder.php:951
-#: core/controllers/arflitemaincontroller.php:2446
+#: core/classes/class.arforms_form_builder.php:950
+#: core/controllers/arflitemaincontroller.php:2448
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:631
 #@ arforms-form-builder
 msgid "There is no any form found"
 msgstr "양식이 없습니다."
 
-#: core/classes/class.arforms_form_builder.php:982
-#: core/controllers/arflitemaincontroller.php:2434
+#: core/classes/class.arforms_form_builder.php:981
+#: core/controllers/arflitemaincontroller.php:2436
 #@ arforms-form-builder
 msgid "There is no entry found"
 msgstr "항목이 없습니다"
 
-#: core/controllers/arflitemaincontroller.php:2428
+#: core/controllers/arflitemaincontroller.php:2430
 #@ arforms-form-builder
 msgid "There is something error while saving form"
 msgstr "양식을 저장하는 동안 오류가 발생했습니다"
 
-#: core/views/arflite_edit.php:4980
+#: core/views/arflite_edit.php:4982
 #@ arforms-form-builder
 msgid "These fields will not shown in the form. Enter the value to be hidden"
 msgstr "이 필드는 양식에 표시되지 않습니다. 숨길 값을 입력하십시오"
@@ -6894,26 +6949,26 @@ msgid "This feature is only recommended when you have big amount of entries in t
 msgstr "이 기능은 양식에 많은 양의 항목이 있고 해당 필드의 항목 데이터를 잃지 않고 특정 필드 유형을 변경하려는 경우에만 권장됩니다."
 
 #: core/controllers/arfliteformcontroller.php:3343
-#: core/controllers/arflitemaincontroller.php:2391
+#: core/controllers/arflitemaincontroller.php:2393
 #: core/controllers/arfliterecordcontroller.php:531
 #: core/controllers/arfliterecordcontroller.php:597
 #: core/controllers/arfliterecordcontroller.php:2966
 #: core/views/arflite_edit.php:4347
-#: core/views/arflite_edit.php:4735
-#: core/views/arflite_edit.php:4854
-#: core/views/arflite_edit.php:4862
-#: core/views/arflite_edit.php:4883
-#: core/views/arflite_edit.php:5051
+#: core/views/arflite_edit.php:4736
+#: core/views/arflite_edit.php:4856
+#: core/views/arflite_edit.php:4864
+#: core/views/arflite_edit.php:4885
+#: core/views/arflite_edit.php:5053
 #@ arforms-form-builder
 msgid "This field cannot be blank"
 msgstr "이 필드는 비워 둘 수 없습니다"
 
-#: core/controllers/arflitemaincontroller.php:2339
-#: core/controllers/arflitemaincontroller.php:2372
+#: core/controllers/arflitemaincontroller.php:2341
+#: core/controllers/arflitemaincontroller.php:2374
 #: core/helpers/arflitefieldhelper.php:800
-#: core/helpers/arflitefieldhelper.php:908
-#: core/helpers/arflitefieldhelper.php:2555
-#: core/helpers/arflitefieldhelper.php:2558
+#: core/helpers/arflitefieldhelper.php:909
+#: core/helpers/arflitefieldhelper.php:2557
+#: core/helpers/arflitefieldhelper.php:2560
 #: core/models/arflitetemplate.php:1273
 #: core/models/arflitetemplate.php:1289
 #: core/models/arflitetemplate.php:1305
@@ -6947,6 +7002,7 @@ msgstr "이 필드는 비워 둘 수 없습니다"
 #: core/views/arflite_settings_form.php:251
 #: core/views/arflite_settings_form.php:260
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:249
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:431
 #: integrations/Payments/PayPal/core/edit_3.0.php:251
 #: integrations/Payments/PayPal/core/edit_3.0.php:283
 #: integrations/Payments/PayPal/core/edit_3.0.php:331
@@ -6960,7 +7016,7 @@ msgstr "이 필드는 비워 둘 수 없습니다"
 msgid "This field cannot be blank."
 msgstr "이 필드는 비워 둘 수 없습니다."
 
-#: core/helpers/arflitefieldhelper.php:910
+#: core/helpers/arflitefieldhelper.php:911
 #@ arforms-form-builder
 msgid "This field is invalid"
 msgstr "이 필드는 유효하지 않습니다"
@@ -6970,105 +7026,105 @@ msgstr "이 필드는 유효하지 않습니다"
 msgid "This form is already deleted."
 msgstr "이 양식은 이미 삭제되었습니다."
 
-#: core/views/arflite_edit.php:4985
+#: core/views/arflite_edit.php:4987
 #@ arforms-form-builder
 msgid "This shortcode replace the value with current Date."
 msgstr "이 단축 코드는 값을 현재 날짜로 바꿉니다."
 
-#: core/views/arflite_edit.php:4984
+#: core/views/arflite_edit.php:4986
 #@ arforms-form-builder
 msgid "This shortcode replace the value with currently logged-in User Email."
 msgstr "이 단축 코드는 값을 현재 로그인 한 사용자 이메일로 바꿉니다."
 
-#: core/views/arflite_edit.php:4982
+#: core/views/arflite_edit.php:4984
 #@ arforms-form-builder
 msgid "This shortcode replace the value with currently logged-in User ID."
 msgstr "이 단축 코드는 값을 현재 로그인 한 사용자 ID로 바꿉니다."
 
-#: core/views/arflite_edit.php:4983
+#: core/views/arflite_edit.php:4985
 #@ arforms-form-builder
 msgid "This shortcode replace the value with currently logged-in User Name."
 msgstr "이 단축 코드는 값을 현재 로그인 한 사용자 이름으로 바꿉니다."
 
-#: core/views/arflite_edit.php:4386
-#: core/views/arflite_edit.php:4746
+#: core/views/arflite_edit.php:4387
+#: core/views/arflite_edit.php:4748
 #@ arforms-form-builder
 msgid "This will be replaced with current form's page URL."
 msgstr "현재 양식의 페이지 URL로 바뀝니다."
 
-#: core/views/arflite_edit.php:4383
-#: core/views/arflite_edit.php:4743
+#: core/views/arflite_edit.php:4384
+#: core/views/arflite_edit.php:4745
 #@ arforms-form-builder
 msgid "This will be replaced with current login ID."
 msgstr "현재 로그인 ID로 바뀝니다."
 
-#: core/views/arflite_edit.php:4385
-#: core/views/arflite_edit.php:4745
+#: core/views/arflite_edit.php:4386
+#: core/views/arflite_edit.php:4747
 #@ arforms-form-builder
 msgid "This will be replaced with current login user email."
 msgstr "현재 로그인 사용자 이메일로 바뀝니다."
 
-#: core/views/arflite_edit.php:4384
-#: core/views/arflite_edit.php:4744
+#: core/views/arflite_edit.php:4385
+#: core/views/arflite_edit.php:4746
 #@ arforms-form-builder
 msgid "This will be replaced with current login user name."
 msgstr "현재 로그인 사용자 이름으로 바뀝니다."
 
-#: core/views/arflite_edit.php:4379
-#: core/views/arflite_edit.php:4739
+#: core/views/arflite_edit.php:4380
+#: core/views/arflite_edit.php:4741
 #@ arforms-form-builder
 msgid "This will be replaced with entry added time."
 msgstr "이것은 항목 추가 시간으로 대체됩니다."
 
-#: core/views/arflite_edit.php:4382
-#: core/views/arflite_edit.php:4742
+#: core/views/arflite_edit.php:4383
+#: core/views/arflite_edit.php:4744
 #@ arforms-form-builder
 msgid "This will be replaced with Entry ID."
 msgstr "항목 ID로 바뀝니다."
 
-#: core/views/arflite_edit.php:4378
-#: core/views/arflite_edit.php:4738
+#: core/views/arflite_edit.php:4379
+#: core/views/arflite_edit.php:4740
 #@ arforms-form-builder
 msgid "This will be replaced with entry referer."
 msgstr "엔트리 리퍼러로 교체됩니다."
 
 #: core/views/arflite_edit.php:4187
-#: core/views/arflite_edit.php:4501
+#: core/views/arflite_edit.php:4502
 #@ arforms-form-builder
 msgid "This will be replaced with form name."
 msgstr "양식 이름으로 바뀝니다."
 
 #: core/views/arflite_edit.php:4377
-#: core/views/arflite_edit.php:4737
+#: core/views/arflite_edit.php:4738
 #@ arforms-form-builder
 msgid "This will be replaced with form's all fields & labels."
 msgstr "양식의 모든 필드 및 레이블로 바뀝니다."
 
-#: core/views/arflite_edit.php:4380
-#: core/views/arflite_edit.php:4740
+#: core/views/arflite_edit.php:4381
+#: core/views/arflite_edit.php:4742
 #@ arforms-form-builder
 msgid "This will be replaced with IP Address."
 msgstr "IP 주소로 바뀝니다."
 
 #: core/views/arflite_edit.php:4188
-#: core/views/arflite_edit.php:4502
+#: core/views/arflite_edit.php:4503
 #@ arforms-form-builder
 msgid "This will be replaced with name of site."
 msgstr "이것은 사이트 이름으로 대체됩니다."
 
-#: core/views/arflite_edit.php:4381
-#: core/views/arflite_edit.php:4741
+#: core/views/arflite_edit.php:4382
+#: core/views/arflite_edit.php:4743
 #@ arforms-form-builder
 msgid "This will be replaced with user browser name."
 msgstr "사용자 브라우저 이름으로 바뀝니다."
 
-#: core/views/arflite_field_option_popup.php:531
+#: core/views/arflite_field_option_popup.php:593
 #: core/views/arflite_field_values_popup.php:82
 #@ arforms-form-builder
 msgid "Thursday"
 msgstr "목요일"
 
-#: core/controllers/arflitemaincontroller.php:2297
+#: core/controllers/arflitemaincontroller.php:2299
 #: core/helpers/arflitefieldhelper.php:444
 #@ arforms-form-builder
 msgid "Time"
@@ -7113,7 +7169,7 @@ msgstr "TLS"
 
 #: core/views/arf_debug_log.php:129
 #: core/views/arf_view_records.php:391
-#: core/views/arflite_field_option_popup.php:567
+#: core/views/arflite_field_option_popup.php:629
 #: core/views/arflite_settings_form.php:447
 #: core/views/arflite_settings_form.php:605
 #: core/views/arforms_import_export_form.php:150
@@ -7130,18 +7186,18 @@ msgstr "에"
 msgid "to"
 msgstr "에"
 
-#: core/controllers/arflitemaincontroller.php:2395
+#: core/controllers/arflitemaincontroller.php:2397
 #@ arforms-form-builder
 msgid "to change/delete image"
 msgstr "이미지 변경 / 삭제"
 
-#: core/controllers/arflitemaincontroller.php:2426
+#: core/controllers/arflitemaincontroller.php:2428
 #@ arforms-form-builder
 msgid "To export this form, first you need to save it"
 msgstr "이 양식을 내보내려면 먼저 저장해야합니다"
 
-#: core/views/arflite_field_option_popup.php:540
-#: core/views/arflite_field_option_popup.php:568
+#: core/views/arflite_field_option_popup.php:602
+#: core/views/arflite_field_option_popup.php:630
 #@ arforms-form-builder
 msgid "to set dynamic minimum date please use the below short-code"
 msgstr "동적 최소 날짜를 설정하려면 아래의 단축 코드를 사용하십시오."
@@ -7164,7 +7220,7 @@ msgid "Tonga"
 msgstr "통가"
 
 #: core/controllers/arfliteformcontroller.php:6577
-#: core/views/arflite_field_option_popup.php:790
+#: core/views/arflite_field_option_popup.php:852
 #@ arforms-form-builder
 msgid "Tooltip"
 msgstr "툴팁"
@@ -7202,7 +7258,7 @@ msgstr "합계"
 msgid "Trinidad and Tobago"
 msgstr "트리니다드 토바고"
 
-#: core/views/arflite_field_option_popup.php:529
+#: core/views/arflite_field_option_popup.php:591
 #: core/views/arflite_field_values_popup.php:80
 #@ arforms-form-builder
 msgid "Tuesday"
@@ -7221,6 +7277,7 @@ msgid "Turkey"
 msgstr "터키"
 
 #: core/views/arflite_field_option_popup.php:464
+#: core/views/arflite_field_option_popup.php:526
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:122
 #@ arforms-form-builder
 msgid "Turkish"
@@ -7243,19 +7300,19 @@ msgstr "터크 스케이 커스 제도"
 msgid "Tuvalu"
 msgstr "투발루"
 
-#: core/controllers/arflitemaincontroller.php:2464
+#: core/controllers/arflitemaincontroller.php:2466
 #: core/views/arflite_edit.php:1335
 #@ arforms-form-builder
 msgid "Type"
 msgstr "유형"
 
-#: core/controllers/arflitemaincontroller.php:2466
 #: core/controllers/arflitemaincontroller.php:2468
+#: core/controllers/arflitemaincontroller.php:2470
 #@ arforms-form-builder
 msgid "type to"
 msgstr "입력"
 
-#: core/controllers/arflitemaincontroller.php:2467
+#: core/controllers/arflitemaincontroller.php:2469
 #@ arforms-form-builder
 msgid "type, field options will be different from"
 msgstr "유형, 필드 옵션은"
@@ -7288,6 +7345,7 @@ msgid "Ukraine"
 msgstr "우크라이나"
 
 #: core/views/arflite_field_option_popup.php:465
+#: core/views/arflite_field_option_popup.php:527
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:123
 #@ arforms-form-builder
 msgid "Ukrainian"
@@ -7331,8 +7389,8 @@ msgstr "미국"
 msgid "Unsatisfied"
 msgstr "불만족"
 
-#: core/controllers/arflitemaincontroller.php:2412
-#: core/helpers/arflitefieldhelper.php:901
+#: core/controllers/arflitemaincontroller.php:2414
+#: core/helpers/arflitefieldhelper.php:902
 #@ arforms-form-builder
 msgid "Untitled"
 msgstr "제목 없음"
@@ -7353,7 +7411,7 @@ msgstr "최신 정보"
 msgid "Update ARForms Database"
 msgstr "ARForms 데이터베이스 업데이트"
 
-#: core/classes/class.arforms_form_builder.php:1808
+#: core/classes/class.arforms_form_builder.php:1809
 #: core/controllers/arfliteformcontroller.php:134
 #: core/controllers/arflitesettingcontroller.php:145
 #@ arforms-form-builder
@@ -7370,7 +7428,7 @@ msgstr "CSV 파일 만 업로드하십시오."
 msgid "Urdu"
 msgstr "우르두어"
 
-#: core/views/arflite_field_option_popup.php:783
+#: core/views/arflite_field_option_popup.php:845
 #@ arforms-form-builder
 msgid "URL"
 msgstr "URL"
@@ -7397,7 +7455,7 @@ msgstr "이미지 위에 옵션 사용"
 msgid "Use separate value"
 msgstr "별도의 가치를 사용하십시오"
 
-#: core/views/arflite_field_option_popup.php:785
+#: core/views/arflite_field_option_popup.php:847
 #@ arforms-form-builder
 msgid "User Name"
 msgstr "사용자 이름"
@@ -7443,7 +7501,7 @@ msgstr "우즈베키스탄"
 msgid "Validate default value"
 msgstr "기본값 확인"
 
-#: core/views/arflite_field_option_popup.php:751
+#: core/views/arflite_field_option_popup.php:813
 #@ arforms-form-builder
 msgid "Validation"
 msgstr "확인"
@@ -7469,7 +7527,7 @@ msgstr "유효성 검사 메시지 색상"
 msgid "Validation Message Style"
 msgstr "유효성 검사 메시지 스타일"
 
-#: core/views/arflite_edit.php:4991
+#: core/views/arflite_edit.php:4993
 #@ arforms-form-builder
 msgid "Value"
 msgstr "값"
@@ -7540,6 +7598,7 @@ msgid "Vietnam"
 msgstr "베트남"
 
 #: core/views/arflite_field_option_popup.php:466
+#: core/views/arflite_field_option_popup.php:528
 #: integrations/Google/Captcha/class.arforms_recaptcha.php:125
 #@ arforms-form-builder
 msgid "Vietnamese"
@@ -7620,19 +7679,19 @@ msgstr "웹 후크"
 msgid "Website Elements"
 msgstr "웹 사이트 요소"
 
-#: core/helpers/arflitefieldhelper.php:878
+#: core/helpers/arflitefieldhelper.php:879
 #@ arforms-form-builder
 msgid "Website is invalid"
 msgstr "웹 사이트가 유효하지 않습니다"
 
-#: core/controllers/arflitemaincontroller.php:2298
+#: core/controllers/arflitemaincontroller.php:2300
 #: core/helpers/arflitefieldhelper.php:448
 #: core/views/arflite_field_type_conversion.php:130
 #@ arforms-form-builder
 msgid "Website/URL"
 msgstr "웹 사이트 주소"
 
-#: core/views/arflite_field_option_popup.php:530
+#: core/views/arflite_field_option_popup.php:592
 #: core/views/arflite_field_values_popup.php:81
 #@ arforms-form-builder
 msgid "Wednesday"
@@ -7658,7 +7717,7 @@ msgstr "주"
 msgid "Western Sahara"
 msgstr "서부 사하라"
 
-#: core/controllers/arflitemaincontroller.php:2189
+#: core/controllers/arflitemaincontroller.php:2191
 #: core/controllers/arfliteprocontroller.php:295
 #@ arforms-form-builder
 msgid "What can we describe more?"
@@ -7669,13 +7728,13 @@ msgstr "우리는 무엇을 더 설명 할 수 있습니까?"
 msgid "What Personal Data we collect and why we collect it."
 msgstr "우리가 수집하는 개인 정보 및 수집 이유"
 
-#: core/controllers/arflitemaincontroller.php:2188
+#: core/controllers/arflitemaincontroller.php:2190
 #: core/controllers/arfliteprocontroller.php:294
 #@ arforms-form-builder
 msgid "What was the dificult part?"
 msgstr "어려운 부분은 무엇입니까?"
 
-#: core/controllers/arflitemaincontroller.php:2879
+#: core/controllers/arflitemaincontroller.php:2881
 #@ arforms-form-builder
 msgid "What's New in ARForms Form Builder"
 msgstr "ARForms Form Builder의 새로운 기능"
@@ -7696,7 +7755,7 @@ msgstr "폭"
 msgid "Window Opacity"
 msgstr "창 불투명도"
 
-#: core/controllers/arflitemaincontroller.php:2192
+#: core/controllers/arflitemaincontroller.php:2194
 #: core/controllers/arfliteprocontroller.php:298
 #@ arforms-form-builder
 msgid "With what plugin or theme is incompatible?"
@@ -7754,15 +7813,15 @@ msgstr "예멘"
 #: core/views/arflite_field_option_popup.php:262
 #: core/views/arflite_field_option_popup.php:325
 #: core/views/arflite_field_option_popup.php:357
-#: core/views/arflite_field_option_popup.php:487
-#: core/views/arflite_field_option_popup.php:555
-#: core/views/arflite_field_option_popup.php:583
-#: core/views/arflite_field_option_popup.php:800
+#: core/views/arflite_field_option_popup.php:549
+#: core/views/arflite_field_option_popup.php:617
+#: core/views/arflite_field_option_popup.php:645
+#: core/views/arflite_field_option_popup.php:862
 #@ arforms-form-builder
 msgid "YES"
 msgstr "예"
 
-#: core/controllers/arflitemaincontroller.php:2416
+#: core/controllers/arflitemaincontroller.php:2418
 #: core/views/arflite_edit.php:1400
 #: core/views/arflite_edit.php:1895
 #: core/views/arflite_edit.php:2046
@@ -7771,7 +7830,7 @@ msgstr "예"
 #: core/views/arflite_edit.php:2754
 #: core/views/arflite_field_option_popup.php:146
 #: core/views/arflite_field_option_popup.php:160
-#: core/views/arflite_field_option_popup.php:606
+#: core/views/arflite_field_option_popup.php:668
 #: core/views/arflite_field_values_popup.php:141
 #: core/views/arflite_field_values_popup.php:157
 #: core/views/arflite_field_values_popup.php:174
@@ -7785,7 +7844,7 @@ msgstr "예"
 msgid "Yes"
 msgstr "예"
 
-#: core/controllers/arflitemaincontroller.php:2465
+#: core/controllers/arflitemaincontroller.php:2467
 #@ arforms-form-builder
 msgid "You are converting"
 msgstr "당신은 변환하고 있습니다"
@@ -7795,9 +7854,9 @@ msgstr "당신은 변환하고 있습니다"
 msgid "You are using ARForms Premium plugin on your website and it is an extension to ARForms Lite, so, If you deactivate ARForms Lite then it will automatically deactivate ARForms Premium and all the add-ons"
 msgstr "귀하의 웹사이트에서 ARForms Premium 플러그인을 사용하고 있으며 이는 ARForms Lite의 확장이므로 ARForms Lite를 비활성화하면 ARForms Premium 및 모든 추가 기능이 자동으로 비활성화됩니다."
 
-#: core/classes/class.arforms_form_builder.php:1698
+#: core/classes/class.arforms_form_builder.php:1697
 #: core/helpers/arfliteformhelper.php:133
-#: core/models/arflitesettingmodel.php:114
+#: core/models/arflitesettingmodel.php:116
 #@ arforms-form-builder
 msgid "You have already submitted this form before. You are not allowed to submit this form again."
 msgstr "이미이 양식을 제출하셨습니다. 이 양식을 다시 제출할 수 없습니다."
@@ -7812,12 +7871,12 @@ msgstr "시스템에서 지원하지 않는 필수 필드를 아래와 같이 �
 msgid "Your entry is successfully deleted"
 msgstr "항목이 성공적으로 삭제되었습니다"
 
-#: core/controllers/arflitemaincontroller.php:2350
+#: core/controllers/arflitemaincontroller.php:2352
 #@ arforms-form-builder
 msgid "Your formula is invalid"
 msgstr "수식이 유효하지 않습니다"
 
-#: core/controllers/arflitemaincontroller.php:2352
+#: core/controllers/arflitemaincontroller.php:2354
 #@ arforms-form-builder
 msgid "Your formula is valid"
 msgstr "수식이 유효합니다"
@@ -7900,8 +7959,8 @@ msgstr "문제가 발생했습니다."
 msgid "log download successfully"
 msgstr "로그 다운로드 성공"
 
-#: core/classes/class.arforms_form_builder.php:1023
-#: core/classes/class.arforms_form_builder.php:1035
+#: core/classes/class.arforms_form_builder.php:1022
+#: core/classes/class.arforms_form_builder.php:1034
 #: core/views/arf_debug_log.php:71
 #@ arforms-form-builder
 msgid "Debug Logs"
@@ -7958,13 +8017,13 @@ msgstr "죄송합니다! 추가 기능을 활성화할 권한이 없습니다"
 msgid "Sorry! you do not have permission to deactivate the add-on"
 msgstr "죄송합니다! 추가 기능을 비활성화할 권한이 없습니다."
 
-#: core/helpers/arflitefieldhelper.php:909
+#: core/helpers/arflitefieldhelper.php:910
 #@ arforms-form-builder
 msgid "This value must be unique."
 msgstr "이 값은 고유해야 합니다."
 
-#: core/models/arflitenotifymodel.php:472
-#: core/models/arflitenotifymodel.php:478
+#: core/models/arflitenotifymodel.php:476
+#: core/models/arflitenotifymodel.php:482
 #@ arforms-form-builder
 msgid "Something went wrong please check your configuration."
 msgstr "문제가 발생했습니다. 구성을 확인하세요."
@@ -8096,7 +8155,7 @@ msgstr "능력_오류"
 msgid "success"
 msgstr "성공"
 
-#: core/classes/class.arforms_form_builder.php:896
+#: core/classes/class.arforms_form_builder.php:895
 #@ arforms-form-builder
 msgid "Settings saved successfully"
 msgstr "설정이 성공적으로 저장되었습니다."
@@ -8145,7 +8204,7 @@ msgstr "아코디언"
 
 #: core/classes/class.arforms_general_settings.php:79
 #: core/controllers/arflitemaincontroller.php:445
-#: core/controllers/arflitemaincontroller.php:2991
+#: core/controllers/arflitemaincontroller.php:2993
 #: core/controllers/arfliterecordcontroller.php:1671
 #@ arforms-form-builder
 msgid "Sorry, your request cannot be processed due to security reason."
@@ -8163,7 +8222,7 @@ msgstr "ARForms를 사용하지 않으므로 이 플러그인을 설치할 수 �
 msgid "Aria Label"
 msgstr "아리아 라벨"
 
-#: core/models/arflitenotifymodel.php:402
+#: core/models/arflitenotifymodel.php:406
 #@ arforms-form-builder
 msgid "Email Sent Successfully"
 msgstr "이메일이 성공적으로 전송되었습니다"
@@ -8439,6 +8498,7 @@ msgstr "구글 리캡차"
 
 #: core/views/arflite_view_addons.php:39
 #: core/views/arflite_view_addons.php:47
+#: core/views/arflite_view_addons.php:55
 #: core/views/arflite_view_addons.php:63
 #@ arforms-form-builder
 msgid "Add reCaptcha with Google reCaptcha Add-On of ARForms"
@@ -8970,27 +9030,27 @@ msgstr "ARForms용 Turnstile 캡차 추가 기능을 사용하려면 ARForms 버
 msgid "Invalid Turnstile Captcha. Please try again"
 msgstr "잘못된 Turnstile Captcha입니다. 다시 시도하세요."
 
-#: integrations/Turnstile/class.arforms_turnstile.php:589
+#: integrations/Turnstile/class.arforms_turnstile.php:591
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA Configuration"
 msgstr "개찰구 CAPTCHA 구성"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:595
+#: integrations/Turnstile/class.arforms_turnstile.php:597
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA requires an API key, consisting of a \"site\" and a \"secret\" key. You can sign up for a"
 msgstr "Turnstile CAPTCHA에는 \"site\"와 \"secret\" 키로 구성된 API 키가 필요합니다."
 
-#: integrations/Turnstile/class.arforms_turnstile.php:595
+#: integrations/Turnstile/class.arforms_turnstile.php:597
 #@ arforms-form-builder
 msgid "free Turnstile CAPTCHA key"
 msgstr "무료 Turnstile CAPTCHA 키"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:616
+#: integrations/Turnstile/class.arforms_turnstile.php:618
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA Failed Message"
 msgstr "개찰구 CAPTCHA 실패 메시지"
 
-#: integrations/Turnstile/class.arforms_turnstile.php:624
+#: integrations/Turnstile/class.arforms_turnstile.php:626
 #@ arforms-form-builder
 msgid "Turnstile CAPTCHA Theme"
 msgstr "개찰구 CAPTCHA 테마"
@@ -9000,7 +9060,7 @@ msgstr "개찰구 CAPTCHA 테마"
 msgid "Sorry, you are not allowed to activate/deactivate additional module on this site."
 msgstr "죄송합니다. 이 사이트에서는 추가 모듈을 활성화/비활성화할 수 없습니다."
 
-#: core/models/arflitenotifymodel.php:332
+#: core/models/arflitenotifymodel.php:336
 #@ arforms-form-builder
 msgid "Sorry! Email was not sent successfully."
 msgstr "죄송합니다! 이메일이 성공적으로 전송되지 않았습니다."
@@ -9018,6 +9078,63 @@ msgstr "Paypal 디버그 로그"
 #. translators: plugin header field 'Version'
 #: arforms-form-builder.php:0
 #@ arforms-form-builder
-msgid "1.7.1"
-msgstr "1.7.1"
+msgid "1.7.2"
+msgstr "1.7.2"
+
+#: core/views/arflite_edit.php:4378
+#@ arforms-form-builder
+msgid "ARFLite_form_all_values_no_separate_valueThis will be replaced with form's all fields & labels without separate values."
+msgstr "ARFLite_form_all_values_no_separate_value 이는 별도의 값이 없는 양식의 모든 필드 및 레이블로 대체됩니다."
+
+#: core/views/arflite_edit.php:4739
+#@ arforms-form-builder
+msgid "This will be replaced with form's all fields & labels without separate values."
+msgstr "이는 별도의 값 없이 모든 필드와 라벨로 대체됩니다."
+
+#: core/views/arflite_field_option_popup.php:531
+#@ arforms-form-builder
+msgid "Timepicker localization"
+msgstr "Timepicker 현지화"
+
+#: core/views/arflite_view_addons.php:53
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:494
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:544
+#@ arforms-form-builder
+msgid "hCaptcha"
+msgstr "h캡차"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:315
+#@ arforms-form-builder
+msgid "Hcaptcha add-on for ARForms requires ARForms installed with version 6.4 or higher."
+msgstr "ARForms용 Hcaptcha 애드온을 사용하려면 ARForms 버전 6.4 이상이 설치되어 있어야 합니다."
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:357
+#@ arforms-form-builder
+msgid "hCaptcha Configuration"
+msgstr "hCaptcha 구성"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:364
+#@ arforms-form-builder
+msgid "hCaptcha requires an API key, consisting of a \"site\" and a \"private\" key. You can sign up for a"
+msgstr "hCaptcha에는 \"사이트\" 및 \"개인\" 키로 구성된 API 키가 필요합니다."
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:364
+#@ arforms-form-builder
+msgid "free hCaptcha key"
+msgstr "무료 hCaptcha 키"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:394
+#@ arforms-form-builder
+msgid "hCaptcha Theme"
+msgstr "hCaptcha 테마"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:425
+#@ arforms-form-builder
+msgid "hCaptcha Failed Message"
+msgstr "hCaptcha 실패 메시지"
+
+#: integrations/Hcaptcha/core/classes/class.arforms-hcaptcha.php:1068
+#@ arforms-form-builder
+msgid "Invalid hCaptcha. Please try again"
+msgstr "잘못된 hCaptcha입니다. 다시 시도해 주세요."
 

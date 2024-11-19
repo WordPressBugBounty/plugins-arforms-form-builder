@@ -6,6 +6,8 @@ class arfliterecordmeta {
 	function __construct() {
 
 		add_filter( 'arfliteaddentrymeta', array( $this, 'arflite_before_create' ) );
+
+		add_filter( 'arformslite_sanitize_field_value', array( $this, 'arformslite_sanitize_field_value_callback'), 10, 2 );
 	}
 	function arflite_before_create( $values ) {
 
@@ -29,6 +31,31 @@ class arfliterecordmeta {
 		return get_bloginfo( 'language' );
 	}
 
+	function arformslite_sanitize_field_value_callback( $entry_value, $field_id ){
+
+		global $wpdb, $tbl_arf_fields;
+
+		if( $field_id < 0 ){
+			return $entry_value;
+		}
+		$field_type = $wpdb->get_var( $wpdb->prepare( "SELECT type FROM {$tbl_arf_fields} WHERE id = %d", $field_id ) );
+
+
+		if( in_array( $field_type, [ 'text', 'checkbox', 'radio', 'select', 'number', 'phone', 'date', 'time' ] ) ){
+			$entry_value = sanitize_text_field( $entry_value );
+		} else if ( in_array( $field_type, ['textarea'] ) ){
+			$entry_value = sanitize_textarea_field( $entry_value );
+		} else if ( in_array( $field_type, [ 'email' ] ) ){
+			$entry_value = sanitize_email( $entry_value );
+		} else if ( in_array( $field_type, ['website', 'url', 'imageurl' ] ) ) {
+			$entry_value = esc_url( $entry_value );
+		} else {
+			$entry_value = sanitize_text_field( $entry_value );
+		}
+
+		return $entry_value;
+	}
+
 	function arflite_add_entry_meta( $entry_id, $field_id, $meta_key, $entry_value ) {
 
 		global $wpdb, $arflite_fid, $check_itemid, $form_responder_fname, $form_responder_lname, $form_responderemail, $email, $fname, $lname, $tbl_arf_entry_values, $tbl_arf_forms;
@@ -37,7 +64,9 @@ class arfliterecordmeta {
 
 		$new_values = array();
 
-		$new_values['entry_value'] = trim( wp_kses($entry_value, $allowed_html) );
+		$entry_value = apply_filters( 'arformslite_sanitize_field_value', $entry_value, $field_id );
+
+		$new_values['entry_value'] = $entry_value;
 
 		$new_values['entry_id'] = intval( $entry_id );
 
@@ -46,6 +75,7 @@ class arfliterecordmeta {
 		$new_values['created_date'] = current_time( 'mysql', 1 );
 
 		$new_values = apply_filters( 'arfliteaddentrymeta', $new_values );
+
 
 		$wpdb->insert( $tbl_arf_entry_values, $new_values );
 

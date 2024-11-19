@@ -349,7 +349,7 @@ class arforms_turnstile{
 	}
 	function arf_new_field_array_filter_outside( $field_options_new, $field_icons, $filed_data_array, $positioned_field_icons ) {
 
-		global $arfieldcontroller;
+		global $arfieldcontroller, $arformsmain;
 		if ( ! function_exists( 'WP_Filesystem' ) ) {
 			require_once ABSPATH . 'wp-admin/includes/file.php';
 		}
@@ -368,6 +368,7 @@ class arforms_turnstile{
 			),
 		);
 		$field_order_tccaptcha   = isset( $field_opt_arr[ ARF_TC_SLUG ] ) ? $field_opt_arr[ ARF_TC_SLUG ] : '';
+		$onclick_func = $arformsmain->arforms_is_pro_active() ? 'arf_close_field_option_popup()' : 'arflite_close_field_option_popup()';
 		$tccaptcha_html = array(
 						ARF_TC_SLUG => "
 						<div class='arf_inner_wrapper_sortable arfmainformfield edit_form_item arffieldbox ui-state-default 1  arf1columns single_column_wrapper' data-id='arf_editor_main_row_{arf_editor_index_row}'>						
@@ -390,7 +391,7 @@ class arforms_turnstile{
 										<div class='arf_field_option_content_row'></div>
 									</div>
 									<div class='arf_field_option_model_footer'>
-										<button type='button' class='arf_field_option_close_button' onClick='arf_close_field_option_popup();'>" . esc_html__( 'Cancel', 'arforms-form-builder' ) . "</button>
+										<button type='button' class='arf_field_option_close_button' onClick='".$onclick_func."'>" . esc_html__( 'Cancel', 'arforms-form-builder' ) . "</button>
 										<button type='button' class='arf_field_option_submit_button' data-field_id='{arf_field_id}'>" . esc_html__( 'OK', 'arforms-form-builder' ) . '</button>
 									</div>
 								</div>
@@ -401,7 +402,7 @@ class arforms_turnstile{
 	}
 	function arf_new_field_array_filter_outside_materialize( $field_options_new, $field_icons, $filed_data_array, $positioned_field_icons ) {
 
-		global $arfieldcontroller, $arflitesettings, $arf_tc_captcha;
+		global $arfieldcontroller, $arflitesettings, $arf_tc_captcha, $arformsmain;
 		if ( ! function_exists( 'WP_Filesystem' ) ) {
 			require_once ABSPATH . 'wp-admin/includes/file.php';
 		}
@@ -422,6 +423,7 @@ class arforms_turnstile{
 
 		$tc_pubkey = isset( $arflitesettings->tc_pubkey  ) ? $arflitesettings->tc_pubkey  : ''; 
 		$field_order_tccaptcha   = isset( $field_opt_arr[ ARF_TC_SLUG ] ) ? $field_opt_arr[ ARF_TC_SLUG ] : ''; 
+		$onclick_func = $arformsmain->arforms_is_pro_active() ? 'arf_close_field_option_popup()' : 'arflite_close_field_option_popup()';
 		$tccaptcha_html           = array(
 			ARF_TC_SLUG => "<div class='arf_inner_wrapper_sortable arfmainformfield edit_form_item arffieldbox ui-state-default 1  arf1columns single_column_wrapper' data-id='arf_editor_main_row_{arf_editor_index_row}'>								
 								<div class='sortable_inner_wrapper edit_field_type_tccaptcha' inner_class='arf_1col' id='arfmainfieldid_{arf_field_id}'>
@@ -443,7 +445,7 @@ class arforms_turnstile{
 													<div class='arf_field_option_content_row'></div>
 												</div>
 												<div class='arf_field_option_model_footer'>
-													<button type='button' class='arf_field_option_close_button' onClick='arf_close_field_option_popup();'>" . esc_html__( 'Cancel', 'arforms-form-builder' ) . "</button>
+													<button type='button' class='arf_field_option_close_button' onClick='".$onclick_func."'>" . esc_html__( 'Cancel', 'arforms-form-builder' ) . "</button>
 													<button type='button' class='arf_field_option_submit_button' data-field_id='{arf_field_id}'>" . esc_html__( 'OK', 'arforms-form-builder' ) . '</button>
 												</div>
 											</div>

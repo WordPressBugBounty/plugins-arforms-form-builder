@@ -365,7 +365,7 @@ remove_action( 'get_the_generator_xhtml', 'wc_generator_tag' );
 		wp_print_styles( 'arfliterecaptchacss' );
 		$arflite_preview = true;
 
-		$arfliterecordcontroller->arflite_footer_js( true, false );
+		$arfliterecordcontroller->arflite_footer_js( true, true );
 		do_action( 'arflite_include_outside_js_css_for_preview_footer' );
 
 		$arflite_is_arf_preview = 0;

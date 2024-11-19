@@ -341,7 +341,7 @@ if( version_compare( $arflitenewdbversion, '1.6.2', '<') ){
 	);
 }
 
-if( version_compare( $arflitenewdbversion, '1.7.0', '<') ){
+if( version_compare( $arflitenewdbversion, '1.7.1', '<') ){
 
 	global $arformsmain, $wpdb, $tbl_arf_entries, $tbl_arf_paypal_forms, $tbl_arf_paypal_order, $tbl_arf_settings;
 
@@ -491,11 +491,11 @@ if( version_compare( $arflitenewdbversion, '1.7.0', '<') ){
 
 	
 }
-update_option( 'arflite_db_version', '1.7.1' );
+update_option( 'arflite_db_version', '1.7.2' );
 delete_transient( 'arforms_form_builder_addon_page_notice' );
 
 global $arflitenewdbversion;
-$arflitenewdbversion = '1.7.1';
+$arflitenewdbversion = '1.7.2';
 
 update_option( 'arflite_new_version_installed', intval( 1 ) );
 update_option( 'arflite_update_date_' . $arflitenewdbversion, current_time( 'mysql' ) );

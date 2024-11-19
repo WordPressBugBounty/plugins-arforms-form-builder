@@ -1347,9 +1347,10 @@ class arflitemaincontroller {
 		wp_register_style( 'arf_admin_menu_style', ARFLITEURL .'/css/arf_admin_menu_style.css', array(), $arfliteversion );
 		wp_enqueue_style( 'arf_admin_menu_style' );
 
+		wp_register_script('arf_black_friday_sale_js', ARFLITEURL .'/js/arf_upgrade_to_premium_popup.js',array($jquery_handler), $arfliteversion);
 		$arf_current_date = current_time('timestamp', true );
-		$arf_sale_start_time = '1700503200';
-		$arf_sale_end_time = '1701561600';
+		$arf_sale_start_time = '1732064400';
+		$arf_sale_end_time = '1733270399';
 
 		if( $arf_current_date >= $arf_sale_start_time && $arf_current_date <= $arf_sale_end_time ){
 			$stylesheet = '#adminmenu #toplevel_page_ARForms .wp-submenu li:last-child a {
@@ -1358,6 +1359,7 @@ class arflitemaincontroller {
 				font-weight: bold;
 			}';
 			wp_add_inline_style( 'arf_admin_menu_style', $stylesheet );
+			wp_enqueue_script('arf_black_friday_sale_js');
 		}
 
 		if ( isset( $_GET ) && ( isset( $_GET['page'] ) && preg_match( '/ARForms*/', sanitize_text_field( $_GET['page'] ) ) ) || ( $pagenow == 'edit.php' && isset( $_GET ) && isset( $_GET['post_type'] ) && sanitize_text_field( $_GET['post_type'] ) == 'frm_display' ) ) {
@@ -2644,7 +2646,7 @@ class arflitemaincontroller {
 			$arflitenewdbversion = get_option( 'arflite_db_version' );
 		}
 
-		if ( version_compare( $arflitenewdbversion, '1.7.1', '<' ) ) {
+		if ( version_compare( $arflitenewdbversion, '1.7.2', '<' ) ) {
 			$path = ARFLITE_FORMPATH . '/core/views/arflite_upgrade_latest_data.php';
 			include $path;
 			$this->arforms_send_anonymous_data_cron();

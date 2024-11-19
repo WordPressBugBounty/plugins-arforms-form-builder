@@ -1752,6 +1752,7 @@
             "required": "0",
             "required_indicator": "*",
             "blank": "This field cannot be blank.",
+            "timepickerlocalization": "en",
             "field_width": "",
             "clock": "12",
             "step": "30",
