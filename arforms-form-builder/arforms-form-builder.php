@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ARForms Form Builder
  * Description: Most Powerful Form Builder to create wide variety of forms within a minute
- * Version: 1.7.2
+ * Version: 1.7.3
  * Requires at least: 5.0
  * Requires PHP: 7.4
  * Plugin URI: https://www.arformsplugin.com/
@@ -32,6 +32,7 @@ if ( ! defined( 'FS_METHOD' ) ) {
 define( 'ARFLITE_PLUGIN_BASE_FILE', plugin_basename( __FILE__ ) );
 
 $arflitesiteurl = home_url();
+
 if ( is_ssl() && ( ! preg_match( '/^https:\/\/.*\..*$/', $arflitesiteurl ) || ! preg_match( '/^https:\/\/.*\..*$/', WP_PLUGIN_URL ) ) ) {
 	$arflitesiteurl = str_replace( 'http://', 'https://', $arflitesiteurl );
 	define( 'ARFLITEURL', str_replace( 'http://', 'https://', WP_PLUGIN_URL . '/arforms-form-builder' ) );
@@ -132,8 +133,8 @@ if ( ! defined( 'IS_WPMU' ) ) {
 }
 
 global $arflitedbversion, $arfliteadvanceerrcolor, $arflite_memory_limit, $arflitememorylimit, $arflite_jscss_version, $arflite_plugin_slug;
-$arfliteversion        = '1.7.2';
-$arflitedbversion      = '1.7.2';
+$arfliteversion        = '1.7.3';
+$arflitedbversion      = '1.7.3';
 $arflite_jscss_version = $arfliteversion . '.' . rand( 10, 100 );
 $arflite_memory_limit  = 256;
 $arflitememorylimit    = ini_get( 'memory_limit' );

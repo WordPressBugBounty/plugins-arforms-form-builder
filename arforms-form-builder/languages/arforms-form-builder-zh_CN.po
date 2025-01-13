@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARForms Form Builder v1.7.2\n"
+"Project-Id-Version: ARForms Form Builder v1.7.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-18 08:52:46+0000\n"
+"PO-Revision-Date: 2025-01-08 10:01:55+0000\n"
 "Last-Translator: admin <admin@gmail.com>\n"
 "Language-Team: Chinese (China)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid "%1$s form has been submitted on %2$s."
 msgstr "%1$s 表单已于 %2$s 提交。"
 
 #: core/models/arflitenotifymodel.php:169
-#: core/models/arflitenotifymodel.php:1405
+#: core/models/arflitenotifymodel.php:1461
 #, php-format
 #@ arforms-form-builder
 msgid "%1$s Form submitted on %2$s"
@@ -403,7 +403,7 @@ msgstr "添加图标（引导程序样式）"
 msgid "Add Image"
 msgstr "添加图片"
 
-#: core/classes/class.arforms_form_builder.php:1788
+#: core/classes/class.arforms_form_builder.php:1792
 #: core/controllers/arfliteformcontroller.php:260
 #: core/controllers/arfliteprocontroller.php:65
 #: core/views/arflite_list.php:90
@@ -437,7 +437,7 @@ msgstr "添加到页面"
 msgid "Add-On listing is currently unavailable. Please try again later."
 msgstr "加载项列表当前不可用。 请稍后再试。"
 
-#: core/classes/class.arforms_form_builder.php:1796
+#: core/classes/class.arforms_form_builder.php:1800
 #: core/controllers/arfliteprocontroller.php:75
 #@ arforms-form-builder
 msgid "Add-ons"
@@ -453,7 +453,7 @@ msgstr "添加/编辑自定义显示"
 msgid "Add/Edit Forms and Templates"
 msgstr "添加/编辑表单和模板"
 
-#: core/classes/class.arforms_form_builder.php:1796
+#: core/classes/class.arforms_form_builder.php:1800
 #: core/controllers/arfliteprocontroller.php:75
 #: core/controllers/arflitesettingcontroller.php:130
 #@ arforms-form-builder
@@ -493,7 +493,7 @@ msgstr "进阶字型选项"
 msgid "Advanced Form Options"
 msgstr "高级表格选项"
 
-#: arforms-form-builder.php:936
+#: arforms-form-builder.php:937
 #: core/helpers/arflitemainhelper.php:192
 #@ arforms-form-builder
 msgid "Afghanistan"
@@ -520,12 +520,12 @@ msgstr "年龄阶层"
 msgid "Ajax based submission"
 msgstr "基于Ajax的提交"
 
-#: arforms-form-builder.php:941
+#: arforms-form-builder.php:942
 #@ arforms-form-builder
 msgid "Aland Islands"
 msgstr "奥兰群岛"
 
-#: arforms-form-builder.php:946
+#: arforms-form-builder.php:947
 #: core/helpers/arflitemainhelper.php:193
 #@ arforms-form-builder
 msgid "Albania"
@@ -537,7 +537,7 @@ msgstr "阿尔巴尼亚"
 msgid "Albanian"
 msgstr "阿尔巴尼亚语"
 
-#: arforms-form-builder.php:951
+#: arforms-form-builder.php:952
 #: core/helpers/arflitemainhelper.php:194
 #@ arforms-form-builder
 msgid "Algeria"
@@ -569,31 +569,31 @@ msgstr "最多只能输入6位数字。 例如 ： PIN码"
 msgid "Allow phone number like"
 msgstr "允许像这样的电话号码"
 
-#: arforms-form-builder.php:956
+#: arforms-form-builder.php:957
 #: core/helpers/arflitemainhelper.php:195
 #@ arforms-form-builder
 msgid "American Samoa"
 msgstr "美属萨摩亚"
 
-#: core/classes/class.arforms_form_builder.php:998
-#: core/classes/class.arforms_form_builder.php:1005
+#: core/classes/class.arforms_form_builder.php:1002
+#: core/classes/class.arforms_form_builder.php:1009
 #@ arforms-form-builder
 msgid "Analytics / Chart"
 msgstr "分析/图表"
 
-#: arforms-form-builder.php:961
+#: arforms-form-builder.php:962
 #: core/helpers/arflitemainhelper.php:196
 #@ arforms-form-builder
 msgid "Andorra"
 msgstr "安道尔"
 
-#: arforms-form-builder.php:966
+#: arforms-form-builder.php:967
 #: core/helpers/arflitemainhelper.php:197
 #@ arforms-form-builder
 msgid "Angola"
 msgstr "安哥拉"
 
-#: arforms-form-builder.php:971
+#: arforms-form-builder.php:972
 #: core/helpers/arflitemainhelper.php:198
 #@ arforms-form-builder
 msgid "Anguilla"
@@ -622,7 +622,7 @@ msgstr "动画时长"
 msgid "Antarctica"
 msgstr "南极洲"
 
-#: arforms-form-builder.php:976
+#: arforms-form-builder.php:977
 #: core/helpers/arflitemainhelper.php:200
 #@ arforms-form-builder
 msgid "Antigua and Barbuda"
@@ -798,7 +798,7 @@ msgstr "仅当提交表单时，ARForms Lite不会存储除user_id（仅当用�
 msgid "ARForms Samples"
 msgstr "ARForms示例"
 
-#: arforms-form-builder.php:981
+#: arforms-form-builder.php:982
 #: core/helpers/arflitemainhelper.php:201
 #@ arforms-form-builder
 msgid "Argentina"
@@ -809,7 +809,7 @@ msgstr "阿根廷"
 msgid "ARMember Successfully installed."
 msgstr "ARMmember 已成功安装。"
 
-#: arforms-form-builder.php:986
+#: arforms-form-builder.php:987
 #: core/helpers/arflitemainhelper.php:202
 #@ arforms-form-builder
 msgid "Armenia"
@@ -826,7 +826,7 @@ msgstr "亚美尼亚人"
 msgid "ARPrice Successfully installed."
 msgstr "ARPrice 已成功安装。"
 
-#: arforms-form-builder.php:991
+#: arforms-form-builder.php:992
 #: core/helpers/arflitemainhelper.php:203
 #@ arforms-form-builder
 msgid "Aruba"
@@ -842,13 +842,13 @@ msgstr "在"
 msgid "August"
 msgstr "八月"
 
-#: arforms-form-builder.php:996
+#: arforms-form-builder.php:997
 #: core/helpers/arflitemainhelper.php:204
 #@ arforms-form-builder
 msgid "Australia"
 msgstr "澳大利亚"
 
-#: arforms-form-builder.php:1001
+#: arforms-form-builder.php:1002
 #: core/helpers/arflitemainhelper.php:205
 #@ arforms-form-builder
 msgid "Austria"
@@ -894,7 +894,7 @@ msgstr "可用的附件"
 msgid "AWEBER LIST"
 msgstr "名单"
 
-#: arforms-form-builder.php:1006
+#: arforms-form-builder.php:1007
 #: core/helpers/arflitemainhelper.php:206
 #@ arforms-form-builder
 msgid "Azerbaijan"
@@ -938,25 +938,25 @@ msgstr "背景图片位置X"
 msgid "Background Image Position-Y"
 msgstr "背景图片位置-Y"
 
-#: arforms-form-builder.php:1011
+#: arforms-form-builder.php:1012
 #: core/helpers/arflitemainhelper.php:207
 #@ arforms-form-builder
 msgid "Bahamas"
 msgstr "巴哈马"
 
-#: arforms-form-builder.php:1016
+#: arforms-form-builder.php:1017
 #: core/helpers/arflitemainhelper.php:208
 #@ arforms-form-builder
 msgid "Bahrain"
 msgstr "巴林"
 
-#: arforms-form-builder.php:1021
+#: arforms-form-builder.php:1022
 #: core/helpers/arflitemainhelper.php:209
 #@ arforms-form-builder
 msgid "Bangladesh"
 msgstr "孟加拉国"
 
-#: arforms-form-builder.php:1026
+#: arforms-form-builder.php:1027
 #: core/helpers/arflitemainhelper.php:210
 #@ arforms-form-builder
 msgid "Barbados"
@@ -989,19 +989,19 @@ msgstr "在停用ARForms Lite插件之前，您能迅速告诉我们您这样做
 msgid "begin"
 msgstr "开始"
 
-#: arforms-form-builder.php:1031
+#: arforms-form-builder.php:1032
 #: core/helpers/arflitemainhelper.php:211
 #@ arforms-form-builder
 msgid "Belarus"
 msgstr "白俄罗斯"
 
-#: arforms-form-builder.php:1036
+#: arforms-form-builder.php:1037
 #: core/helpers/arflitemainhelper.php:212
 #@ arforms-form-builder
 msgid "Belgium"
 msgstr "比利时"
 
-#: arforms-form-builder.php:1041
+#: arforms-form-builder.php:1042
 #: core/helpers/arflitemainhelper.php:213
 #@ arforms-form-builder
 msgid "Belize"
@@ -1012,25 +1012,25 @@ msgstr "伯利兹"
 msgid "Bengali"
 msgstr "孟加拉"
 
-#: arforms-form-builder.php:1046
+#: arforms-form-builder.php:1047
 #: core/helpers/arflitemainhelper.php:214
 #@ arforms-form-builder
 msgid "Benin"
 msgstr "贝宁"
 
-#: arforms-form-builder.php:1051
+#: arforms-form-builder.php:1052
 #: core/helpers/arflitemainhelper.php:215
 #@ arforms-form-builder
 msgid "Bermuda"
 msgstr "百慕大"
 
-#: arforms-form-builder.php:1056
+#: arforms-form-builder.php:1057
 #: core/helpers/arflitemainhelper.php:216
 #@ arforms-form-builder
 msgid "Bhutan"
 msgstr "不丹"
 
-#: core/classes/class.arforms_form_builder.php:1807
+#: core/classes/class.arforms_form_builder.php:1811
 #: core/controllers/arflitesettingcontroller.php:143
 #@ arforms-form-builder
 msgid "Black Friday Sale"
@@ -1056,7 +1056,7 @@ msgstr "模糊"
 msgid "bold"
 msgstr "胆大"
 
-#: arforms-form-builder.php:1061
+#: arforms-form-builder.php:1062
 #: core/helpers/arflitemainhelper.php:217
 #@ arforms-form-builder
 msgid "Bolivia"
@@ -1107,7 +1107,7 @@ msgstr "边框样式"
 msgid "Border Type"
 msgstr "边框类型"
 
-#: arforms-form-builder.php:1066
+#: arforms-form-builder.php:1067
 #: core/helpers/arflitemainhelper.php:218
 #@ arforms-form-builder
 msgid "Bosnia and Herzegovina"
@@ -1119,7 +1119,7 @@ msgstr "波斯尼亚和黑塞哥维那（简称：波黑"
 msgid "Bosnian"
 msgstr "波斯尼亚人"
 
-#: arforms-form-builder.php:1071
+#: arforms-form-builder.php:1072
 #: core/helpers/arflitemainhelper.php:219
 #@ arforms-form-builder
 msgid "Botswana"
@@ -1138,18 +1138,18 @@ msgstr "博茨瓦纳"
 msgid "Bottom"
 msgstr "底部"
 
-#: arforms-form-builder.php:1076
+#: arforms-form-builder.php:1077
 #: core/helpers/arflitemainhelper.php:220
 #@ arforms-form-builder
 msgid "Brazil"
 msgstr "巴西"
 
-#: arforms-form-builder.php:1081
+#: arforms-form-builder.php:1082
 #@ arforms-form-builder
 msgid "British Indian Ocean Territory"
 msgstr "英属印度洋领地"
 
-#: arforms-form-builder.php:1086
+#: arforms-form-builder.php:1087
 #@ arforms-form-builder
 msgid "British Virgin Islands"
 msgstr "英属维尔京群岛"
@@ -1159,13 +1159,13 @@ msgstr "英属维尔京群岛"
 msgid "Browser Name"
 msgstr "浏览器名称"
 
-#: arforms-form-builder.php:1091
+#: arforms-form-builder.php:1092
 #: core/helpers/arflitemainhelper.php:221
 #@ arforms-form-builder
 msgid "Brunei"
 msgstr "文莱"
 
-#: arforms-form-builder.php:1096
+#: arforms-form-builder.php:1097
 #: core/helpers/arflitemainhelper.php:222
 #@ arforms-form-builder
 msgid "Bulgaria"
@@ -1186,13 +1186,13 @@ msgstr "保加利亚语"
 msgid "Bulk Actions"
 msgstr "批量动作"
 
-#: arforms-form-builder.php:1101
+#: arforms-form-builder.php:1102
 #: core/helpers/arflitemainhelper.php:223
 #@ arforms-form-builder
 msgid "Burkina Faso"
 msgstr "布基纳法索"
 
-#: arforms-form-builder.php:1106
+#: arforms-form-builder.php:1107
 #: core/helpers/arflitemainhelper.php:224
 #@ arforms-form-builder
 msgid "Burundi"
@@ -1233,13 +1233,13 @@ msgstr "日历日期格式"
 msgid "Calendar localization"
 msgstr "日历本地化"
 
-#: arforms-form-builder.php:1111
+#: arforms-form-builder.php:1112
 #: core/helpers/arflitemainhelper.php:225
 #@ arforms-form-builder
 msgid "Cambodia"
 msgstr "柬埔寨"
 
-#: arforms-form-builder.php:1116
+#: arforms-form-builder.php:1117
 #: core/helpers/arflitemainhelper.php:226
 #@ arforms-form-builder
 msgid "Cameroon"
@@ -1257,7 +1257,7 @@ msgstr "广告活动名称"
 msgid "Can you mention it?"
 msgstr "你能提到吗？"
 
-#: arforms-form-builder.php:1121
+#: arforms-form-builder.php:1122
 #: core/helpers/arflitemainhelper.php:227
 #@ arforms-form-builder
 msgid "Canada"
@@ -1321,13 +1321,13 @@ msgstr "加拿大"
 msgid "Cancel"
 msgstr "取消"
 
-#: arforms-form-builder.php:1126
+#: arforms-form-builder.php:1127
 #: core/helpers/arflitemainhelper.php:228
 #@ arforms-form-builder
 msgid "Cape Verde"
 msgstr "佛得角"
 
-#: arforms-form-builder.php:1131
+#: arforms-form-builder.php:1132
 #@ arforms-form-builder
 msgid "Caribbean Netherlands"
 msgstr "加勒比荷兰"
@@ -1339,7 +1339,7 @@ msgstr "加勒比荷兰"
 msgid "Catalan"
 msgstr "加泰罗尼亚语"
 
-#: arforms-form-builder.php:1136
+#: arforms-form-builder.php:1137
 #: core/helpers/arflitemainhelper.php:229
 #@ arforms-form-builder
 msgid "Cayman Islands"
@@ -1352,13 +1352,13 @@ msgstr "开曼群岛"
 msgid "Center"
 msgstr "中央"
 
-#: arforms-form-builder.php:1141
+#: arforms-form-builder.php:1142
 #: core/helpers/arflitemainhelper.php:230
 #@ arforms-form-builder
 msgid "Central African Republic"
 msgstr "中非共和国"
 
-#: arforms-form-builder.php:1146
+#: arforms-form-builder.php:1147
 #: core/helpers/arflitemainhelper.php:231
 #@ arforms-form-builder
 msgid "Chad"
@@ -1413,13 +1413,13 @@ msgstr "选框"
 msgid "Checked Icon Styling"
 msgstr "选中的图标样式"
 
-#: arforms-form-builder.php:1151
+#: arforms-form-builder.php:1152
 #: core/helpers/arflitemainhelper.php:232
 #@ arforms-form-builder
 msgid "Chile"
 msgstr "智利"
 
-#: arforms-form-builder.php:1156
+#: arforms-form-builder.php:1157
 #: core/helpers/arflitemainhelper.php:233
 #@ arforms-form-builder
 msgid "China"
@@ -1462,7 +1462,7 @@ msgstr "选择文件"
 msgid "Choose Option"
 msgstr "选择选项"
 
-#: arforms-form-builder.php:1161
+#: arforms-form-builder.php:1162
 #@ arforms-form-builder
 msgid "Christmas Island"
 msgstr "圣诞岛"
@@ -1555,17 +1555,17 @@ msgstr "客户秘密"
 msgid "Clock Settings"
 msgstr "时钟设定"
 
-#: core/classes/class.arforms_form_builder.php:721
+#: core/classes/class.arforms_form_builder.php:725
 #@ arforms-form-builder
 msgid "Close"
 msgstr "关闭"
 
-#: arforms-form-builder.php:1166
+#: arforms-form-builder.php:1167
 #@ arforms-form-builder
 msgid "Cocos Islands"
 msgstr "科科斯群岛"
 
-#: arforms-form-builder.php:1171
+#: arforms-form-builder.php:1172
 #: core/helpers/arflitemainhelper.php:234
 #@ arforms-form-builder
 msgid "Colombia"
@@ -1591,7 +1591,7 @@ msgstr "配色方案"
 msgid "Comma ( , )"
 msgstr "逗号（，）"
 
-#: arforms-form-builder.php:1176
+#: arforms-form-builder.php:1177
 #: core/helpers/arflitemainhelper.php:235
 #@ arforms-form-builder
 msgid "Comoros"
@@ -1672,12 +1672,12 @@ msgstr "确认讯息"
 msgid "Congo"
 msgstr "刚果"
 
-#: arforms-form-builder.php:1181
+#: arforms-form-builder.php:1182
 #@ arforms-form-builder
 msgid "Congo (DRC)"
 msgstr "刚果民主共和国"
 
-#: arforms-form-builder.php:1186
+#: arforms-form-builder.php:1187
 #@ arforms-form-builder
 msgid "Congo (Republic)"
 msgstr "刚果（共和国）"
@@ -1709,7 +1709,7 @@ msgstr "转换栏位类型"
 msgid "Convert To Field Type"
 msgstr "转换为字段类型"
 
-#: arforms-form-builder.php:1191
+#: arforms-form-builder.php:1192
 #@ arforms-form-builder
 msgid "Cook Islands"
 msgstr "库克群岛"
@@ -1724,13 +1724,13 @@ msgstr "复制的"
 msgid "Copied to Clipboard"
 msgstr "已复制到剪贴板"
 
-#: arforms-form-builder.php:1196
+#: arforms-form-builder.php:1197
 #: core/helpers/arflitemainhelper.php:237
 #@ arforms-form-builder
 msgid "Costa Rica"
 msgstr "哥斯达黎加"
 
-#: arforms-form-builder.php:1201
+#: arforms-form-builder.php:1202
 #@ arforms-form-builder
 msgid "Cote d'Ivoire"
 msgstr "象牙海岸"
@@ -1768,7 +1768,7 @@ msgstr "创建于"
 msgid "Credit Card"
 msgstr "信用卡"
 
-#: arforms-form-builder.php:1206
+#: arforms-form-builder.php:1207
 #: core/helpers/arflitemainhelper.php:238
 #@ arforms-form-builder
 msgid "Croatia"
@@ -1786,18 +1786,18 @@ msgstr "克罗地亚语"
 msgid "CSV File Separator"
 msgstr "CSV文件分隔符"
 
-#: core/controllers/arfliteformcontroller.php:7093
+#: core/controllers/arfliteformcontroller.php:7101
 #@ arforms-form-builder
 msgid "CSV generated successfully."
 msgstr "CSV生成成功。"
 
-#: arforms-form-builder.php:1211
+#: arforms-form-builder.php:1212
 #: core/helpers/arflitemainhelper.php:239
 #@ arforms-form-builder
 msgid "Cuba"
 msgstr "古巴"
 
-#: arforms-form-builder.php:1216
+#: arforms-form-builder.php:1217
 #@ arforms-form-builder
 msgid "Curacao"
 msgstr "库拉索"
@@ -1836,7 +1836,7 @@ msgstr "自定义字体选项"
 msgid "CVC/CVV"
 msgstr "CVC / CVV"
 
-#: arforms-form-builder.php:1221
+#: arforms-form-builder.php:1222
 #: core/helpers/arflitemainhelper.php:240
 #@ arforms-form-builder
 msgid "Cyprus"
@@ -1849,7 +1849,7 @@ msgstr "塞浦路斯"
 msgid "Czech"
 msgstr "捷克文"
 
-#: arforms-form-builder.php:1226
+#: arforms-form-builder.php:1227
 #: core/helpers/arflitemainhelper.php:241
 #@ arforms-form-builder
 msgid "Czech Republic"
@@ -1879,7 +1879,7 @@ msgstr "虚线"
 msgid "Date"
 msgstr "日期"
 
-#: arforms-form-builder.php:758
+#: arforms-form-builder.php:759
 #@ arforms-form-builder
 msgid "Date Elements"
 msgstr "日期元素"
@@ -1899,7 +1899,7 @@ msgstr "日期无效"
 msgid "Date range"
 msgstr "日期范围"
 
-#: core/controllers/arfliteformcontroller.php:6558
+#: core/controllers/arfliteformcontroller.php:6566
 #@ arforms-form-builder
 msgid "Datepicker / Timepicker"
 msgstr "日期选择器/时间选择器"
@@ -2038,7 +2038,7 @@ msgstr "删除栏位"
 msgid "Delete Forms and Templates"
 msgstr "删除表格和模板"
 
-#: arforms-form-builder.php:1231
+#: arforms-form-builder.php:1232
 #: core/helpers/arflitemainhelper.php:242
 #@ arforms-form-builder
 msgid "Denmark"
@@ -2086,7 +2086,7 @@ msgstr "ARForms Lite的显示形式"
 msgid "Display Title and Description"
 msgstr "显示标题和说明"
 
-#: arforms-form-builder.php:1236
+#: arforms-form-builder.php:1237
 #: core/helpers/arflitemainhelper.php:243
 #@ arforms-form-builder
 msgid "Djibouti"
@@ -2102,13 +2102,13 @@ msgstr "不要清除焦点上的默认文本。"
 msgid "Do not pass the validation with default value."
 msgstr "不要通过验证使用默认值。"
 
-#: arforms-form-builder.php:1241
+#: arforms-form-builder.php:1242
 #: core/helpers/arflitemainhelper.php:244
 #@ arforms-form-builder
 msgid "Dominica"
 msgstr "多米尼加"
 
-#: arforms-form-builder.php:1246
+#: arforms-form-builder.php:1247
 #: core/helpers/arflitemainhelper.php:245
 #@ arforms-form-builder
 msgid "Dominican Republic"
@@ -2119,7 +2119,7 @@ msgstr "多明尼加共和国"
 msgid "Dotted"
 msgstr "点缀"
 
-#: core/controllers/arfliteformcontroller.php:6551
+#: core/controllers/arfliteformcontroller.php:6559
 #@ arforms-form-builder
 msgid "Drop Down"
 msgstr "落下"
@@ -2158,7 +2158,7 @@ msgstr "动态选项"
 msgid "East Timor"
 msgstr "东帝汶"
 
-#: arforms-form-builder.php:1251
+#: arforms-form-builder.php:1252
 #: core/helpers/arflitemainhelper.php:247
 #@ arforms-form-builder
 msgid "Ecuador"
@@ -2192,13 +2192,13 @@ msgstr "编辑选项"
 msgid "Edit Text"
 msgstr "编辑文字"
 
-#: arforms-form-builder.php:1256
+#: arforms-form-builder.php:1257
 #: core/helpers/arflitemainhelper.php:248
 #@ arforms-form-builder
 msgid "Egypt"
 msgstr "埃及"
 
-#: arforms-form-builder.php:1261
+#: arforms-form-builder.php:1262
 #: core/helpers/arflitemainhelper.php:249
 #@ arforms-form-builder
 msgid "El Salvador"
@@ -2226,7 +2226,7 @@ msgstr "电子邮件地址"
 msgid "Email Attachment:"
 msgstr "电子邮件附件："
 
-#: arforms-form-builder.php:753
+#: arforms-form-builder.php:754
 #@ arforms-form-builder
 msgid "Email Elements"
 msgstr "电子邮件元素"
@@ -2241,8 +2241,8 @@ msgstr "电邮格式"
 msgid "Email is invalid"
 msgstr "电邮无效"
 
-#: core/classes/class.arforms_form_builder.php:1019
-#: core/classes/class.arforms_form_builder.php:1031
+#: core/classes/class.arforms_form_builder.php:1023
+#: core/classes/class.arforms_form_builder.php:1035
 #@ arforms-form-builder
 msgid "Email Marketing Tools"
 msgstr "电子邮件营销工具"
@@ -2406,13 +2406,13 @@ msgstr "找不到所选时间段的条目"
 msgid "equals"
 msgstr "等于"
 
-#: arforms-form-builder.php:1266
+#: arforms-form-builder.php:1267
 #: core/helpers/arflitemainhelper.php:250
 #@ arforms-form-builder
 msgid "Equatorial Guinea"
 msgstr "赤道几内亚"
 
-#: arforms-form-builder.php:1271
+#: arforms-form-builder.php:1272
 #: core/helpers/arflitemainhelper.php:251
 #@ arforms-form-builder
 msgid "Eritrea"
@@ -2458,7 +2458,7 @@ msgstr "错误状态背景"
 msgid "Esperanto"
 msgstr "世界语"
 
-#: arforms-form-builder.php:1276
+#: arforms-form-builder.php:1277
 #: core/helpers/arflitemainhelper.php:252
 #@ arforms-form-builder
 msgid "Estonia"
@@ -2471,7 +2471,7 @@ msgstr "爱沙尼亚"
 msgid "Estonian"
 msgstr "爱沙尼亚语"
 
-#: arforms-form-builder.php:1281
+#: arforms-form-builder.php:1282
 #: core/helpers/arflitemainhelper.php:253
 #@ arforms-form-builder
 msgid "Ethiopia"
@@ -2528,12 +2528,12 @@ msgstr "导出为CSV"
 msgid "Exported File Content"
 msgstr "导出文件内容"
 
-#: core/classes/class.arforms_form_builder.php:707
+#: core/classes/class.arforms_form_builder.php:711
 #@ arforms-form-builder
 msgid "Facebook Community"
 msgstr "脸书社区"
 
-#: arforms-form-builder.php:1286
+#: arforms-form-builder.php:1287
 #@ arforms-form-builder
 msgid "Falkland Islands"
 msgstr "福克兰群岛"
@@ -2548,7 +2548,7 @@ msgstr "福克兰群岛"
 msgid "Family"
 msgstr "家庭"
 
-#: arforms-form-builder.php:1291
+#: arforms-form-builder.php:1292
 #@ arforms-form-builder
 msgid "Faroe Islands"
 msgstr "法罗群岛"
@@ -2595,8 +2595,8 @@ msgstr "栏位说明"
 msgid "Field inner spacing"
 msgstr "场内间距"
 
-#: arforms-form-builder.php:727
 #: arforms-form-builder.php:728
+#: arforms-form-builder.php:729
 #@ arforms-form-builder
 msgid "Field label"
 msgstr "栏位标签"
@@ -2674,12 +2674,12 @@ msgstr "字段值一旦转换为将丢失"
 msgid "Field Width"
 msgstr "场宽"
 
-#: arforms-form-builder.php:722
+#: arforms-form-builder.php:723
 #@ arforms-form-builder
 msgid "Field Wrapper"
 msgstr "现场包装"
 
-#: arforms-form-builder.php:721
+#: arforms-form-builder.php:722
 #@ arforms-form-builder
 msgid "Field wrapper"
 msgstr "现场包装"
@@ -2700,7 +2700,7 @@ msgstr "现场包装"
 msgid "Fields"
 msgstr "领域"
 
-#: arforms-form-builder.php:1296
+#: arforms-form-builder.php:1297
 #: core/helpers/arflitemainhelper.php:254
 #@ arforms-form-builder
 msgid "Fiji"
@@ -2736,7 +2736,7 @@ msgstr "菲律宾语"
 msgid "filtered from"
 msgstr "过滤自"
 
-#: arforms-form-builder.php:1301
+#: arforms-form-builder.php:1302
 #: core/helpers/arflitemainhelper.php:255
 #@ arforms-form-builder
 msgid "Finland"
@@ -2749,7 +2749,7 @@ msgstr "芬兰"
 msgid "Finnish"
 msgstr "芬兰"
 
-#: core/classes/class.arforms_form_builder.php:984
+#: core/classes/class.arforms_form_builder.php:988
 #: core/controllers/arflitemaincontroller.php:2454
 #@ arforms-form-builder
 msgid "First"
@@ -2760,7 +2760,7 @@ msgstr "第一"
 msgid "Flat"
 msgstr "平面"
 
-#: core/controllers/arfliteformcontroller.php:6565
+#: core/controllers/arfliteformcontroller.php:6573
 #: core/views/arflite_edit.php:5077
 #@ arforms-form-builder
 msgid "Font Awesome"
@@ -2825,13 +2825,13 @@ msgstr "表格边框"
 msgid "Form Description"
 msgstr "表格说明"
 
-#: arforms-form-builder.php:715
 #: arforms-form-builder.php:716
+#: arforms-form-builder.php:717
 #@ arforms-form-builder
 msgid "Form description"
 msgstr "表格说明"
 
-#: core/classes/class.arforms_form_builder.php:1790
+#: core/classes/class.arforms_form_builder.php:1794
 #: core/controllers/arfliteprocontroller.php:67
 #: core/controllers/arfliterecordcontroller.php:330
 #: core/views/arf_view_records.php:315
@@ -2839,8 +2839,8 @@ msgstr "表格说明"
 msgid "Form Entries"
 msgstr "表格输入"
 
-#: core/classes/class.arforms_form_builder.php:996
-#: core/classes/class.arforms_form_builder.php:1004
+#: core/classes/class.arforms_form_builder.php:1000
+#: core/classes/class.arforms_form_builder.php:1008
 #@ arforms-form-builder
 msgid "Form Entries Data"
 msgstr "表单条目数据"
@@ -2856,8 +2856,8 @@ msgstr "表格输入"
 msgid "Form Global CSS"
 msgstr "形成全球CSS"
 
-#: arforms-form-builder.php:703
 #: arforms-form-builder.php:704
+#: arforms-form-builder.php:705
 #@ arforms-form-builder
 msgid "Form inner wrapper"
 msgstr "表格内包装"
@@ -2892,8 +2892,8 @@ msgstr "表格已成功删除"
 msgid "Form is successfully updated"
 msgstr "表格已成功更新"
 
-#: arforms-form-builder.php:697
 #: arforms-form-builder.php:698
+#: arforms-form-builder.php:699
 #@ arforms-form-builder
 msgid "Form outer wrapper"
 msgstr "形成外包装纸"
@@ -2921,12 +2921,12 @@ msgstr "表格提交方法"
 
 #: core/helpers/arfliteformhelper.php:128
 #: core/helpers/arfliteformhelper.php:395
-#: core/models/arflitenotifymodel.php:939
+#: core/models/arflitenotifymodel.php:968
 #@ arforms-form-builder
 msgid "Form submitted on"
 msgstr "提交表格"
 
-#: arforms-form-builder.php:709
+#: arforms-form-builder.php:710
 #: core/views/arflite_edit.php:3286
 #: core/views/arflite_list.php:125
 #: core/views/arflite_new-selection-modal.php:70
@@ -2935,7 +2935,7 @@ msgstr "提交表格"
 msgid "Form Title"
 msgstr "表格标题"
 
-#: arforms-form-builder.php:710
+#: arforms-form-builder.php:711
 #@ arforms-form-builder
 msgid "Form title"
 msgstr "表格标题"
@@ -2965,7 +2965,7 @@ msgstr "表格宽度设置"
 msgid "Form(s) Only"
 msgstr "仅表格"
 
-#: core/classes/class.arforms_form_builder.php:1786
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #@ arforms-form-builder
@@ -2994,7 +2994,7 @@ msgstr "表格列表目前不可用。 请稍后再试。"
 msgid "Found a better plugin"
 msgstr "找到了更好的插件"
 
-#: arforms-form-builder.php:1306
+#: arforms-form-builder.php:1307
 #: core/helpers/arflitemainhelper.php:256
 #@ arforms-form-builder
 msgid "France"
@@ -3016,13 +3016,13 @@ msgstr "法文"
 msgid "French (Canadian)"
 msgstr "法语（加拿大）"
 
-#: arforms-form-builder.php:1311
+#: arforms-form-builder.php:1312
 #: core/helpers/arflitemainhelper.php:257
 #@ arforms-form-builder
 msgid "French Guiana"
 msgstr "法属圭亚那"
 
-#: arforms-form-builder.php:1316
+#: arforms-form-builder.php:1317
 #: core/helpers/arflitemainhelper.php:258
 #@ arforms-form-builder
 msgid "French Polynesia"
@@ -3067,13 +3067,13 @@ msgstr "从电子邮件"
 msgid "From/Replyto Name"
 msgstr "发件人/回复人姓名"
 
-#: arforms-form-builder.php:1321
+#: arforms-form-builder.php:1322
 #: core/helpers/arflitemainhelper.php:259
 #@ arforms-form-builder
 msgid "Gabon"
 msgstr "加蓬"
 
-#: arforms-form-builder.php:1326
+#: arforms-form-builder.php:1327
 #: core/helpers/arflitemainhelper.php:260
 #@ arforms-form-builder
 msgid "Gambia"
@@ -3097,9 +3097,9 @@ msgstr "常规选项"
 msgid "General setting saved successfully."
 msgstr "常规设置已成功保存。"
 
-#: core/classes/class.arforms_form_builder.php:1016
-#: core/classes/class.arforms_form_builder.php:1028
-#: core/classes/class.arforms_form_builder.php:1792
+#: core/classes/class.arforms_form_builder.php:1020
+#: core/classes/class.arforms_form_builder.php:1032
+#: core/classes/class.arforms_form_builder.php:1796
 #: core/controllers/arfliteprocontroller.php:69
 #: core/controllers/arflitesettingcontroller.php:126
 #: core/views/arflite_settings_form.php:64
@@ -3107,7 +3107,7 @@ msgstr "常规设置已成功保存。"
 msgid "General Settings"
 msgstr "常规设置"
 
-#: arforms-form-builder.php:1331
+#: arforms-form-builder.php:1332
 #: core/helpers/arflitemainhelper.php:261
 #@ arforms-form-builder
 msgid "Georgia"
@@ -3130,7 +3130,7 @@ msgstr "德语（奥地利）"
 msgid "German (Switzerland)"
 msgstr "德语（瑞士）"
 
-#: arforms-form-builder.php:1336
+#: arforms-form-builder.php:1337
 #: core/helpers/arflitemainhelper.php:262
 #@ arforms-form-builder
 msgid "Germany"
@@ -3146,13 +3146,13 @@ msgstr "获取授权码"
 msgid "Get It"
 msgstr "得到它"
 
-#: arforms-form-builder.php:1341
+#: arforms-form-builder.php:1342
 #: core/helpers/arflitemainhelper.php:263
 #@ arforms-form-builder
 msgid "Ghana"
 msgstr "加纳"
 
-#: arforms-form-builder.php:1346
+#: arforms-form-builder.php:1347
 #: core/helpers/arflitemainhelper.php:264
 #@ arforms-form-builder
 msgid "Gibraltar"
@@ -3192,7 +3192,7 @@ msgstr "谷歌/Gmail API"
 msgid "greater than"
 msgstr "比...更棒"
 
-#: arforms-form-builder.php:1351
+#: arforms-form-builder.php:1352
 #: core/helpers/arflitemainhelper.php:265
 #@ arforms-form-builder
 msgid "Greece"
@@ -3205,13 +3205,13 @@ msgstr "希腊"
 msgid "Greek"
 msgstr "希腊语"
 
-#: arforms-form-builder.php:1356
+#: arforms-form-builder.php:1357
 #: core/helpers/arflitemainhelper.php:266
 #@ arforms-form-builder
 msgid "Greenland"
 msgstr "格陵兰"
 
-#: arforms-form-builder.php:1361
+#: arforms-form-builder.php:1362
 #: core/helpers/arflitemainhelper.php:267
 #@ arforms-form-builder
 msgid "Grenada"
@@ -3222,41 +3222,41 @@ msgstr "格林纳达"
 msgid "Group Name"
 msgstr "组的名字"
 
-#: core/classes/class.arforms_form_builder.php:1798
+#: core/classes/class.arforms_form_builder.php:1802
 #: core/controllers/arflitesettingcontroller.php:134
 #@ arforms-form-builder
 msgid "Growth Plugins"
 msgstr "增长插件"
 
-#: arforms-form-builder.php:1366
+#: arforms-form-builder.php:1367
 #@ arforms-form-builder
 msgid "Guadeloupe"
 msgstr "瓜德罗普岛"
 
-#: arforms-form-builder.php:1371
+#: arforms-form-builder.php:1372
 #: core/helpers/arflitemainhelper.php:268
 #@ arforms-form-builder
 msgid "Guam"
 msgstr "关岛"
 
-#: arforms-form-builder.php:1376
+#: arforms-form-builder.php:1377
 #: core/helpers/arflitemainhelper.php:269
 #@ arforms-form-builder
 msgid "Guatemala"
 msgstr "危地马拉"
 
-#: arforms-form-builder.php:1381
+#: arforms-form-builder.php:1382
 #@ arforms-form-builder
 msgid "Guernsey"
 msgstr "根西岛"
 
-#: arforms-form-builder.php:1386
+#: arforms-form-builder.php:1387
 #: core/helpers/arflitemainhelper.php:270
 #@ arforms-form-builder
 msgid "Guinea"
 msgstr "几内亚"
 
-#: arforms-form-builder.php:1391
+#: arforms-form-builder.php:1392
 #: core/helpers/arflitemainhelper.php:271
 #@ arforms-form-builder
 msgid "Guinea-Bissau"
@@ -3267,13 +3267,13 @@ msgstr "几内亚比绍"
 msgid "Gujarati"
 msgstr "古吉拉特语"
 
-#: arforms-form-builder.php:1396
+#: arforms-form-builder.php:1397
 #: core/helpers/arflitemainhelper.php:272
 #@ arforms-form-builder
 msgid "Guyana"
 msgstr "圭亚那"
 
-#: arforms-form-builder.php:1401
+#: arforms-form-builder.php:1402
 #: core/helpers/arflitemainhelper.php:273
 #@ arforms-form-builder
 msgid "Haiti"
@@ -3343,13 +3343,13 @@ msgstr "在之后隐藏成功消息"
 msgid "Hindi"
 msgstr "印地语"
 
-#: arforms-form-builder.php:1406
+#: arforms-form-builder.php:1407
 #: core/helpers/arflitemainhelper.php:274
 #@ arforms-form-builder
 msgid "Honduras"
 msgstr "洪都拉斯"
 
-#: arforms-form-builder.php:1411
+#: arforms-form-builder.php:1412
 #: core/helpers/arflitemainhelper.php:275
 #@ arforms-form-builder
 msgid "Hong Kong"
@@ -3416,7 +3416,7 @@ msgstr "的HTML"
 msgid "Hungarian"
 msgstr "匈牙利"
 
-#: arforms-form-builder.php:1416
+#: arforms-form-builder.php:1417
 #: core/helpers/arflitemainhelper.php:276
 #@ arforms-form-builder
 msgid "Hungary"
@@ -3438,7 +3438,7 @@ msgstr "我购买了ARForms的高级版"
 msgid "I understand the risk"
 msgstr "我了解风险"
 
-#: arforms-form-builder.php:1421
+#: arforms-form-builder.php:1422
 #: core/helpers/arflitemainhelper.php:277
 #@ arforms-form-builder
 msgid "Iceland"
@@ -3498,7 +3498,7 @@ msgstr "图片无效"
 msgid "Image URL"
 msgstr "图片网址"
 
-#: arforms-form-builder.php:773
+#: arforms-form-builder.php:774
 #@ arforms-form-builder
 msgid "Image URL Elements"
 msgstr "图片网址元素"
@@ -3513,7 +3513,7 @@ msgstr "图像宽度"
 msgid "Import"
 msgstr "进口"
 
-#: core/classes/class.arforms_form_builder.php:1794
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3525,7 +3525,7 @@ msgstr "进出口"
 msgid "Import / Export Forms"
 msgstr "导入/导出表格"
 
-#: core/classes/class.arforms_form_builder.php:1794
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3553,7 +3553,7 @@ msgstr "与主题或插件不兼容"
 msgid "Incorrect Field"
 msgstr "字段不正确"
 
-#: arforms-form-builder.php:1426
+#: arforms-form-builder.php:1427
 #: core/helpers/arflitemainhelper.php:278
 #@ arforms-form-builder
 msgid "India"
@@ -3564,7 +3564,7 @@ msgstr "印度"
 msgid "Individual Steps"
 msgstr "个别步骤"
 
-#: arforms-form-builder.php:1431
+#: arforms-form-builder.php:1432
 #: core/helpers/arflitemainhelper.php:279
 #@ arforms-form-builder
 msgid "Indonesia"
@@ -3687,19 +3687,19 @@ msgstr "无效的最小字符长度"
 msgid "IP Address"
 msgstr "IP地址"
 
-#: arforms-form-builder.php:1436
+#: arforms-form-builder.php:1437
 #: core/helpers/arflitemainhelper.php:280
 #@ arforms-form-builder
 msgid "Iran"
 msgstr "伊朗"
 
-#: arforms-form-builder.php:1441
+#: arforms-form-builder.php:1442
 #: core/helpers/arflitemainhelper.php:281
 #@ arforms-form-builder
 msgid "Iraq"
 msgstr "伊拉克"
 
-#: arforms-form-builder.php:1446
+#: arforms-form-builder.php:1447
 #: core/helpers/arflitemainhelper.php:282
 #@ arforms-form-builder
 msgid "Ireland"
@@ -3710,12 +3710,12 @@ msgstr "爱尔兰"
 msgid "is"
 msgstr "是"
 
-#: arforms-form-builder.php:1451
+#: arforms-form-builder.php:1452
 #@ arforms-form-builder
 msgid "Isle of Man"
 msgstr "马恩岛"
 
-#: arforms-form-builder.php:1456
+#: arforms-form-builder.php:1457
 #: core/helpers/arflitemainhelper.php:283
 #@ arforms-form-builder
 msgid "Israel"
@@ -3733,13 +3733,13 @@ msgstr "义大利文"
 msgid "italic"
 msgstr "斜体"
 
-#: arforms-form-builder.php:1461
+#: arforms-form-builder.php:1462
 #: core/helpers/arflitemainhelper.php:284
 #@ arforms-form-builder
 msgid "Italy"
 msgstr "意大利"
 
-#: arforms-form-builder.php:1466
+#: arforms-form-builder.php:1467
 #: core/helpers/arflitemainhelper.php:285
 #@ arforms-form-builder
 msgid "Jamaica"
@@ -3750,7 +3750,7 @@ msgstr "牙买加"
 msgid "January"
 msgstr "一月"
 
-#: arforms-form-builder.php:1471
+#: arforms-form-builder.php:1472
 #: core/helpers/arflitemainhelper.php:286
 #@ arforms-form-builder
 msgid "Japan"
@@ -3763,12 +3763,12 @@ msgstr "日本"
 msgid "Japanese"
 msgstr "日本"
 
-#: arforms-form-builder.php:1476
+#: arforms-form-builder.php:1477
 #@ arforms-form-builder
 msgid "Jersey"
 msgstr "泽西岛"
 
-#: arforms-form-builder.php:1481
+#: arforms-form-builder.php:1482
 #: core/helpers/arflitemainhelper.php:287
 #@ arforms-form-builder
 msgid "Jordan"
@@ -3789,19 +3789,19 @@ msgstr "六月"
 msgid "Kannada"
 msgstr "卡纳达语"
 
-#: arforms-form-builder.php:1486
+#: arforms-form-builder.php:1487
 #: core/helpers/arflitemainhelper.php:288
 #@ arforms-form-builder
 msgid "Kazakhstan"
 msgstr "哈萨克斯坦"
 
-#: arforms-form-builder.php:1491
+#: arforms-form-builder.php:1492
 #: core/helpers/arflitemainhelper.php:289
 #@ arforms-form-builder
 msgid "Kenya"
 msgstr "肯尼亚"
 
-#: arforms-form-builder.php:1496
+#: arforms-form-builder.php:1497
 #: core/helpers/arflitemainhelper.php:290
 #@ arforms-form-builder
 msgid "Kiribati"
@@ -3814,18 +3814,18 @@ msgstr "基里巴斯"
 msgid "Korean"
 msgstr "韩语"
 
-#: arforms-form-builder.php:1501
+#: arforms-form-builder.php:1502
 #@ arforms-form-builder
 msgid "Kosovo"
 msgstr "科索沃"
 
-#: arforms-form-builder.php:1506
+#: arforms-form-builder.php:1507
 #: core/helpers/arflitemainhelper.php:293
 #@ arforms-form-builder
 msgid "Kuwait"
 msgstr "科威特"
 
-#: arforms-form-builder.php:1511
+#: arforms-form-builder.php:1512
 #: core/helpers/arflitemainhelper.php:294
 #@ arforms-form-builder
 msgid "Kyrgyzstan"
@@ -3877,19 +3877,19 @@ msgstr "标签宽度"
 msgid "Lack of documentation"
 msgstr "缺乏文件"
 
-#: arforms-form-builder.php:1516
+#: arforms-form-builder.php:1517
 #: core/helpers/arflitemainhelper.php:295
 #@ arforms-form-builder
 msgid "Laos"
 msgstr "老挝"
 
-#: core/classes/class.arforms_form_builder.php:983
+#: core/classes/class.arforms_form_builder.php:987
 #: core/controllers/arflitemaincontroller.php:2452
 #@ arforms-form-builder
 msgid "Last"
 msgstr "持续"
 
-#: arforms-form-builder.php:1521
+#: arforms-form-builder.php:1522
 #: core/helpers/arflitemainhelper.php:296
 #@ arforms-form-builder
 msgid "Latvia"
@@ -3902,7 +3902,7 @@ msgstr "拉脱维亚"
 msgid "Latvian"
 msgstr "拉脱维亚语"
 
-#: arforms-form-builder.php:1526
+#: arforms-form-builder.php:1527
 #: core/helpers/arflitemainhelper.php:297
 #@ arforms-form-builder
 msgid "Lebanon"
@@ -3930,7 +3930,7 @@ msgstr "剩下"
 msgid "Left to Right"
 msgstr "左到右"
 
-#: arforms-form-builder.php:1531
+#: arforms-form-builder.php:1532
 #: core/helpers/arflitemainhelper.php:298
 #@ arforms-form-builder
 msgid "Lesotho"
@@ -3941,19 +3941,19 @@ msgstr "莱索托"
 msgid "less than"
 msgstr "少于"
 
-#: arforms-form-builder.php:1536
+#: arforms-form-builder.php:1537
 #: core/helpers/arflitemainhelper.php:299
 #@ arforms-form-builder
 msgid "Liberia"
 msgstr "利比里亚"
 
-#: arforms-form-builder.php:1541
+#: arforms-form-builder.php:1542
 #: core/helpers/arflitemainhelper.php:300
 #@ arforms-form-builder
 msgid "Libya"
 msgstr "Libya"
 
-#: arforms-form-builder.php:1546
+#: arforms-form-builder.php:1547
 #: core/helpers/arflitemainhelper.php:301
 #@ arforms-form-builder
 msgid "Liechtenstein"
@@ -4000,7 +4000,7 @@ msgstr "列表名称"
 msgid "List name"
 msgstr "列表名称"
 
-#: arforms-form-builder.php:1551
+#: arforms-form-builder.php:1552
 #: core/helpers/arflitemainhelper.php:302
 #@ arforms-form-builder
 msgid "Lithuania"
@@ -4028,18 +4028,18 @@ msgstr "在所有页面中加载JS和CSS"
 msgid "LTR"
 msgstr "轻铁"
 
-#: arforms-form-builder.php:1556
+#: arforms-form-builder.php:1557
 #: core/helpers/arflitemainhelper.php:303
 #@ arforms-form-builder
 msgid "Luxembourg"
 msgstr "卢森堡"
 
-#: arforms-form-builder.php:1561
+#: arforms-form-builder.php:1562
 #@ arforms-form-builder
 msgid "Macau"
 msgstr "澳门"
 
-#: arforms-form-builder.php:1571
+#: arforms-form-builder.php:1572
 #: core/helpers/arflitemainhelper.php:305
 #@ arforms-form-builder
 msgid "Madagascar"
@@ -4050,7 +4050,7 @@ msgstr "马达加斯加"
 msgid "Main Input Colors"
 msgstr "主要输入颜色"
 
-#: arforms-form-builder.php:1576
+#: arforms-form-builder.php:1577
 #: core/helpers/arflitemainhelper.php:306
 #@ arforms-form-builder
 msgid "Malawi"
@@ -4066,31 +4066,31 @@ msgstr "马来语"
 msgid "Malayalam"
 msgstr "马拉雅拉姆语"
 
-#: arforms-form-builder.php:1581
+#: arforms-form-builder.php:1582
 #: core/helpers/arflitemainhelper.php:307
 #@ arforms-form-builder
 msgid "Malaysia"
 msgstr "马来西亚"
 
-#: arforms-form-builder.php:1586
+#: arforms-form-builder.php:1587
 #: core/helpers/arflitemainhelper.php:308
 #@ arforms-form-builder
 msgid "Maldives"
 msgstr "马尔代夫"
 
-#: arforms-form-builder.php:1591
+#: arforms-form-builder.php:1592
 #: core/helpers/arflitemainhelper.php:309
 #@ arforms-form-builder
 msgid "Mali"
 msgstr "马里"
 
-#: arforms-form-builder.php:1596
+#: arforms-form-builder.php:1597
 #: core/helpers/arflitemainhelper.php:310
 #@ arforms-form-builder
 msgid "Malta"
 msgstr "马耳他"
 
-#: core/classes/class.arforms_form_builder.php:1786
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #: core/views/arflite_list.php:50
@@ -4119,23 +4119,23 @@ msgstr "游行"
 msgid "Margin"
 msgstr "余量"
 
-#: arforms-form-builder.php:1601
+#: arforms-form-builder.php:1602
 #: core/helpers/arflitemainhelper.php:311
 #@ arforms-form-builder
 msgid "Marshall Islands"
 msgstr "马绍尔群岛"
 
-#: arforms-form-builder.php:1606
+#: arforms-form-builder.php:1607
 #@ arforms-form-builder
 msgid "Martinique"
 msgstr "马提尼克岛"
 
-#: core/controllers/arfliteformcontroller.php:6571
+#: core/controllers/arfliteformcontroller.php:6579
 #@ arforms-form-builder
 msgid "Mask Input"
 msgstr "遮罩输入"
 
-#: core/controllers/arfliteformcontroller.php:6584
+#: core/controllers/arfliteformcontroller.php:6592
 #@ arforms-form-builder
 msgid "Material"
 msgstr "材料"
@@ -4176,13 +4176,13 @@ msgstr "矩阵"
 msgid "Matrix Field Background Color"
 msgstr "矩阵字段背景颜色"
 
-#: arforms-form-builder.php:1611
+#: arforms-form-builder.php:1612
 #: core/helpers/arflitemainhelper.php:312
 #@ arforms-form-builder
 msgid "Mauritania"
 msgstr "毛里塔尼亚"
 
-#: arforms-form-builder.php:1616
+#: arforms-form-builder.php:1617
 #: core/helpers/arflitemainhelper.php:313
 #@ arforms-form-builder
 msgid "Mauritius"
@@ -4216,7 +4216,7 @@ msgstr "最大"
 msgid "May"
 msgstr "可以"
 
-#: arforms-form-builder.php:1621
+#: arforms-form-builder.php:1622
 #@ arforms-form-builder
 msgid "Mayotte"
 msgstr "马约特岛"
@@ -4276,13 +4276,13 @@ msgstr "插入不正确的数据时，将显示消息。"
 msgid "Message will be displayed when required fields is left blank."
 msgstr "当必填字段保留为空白时，将显示消息。"
 
-#: arforms-form-builder.php:1626
+#: arforms-form-builder.php:1627
 #: core/helpers/arflitemainhelper.php:314
 #@ arforms-form-builder
 msgid "Mexico"
 msgstr "墨西哥"
 
-#: arforms-form-builder.php:1631
+#: arforms-form-builder.php:1632
 #: core/helpers/arflitemainhelper.php:315
 #@ arforms-form-builder
 msgid "Micronesia"
@@ -4345,13 +4345,13 @@ msgstr "流动检视"
 msgid "Modern"
 msgstr "现代"
 
-#: arforms-form-builder.php:1636
+#: arforms-form-builder.php:1637
 #: core/helpers/arflitemainhelper.php:316
 #@ arforms-form-builder
 msgid "Moldova"
 msgstr "摩尔多瓦"
 
-#: arforms-form-builder.php:1641
+#: arforms-form-builder.php:1642
 #: core/helpers/arflitemainhelper.php:317
 #@ arforms-form-builder
 msgid "Monaco"
@@ -4363,13 +4363,13 @@ msgstr "摩纳哥"
 msgid "Monday"
 msgstr "星期一"
 
-#: arforms-form-builder.php:1646
+#: arforms-form-builder.php:1647
 #: core/helpers/arflitemainhelper.php:318
 #@ arforms-form-builder
 msgid "Mongolia"
 msgstr "蒙古"
 
-#: arforms-form-builder.php:1651
+#: arforms-form-builder.php:1652
 #: core/helpers/arflitemainhelper.php:319
 #@ arforms-form-builder
 msgid "Montenegro"
@@ -4390,13 +4390,13 @@ msgstr "月数"
 msgid "months"
 msgstr "月"
 
-#: arforms-form-builder.php:1656
+#: arforms-form-builder.php:1657
 #: core/helpers/arflitemainhelper.php:320
 #@ arforms-form-builder
 msgid "Montserrat"
 msgstr "蒙特塞拉特"
 
-#: arforms-form-builder.php:1661
+#: arforms-form-builder.php:1662
 #: core/helpers/arflitemainhelper.php:321
 #@ arforms-form-builder
 msgid "Morocco"
@@ -4413,7 +4413,7 @@ msgstr "Most Powerful Form Builder to create wide variety of forms within a minu
 msgid "Move"
 msgstr "移动"
 
-#: arforms-form-builder.php:1666
+#: arforms-form-builder.php:1667
 #: core/helpers/arflitemainhelper.php:322
 #@ arforms-form-builder
 msgid "Mozambique"
@@ -4446,7 +4446,7 @@ msgstr "多选"
 msgid "Multiline Text"
 msgstr "多行文字"
 
-#: arforms-form-builder.php:1671
+#: arforms-form-builder.php:1672
 #: core/helpers/arflitemainhelper.php:323
 #@ arforms-form-builder
 msgid "Myanmar"
@@ -4457,30 +4457,30 @@ msgstr "缅甸"
 msgid "N/A"
 msgstr "不适用"
 
-#: arforms-form-builder.php:1676
+#: arforms-form-builder.php:1677
 #: core/helpers/arflitemainhelper.php:324
 #@ arforms-form-builder
 msgid "Namibia"
 msgstr "纳米比亚"
 
-#: arforms-form-builder.php:1681
+#: arforms-form-builder.php:1682
 #: core/helpers/arflitemainhelper.php:325
 #@ arforms-form-builder
 msgid "Nauru"
 msgstr "瑙鲁"
 
-#: core/classes/class.arforms_form_builder.php:699
+#: core/classes/class.arforms_form_builder.php:703
 #@ arforms-form-builder
 msgid "Need Help ?"
 msgstr "需要帮忙 ？"
 
-#: arforms-form-builder.php:1686
+#: arforms-form-builder.php:1687
 #: core/helpers/arflitemainhelper.php:326
 #@ arforms-form-builder
 msgid "Nepal"
 msgstr "尼泊尔"
 
-#: arforms-form-builder.php:1691
+#: arforms-form-builder.php:1692
 #: core/helpers/arflitemainhelper.php:327
 #@ arforms-form-builder
 msgid "Netherlands"
@@ -4491,7 +4491,7 @@ msgstr "荷兰"
 msgid "Neutral"
 msgstr "中性"
 
-#: arforms-form-builder.php:1696
+#: arforms-form-builder.php:1697
 #@ arforms-form-builder
 msgid "New Caledonia"
 msgstr "新喀里多尼亚"
@@ -4501,13 +4501,13 @@ msgstr "新喀里多尼亚"
 msgid "New Form"
 msgstr "新表格"
 
-#: arforms-form-builder.php:1701
+#: arforms-form-builder.php:1702
 #: core/helpers/arflitemainhelper.php:328
 #@ arforms-form-builder
 msgid "New Zealand"
 msgstr "新西兰"
 
-#: core/classes/class.arforms_form_builder.php:982
+#: core/classes/class.arforms_form_builder.php:986
 #: core/controllers/arflitemaincontroller.php:2450
 #: core/helpers/arflitefieldhelper.php:815
 #@ arforms-form-builder
@@ -4519,25 +4519,25 @@ msgstr "下一个"
 msgid "Next Entry"
 msgstr "下一个条目"
 
-#: arforms-form-builder.php:1706
+#: arforms-form-builder.php:1707
 #: core/helpers/arflitemainhelper.php:329
 #@ arforms-form-builder
 msgid "Nicaragua"
 msgstr "尼加拉瓜"
 
-#: arforms-form-builder.php:1711
+#: arforms-form-builder.php:1712
 #: core/helpers/arflitemainhelper.php:330
 #@ arforms-form-builder
 msgid "Niger"
 msgstr "尼日尔"
 
-#: arforms-form-builder.php:1716
+#: arforms-form-builder.php:1717
 #: core/helpers/arflitemainhelper.php:331
 #@ arforms-form-builder
 msgid "Nigeria"
 msgstr "奈及利亚"
 
-#: arforms-form-builder.php:1721
+#: arforms-form-builder.php:1722
 #@ arforms-form-builder
 msgid "Niue"
 msgstr "纽埃"
@@ -4580,7 +4580,7 @@ msgstr "没有"
 msgid "No data available in table"
 msgstr "表中没有可用数据"
 
-#: core/classes/class.arforms_form_builder.php:666
+#: core/classes/class.arforms_form_builder.php:670
 #@ arforms-form-builder
 msgid "No data found"
 msgstr "没有找到数据"
@@ -4643,7 +4643,7 @@ msgstr "不，也许以后"
 msgid "None"
 msgstr "没有"
 
-#: arforms-form-builder.php:1726
+#: arforms-form-builder.php:1727
 #@ arforms-form-builder
 msgid "Norfolk Island"
 msgstr "诺福克岛"
@@ -4658,25 +4658,25 @@ msgstr "正常"
 msgid "Normal submission"
 msgstr "正常提交"
 
-#: arforms-form-builder.php:1731
+#: arforms-form-builder.php:1732
 #: core/helpers/arflitemainhelper.php:291
 #@ arforms-form-builder
 msgid "North Korea"
 msgstr "北朝鲜"
 
-#: arforms-form-builder.php:1566
+#: arforms-form-builder.php:1567
 #: core/helpers/arflitemainhelper.php:304
 #@ arforms-form-builder
 msgid "North Macedonia"
 msgstr "北马其顿"
 
-#: arforms-form-builder.php:1736
+#: arforms-form-builder.php:1737
 #: core/helpers/arflitemainhelper.php:333
 #@ arforms-form-builder
 msgid "Northern Mariana Islands"
 msgstr "北马里亚纳群岛"
 
-#: arforms-form-builder.php:1741
+#: arforms-form-builder.php:1742
 #: core/helpers/arflitemainhelper.php:332
 #@ arforms-form-builder
 msgid "Norway"
@@ -4775,7 +4775,7 @@ msgstr "十一月"
 msgid "Number"
 msgstr "数"
 
-#: arforms-form-builder.php:748
+#: arforms-form-builder.php:749
 #@ arforms-form-builder
 msgid "Number Elements"
 msgstr "数字元素"
@@ -4880,7 +4880,7 @@ msgstr "好，你应得的"
 msgid "Okay"
 msgstr "好的"
 
-#: arforms-form-builder.php:1746
+#: arforms-form-builder.php:1747
 #: core/helpers/arflitemainhelper.php:334
 #@ arforms-form-builder
 msgid "Oman"
@@ -5002,44 +5002,44 @@ msgstr "页面网址"
 msgid "PageBreak Timer Settings"
 msgstr "分页计时器设置"
 
-#: arforms-form-builder.php:1751
+#: arforms-form-builder.php:1752
 #: core/helpers/arflitemainhelper.php:335
 #@ arforms-form-builder
 msgid "Pakistan"
 msgstr "巴基斯坦"
 
-#: arforms-form-builder.php:1756
+#: arforms-form-builder.php:1757
 #: core/helpers/arflitemainhelper.php:336
 #@ arforms-form-builder
 msgid "Palau"
 msgstr "u琉"
 
-#: arforms-form-builder.php:1761
+#: arforms-form-builder.php:1762
 #: core/helpers/arflitemainhelper.php:337
 #@ arforms-form-builder
 msgid "Palestine"
 msgstr "巴勒斯坦"
 
-#: arforms-form-builder.php:1766
+#: arforms-form-builder.php:1767
 #: core/helpers/arflitemainhelper.php:338
 #@ arforms-form-builder
 msgid "Panama"
 msgstr "巴拿马"
 
-#: arforms-form-builder.php:1771
+#: arforms-form-builder.php:1772
 #: core/helpers/arflitemainhelper.php:339
 #@ arforms-form-builder
 msgid "Papua New Guinea"
 msgstr "巴布亚新几内亚"
 
-#: arforms-form-builder.php:1776
+#: arforms-form-builder.php:1777
 #: core/helpers/arflitemainhelper.php:340
 #@ arforms-form-builder
 msgid "Paraguay"
 msgstr "巴拉圭"
 
-#: core/classes/class.arforms_form_builder.php:1000
-#: core/classes/class.arforms_form_builder.php:1006
+#: core/classes/class.arforms_form_builder.php:1004
+#: core/classes/class.arforms_form_builder.php:1010
 #@ arforms-form-builder
 msgid "Partial Filled Form Entries"
 msgstr "部分填写的表单条目"
@@ -5065,13 +5065,13 @@ msgstr "待办的"
 msgid "Persian"
 msgstr "波斯语"
 
-#: arforms-form-builder.php:1781
+#: arforms-form-builder.php:1782
 #: core/helpers/arflitemainhelper.php:341
 #@ arforms-form-builder
 msgid "Peru"
 msgstr "秘鲁"
 
-#: arforms-form-builder.php:1786
+#: arforms-form-builder.php:1787
 #: core/helpers/arflitemainhelper.php:342
 #@ arforms-form-builder
 msgid "Philippines"
@@ -5082,7 +5082,7 @@ msgstr "菲律宾"
 msgid "Phone"
 msgstr "电话"
 
-#: arforms-form-builder.php:743
+#: arforms-form-builder.php:744
 #@ arforms-form-builder
 msgid "Phone Elements"
 msgstr "手机元素"
@@ -5303,8 +5303,8 @@ msgstr "请选择有效的操作。"
 #: core/classes/class.arforms_block_widget.php:61
 #: core/classes/class.arforms_block_widget.php:83
 #: core/classes/class.arforms_block_widget.php:102
-#: core/controllers/arfliteformcontroller.php:7143
-#: core/controllers/arfliteformcontroller.php:7155
+#: core/controllers/arfliteformcontroller.php:7151
+#: core/controllers/arfliteformcontroller.php:7163
 #: core/controllers/arflitemaincontroller.php:1973
 #: core/views/arflite_form_preview.php:10
 #@ arforms-form-builder
@@ -5373,7 +5373,7 @@ msgstr "重定向期间，请等待。"
 msgid "Please, Select appropriate option"
 msgstr "请选择适当的选项"
 
-#: arforms-form-builder.php:1791
+#: arforms-form-builder.php:1792
 #: core/helpers/arflitemainhelper.php:343
 #@ arforms-form-builder
 msgid "Poland"
@@ -5386,7 +5386,7 @@ msgstr "波兰"
 msgid "Polish"
 msgstr "抛光"
 
-#: arforms-form-builder.php:1796
+#: arforms-form-builder.php:1797
 #: core/helpers/arflitemainhelper.php:344
 #@ arforms-form-builder
 msgid "Portugal"
@@ -5447,7 +5447,7 @@ msgstr "预设标题"
 msgid "Preview"
 msgstr "预习"
 
-#: core/classes/class.arforms_form_builder.php:985
+#: core/classes/class.arforms_form_builder.php:989
 #: core/controllers/arflitemaincontroller.php:2456
 #: core/helpers/arflitefieldhelper.php:814
 #@ arforms-form-builder
@@ -5471,13 +5471,13 @@ msgstr "专业版"
 msgid "Proceed"
 msgstr "继续"
 
-#: arforms-form-builder.php:1801
+#: arforms-form-builder.php:1802
 #: core/helpers/arflitemainhelper.php:345
 #@ arforms-form-builder
 msgid "Puerto Rico"
 msgstr "波多黎各"
 
-#: arforms-form-builder.php:1806
+#: arforms-form-builder.php:1807
 #: core/helpers/arflitemainhelper.php:346
 #@ arforms-form-builder
 msgid "Qatar"
@@ -5548,7 +5548,7 @@ msgstr "记录无法删除"
 
 #: core/controllers/arfliteformcontroller.php:242
 #: core/controllers/arfliteformcontroller.php:772
-#: core/controllers/arfliteformcontroller.php:7166
+#: core/controllers/arfliteformcontroller.php:7174
 #: core/controllers/arfliterecordcontroller.php:3225
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:1116
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:1264
@@ -5637,7 +5637,7 @@ msgstr "重启"
 msgid "Reset Style"
 msgstr "重置样式"
 
-#: arforms-form-builder.php:1811
+#: arforms-form-builder.php:1812
 #@ arforms-form-builder
 msgid "Reunion"
 msgstr "团圆"
@@ -5669,7 +5669,7 @@ msgstr "对"
 msgid "Right to Left"
 msgstr "右到左"
 
-#: arforms-form-builder.php:1816
+#: arforms-form-builder.php:1817
 #: core/helpers/arflitemainhelper.php:347
 #@ arforms-form-builder
 msgid "Romania"
@@ -5698,7 +5698,7 @@ msgstr "RTL"
 msgid "Running Total (Math Logic) is Enabled"
 msgstr "启用运行总计（数学逻辑）"
 
-#: arforms-form-builder.php:1821
+#: arforms-form-builder.php:1822
 #: core/helpers/arflitemainhelper.php:348
 #@ arforms-form-builder
 msgid "Russia"
@@ -5711,51 +5711,51 @@ msgstr "俄国"
 msgid "Russian"
 msgstr "俄语"
 
-#: arforms-form-builder.php:1826
+#: arforms-form-builder.php:1827
 #: core/helpers/arflitemainhelper.php:349
 #@ arforms-form-builder
 msgid "Rwanda"
 msgstr "卢旺达"
 
-#: arforms-form-builder.php:1831
+#: arforms-form-builder.php:1832
 #@ arforms-form-builder
 msgid "Saint Barthelemy"
 msgstr "圣巴托洛缪岛"
 
-#: arforms-form-builder.php:1836
+#: arforms-form-builder.php:1837
 #@ arforms-form-builder
 msgid "Saint Helena"
 msgstr "圣海伦娜"
 
-#: arforms-form-builder.php:1841
+#: arforms-form-builder.php:1842
 #: core/helpers/arflitemainhelper.php:350
 #@ arforms-form-builder
 msgid "Saint Kitts and Nevis"
 msgstr "圣基茨和尼维斯"
 
-#: arforms-form-builder.php:1846
+#: arforms-form-builder.php:1847
 #: core/helpers/arflitemainhelper.php:351
 #@ arforms-form-builder
 msgid "Saint Lucia"
 msgstr "圣卢西亚"
 
-#: arforms-form-builder.php:1851
+#: arforms-form-builder.php:1852
 #@ arforms-form-builder
 msgid "Saint Martin"
 msgstr "圣马丁"
 
-#: arforms-form-builder.php:1856
+#: arforms-form-builder.php:1857
 #@ arforms-form-builder
 msgid "Saint Pierre and Miquelon"
 msgstr "圣皮埃尔和密克隆群岛"
 
-#: arforms-form-builder.php:1861
+#: arforms-form-builder.php:1862
 #: core/helpers/arflitemainhelper.php:352
 #@ arforms-form-builder
 msgid "Saint Vincent and the Grenadines"
 msgstr "圣文森特和格林纳丁斯"
 
-#: arforms-form-builder.php:1866
+#: arforms-form-builder.php:1867
 #: core/helpers/arflitemainhelper.php:353
 #@ arforms-form-builder
 msgid "Samoa"
@@ -5771,13 +5771,13 @@ msgstr "样本表格"
 msgid "Sample RegExp"
 msgstr "RegExp示例"
 
-#: arforms-form-builder.php:1871
+#: arforms-form-builder.php:1872
 #: core/helpers/arflitemainhelper.php:354
 #@ arforms-form-builder
 msgid "San Marino"
 msgstr "圣马力诺"
 
-#: arforms-form-builder.php:1876
+#: arforms-form-builder.php:1877
 #: core/helpers/arflitemainhelper.php:355
 #@ arforms-form-builder
 msgid "Sao Tome and Principe"
@@ -5799,7 +5799,7 @@ msgstr "满意"
 msgid "Saturday"
 msgstr "星期六"
 
-#: arforms-form-builder.php:1881
+#: arforms-form-builder.php:1882
 #: core/helpers/arflitemainhelper.php:356
 #@ arforms-form-builder
 msgid "Saudi Arabia"
@@ -6045,7 +6045,7 @@ msgstr "发送测试电子邮件"
 msgid "Send test mail"
 msgstr "发送测试邮件"
 
-#: arforms-form-builder.php:1886
+#: arforms-form-builder.php:1887
 #: core/helpers/arflitemainhelper.php:357
 #@ arforms-form-builder
 msgid "Senegal"
@@ -6056,7 +6056,7 @@ msgstr "塞内加尔"
 msgid "September"
 msgstr "九月"
 
-#: arforms-form-builder.php:1891
+#: arforms-form-builder.php:1892
 #@ arforms-form-builder
 msgid "Serbia"
 msgstr "塞尔维亚"
@@ -6147,7 +6147,7 @@ msgstr "设定值"
 msgid "Settings Saved."
 msgstr "设置已保存。"
 
-#: arforms-form-builder.php:1896
+#: arforms-form-builder.php:1897
 #: core/helpers/arflitemainhelper.php:359
 #@ arforms-form-builder
 msgid "Seychelles"
@@ -6217,7 +6217,7 @@ msgstr "显示单位"
 msgid "Showing"
 msgstr "正在显示"
 
-#: arforms-form-builder.php:1901
+#: arforms-form-builder.php:1902
 #: core/helpers/arflitemainhelper.php:360
 #@ arforms-form-builder
 msgid "Sierra Leone"
@@ -6229,7 +6229,7 @@ msgstr "塞拉利昂"
 msgid "Sign out successfully."
 msgstr "退出成功。"
 
-#: arforms-form-builder.php:1906
+#: arforms-form-builder.php:1907
 #: core/helpers/arflitemainhelper.php:361
 #@ arforms-form-builder
 msgid "Singapore"
@@ -6242,7 +6242,7 @@ msgstr "新加坡"
 msgid "Single Line Text"
 msgstr "单行文字"
 
-#: arforms-form-builder.php:1911
+#: arforms-form-builder.php:1912
 #@ arforms-form-builder
 msgid "Sint Maarten"
 msgstr "圣马丁"
@@ -6292,13 +6292,13 @@ msgstr "滑轨"
 msgid "Slovak"
 msgstr "斯洛伐克文"
 
-#: arforms-form-builder.php:1916
+#: arforms-form-builder.php:1917
 #: core/helpers/arflitemainhelper.php:362
 #@ arforms-form-builder
 msgid "Slovakia"
 msgstr "斯洛伐克"
 
-#: arforms-form-builder.php:1921
+#: arforms-form-builder.php:1922
 #: core/helpers/arflitemainhelper.php:363
 #@ arforms-form-builder
 msgid "Slovenia"
@@ -6357,13 +6357,13 @@ msgstr "SMTP用户名"
 msgid "Solid"
 msgstr "固体"
 
-#: arforms-form-builder.php:1926
+#: arforms-form-builder.php:1927
 #: core/helpers/arflitemainhelper.php:364
 #@ arforms-form-builder
 msgid "Solomon Islands"
 msgstr "所罗门群岛"
 
-#: arforms-form-builder.php:1931
+#: arforms-form-builder.php:1932
 #: core/helpers/arflitemainhelper.php:365
 #@ arforms-form-builder
 msgid "Somalia"
@@ -6470,19 +6470,19 @@ msgstr "抱歉，由于安全原因无法处理您的请求。"
 msgid "Sorry, Your request could not be processed due to security reasons."
 msgstr "抱歉，由于安全原因，您的请求无法处理。"
 
-#: arforms-form-builder.php:1936
+#: arforms-form-builder.php:1937
 #: core/helpers/arflitemainhelper.php:366
 #@ arforms-form-builder
 msgid "South Africa"
 msgstr "南非"
 
-#: arforms-form-builder.php:1941
+#: arforms-form-builder.php:1942
 #: core/helpers/arflitemainhelper.php:292
 #@ arforms-form-builder
 msgid "South Korea"
 msgstr "南韩"
 
-#: arforms-form-builder.php:1946
+#: arforms-form-builder.php:1947
 #@ arforms-form-builder
 msgid "South Sudan"
 msgstr "南苏丹"
@@ -6492,7 +6492,7 @@ msgstr "南苏丹"
 msgid "Space Between Two Fields"
 msgstr "两场之间的空间"
 
-#: arforms-form-builder.php:1951
+#: arforms-form-builder.php:1952
 #: core/helpers/arflitemainhelper.php:367
 #@ arforms-form-builder
 msgid "Spain"
@@ -6531,7 +6531,7 @@ msgstr "传播"
 msgid "Sr"
 msgstr "r"
 
-#: arforms-form-builder.php:1956
+#: arforms-form-builder.php:1957
 #: core/helpers/arflitemainhelper.php:368
 #@ arforms-form-builder
 msgid "Sri Lanka"
@@ -6642,8 +6642,8 @@ msgstr "提交字体设置"
 msgid "Submit Tracking Script"
 msgstr "提交跟踪脚本"
 
-#: arforms-form-builder.php:778
 #: arforms-form-builder.php:779
+#: arforms-form-builder.php:780
 #@ arforms-form-builder
 msgid "Submit Wrapper"
 msgstr "提交包装"
@@ -6666,8 +6666,8 @@ msgstr "提交表格"
 msgid "Success"
 msgstr "成功"
 
-#: arforms-form-builder.php:784
 #: arforms-form-builder.php:785
+#: arforms-form-builder.php:786
 #: core/views/arflite_settings_form.php:188
 #@ arforms-form-builder
 msgid "Success Message"
@@ -6688,7 +6688,7 @@ msgstr "成功/错误消息位置"
 msgid "Successfully removed file"
 msgstr "成功删除文件"
 
-#: arforms-form-builder.php:1961
+#: arforms-form-builder.php:1962
 #: core/helpers/arflitemainhelper.php:369
 #@ arforms-form-builder
 msgid "Sudan"
@@ -6705,24 +6705,24 @@ msgstr "后缀"
 msgid "Sunday"
 msgstr "星期日"
 
-#: arforms-form-builder.php:1966
+#: arforms-form-builder.php:1967
 #: core/helpers/arflitemainhelper.php:370
 #@ arforms-form-builder
 msgid "Suriname"
 msgstr "苏里南"
 
-#: arforms-form-builder.php:1971
+#: arforms-form-builder.php:1972
 #@ arforms-form-builder
 msgid "Svalbard and Jan Mayen"
 msgstr "斯瓦尔巴和扬·马延"
 
-#: arforms-form-builder.php:1976
+#: arforms-form-builder.php:1977
 #: core/helpers/arflitemainhelper.php:371
 #@ arforms-form-builder
 msgid "Swaziland"
 msgstr "斯威士兰"
 
-#: arforms-form-builder.php:1981
+#: arforms-form-builder.php:1982
 #: core/helpers/arflitemainhelper.php:372
 #@ arforms-form-builder
 msgid "Sweden"
@@ -6741,13 +6741,13 @@ msgstr "瑞典"
 msgid "Switch"
 msgstr "开关"
 
-#: arforms-form-builder.php:1986
+#: arforms-form-builder.php:1987
 #: core/helpers/arflitemainhelper.php:373
 #@ arforms-form-builder
 msgid "Switzerland"
 msgstr "瑞士"
 
-#: arforms-form-builder.php:1991
+#: arforms-form-builder.php:1992
 #: core/helpers/arflitemainhelper.php:374
 #@ arforms-form-builder
 msgid "Syria"
@@ -6759,13 +6759,13 @@ msgstr "叙利亚"
 msgid "Tablet View"
 msgstr "平板电脑视图"
 
-#: arforms-form-builder.php:1996
+#: arforms-form-builder.php:1997
 #: core/helpers/arflitemainhelper.php:375
 #@ arforms-form-builder
 msgid "Taiwan"
 msgstr "台湾"
 
-#: arforms-form-builder.php:2001
+#: arforms-form-builder.php:2002
 #: core/helpers/arflitemainhelper.php:376
 #@ arforms-form-builder
 msgid "Tajikistan"
@@ -6778,7 +6778,7 @@ msgstr "塔吉克斯坦"
 msgid "Tamil"
 msgstr "泰米尔语"
 
-#: arforms-form-builder.php:2006
+#: arforms-form-builder.php:2007
 #: core/helpers/arflitemainhelper.php:377
 #@ arforms-form-builder
 msgid "Tanzania"
@@ -6828,12 +6828,12 @@ msgstr "文字颜色"
 msgid "Text Direction"
 msgstr "文字方向"
 
-#: arforms-form-builder.php:738
+#: arforms-form-builder.php:739
 #@ arforms-form-builder
 msgid "Textarea Elements"
 msgstr "文字区域元素"
 
-#: arforms-form-builder.php:733
+#: arforms-form-builder.php:734
 #@ arforms-form-builder
 msgid "Textbox Elements"
 msgstr "文字框元素"
@@ -6845,7 +6845,7 @@ msgstr "文字框元素"
 msgid "Thai"
 msgstr "泰国"
 
-#: arforms-form-builder.php:2011
+#: arforms-form-builder.php:2012
 #: core/helpers/arflitemainhelper.php:378
 #@ arforms-form-builder
 msgid "Thailand"
@@ -6920,14 +6920,14 @@ msgstr "删除该条目时出错"
 msgid "There is an issue while uploading a file. Please try again"
 msgstr "上传文件时出现问题。 请再试一次"
 
-#: core/classes/class.arforms_form_builder.php:950
+#: core/classes/class.arforms_form_builder.php:954
 #: core/controllers/arflitemaincontroller.php:2448
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:631
 #@ arforms-form-builder
 msgid "There is no any form found"
 msgstr "找不到任何表格"
 
-#: core/classes/class.arforms_form_builder.php:981
+#: core/classes/class.arforms_form_builder.php:985
 #: core/controllers/arflitemaincontroller.php:2436
 #@ arforms-form-builder
 msgid "There is no entry found"
@@ -7130,7 +7130,7 @@ msgstr "星期四"
 msgid "Time"
 msgstr "时间"
 
-#: arforms-form-builder.php:763
+#: arforms-form-builder.php:764
 #@ arforms-form-builder
 msgid "Time Elements"
 msgstr "时间要素"
@@ -7145,7 +7145,7 @@ msgstr "定时器样式"
 msgid "Timestamp"
 msgstr "时间戳记"
 
-#: arforms-form-builder.php:2016
+#: arforms-form-builder.php:2017
 #@ arforms-form-builder
 msgid "Timor-Leste"
 msgstr "东帝汶"
@@ -7202,24 +7202,24 @@ msgstr "要导出此表单，首先需要保存它"
 msgid "to set dynamic minimum date please use the below short-code"
 msgstr "要设置动态最短日期，请使用以下短代码"
 
-#: arforms-form-builder.php:2021
+#: arforms-form-builder.php:2022
 #: core/helpers/arflitemainhelper.php:379
 #@ arforms-form-builder
 msgid "Togo"
 msgstr "多哥"
 
-#: arforms-form-builder.php:2026
+#: arforms-form-builder.php:2027
 #@ arforms-form-builder
 msgid "Tokelau"
 msgstr "托克劳"
 
-#: arforms-form-builder.php:2031
+#: arforms-form-builder.php:2032
 #: core/helpers/arflitemainhelper.php:380
 #@ arforms-form-builder
 msgid "Tonga"
 msgstr "汤加"
 
-#: core/controllers/arfliteformcontroller.php:6577
+#: core/controllers/arfliteformcontroller.php:6585
 #: core/views/arflite_field_option_popup.php:852
 #@ arforms-form-builder
 msgid "Tooltip"
@@ -7252,7 +7252,7 @@ msgstr "最佳"
 msgid "total"
 msgstr "总"
 
-#: arforms-form-builder.php:2036
+#: arforms-form-builder.php:2037
 #: core/helpers/arflitemainhelper.php:381
 #@ arforms-form-builder
 msgid "Trinidad and Tobago"
@@ -7264,13 +7264,13 @@ msgstr "特立尼达和多巴哥"
 msgid "Tuesday"
 msgstr "星期二"
 
-#: arforms-form-builder.php:2041
+#: arforms-form-builder.php:2042
 #: core/helpers/arflitemainhelper.php:382
 #@ arforms-form-builder
 msgid "Tunisia"
 msgstr "突尼斯"
 
-#: arforms-form-builder.php:2046
+#: arforms-form-builder.php:2047
 #: core/helpers/arflitemainhelper.php:383
 #@ arforms-form-builder
 msgid "Turkey"
@@ -7283,18 +7283,18 @@ msgstr "火鸡"
 msgid "Turkish"
 msgstr "土耳其"
 
-#: arforms-form-builder.php:2051
+#: arforms-form-builder.php:2052
 #: core/helpers/arflitemainhelper.php:384
 #@ arforms-form-builder
 msgid "Turkmenistan"
 msgstr "土库曼斯坦"
 
-#: arforms-form-builder.php:2056
+#: arforms-form-builder.php:2057
 #@ arforms-form-builder
 msgid "Turks and Caicos Islands"
 msgstr "特克斯和凯科斯群岛"
 
-#: arforms-form-builder.php:2061
+#: arforms-form-builder.php:2062
 #: core/helpers/arflitemainhelper.php:385
 #@ arforms-form-builder
 msgid "Tuvalu"
@@ -7327,18 +7327,18 @@ msgstr "美国国家缩写"
 msgid "U.S. States"
 msgstr "美国各州"
 
-#: arforms-form-builder.php:2066
+#: arforms-form-builder.php:2067
 #@ arforms-form-builder
 msgid "U.S. Virgin Islands"
 msgstr "美属维尔京群岛"
 
-#: arforms-form-builder.php:2071
+#: arforms-form-builder.php:2072
 #: core/helpers/arflitemainhelper.php:386
 #@ arforms-form-builder
 msgid "Uganda"
 msgstr "乌干达"
 
-#: arforms-form-builder.php:2076
+#: arforms-form-builder.php:2077
 #: core/helpers/arflitemainhelper.php:387
 #@ arforms-form-builder
 msgid "Ukraine"
@@ -7366,19 +7366,19 @@ msgstr "取消所有"
 msgid "Under 18"
 msgstr "18岁以下"
 
-#: arforms-form-builder.php:2081
+#: arforms-form-builder.php:2082
 #: core/helpers/arflitemainhelper.php:388
 #@ arforms-form-builder
 msgid "United Arab Emirates"
 msgstr "阿拉伯联合酋长国"
 
-#: arforms-form-builder.php:2086
+#: arforms-form-builder.php:2087
 #: core/helpers/arflitemainhelper.php:389
 #@ arforms-form-builder
 msgid "United Kingdom"
 msgstr "英国"
 
-#: arforms-form-builder.php:2091
+#: arforms-form-builder.php:2092
 #: core/helpers/arflitemainhelper.php:390
 #@ arforms-form-builder
 msgid "United States"
@@ -7411,7 +7411,7 @@ msgstr "更新资料"
 msgid "Update ARForms Database"
 msgstr "更新 ARForms 数据库"
 
-#: core/classes/class.arforms_form_builder.php:1809
+#: core/classes/class.arforms_form_builder.php:1813
 #: core/controllers/arfliteformcontroller.php:134
 #: core/controllers/arflitesettingcontroller.php:145
 #@ arforms-form-builder
@@ -7433,7 +7433,7 @@ msgstr "乌尔都语"
 msgid "URL"
 msgstr "网址"
 
-#: arforms-form-builder.php:2096
+#: arforms-form-builder.php:2097
 #: core/helpers/arflitemainhelper.php:391
 #@ arforms-form-builder
 msgid "Uruguay"
@@ -7490,7 +7490,7 @@ msgstr "使用API"
 msgid "Using Web-form"
 msgstr "使用网络表格"
 
-#: arforms-form-builder.php:2101
+#: arforms-form-builder.php:2102
 #: core/helpers/arflitemainhelper.php:392
 #@ arforms-form-builder
 msgid "Uzbekistan"
@@ -7506,8 +7506,8 @@ msgstr "验证默认值"
 msgid "Validation"
 msgstr "验证方式"
 
-#: arforms-form-builder.php:790
 #: arforms-form-builder.php:791
+#: arforms-form-builder.php:792
 #@ arforms-form-builder
 msgid "Validation (error)"
 msgstr "验证（错误）"
@@ -7532,19 +7532,19 @@ msgstr "验证消息样式"
 msgid "Value"
 msgstr "值"
 
-#: arforms-form-builder.php:2106
+#: arforms-form-builder.php:2107
 #: core/helpers/arflitemainhelper.php:393
 #@ arforms-form-builder
 msgid "Vanuatu"
 msgstr "瓦努阿图"
 
-#: arforms-form-builder.php:2111
+#: arforms-form-builder.php:2112
 #: core/helpers/arflitemainhelper.php:394
 #@ arforms-form-builder
 msgid "Vatican City"
 msgstr "梵蒂冈城"
 
-#: arforms-form-builder.php:2116
+#: arforms-form-builder.php:2117
 #: core/helpers/arflitemainhelper.php:395
 #@ arforms-form-builder
 msgid "Venezuela"
@@ -7591,7 +7591,7 @@ msgstr "很满意"
 msgid "Very Unsatisfied"
 msgstr "非常不满意"
 
-#: arforms-form-builder.php:2121
+#: arforms-form-builder.php:2122
 #: core/helpers/arflitemainhelper.php:396
 #@ arforms-form-builder
 msgid "Vietnam"
@@ -7629,7 +7629,7 @@ msgstr "英属维尔京群岛"
 msgid "Virgin Islands, U.S."
 msgstr "美国维尔京群岛"
 
-#: arforms-form-builder.php:2126
+#: arforms-form-builder.php:2127
 #@ arforms-form-builder
 msgid "Wallis and Futuna"
 msgstr "瓦利斯和富图纳群岛"
@@ -7674,7 +7674,7 @@ msgstr "Mailchimp的Webform代码"
 msgid "Webhook"
 msgstr "Webhook"
 
-#: arforms-form-builder.php:768
+#: arforms-form-builder.php:769
 #@ arforms-form-builder
 msgid "Website Elements"
 msgstr "网站元素"
@@ -7712,7 +7712,7 @@ msgstr "平日"
 msgid "weeks"
 msgstr "周"
 
-#: arforms-form-builder.php:2131
+#: arforms-form-builder.php:2132
 #@ arforms-form-builder
 msgid "Western Sahara"
 msgstr "西撒哈拉"
@@ -7803,7 +7803,7 @@ msgstr "年份"
 msgid "years"
 msgstr "年份"
 
-#: arforms-form-builder.php:2136
+#: arforms-form-builder.php:2137
 #: core/helpers/arflitemainhelper.php:399
 #@ arforms-form-builder
 msgid "Yemen"
@@ -7854,7 +7854,7 @@ msgstr "您正在转换"
 msgid "You are using ARForms Premium plugin on your website and it is an extension to ARForms Lite, so, If you deactivate ARForms Lite then it will automatically deactivate ARForms Premium and all the add-ons"
 msgstr "您在网站上使用 ARForms Premium 插件，它是 ARForms Lite 的扩展，因此，如果您停用 ARForms Lite，那么它将自动停用 ARForms Premium 和所有附加组件"
 
-#: core/classes/class.arforms_form_builder.php:1697
+#: core/classes/class.arforms_form_builder.php:1701
 #: core/helpers/arfliteformhelper.php:133
 #: core/models/arflitesettingmodel.php:116
 #@ arforms-form-builder
@@ -7902,18 +7902,18 @@ msgstr "由于某些原因未发送您的测试邮件，请检查您的SMTP设�
 msgid "Your test mail is successfully sent"
 msgstr "您的测试邮件已成功发送"
 
-#: core/classes/class.arforms_form_builder.php:714
+#: core/classes/class.arforms_form_builder.php:718
 #@ arforms-form-builder
 msgid "YouTube Channel"
 msgstr "YouTube 频道"
 
-#: arforms-form-builder.php:2141
+#: arforms-form-builder.php:2142
 #: core/helpers/arflitemainhelper.php:400
 #@ arforms-form-builder
 msgid "Zambia"
 msgstr "赞比亚"
 
-#: arforms-form-builder.php:2146
+#: arforms-form-builder.php:2147
 #: core/helpers/arflitemainhelper.php:401
 #@ arforms-form-builder
 msgid "Zimbabwe"
@@ -7959,8 +7959,8 @@ msgstr "出了些问题"
 msgid "log download successfully"
 msgstr "记录下载成功"
 
-#: core/classes/class.arforms_form_builder.php:1022
-#: core/classes/class.arforms_form_builder.php:1034
+#: core/classes/class.arforms_form_builder.php:1026
+#: core/classes/class.arforms_form_builder.php:1038
 #: core/views/arf_debug_log.php:71
 #@ arforms-form-builder
 msgid "Debug Logs"
@@ -8155,7 +8155,7 @@ msgstr "能力错误"
 msgid "success"
 msgstr "成功"
 
-#: core/classes/class.arforms_form_builder.php:895
+#: core/classes/class.arforms_form_builder.php:899
 #@ arforms-form-builder
 msgid "Settings saved successfully"
 msgstr "设置保存成功"
@@ -9075,12 +9075,6 @@ msgstr "支付网关调试日志"
 msgid "Paypal Debug Log"
 msgstr "Paypal 调试日志"
 
-#. translators: plugin header field 'Version'
-#: arforms-form-builder.php:0
-#@ arforms-form-builder
-msgid "1.7.2"
-msgstr "1.7.2"
-
 #: core/views/arflite_edit.php:4378
 #@ arforms-form-builder
 msgid "ARFLite_form_all_values_no_separate_valueThis will be replaced with form's all fields & labels without separate values."
@@ -9137,4 +9131,10 @@ msgstr "hCaptcha 失败消息"
 #@ arforms-form-builder
 msgid "Invalid hCaptcha. Please try again"
 msgstr "hCaptcha 无效。请重试"
+
+#. translators: plugin header field 'Version'
+#: arforms-form-builder.php:0
+#@ arforms-form-builder
+msgid "1.7.3"
+msgstr "1.7.3"
 

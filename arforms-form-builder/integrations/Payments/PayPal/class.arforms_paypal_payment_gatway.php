@@ -2,8 +2,6 @@
 global $arf_paypal;
 $arf_paypal = new ARForms_Paypal_payment_gatway();
 
-load_plugin_textdomain( 'ARForms-paypal', false, 'arforms-form-builder/languages/' );
-
 class ARForms_Paypal_payment_gatway {
 
 	public $db_paypal_forms;
@@ -2931,7 +2929,7 @@ class ARForms_Paypal_payment_gatway {
 				$is_submit = true;
 			} else {
 				//$is_paypal_form = $arfform->arf_select_db_data( true, '', $this->db_paypal_forms, 'COUNT(id)', 'WHERE form_id = %d', array( $form_id ), '', '', '', true );
-				$is_paypal_form = $wpdb->get_results( $wpdb->prepare('SELECT COUNT(id) FROM `'.$this->db_paypal_forms.'` WHERE form_id = %d;', $form_id));
+				$is_paypal_form = $wpdb->get_var( $wpdb->prepare('SELECT COUNT(id) FROM `'.$this->db_paypal_forms.'` WHERE form_id = %d', array($form_id) ) );
 				if( $is_paypal_form > 0 ){
 
 					//$paypal_form_data = $arfform->arf_select_db_data( true, '', $this->db_paypal_forms, '*', 'WHERE form_id = %d', array( $form_id ) );

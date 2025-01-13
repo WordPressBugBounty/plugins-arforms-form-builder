@@ -181,14 +181,13 @@ class arfliterecordcontroller {
 		$submit_type = isset( $form_submit_type ) ? $form_submit_type : 1;
 
 		$form_id = intval( $_POST['form_id'] ); //phpcs:ignore
-
+		$values = $_POST; //phpcs:ignore
 		if ( isset( $_POST['using_ajax'] ) && strtolower( trim( sanitize_text_field( $_POST['using_ajax'] ) ) ) == 'yes' ) { //phpcs:ignore
 
 			$arf_errors = array();
 
 			$arf_form_data = array();
 
-			$values = $_POST; //phpcs:ignore
 
 			$arf_form_data = apply_filters( 'arflite_populate_field_from_outside', $arf_form_data, $form_id, $values ); //phpcs:ignore
 

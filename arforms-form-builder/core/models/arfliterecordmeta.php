@@ -58,7 +58,9 @@ class arfliterecordmeta {
 
 	function arflite_add_entry_meta( $entry_id, $field_id, $meta_key, $entry_value ) {
 
-		global $wpdb, $arflite_fid, $check_itemid, $form_responder_fname, $form_responder_lname, $form_responderemail, $email, $fname, $lname, $tbl_arf_entry_values, $tbl_arf_forms;
+		global $wpdb, $arflite_fid, $check_itemid, $form_responder_fname, $form_responder_lname, $form_responderemail, $email, $fname, $lname, $tbl_arf_entry_values, $tbl_arf_forms, $tbl_arf_fields;
+
+		$field_type = $wpdb->get_var( $wpdb->prepare( "SELECT type FROM {$tbl_arf_fields} WHERE id = %d", $field_id ) );
 
 		$allowed_html = arflite_retrieve_attrs_for_wp_kses( true );
 
@@ -75,9 +77,16 @@ class arfliterecordmeta {
 		$new_values['created_date'] = current_time( 'mysql', 1 );
 
 		$new_values = apply_filters( 'arfliteaddentrymeta', $new_values );
-
-
+		
 		$wpdb->insert( $tbl_arf_entry_values, $new_values );
+
+		if( 'checkbox' == $field_type && !empty( $_POST['_item_meta'][ $field_id] ) ){
+			$new_values_checked['entry_value'] = wp_json_encode( json_decode( stripslashes_deep( $_POST['_item_meta'][ $field_id] ) ) );
+			$new_values_checked['entry_id'] = '-'.intval( $entry_id );
+			$new_values_checked['field_id'] = intval( $field_id );
+			$new_values_checked['created_date'] = current_time( 'mysql', 1 );
+			$wpdb->insert( $tbl_arf_entry_values, $new_values_checked );
+		}
 
 		if ( $check_itemid == '' ) {
 			$result = $wpdb->get_results( $wpdb->prepare( 'SELECT * FROM ' . $tbl_arf_forms . ' WHERE id=%d', $arflite_fid ) ); //phpcs:ignore
@@ -248,7 +257,35 @@ class arfliterecordmeta {
 
 		if ( $is_for_mail == true ) {
 
-			if ( $fields[0]->type == 'checkbox' || $fields[0]->type == 'radio' || $fields[0]->type == 'select' ) {
+			$use_alternate = true;
+			if( 'checkbox' == $fields[0]->type ){
+				$field_options = arflite_json_decode( $fields[0]->field_options, true );
+
+				if ( isset( $field_options['separate_value'] ) && $field_options['separate_value'] == 1 ) {
+					global $tbl_arf_entry_values;
+					$field_opts = $wpdb->get_row(
+						$wpdb->prepare(
+							"SELECT entry_value FROM {$tbl_arf_entry_values} WHERE field_id = %d AND entry_id = -%d",
+							$field_id,
+							$entry_id
+						)
+					);
+					if( !empty( $field_opts ) ){
+						$use_alternate = false;
+						$field_opts = json_decode( $field_opts->entry_value, true );
+		
+						$temp_value = [];
+						foreach( $field_opts as $new_field_opt ){
+							$data_field = explode( '|~~|', $new_field_opt );
+							$temp_value[] = $data_field[1].' ('.$data_field[0].')';
+						}
+		
+						$result = trim( implode( ', ', $temp_value ) );
+					}
+				}
+			}
+
+			if ( ($fields[0]->type == 'checkbox' && true == $use_alternate) || $fields[0]->type == 'radio' || $fields[0]->type == 'select' ) {
 
 				$field_options = arflite_json_decode( $fields[0]->field_options, true );
 

@@ -502,8 +502,8 @@ class arflitenotifymodel {
             $arformslite_email_content_data .= 'Content-type: Multipart/Mixed; boundary="' . $boundary . '"' . "\r\n";
             $arformslite_email_content_data .= "\r\n--{$boundary}\r\n";
             $arformslite_email_content_data .= 'Content-Type: text/html; charset=' . $charset . "\r\n";
-            $arformslite_email_content_data .= "Content-Transfer-Encoding: quoted-printable" . "\r\n\r\n";
-            $arformslite_email_content_data .= $message . "\r\n";
+            $arformslite_email_content_data .= "Content-Transfer-Encoding: base64" . "\r\n\r\n";
+            $arformslite_email_content_data .= base64_encode( $message ) . "\r\n";
             if ( isset( $attachments ) && ! empty( $attachments ) ) {
                 foreach( $attachments as $attachment_file ){
                     $attachment_name = basename( $attachment_file );
@@ -677,7 +677,7 @@ class arflitenotifymodel {
 
 		$new_form_cols = $arfliterecordmeta->arflitegetAll( 'it.field_id != 0 and it.entry_id in (' . implode( ',', $entry_ids ) . ')' . $where, ' ORDER BY fi.id' );
 
-		global $wpdb, $ARFLiteMdlDb, $tbl_arf_fields;
+		global $wpdb, $ARFLiteMdlDb, $tbl_arf_fields, $tbl_arf_entry_values;
 
 		$values = array();
 		asort( $field_order );
@@ -781,10 +781,36 @@ class arflitenotifymodel {
 				}
 			}
 
-			if ( $value->field_type == 'select' || $value->field_type == 'checkbox' || $value->field_type == 'radio' ) {
+			$use_alternate = true;
+			if( 'checkbox' == $value->field_type ){
+				$field_opts = '';
+				$field_opts = $wpdb->get_row(
+					$wpdb->prepare(
+						"SELECT entry_value FROM {$tbl_arf_entry_values} WHERE field_id = %d AND entry_id = -%d",
+						$value->field_id,
+						$entry_id
+					)
+				);
+				if( !empty( $field_opts ) ){
+					$use_alternate = false;
+					$field_opts = json_decode( $field_opts->entry_value, true );
+
+					$temp_value = [];
+					$no_separate_value = [];
+					foreach( $field_opts as $new_field_opt ){
+						$data_field = explode( '|~~|', $new_field_opt );
+						$temp_value[] = $data_field[1].' ('.$data_field[0].')';
+						$no_separate_value[] = $data_field[1].' ';
+					}
+
+					$val = trim( implode( ', ', $temp_value ) );
+					$arf_value = trim( implode( ', ', $no_separate_value ) );
+				}
+			}
+
+			if ( $value->field_type == 'select' || ($value->field_type == 'checkbox' && true == $use_alternate) || $value->field_type == 'radio' ) {
 
 				global $wpdb,$ARFLiteMdlDb, $tbl_arf_entry_values;
-				
 				$field_opts = $wpdb->get_row( $wpdb->prepare( 'SELECT entry_value FROM ' . $tbl_arf_entry_values . " WHERE field_id='%d' AND entry_id='%d'", '-' . $value->field_id, $entry->id ) ); //phpcs:ignore
 				if ( $field_opts ) {
 					$field_opts = maybe_unserialize( $field_opts->entry_value );
@@ -989,9 +1015,11 @@ class arflitenotifymodel {
 		} elseif ( $get_default ) {
 			$mail_body = $default;
 		}
+		
 		$shortcodes     = $arflitemainhelper->arfliteget_shortcodes( $mail_body, $entry->form_id );
 		$mail_body      = $arflitefieldhelper->arflitereplaceshortcodes( $mail_body, $entry, $shortcodes );
 		$mail_body      = $arflitefieldhelper->arflite_replace_shortcodes( $mail_body, $entry, true );
+		
 		$data           = maybe_unserialize( $entry->description );
 		$browser_info   = $this->arflitegetBrowser( $data['browser'] );
 		$browser_detail = $browser_info['name'] . ' (Version: ' . $browser_info['version'] . ')';
@@ -1081,7 +1109,7 @@ class arflitenotifymodel {
 		if ( defined( 'WP_IMPORTING' ) ) {
 			return;
 		}
-		global $arfliteform, $arflite_db_record, $arfliterecordmeta, $arflite_style_settings, $arformsmain, $arflitemainhelper, $arflitefieldhelper, $arflitenotifymodel, $arfliteformhelper, $arfliteformcontroller, $arf_debug_log_id;
+		global $arfliteform, $arflite_db_record, $arfliterecordmeta, $arflite_style_settings, $arformsmain, $arflitemainhelper, $arflitefieldhelper, $arflitenotifymodel, $arfliteformhelper, $arfliteformcontroller, $arf_debug_log_id, $tbl_arf_entry_values;
 
 		if ( ! isset( $form_id ) ) {
 			return;
@@ -1258,7 +1286,32 @@ class arflitenotifymodel {
 
 			$arf_value = '';
 
-			if ( $value->field_type == 'checkbox' || $value->field_type == 'radio' || $value->field_type == 'select' ) {
+			$use_alternate = true;
+			if( 'checkbox' == $value->field_type ){
+				$field_opts = $wpdb->get_row(
+					$wpdb->prepare(
+						"SELECT entry_value FROM {$tbl_arf_entry_values} WHERE field_id = %d AND entry_id = -%d",
+						$value->field_id,
+						$entry_id
+					)
+				);
+				if( !empty( $field_opts ) ){
+					$use_alternate = false;
+					$field_opts = json_decode( $field_opts->entry_value, true );
+					
+					$temp_value = [];
+					$temp_value_no_separate = [];
+					foreach( $field_opts as $new_field_opt ){
+						$data_field = explode( '|~~|', $new_field_opt );
+						$temp_value[] = $data_field[1].' ('.$data_field[0].')';
+						$temp_value_no_separate[] = $data_field[1];
+					}
+					$val = trim( implode( ', ', $temp_value ) );
+					$arf_value = trim( implode( ', ', $temp_value_no_separate ) );
+				}
+			}
+
+			if ( ( true == $use_alternate && $value->field_type == 'checkbox') || $value->field_type == 'radio' || $value->field_type == 'select' ) {
 				if ( isset( $value->entry_value ) ) {
 					if ( is_array( maybe_unserialize( $value->entry_value ) ) ) {
 						$val = implode( ', ', maybe_unserialize( $value->entry_value ) );
@@ -1270,7 +1323,7 @@ class arflitenotifymodel {
 				}
 			}
 
-			if ( $value->field_type == 'select' || $value->field_type == 'checkbox' || $value->field_type == 'radio' ) {
+			if ( $value->field_type == 'select' || ( true == $use_alternate && $value->field_type == 'checkbox' ) || $value->field_type == 'radio' ) {
 
 				global $wpdb,$ARFLiteMdlDb, $tbl_arf_entry_values, $tbl_arf_fields;
 				$field_opts = $wpdb->get_row( $wpdb->prepare( 'SELECT entry_value FROM ' . $tbl_arf_entry_values . " WHERE field_id='%d' AND entry_id='%d'", '-' . $value->field_id, $entry->id ) ); //phpcs:ignore

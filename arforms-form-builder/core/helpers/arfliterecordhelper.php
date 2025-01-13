@@ -442,7 +442,31 @@ class arfliterecordhelper {
 			$value = nl2br( $value );
 		}
 
-		if ( $field->type == 'select' || $field->type == 'checkbox' || $field->type == 'radio' ) {
+		$use_alternate = true;
+		if( 'checkbox' == $field->type ){
+
+			$field_opts = $wpdb->get_row(
+				$wpdb->prepare(
+					"SELECT entry_value FROM {$entry_meta_table} WHERE field_id = %d AND entry_id = -%d",
+					$field->id,
+					$atts['entry_id']
+				)
+			);
+			if( !empty( $field_opts ) ){
+				$use_alternate = false;
+				$field_opts = json_decode( $field_opts->entry_value, true );
+
+				$temp_value = [];
+				foreach( $field_opts as $new_field_opt ){
+					$data_field = explode( '|~~|', $new_field_opt );
+					$temp_value[] = $data_field[1].' ('.$data_field[0].')';
+				}
+
+				$value = trim( implode( ', ', $temp_value ) );
+			}
+		}
+
+		if ( $field->type == 'select' || ($field->type == 'checkbox' && $use_alternate == true ) || $field->type == 'radio' ) {
 			$field_opts = '';
 			$field_opts = $wpdb->get_row( $wpdb->prepare( 'SELECT entry_value FROM ' . $entry_meta_table . " WHERE field_id='%d' AND entry_id='%d'", '-' . $field->id, $atts['entry_id'] ) ); //phpcs:ignore
 

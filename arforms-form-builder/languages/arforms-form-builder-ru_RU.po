@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARForms Form Builder v1.7.2\n"
+"Project-Id-Version: ARForms Form Builder v1.7.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-18 08:49:15+0000\n"
+"PO-Revision-Date: 2025-01-08 10:00:43+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid "%1$s form has been submitted on %2$s."
 msgstr "Форма %1$s отправлена на %2$s."
 
 #: core/models/arflitenotifymodel.php:169
-#: core/models/arflitenotifymodel.php:1405
+#: core/models/arflitenotifymodel.php:1461
 #, php-format
 #@ arforms-form-builder
 msgid "%1$s Form submitted on %2$s"
@@ -403,7 +403,7 @@ msgstr "Добавить значок (стиль Bootstrap)"
 msgid "Add Image"
 msgstr "Добавить изображение"
 
-#: core/classes/class.arforms_form_builder.php:1788
+#: core/classes/class.arforms_form_builder.php:1792
 #: core/controllers/arfliteformcontroller.php:260
 #: core/controllers/arfliteprocontroller.php:65
 #: core/views/arflite_list.php:90
@@ -437,7 +437,7 @@ msgstr "Добавить на страницу"
 msgid "Add-On listing is currently unavailable. Please try again later."
 msgstr "Список надстроек в настоящее время недоступен. Пожалуйста, повторите попытку позже."
 
-#: core/classes/class.arforms_form_builder.php:1796
+#: core/classes/class.arforms_form_builder.php:1800
 #: core/controllers/arfliteprocontroller.php:75
 #@ arforms-form-builder
 msgid "Add-ons"
@@ -453,7 +453,7 @@ msgstr "Добавить / изменить пользовательские д�
 msgid "Add/Edit Forms and Templates"
 msgstr "Добавить / редактировать формы и шаблоны"
 
-#: core/classes/class.arforms_form_builder.php:1796
+#: core/classes/class.arforms_form_builder.php:1800
 #: core/controllers/arfliteprocontroller.php:75
 #: core/controllers/arflitesettingcontroller.php:130
 #@ arforms-form-builder
@@ -493,7 +493,7 @@ msgstr "Расширенные параметры шрифта"
 msgid "Advanced Form Options"
 msgstr "Расширенные параметры формы"
 
-#: arforms-form-builder.php:936
+#: arforms-form-builder.php:937
 #: core/helpers/arflitemainhelper.php:192
 #@ arforms-form-builder
 msgid "Afghanistan"
@@ -520,12 +520,12 @@ msgstr "Возрастная группа"
 msgid "Ajax based submission"
 msgstr "Представление на основе Ajax"
 
-#: arforms-form-builder.php:941
+#: arforms-form-builder.php:942
 #@ arforms-form-builder
 msgid "Aland Islands"
 msgstr "Аландские острова"
 
-#: arforms-form-builder.php:946
+#: arforms-form-builder.php:947
 #: core/helpers/arflitemainhelper.php:193
 #@ arforms-form-builder
 msgid "Albania"
@@ -537,7 +537,7 @@ msgstr "Албания"
 msgid "Albanian"
 msgstr "албанский"
 
-#: arforms-form-builder.php:951
+#: arforms-form-builder.php:952
 #: core/helpers/arflitemainhelper.php:194
 #@ arforms-form-builder
 msgid "Algeria"
@@ -569,31 +569,31 @@ msgstr "Разрешить только цифры до 6 цифр. наприм
 msgid "Allow phone number like"
 msgstr "Разрешить номер телефона как"
 
-#: arforms-form-builder.php:956
+#: arforms-form-builder.php:957
 #: core/helpers/arflitemainhelper.php:195
 #@ arforms-form-builder
 msgid "American Samoa"
 msgstr "американское Самоа"
 
-#: core/classes/class.arforms_form_builder.php:998
-#: core/classes/class.arforms_form_builder.php:1005
+#: core/classes/class.arforms_form_builder.php:1002
+#: core/classes/class.arforms_form_builder.php:1009
 #@ arforms-form-builder
 msgid "Analytics / Chart"
 msgstr "Аналитика / Диаграмма"
 
-#: arforms-form-builder.php:961
+#: arforms-form-builder.php:962
 #: core/helpers/arflitemainhelper.php:196
 #@ arforms-form-builder
 msgid "Andorra"
 msgstr "андорра"
 
-#: arforms-form-builder.php:966
+#: arforms-form-builder.php:967
 #: core/helpers/arflitemainhelper.php:197
 #@ arforms-form-builder
 msgid "Angola"
 msgstr "Ангола"
 
-#: arforms-form-builder.php:971
+#: arforms-form-builder.php:972
 #: core/helpers/arflitemainhelper.php:198
 #@ arforms-form-builder
 msgid "Anguilla"
@@ -622,7 +622,7 @@ msgstr "Продолжительность анимации"
 msgid "Antarctica"
 msgstr "Антарктида"
 
-#: arforms-form-builder.php:976
+#: arforms-form-builder.php:977
 #: core/helpers/arflitemainhelper.php:200
 #@ arforms-form-builder
 msgid "Antigua and Barbuda"
@@ -798,7 +798,7 @@ msgstr "ARForms Lite не будет хранить какие-либо личн
 msgid "ARForms Samples"
 msgstr "Образцы ARForms"
 
-#: arforms-form-builder.php:981
+#: arforms-form-builder.php:982
 #: core/helpers/arflitemainhelper.php:201
 #@ arforms-form-builder
 msgid "Argentina"
@@ -809,7 +809,7 @@ msgstr "Аргентина"
 msgid "ARMember Successfully installed."
 msgstr "ARMember успешно установлено."
 
-#: arforms-form-builder.php:986
+#: arforms-form-builder.php:987
 #: core/helpers/arflitemainhelper.php:202
 #@ arforms-form-builder
 msgid "Armenia"
@@ -826,7 +826,7 @@ msgstr "армянин"
 msgid "ARPrice Successfully installed."
 msgstr "ARPrice Успешно установлено."
 
-#: arforms-form-builder.php:991
+#: arforms-form-builder.php:992
 #: core/helpers/arflitemainhelper.php:203
 #@ arforms-form-builder
 msgid "Aruba"
@@ -842,13 +842,13 @@ msgstr "в"
 msgid "August"
 msgstr "августейший"
 
-#: arforms-form-builder.php:996
+#: arforms-form-builder.php:997
 #: core/helpers/arflitemainhelper.php:204
 #@ arforms-form-builder
 msgid "Australia"
 msgstr "Австралия"
 
-#: arforms-form-builder.php:1001
+#: arforms-form-builder.php:1002
 #: core/helpers/arflitemainhelper.php:205
 #@ arforms-form-builder
 msgid "Austria"
@@ -894,7 +894,7 @@ msgstr "Доступные дополнения"
 msgid "AWEBER LIST"
 msgstr "AWEBER LIST"
 
-#: arforms-form-builder.php:1006
+#: arforms-form-builder.php:1007
 #: core/helpers/arflitemainhelper.php:206
 #@ arforms-form-builder
 msgid "Azerbaijan"
@@ -938,25 +938,25 @@ msgstr "Фоновое изображение Position-X"
 msgid "Background Image Position-Y"
 msgstr "Фоновое изображение Position-Y"
 
-#: arforms-form-builder.php:1011
+#: arforms-form-builder.php:1012
 #: core/helpers/arflitemainhelper.php:207
 #@ arforms-form-builder
 msgid "Bahamas"
 msgstr "Багамские о-ва"
 
-#: arforms-form-builder.php:1016
+#: arforms-form-builder.php:1017
 #: core/helpers/arflitemainhelper.php:208
 #@ arforms-form-builder
 msgid "Bahrain"
 msgstr "Бахрейн"
 
-#: arforms-form-builder.php:1021
+#: arforms-form-builder.php:1022
 #: core/helpers/arflitemainhelper.php:209
 #@ arforms-form-builder
 msgid "Bangladesh"
 msgstr "Бангладеш"
 
-#: arforms-form-builder.php:1026
+#: arforms-form-builder.php:1027
 #: core/helpers/arflitemainhelper.php:210
 #@ arforms-form-builder
 msgid "Barbados"
@@ -989,19 +989,19 @@ msgstr "Прежде чем деактивировать плагин ARForms Li
 msgid "begin"
 msgstr "начать"
 
-#: arforms-form-builder.php:1031
+#: arforms-form-builder.php:1032
 #: core/helpers/arflitemainhelper.php:211
 #@ arforms-form-builder
 msgid "Belarus"
 msgstr "Беларусь"
 
-#: arforms-form-builder.php:1036
+#: arforms-form-builder.php:1037
 #: core/helpers/arflitemainhelper.php:212
 #@ arforms-form-builder
 msgid "Belgium"
 msgstr "Бельгия"
 
-#: arforms-form-builder.php:1041
+#: arforms-form-builder.php:1042
 #: core/helpers/arflitemainhelper.php:213
 #@ arforms-form-builder
 msgid "Belize"
@@ -1012,25 +1012,25 @@ msgstr "Белиз"
 msgid "Bengali"
 msgstr "бенгальский"
 
-#: arforms-form-builder.php:1046
+#: arforms-form-builder.php:1047
 #: core/helpers/arflitemainhelper.php:214
 #@ arforms-form-builder
 msgid "Benin"
 msgstr "Бенин"
 
-#: arforms-form-builder.php:1051
+#: arforms-form-builder.php:1052
 #: core/helpers/arflitemainhelper.php:215
 #@ arforms-form-builder
 msgid "Bermuda"
 msgstr "Бермудские острова"
 
-#: arforms-form-builder.php:1056
+#: arforms-form-builder.php:1057
 #: core/helpers/arflitemainhelper.php:216
 #@ arforms-form-builder
 msgid "Bhutan"
 msgstr "Бутан"
 
-#: core/classes/class.arforms_form_builder.php:1807
+#: core/classes/class.arforms_form_builder.php:1811
 #: core/controllers/arflitesettingcontroller.php:143
 #@ arforms-form-builder
 msgid "Black Friday Sale"
@@ -1056,7 +1056,7 @@ msgstr "пятно"
 msgid "bold"
 msgstr "смелый"
 
-#: arforms-form-builder.php:1061
+#: arforms-form-builder.php:1062
 #: core/helpers/arflitemainhelper.php:217
 #@ arforms-form-builder
 msgid "Bolivia"
@@ -1107,7 +1107,7 @@ msgstr "Стиль границы"
 msgid "Border Type"
 msgstr "Тип границы"
 
-#: arforms-form-builder.php:1066
+#: arforms-form-builder.php:1067
 #: core/helpers/arflitemainhelper.php:218
 #@ arforms-form-builder
 msgid "Bosnia and Herzegovina"
@@ -1119,7 +1119,7 @@ msgstr "Босния и Герцеговина"
 msgid "Bosnian"
 msgstr "боснийский"
 
-#: arforms-form-builder.php:1071
+#: arforms-form-builder.php:1072
 #: core/helpers/arflitemainhelper.php:219
 #@ arforms-form-builder
 msgid "Botswana"
@@ -1138,18 +1138,18 @@ msgstr "Ботсвана"
 msgid "Bottom"
 msgstr "Дно"
 
-#: arforms-form-builder.php:1076
+#: arforms-form-builder.php:1077
 #: core/helpers/arflitemainhelper.php:220
 #@ arforms-form-builder
 msgid "Brazil"
 msgstr "Бразилия"
 
-#: arforms-form-builder.php:1081
+#: arforms-form-builder.php:1082
 #@ arforms-form-builder
 msgid "British Indian Ocean Territory"
 msgstr "Британская территория Индийского океана"
 
-#: arforms-form-builder.php:1086
+#: arforms-form-builder.php:1087
 #@ arforms-form-builder
 msgid "British Virgin Islands"
 msgstr "Британские Виргинские острова"
@@ -1159,13 +1159,13 @@ msgstr "Британские Виргинские острова"
 msgid "Browser Name"
 msgstr "Название браузера"
 
-#: arforms-form-builder.php:1091
+#: arforms-form-builder.php:1092
 #: core/helpers/arflitemainhelper.php:221
 #@ arforms-form-builder
 msgid "Brunei"
 msgstr "Бруней"
 
-#: arforms-form-builder.php:1096
+#: arforms-form-builder.php:1097
 #: core/helpers/arflitemainhelper.php:222
 #@ arforms-form-builder
 msgid "Bulgaria"
@@ -1186,13 +1186,13 @@ msgstr "болгарский"
 msgid "Bulk Actions"
 msgstr "Массовые действия"
 
-#: arforms-form-builder.php:1101
+#: arforms-form-builder.php:1102
 #: core/helpers/arflitemainhelper.php:223
 #@ arforms-form-builder
 msgid "Burkina Faso"
 msgstr "Буркина-Фасо"
 
-#: arforms-form-builder.php:1106
+#: arforms-form-builder.php:1107
 #: core/helpers/arflitemainhelper.php:224
 #@ arforms-form-builder
 msgid "Burundi"
@@ -1233,13 +1233,13 @@ msgstr "Календарь Дата Формат"
 msgid "Calendar localization"
 msgstr "Локализация календаря"
 
-#: arforms-form-builder.php:1111
+#: arforms-form-builder.php:1112
 #: core/helpers/arflitemainhelper.php:225
 #@ arforms-form-builder
 msgid "Cambodia"
 msgstr "Камбоджа"
 
-#: arforms-form-builder.php:1116
+#: arforms-form-builder.php:1117
 #: core/helpers/arflitemainhelper.php:226
 #@ arforms-form-builder
 msgid "Cameroon"
@@ -1257,7 +1257,7 @@ msgstr "Название кампании"
 msgid "Can you mention it?"
 msgstr "Вы можете упомянуть это?"
 
-#: arforms-form-builder.php:1121
+#: arforms-form-builder.php:1122
 #: core/helpers/arflitemainhelper.php:227
 #@ arforms-form-builder
 msgid "Canada"
@@ -1321,13 +1321,13 @@ msgstr "Канада"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: arforms-form-builder.php:1126
+#: arforms-form-builder.php:1127
 #: core/helpers/arflitemainhelper.php:228
 #@ arforms-form-builder
 msgid "Cape Verde"
 msgstr "Кабо-Верде"
 
-#: arforms-form-builder.php:1131
+#: arforms-form-builder.php:1132
 #@ arforms-form-builder
 msgid "Caribbean Netherlands"
 msgstr "Карибские острова Нидерланды"
@@ -1339,7 +1339,7 @@ msgstr "Карибские острова Нидерланды"
 msgid "Catalan"
 msgstr "каталонский"
 
-#: arforms-form-builder.php:1136
+#: arforms-form-builder.php:1137
 #: core/helpers/arflitemainhelper.php:229
 #@ arforms-form-builder
 msgid "Cayman Islands"
@@ -1352,13 +1352,13 @@ msgstr "Каймановы острова"
 msgid "Center"
 msgstr "Центр"
 
-#: arforms-form-builder.php:1141
+#: arforms-form-builder.php:1142
 #: core/helpers/arflitemainhelper.php:230
 #@ arforms-form-builder
 msgid "Central African Republic"
 msgstr "Центрально-Африканская Республика"
 
-#: arforms-form-builder.php:1146
+#: arforms-form-builder.php:1147
 #: core/helpers/arflitemainhelper.php:231
 #@ arforms-form-builder
 msgid "Chad"
@@ -1413,13 +1413,13 @@ msgstr "Флажки"
 msgid "Checked Icon Styling"
 msgstr "Проверено стили значков"
 
-#: arforms-form-builder.php:1151
+#: arforms-form-builder.php:1152
 #: core/helpers/arflitemainhelper.php:232
 #@ arforms-form-builder
 msgid "Chile"
 msgstr "Чили"
 
-#: arforms-form-builder.php:1156
+#: arforms-form-builder.php:1157
 #: core/helpers/arflitemainhelper.php:233
 #@ arforms-form-builder
 msgid "China"
@@ -1462,7 +1462,7 @@ msgstr "Выбрать файл"
 msgid "Choose Option"
 msgstr "Выберите вариант"
 
-#: arforms-form-builder.php:1161
+#: arforms-form-builder.php:1162
 #@ arforms-form-builder
 msgid "Christmas Island"
 msgstr "Остров Рождества"
@@ -1555,17 +1555,17 @@ msgstr "Секрет клиента"
 msgid "Clock Settings"
 msgstr "Настройки часов"
 
-#: core/classes/class.arforms_form_builder.php:721
+#: core/classes/class.arforms_form_builder.php:725
 #@ arforms-form-builder
 msgid "Close"
 msgstr "Закрывать"
 
-#: arforms-form-builder.php:1166
+#: arforms-form-builder.php:1167
 #@ arforms-form-builder
 msgid "Cocos Islands"
 msgstr "Кокосовые острова"
 
-#: arforms-form-builder.php:1171
+#: arforms-form-builder.php:1172
 #: core/helpers/arflitemainhelper.php:234
 #@ arforms-form-builder
 msgid "Colombia"
@@ -1591,7 +1591,7 @@ msgstr "Цветовая схема"
 msgid "Comma ( , )"
 msgstr "Запятая (,)"
 
-#: arforms-form-builder.php:1176
+#: arforms-form-builder.php:1177
 #: core/helpers/arflitemainhelper.php:235
 #@ arforms-form-builder
 msgid "Comoros"
@@ -1672,12 +1672,12 @@ msgstr "Подтверждение сообщения"
 msgid "Congo"
 msgstr "Конго"
 
-#: arforms-form-builder.php:1181
+#: arforms-form-builder.php:1182
 #@ arforms-form-builder
 msgid "Congo (DRC)"
 msgstr "Конго (ДРК)"
 
-#: arforms-form-builder.php:1186
+#: arforms-form-builder.php:1187
 #@ arforms-form-builder
 msgid "Congo (Republic)"
 msgstr "Конго (Республика)"
@@ -1709,7 +1709,7 @@ msgstr "Преобразовать тип поля"
 msgid "Convert To Field Type"
 msgstr "Преобразовать в тип поля"
 
-#: arforms-form-builder.php:1191
+#: arforms-form-builder.php:1192
 #@ arforms-form-builder
 msgid "Cook Islands"
 msgstr "Острова Кука"
@@ -1724,13 +1724,13 @@ msgstr "скопированный"
 msgid "Copied to Clipboard"
 msgstr "Скопировано в буфер обмена"
 
-#: arforms-form-builder.php:1196
+#: arforms-form-builder.php:1197
 #: core/helpers/arflitemainhelper.php:237
 #@ arforms-form-builder
 msgid "Costa Rica"
 msgstr "Коста Рика"
 
-#: arforms-form-builder.php:1201
+#: arforms-form-builder.php:1202
 #@ arforms-form-builder
 msgid "Cote d'Ivoire"
 msgstr "Берег Слоновой Кости"
@@ -1768,7 +1768,7 @@ msgstr "Создано на"
 msgid "Credit Card"
 msgstr "Кредитная карта"
 
-#: arforms-form-builder.php:1206
+#: arforms-form-builder.php:1207
 #: core/helpers/arflitemainhelper.php:238
 #@ arforms-form-builder
 msgid "Croatia"
@@ -1786,18 +1786,18 @@ msgstr "хорватский"
 msgid "CSV File Separator"
 msgstr "Разделитель файлов CSV"
 
-#: core/controllers/arfliteformcontroller.php:7093
+#: core/controllers/arfliteformcontroller.php:7101
 #@ arforms-form-builder
 msgid "CSV generated successfully."
 msgstr "CSV создан успешно."
 
-#: arforms-form-builder.php:1211
+#: arforms-form-builder.php:1212
 #: core/helpers/arflitemainhelper.php:239
 #@ arforms-form-builder
 msgid "Cuba"
 msgstr "Куба"
 
-#: arforms-form-builder.php:1216
+#: arforms-form-builder.php:1217
 #@ arforms-form-builder
 msgid "Curacao"
 msgstr "ликер кюрасо"
@@ -1836,7 +1836,7 @@ msgstr "Пользовательские параметры шрифта"
 msgid "CVC/CVV"
 msgstr "CVC / CVV"
 
-#: arforms-form-builder.php:1221
+#: arforms-form-builder.php:1222
 #: core/helpers/arflitemainhelper.php:240
 #@ arforms-form-builder
 msgid "Cyprus"
@@ -1849,7 +1849,7 @@ msgstr "Кипр"
 msgid "Czech"
 msgstr "чешский язык"
 
-#: arforms-form-builder.php:1226
+#: arforms-form-builder.php:1227
 #: core/helpers/arflitemainhelper.php:241
 #@ arforms-form-builder
 msgid "Czech Republic"
@@ -1879,7 +1879,7 @@ msgstr "Пунктирная"
 msgid "Date"
 msgstr "Свидание"
 
-#: arforms-form-builder.php:758
+#: arforms-form-builder.php:759
 #@ arforms-form-builder
 msgid "Date Elements"
 msgstr "Элементы даты"
@@ -1899,7 +1899,7 @@ msgstr "Дата недействительна"
 msgid "Date range"
 msgstr "Диапазон дат"
 
-#: core/controllers/arfliteformcontroller.php:6558
+#: core/controllers/arfliteformcontroller.php:6566
 #@ arforms-form-builder
 msgid "Datepicker / Timepicker"
 msgstr "Datepicker / Timepicker"
@@ -2038,7 +2038,7 @@ msgstr "Удалить поле"
 msgid "Delete Forms and Templates"
 msgstr "Удалить формы и шаблоны"
 
-#: arforms-form-builder.php:1231
+#: arforms-form-builder.php:1232
 #: core/helpers/arflitemainhelper.php:242
 #@ arforms-form-builder
 msgid "Denmark"
@@ -2086,7 +2086,7 @@ msgstr "Форма отображения ARForms Lite"
 msgid "Display Title and Description"
 msgstr "Показать заголовок и описание"
 
-#: arforms-form-builder.php:1236
+#: arforms-form-builder.php:1237
 #: core/helpers/arflitemainhelper.php:243
 #@ arforms-form-builder
 msgid "Djibouti"
@@ -2102,13 +2102,13 @@ msgstr "Не очищать текст по умолчанию в фокусе."
 msgid "Do not pass the validation with default value."
 msgstr "Не проходите проверку со значением по умолчанию."
 
-#: arforms-form-builder.php:1241
+#: arforms-form-builder.php:1242
 #: core/helpers/arflitemainhelper.php:244
 #@ arforms-form-builder
 msgid "Dominica"
 msgstr "Доминика"
 
-#: arforms-form-builder.php:1246
+#: arforms-form-builder.php:1247
 #: core/helpers/arflitemainhelper.php:245
 #@ arforms-form-builder
 msgid "Dominican Republic"
@@ -2119,7 +2119,7 @@ msgstr "Доминиканская Республика"
 msgid "Dotted"
 msgstr "Пунктирный"
 
-#: core/controllers/arfliteformcontroller.php:6551
+#: core/controllers/arfliteformcontroller.php:6559
 #@ arforms-form-builder
 msgid "Drop Down"
 msgstr "Падать"
@@ -2158,7 +2158,7 @@ msgstr "Динамический вариант"
 msgid "East Timor"
 msgstr "Восточный Тимор"
 
-#: arforms-form-builder.php:1251
+#: arforms-form-builder.php:1252
 #: core/helpers/arflitemainhelper.php:247
 #@ arforms-form-builder
 msgid "Ecuador"
@@ -2192,13 +2192,13 @@ msgstr "Изменить параметры"
 msgid "Edit Text"
 msgstr "Редактировать текст"
 
-#: arforms-form-builder.php:1256
+#: arforms-form-builder.php:1257
 #: core/helpers/arflitemainhelper.php:248
 #@ arforms-form-builder
 msgid "Egypt"
 msgstr "Египет"
 
-#: arforms-form-builder.php:1261
+#: arforms-form-builder.php:1262
 #: core/helpers/arflitemainhelper.php:249
 #@ arforms-form-builder
 msgid "El Salvador"
@@ -2226,7 +2226,7 @@ msgstr "Адрес электронной почты"
 msgid "Email Attachment:"
 msgstr "Вложения электронной почты:"
 
-#: arforms-form-builder.php:753
+#: arforms-form-builder.php:754
 #@ arforms-form-builder
 msgid "Email Elements"
 msgstr "Элементы электронной почты"
@@ -2241,8 +2241,8 @@ msgstr "Формат электронной почты"
 msgid "Email is invalid"
 msgstr "Email недействителен"
 
-#: core/classes/class.arforms_form_builder.php:1019
-#: core/classes/class.arforms_form_builder.php:1031
+#: core/classes/class.arforms_form_builder.php:1023
+#: core/classes/class.arforms_form_builder.php:1035
 #@ arforms-form-builder
 msgid "Email Marketing Tools"
 msgstr "Инструменты Email маркетинга"
@@ -2406,13 +2406,13 @@ msgstr "Запись не найдена для выбранного перио�
 msgid "equals"
 msgstr "равно"
 
-#: arforms-form-builder.php:1266
+#: arforms-form-builder.php:1267
 #: core/helpers/arflitemainhelper.php:250
 #@ arforms-form-builder
 msgid "Equatorial Guinea"
 msgstr "Экваториальная Гвинея"
 
-#: arforms-form-builder.php:1271
+#: arforms-form-builder.php:1272
 #: core/helpers/arflitemainhelper.php:251
 #@ arforms-form-builder
 msgid "Eritrea"
@@ -2458,7 +2458,7 @@ msgstr "Фон состояния ошибки"
 msgid "Esperanto"
 msgstr "эсперанто"
 
-#: arforms-form-builder.php:1276
+#: arforms-form-builder.php:1277
 #: core/helpers/arflitemainhelper.php:252
 #@ arforms-form-builder
 msgid "Estonia"
@@ -2471,7 +2471,7 @@ msgstr "Эстония"
 msgid "Estonian"
 msgstr "эстонский"
 
-#: arforms-form-builder.php:1281
+#: arforms-form-builder.php:1282
 #: core/helpers/arflitemainhelper.php:253
 #@ arforms-form-builder
 msgid "Ethiopia"
@@ -2528,12 +2528,12 @@ msgstr "Экспорт в CSV"
 msgid "Exported File Content"
 msgstr "Содержимое экспортируемого файла"
 
-#: core/classes/class.arforms_form_builder.php:707
+#: core/classes/class.arforms_form_builder.php:711
 #@ arforms-form-builder
 msgid "Facebook Community"
 msgstr "Сообщество Facebook"
 
-#: arforms-form-builder.php:1286
+#: arforms-form-builder.php:1287
 #@ arforms-form-builder
 msgid "Falkland Islands"
 msgstr "Фолклендские острова"
@@ -2548,7 +2548,7 @@ msgstr "Фолклендские острова"
 msgid "Family"
 msgstr "семья"
 
-#: arforms-form-builder.php:1291
+#: arforms-form-builder.php:1292
 #@ arforms-form-builder
 msgid "Faroe Islands"
 msgstr "Фарерские острова"
@@ -2595,8 +2595,8 @@ msgstr "Описание поля"
 msgid "Field inner spacing"
 msgstr "Интервал между полями"
 
-#: arforms-form-builder.php:727
 #: arforms-form-builder.php:728
+#: arforms-form-builder.php:729
 #@ arforms-form-builder
 msgid "Field label"
 msgstr "Метка поля"
@@ -2674,12 +2674,12 @@ msgstr "Значения полей будут потеряны после пр�
 msgid "Field Width"
 msgstr "Ширина поля"
 
-#: arforms-form-builder.php:722
+#: arforms-form-builder.php:723
 #@ arforms-form-builder
 msgid "Field Wrapper"
 msgstr "Полевой Обертка"
 
-#: arforms-form-builder.php:721
+#: arforms-form-builder.php:722
 #@ arforms-form-builder
 msgid "Field wrapper"
 msgstr "Полевая обертка"
@@ -2700,7 +2700,7 @@ msgstr "Полевая обертка"
 msgid "Fields"
 msgstr "поля"
 
-#: arforms-form-builder.php:1296
+#: arforms-form-builder.php:1297
 #: core/helpers/arflitemainhelper.php:254
 #@ arforms-form-builder
 msgid "Fiji"
@@ -2736,7 +2736,7 @@ msgstr "Филиппинский"
 msgid "filtered from"
 msgstr "отфильтровано из"
 
-#: arforms-form-builder.php:1301
+#: arforms-form-builder.php:1302
 #: core/helpers/arflitemainhelper.php:255
 #@ arforms-form-builder
 msgid "Finland"
@@ -2749,7 +2749,7 @@ msgstr "Финляндия"
 msgid "Finnish"
 msgstr "финский"
 
-#: core/classes/class.arforms_form_builder.php:984
+#: core/classes/class.arforms_form_builder.php:988
 #: core/controllers/arflitemaincontroller.php:2454
 #@ arforms-form-builder
 msgid "First"
@@ -2760,7 +2760,7 @@ msgstr "Первый"
 msgid "Flat"
 msgstr "Квартира"
 
-#: core/controllers/arfliteformcontroller.php:6565
+#: core/controllers/arfliteformcontroller.php:6573
 #: core/views/arflite_edit.php:5077
 #@ arforms-form-builder
 msgid "Font Awesome"
@@ -2825,13 +2825,13 @@ msgstr "Граница формы"
 msgid "Form Description"
 msgstr "Описание формы"
 
-#: arforms-form-builder.php:715
 #: arforms-form-builder.php:716
+#: arforms-form-builder.php:717
 #@ arforms-form-builder
 msgid "Form description"
 msgstr "Описание формы"
 
-#: core/classes/class.arforms_form_builder.php:1790
+#: core/classes/class.arforms_form_builder.php:1794
 #: core/controllers/arfliteprocontroller.php:67
 #: core/controllers/arfliterecordcontroller.php:330
 #: core/views/arf_view_records.php:315
@@ -2839,8 +2839,8 @@ msgstr "Описание формы"
 msgid "Form Entries"
 msgstr "Форма записи"
 
-#: core/classes/class.arforms_form_builder.php:996
-#: core/classes/class.arforms_form_builder.php:1004
+#: core/classes/class.arforms_form_builder.php:1000
+#: core/classes/class.arforms_form_builder.php:1008
 #@ arforms-form-builder
 msgid "Form Entries Data"
 msgstr "Данные записей формы"
@@ -2856,8 +2856,8 @@ msgstr "Форма ввода"
 msgid "Form Global CSS"
 msgstr "Форма Глобальный CSS"
 
-#: arforms-form-builder.php:703
 #: arforms-form-builder.php:704
+#: arforms-form-builder.php:705
 #@ arforms-form-builder
 msgid "Form inner wrapper"
 msgstr "Форма внутренней обертки"
@@ -2892,8 +2892,8 @@ msgstr "Форма успешно удалена"
 msgid "Form is successfully updated"
 msgstr "Форма успешно обновлена"
 
-#: arforms-form-builder.php:697
 #: arforms-form-builder.php:698
+#: arforms-form-builder.php:699
 #@ arforms-form-builder
 msgid "Form outer wrapper"
 msgstr "Форма наружной обертки"
@@ -2921,12 +2921,12 @@ msgstr "Способ отправки формы"
 
 #: core/helpers/arfliteformhelper.php:128
 #: core/helpers/arfliteformhelper.php:395
-#: core/models/arflitenotifymodel.php:939
+#: core/models/arflitenotifymodel.php:968
 #@ arforms-form-builder
 msgid "Form submitted on"
 msgstr "Форма отправлена на"
 
-#: arforms-form-builder.php:709
+#: arforms-form-builder.php:710
 #: core/views/arflite_edit.php:3286
 #: core/views/arflite_list.php:125
 #: core/views/arflite_new-selection-modal.php:70
@@ -2935,7 +2935,7 @@ msgstr "Форма отправлена на"
 msgid "Form Title"
 msgstr "Название формы"
 
-#: arforms-form-builder.php:710
+#: arforms-form-builder.php:711
 #@ arforms-form-builder
 msgid "Form title"
 msgstr "Название формы"
@@ -2965,7 +2965,7 @@ msgstr "Настройки ширины формы"
 msgid "Form(s) Only"
 msgstr "Только форма (ы)"
 
-#: core/classes/class.arforms_form_builder.php:1786
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #@ arforms-form-builder
@@ -2994,7 +2994,7 @@ msgstr "Список форм в настоящее время недоступ�
 msgid "Found a better plugin"
 msgstr "Найден лучший плагин"
 
-#: arforms-form-builder.php:1306
+#: arforms-form-builder.php:1307
 #: core/helpers/arflitemainhelper.php:256
 #@ arforms-form-builder
 msgid "France"
@@ -3016,13 +3016,13 @@ msgstr "Французский"
 msgid "French (Canadian)"
 msgstr "Французский канадец)"
 
-#: arforms-form-builder.php:1311
+#: arforms-form-builder.php:1312
 #: core/helpers/arflitemainhelper.php:257
 #@ arforms-form-builder
 msgid "French Guiana"
 msgstr "Французская Гвиана"
 
-#: arforms-form-builder.php:1316
+#: arforms-form-builder.php:1317
 #: core/helpers/arflitemainhelper.php:258
 #@ arforms-form-builder
 msgid "French Polynesia"
@@ -3067,13 +3067,13 @@ msgstr "Из электронной почты"
 msgid "From/Replyto Name"
 msgstr "From / Replyto Имя"
 
-#: arforms-form-builder.php:1321
+#: arforms-form-builder.php:1322
 #: core/helpers/arflitemainhelper.php:259
 #@ arforms-form-builder
 msgid "Gabon"
 msgstr "Габон"
 
-#: arforms-form-builder.php:1326
+#: arforms-form-builder.php:1327
 #: core/helpers/arflitemainhelper.php:260
 #@ arforms-form-builder
 msgid "Gambia"
@@ -3097,9 +3097,9 @@ msgstr "Общие настройки"
 msgid "General setting saved successfully."
 msgstr "Общие настройки успешно сохранены."
 
-#: core/classes/class.arforms_form_builder.php:1016
-#: core/classes/class.arforms_form_builder.php:1028
-#: core/classes/class.arforms_form_builder.php:1792
+#: core/classes/class.arforms_form_builder.php:1020
+#: core/classes/class.arforms_form_builder.php:1032
+#: core/classes/class.arforms_form_builder.php:1796
 #: core/controllers/arfliteprocontroller.php:69
 #: core/controllers/arflitesettingcontroller.php:126
 #: core/views/arflite_settings_form.php:64
@@ -3107,7 +3107,7 @@ msgstr "Общие настройки успешно сохранены."
 msgid "General Settings"
 msgstr "общие настройки"
 
-#: arforms-form-builder.php:1331
+#: arforms-form-builder.php:1332
 #: core/helpers/arflitemainhelper.php:261
 #@ arforms-form-builder
 msgid "Georgia"
@@ -3130,7 +3130,7 @@ msgstr "Немецкий (Австрия)"
 msgid "German (Switzerland)"
 msgstr "Немецкий (Швейцария)"
 
-#: arforms-form-builder.php:1336
+#: arforms-form-builder.php:1337
 #: core/helpers/arflitemainhelper.php:262
 #@ arforms-form-builder
 msgid "Germany"
@@ -3146,13 +3146,13 @@ msgstr "получить код авторизации"
 msgid "Get It"
 msgstr "Возьми"
 
-#: arforms-form-builder.php:1341
+#: arforms-form-builder.php:1342
 #: core/helpers/arflitemainhelper.php:263
 #@ arforms-form-builder
 msgid "Ghana"
 msgstr "Гана"
 
-#: arforms-form-builder.php:1346
+#: arforms-form-builder.php:1347
 #: core/helpers/arflitemainhelper.php:264
 #@ arforms-form-builder
 msgid "Gibraltar"
@@ -3192,7 +3192,7 @@ msgstr "API Google/Gmail"
 msgid "greater than"
 msgstr "лучше чем"
 
-#: arforms-form-builder.php:1351
+#: arforms-form-builder.php:1352
 #: core/helpers/arflitemainhelper.php:265
 #@ arforms-form-builder
 msgid "Greece"
@@ -3205,13 +3205,13 @@ msgstr "Греция"
 msgid "Greek"
 msgstr "греческий"
 
-#: arforms-form-builder.php:1356
+#: arforms-form-builder.php:1357
 #: core/helpers/arflitemainhelper.php:266
 #@ arforms-form-builder
 msgid "Greenland"
 msgstr "Гренландия"
 
-#: arforms-form-builder.php:1361
+#: arforms-form-builder.php:1362
 #: core/helpers/arflitemainhelper.php:267
 #@ arforms-form-builder
 msgid "Grenada"
@@ -3222,41 +3222,41 @@ msgstr "Гренада"
 msgid "Group Name"
 msgstr "Имя группы"
 
-#: core/classes/class.arforms_form_builder.php:1798
+#: core/classes/class.arforms_form_builder.php:1802
 #: core/controllers/arflitesettingcontroller.php:134
 #@ arforms-form-builder
 msgid "Growth Plugins"
 msgstr "Плагины роста"
 
-#: arforms-form-builder.php:1366
+#: arforms-form-builder.php:1367
 #@ arforms-form-builder
 msgid "Guadeloupe"
 msgstr "Гваделупа"
 
-#: arforms-form-builder.php:1371
+#: arforms-form-builder.php:1372
 #: core/helpers/arflitemainhelper.php:268
 #@ arforms-form-builder
 msgid "Guam"
 msgstr "Гуам"
 
-#: arforms-form-builder.php:1376
+#: arforms-form-builder.php:1377
 #: core/helpers/arflitemainhelper.php:269
 #@ arforms-form-builder
 msgid "Guatemala"
 msgstr "Гватемала"
 
-#: arforms-form-builder.php:1381
+#: arforms-form-builder.php:1382
 #@ arforms-form-builder
 msgid "Guernsey"
 msgstr "шерстяная фуфайка"
 
-#: arforms-form-builder.php:1386
+#: arforms-form-builder.php:1387
 #: core/helpers/arflitemainhelper.php:270
 #@ arforms-form-builder
 msgid "Guinea"
 msgstr "Гвинея"
 
-#: arforms-form-builder.php:1391
+#: arforms-form-builder.php:1392
 #: core/helpers/arflitemainhelper.php:271
 #@ arforms-form-builder
 msgid "Guinea-Bissau"
@@ -3267,13 +3267,13 @@ msgstr "Гвинея-Бисау"
 msgid "Gujarati"
 msgstr "гуджарати"
 
-#: arforms-form-builder.php:1396
+#: arforms-form-builder.php:1397
 #: core/helpers/arflitemainhelper.php:272
 #@ arforms-form-builder
 msgid "Guyana"
 msgstr "Гайана"
 
-#: arforms-form-builder.php:1401
+#: arforms-form-builder.php:1402
 #: core/helpers/arflitemainhelper.php:273
 #@ arforms-form-builder
 msgid "Haiti"
@@ -3343,13 +3343,13 @@ msgstr "Скрыть сообщение об успехе после"
 msgid "Hindi"
 msgstr "хинди"
 
-#: arforms-form-builder.php:1406
+#: arforms-form-builder.php:1407
 #: core/helpers/arflitemainhelper.php:274
 #@ arforms-form-builder
 msgid "Honduras"
 msgstr "Гондурас"
 
-#: arforms-form-builder.php:1411
+#: arforms-form-builder.php:1412
 #: core/helpers/arflitemainhelper.php:275
 #@ arforms-form-builder
 msgid "Hong Kong"
@@ -3416,7 +3416,7 @@ msgstr "HTML"
 msgid "Hungarian"
 msgstr "Венгерский"
 
-#: arforms-form-builder.php:1416
+#: arforms-form-builder.php:1417
 #: core/helpers/arflitemainhelper.php:276
 #@ arforms-form-builder
 msgid "Hungary"
@@ -3438,7 +3438,7 @@ msgstr "Я купил премиум-версию ARForms"
 msgid "I understand the risk"
 msgstr "Я понимаю риск"
 
-#: arforms-form-builder.php:1421
+#: arforms-form-builder.php:1422
 #: core/helpers/arflitemainhelper.php:277
 #@ arforms-form-builder
 msgid "Iceland"
@@ -3498,7 +3498,7 @@ msgstr "Изображение неверно"
 msgid "Image URL"
 msgstr "URL изображения"
 
-#: arforms-form-builder.php:773
+#: arforms-form-builder.php:774
 #@ arforms-form-builder
 msgid "Image URL Elements"
 msgstr "Элементы URL изображения"
@@ -3513,7 +3513,7 @@ msgstr "Ширина изображения"
 msgid "Import"
 msgstr "Импортировать"
 
-#: core/classes/class.arforms_form_builder.php:1794
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3525,7 +3525,7 @@ msgstr "Импорт Экспорт"
 msgid "Import / Export Forms"
 msgstr "Импорт / Экспорт форм"
 
-#: core/classes/class.arforms_form_builder.php:1794
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3553,7 +3553,7 @@ msgstr "Несовместимо с темой или плагином"
 msgid "Incorrect Field"
 msgstr "Неверное поле"
 
-#: arforms-form-builder.php:1426
+#: arforms-form-builder.php:1427
 #: core/helpers/arflitemainhelper.php:278
 #@ arforms-form-builder
 msgid "India"
@@ -3564,7 +3564,7 @@ msgstr "Индия"
 msgid "Individual Steps"
 msgstr "Отдельные шаги"
 
-#: arforms-form-builder.php:1431
+#: arforms-form-builder.php:1432
 #: core/helpers/arflitemainhelper.php:279
 #@ arforms-form-builder
 msgid "Indonesia"
@@ -3687,19 +3687,19 @@ msgstr "Неверная минимальная длина символов"
 msgid "IP Address"
 msgstr "Айпи адрес"
 
-#: arforms-form-builder.php:1436
+#: arforms-form-builder.php:1437
 #: core/helpers/arflitemainhelper.php:280
 #@ arforms-form-builder
 msgid "Iran"
 msgstr "Иран"
 
-#: arforms-form-builder.php:1441
+#: arforms-form-builder.php:1442
 #: core/helpers/arflitemainhelper.php:281
 #@ arforms-form-builder
 msgid "Iraq"
 msgstr "Ирак"
 
-#: arforms-form-builder.php:1446
+#: arforms-form-builder.php:1447
 #: core/helpers/arflitemainhelper.php:282
 #@ arforms-form-builder
 msgid "Ireland"
@@ -3710,12 +3710,12 @@ msgstr "Ирландия"
 msgid "is"
 msgstr "является"
 
-#: arforms-form-builder.php:1451
+#: arforms-form-builder.php:1452
 #@ arforms-form-builder
 msgid "Isle of Man"
 msgstr "Остров Мэн"
 
-#: arforms-form-builder.php:1456
+#: arforms-form-builder.php:1457
 #: core/helpers/arflitemainhelper.php:283
 #@ arforms-form-builder
 msgid "Israel"
@@ -3733,13 +3733,13 @@ msgstr "итальянский"
 msgid "italic"
 msgstr "курсивный"
 
-#: arforms-form-builder.php:1461
+#: arforms-form-builder.php:1462
 #: core/helpers/arflitemainhelper.php:284
 #@ arforms-form-builder
 msgid "Italy"
 msgstr "Италия"
 
-#: arforms-form-builder.php:1466
+#: arforms-form-builder.php:1467
 #: core/helpers/arflitemainhelper.php:285
 #@ arforms-form-builder
 msgid "Jamaica"
@@ -3750,7 +3750,7 @@ msgstr "Ямайка"
 msgid "January"
 msgstr "январь"
 
-#: arforms-form-builder.php:1471
+#: arforms-form-builder.php:1472
 #: core/helpers/arflitemainhelper.php:286
 #@ arforms-form-builder
 msgid "Japan"
@@ -3763,12 +3763,12 @@ msgstr "Япония"
 msgid "Japanese"
 msgstr "Японский"
 
-#: arforms-form-builder.php:1476
+#: arforms-form-builder.php:1477
 #@ arforms-form-builder
 msgid "Jersey"
 msgstr "Джерси"
 
-#: arforms-form-builder.php:1481
+#: arforms-form-builder.php:1482
 #: core/helpers/arflitemainhelper.php:287
 #@ arforms-form-builder
 msgid "Jordan"
@@ -3789,19 +3789,19 @@ msgstr "июнь"
 msgid "Kannada"
 msgstr "каннада"
 
-#: arforms-form-builder.php:1486
+#: arforms-form-builder.php:1487
 #: core/helpers/arflitemainhelper.php:288
 #@ arforms-form-builder
 msgid "Kazakhstan"
 msgstr "Казахстан"
 
-#: arforms-form-builder.php:1491
+#: arforms-form-builder.php:1492
 #: core/helpers/arflitemainhelper.php:289
 #@ arforms-form-builder
 msgid "Kenya"
 msgstr "Кения"
 
-#: arforms-form-builder.php:1496
+#: arforms-form-builder.php:1497
 #: core/helpers/arflitemainhelper.php:290
 #@ arforms-form-builder
 msgid "Kiribati"
@@ -3814,18 +3814,18 @@ msgstr "Кирибати"
 msgid "Korean"
 msgstr "корейский язык"
 
-#: arforms-form-builder.php:1501
+#: arforms-form-builder.php:1502
 #@ arforms-form-builder
 msgid "Kosovo"
 msgstr "Косово"
 
-#: arforms-form-builder.php:1506
+#: arforms-form-builder.php:1507
 #: core/helpers/arflitemainhelper.php:293
 #@ arforms-form-builder
 msgid "Kuwait"
 msgstr "Кувейт"
 
-#: arforms-form-builder.php:1511
+#: arforms-form-builder.php:1512
 #: core/helpers/arflitemainhelper.php:294
 #@ arforms-form-builder
 msgid "Kyrgyzstan"
@@ -3877,19 +3877,19 @@ msgstr "Ширина метки"
 msgid "Lack of documentation"
 msgstr "Недостаток документации"
 
-#: arforms-form-builder.php:1516
+#: arforms-form-builder.php:1517
 #: core/helpers/arflitemainhelper.php:295
 #@ arforms-form-builder
 msgid "Laos"
 msgstr "Лаос"
 
-#: core/classes/class.arforms_form_builder.php:983
+#: core/classes/class.arforms_form_builder.php:987
 #: core/controllers/arflitemaincontroller.php:2452
 #@ arforms-form-builder
 msgid "Last"
 msgstr "Прошлой"
 
-#: arforms-form-builder.php:1521
+#: arforms-form-builder.php:1522
 #: core/helpers/arflitemainhelper.php:296
 #@ arforms-form-builder
 msgid "Latvia"
@@ -3902,7 +3902,7 @@ msgstr "Латвия"
 msgid "Latvian"
 msgstr "латышский язык"
 
-#: arforms-form-builder.php:1526
+#: arforms-form-builder.php:1527
 #: core/helpers/arflitemainhelper.php:297
 #@ arforms-form-builder
 msgid "Lebanon"
@@ -3930,7 +3930,7 @@ msgstr "Оставил"
 msgid "Left to Right"
 msgstr "Слева направо"
 
-#: arforms-form-builder.php:1531
+#: arforms-form-builder.php:1532
 #: core/helpers/arflitemainhelper.php:298
 #@ arforms-form-builder
 msgid "Lesotho"
@@ -3941,19 +3941,19 @@ msgstr "Лесото"
 msgid "less than"
 msgstr "меньше, чем"
 
-#: arforms-form-builder.php:1536
+#: arforms-form-builder.php:1537
 #: core/helpers/arflitemainhelper.php:299
 #@ arforms-form-builder
 msgid "Liberia"
 msgstr "Либерия"
 
-#: arforms-form-builder.php:1541
+#: arforms-form-builder.php:1542
 #: core/helpers/arflitemainhelper.php:300
 #@ arforms-form-builder
 msgid "Libya"
 msgstr "Ливия"
 
-#: arforms-form-builder.php:1546
+#: arforms-form-builder.php:1547
 #: core/helpers/arflitemainhelper.php:301
 #@ arforms-form-builder
 msgid "Liechtenstein"
@@ -4000,7 +4000,7 @@ msgstr "Имя списка"
 msgid "List name"
 msgstr "Имя списка"
 
-#: arforms-form-builder.php:1551
+#: arforms-form-builder.php:1552
 #: core/helpers/arflitemainhelper.php:302
 #@ arforms-form-builder
 msgid "Lithuania"
@@ -4028,18 +4028,18 @@ msgstr "Загрузить JS & CSS на всех страницах"
 msgid "LTR"
 msgstr "LTR"
 
-#: arforms-form-builder.php:1556
+#: arforms-form-builder.php:1557
 #: core/helpers/arflitemainhelper.php:303
 #@ arforms-form-builder
 msgid "Luxembourg"
 msgstr "Люксембург"
 
-#: arforms-form-builder.php:1561
+#: arforms-form-builder.php:1562
 #@ arforms-form-builder
 msgid "Macau"
 msgstr "Макао"
 
-#: arforms-form-builder.php:1571
+#: arforms-form-builder.php:1572
 #: core/helpers/arflitemainhelper.php:305
 #@ arforms-form-builder
 msgid "Madagascar"
@@ -4050,7 +4050,7 @@ msgstr "Мадагаскар"
 msgid "Main Input Colors"
 msgstr "Основные цвета ввода"
 
-#: arforms-form-builder.php:1576
+#: arforms-form-builder.php:1577
 #: core/helpers/arflitemainhelper.php:306
 #@ arforms-form-builder
 msgid "Malawi"
@@ -4066,31 +4066,31 @@ msgstr "малайский"
 msgid "Malayalam"
 msgstr "Malayalam"
 
-#: arforms-form-builder.php:1581
+#: arforms-form-builder.php:1582
 #: core/helpers/arflitemainhelper.php:307
 #@ arforms-form-builder
 msgid "Malaysia"
 msgstr "Малайзия"
 
-#: arforms-form-builder.php:1586
+#: arforms-form-builder.php:1587
 #: core/helpers/arflitemainhelper.php:308
 #@ arforms-form-builder
 msgid "Maldives"
 msgstr "Мальдивы"
 
-#: arforms-form-builder.php:1591
+#: arforms-form-builder.php:1592
 #: core/helpers/arflitemainhelper.php:309
 #@ arforms-form-builder
 msgid "Mali"
 msgstr "Мали"
 
-#: arforms-form-builder.php:1596
+#: arforms-form-builder.php:1597
 #: core/helpers/arflitemainhelper.php:310
 #@ arforms-form-builder
 msgid "Malta"
 msgstr "Мальта"
 
-#: core/classes/class.arforms_form_builder.php:1786
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #: core/views/arflite_list.php:50
@@ -4119,23 +4119,23 @@ msgstr "марш"
 msgid "Margin"
 msgstr "Прибыль"
 
-#: arforms-form-builder.php:1601
+#: arforms-form-builder.php:1602
 #: core/helpers/arflitemainhelper.php:311
 #@ arforms-form-builder
 msgid "Marshall Islands"
 msgstr "Маршалловы острова"
 
-#: arforms-form-builder.php:1606
+#: arforms-form-builder.php:1607
 #@ arforms-form-builder
 msgid "Martinique"
 msgstr "Мартиника"
 
-#: core/controllers/arfliteformcontroller.php:6571
+#: core/controllers/arfliteformcontroller.php:6579
 #@ arforms-form-builder
 msgid "Mask Input"
 msgstr "Маска ввода"
 
-#: core/controllers/arfliteformcontroller.php:6584
+#: core/controllers/arfliteformcontroller.php:6592
 #@ arforms-form-builder
 msgid "Material"
 msgstr "материал"
@@ -4176,13 +4176,13 @@ msgstr "Матрица"
 msgid "Matrix Field Background Color"
 msgstr "Цвет фона поля матрицы"
 
-#: arforms-form-builder.php:1611
+#: arforms-form-builder.php:1612
 #: core/helpers/arflitemainhelper.php:312
 #@ arforms-form-builder
 msgid "Mauritania"
 msgstr "Мавритания"
 
-#: arforms-form-builder.php:1616
+#: arforms-form-builder.php:1617
 #: core/helpers/arflitemainhelper.php:313
 #@ arforms-form-builder
 msgid "Mauritius"
@@ -4216,7 +4216,7 @@ msgstr "максимальная"
 msgid "May"
 msgstr "май"
 
-#: arforms-form-builder.php:1621
+#: arforms-form-builder.php:1622
 #@ arforms-form-builder
 msgid "Mayotte"
 msgstr "Майотта"
@@ -4276,13 +4276,13 @@ msgstr "Сообщение будет отображаться, если неп�
 msgid "Message will be displayed when required fields is left blank."
 msgstr "Сообщение будет отображаться, когда обязательные поля оставлены пустыми."
 
-#: arforms-form-builder.php:1626
+#: arforms-form-builder.php:1627
 #: core/helpers/arflitemainhelper.php:314
 #@ arforms-form-builder
 msgid "Mexico"
 msgstr "Мексика"
 
-#: arforms-form-builder.php:1631
+#: arforms-form-builder.php:1632
 #: core/helpers/arflitemainhelper.php:315
 #@ arforms-form-builder
 msgid "Micronesia"
@@ -4345,13 +4345,13 @@ msgstr "Mobile View"
 msgid "Modern"
 msgstr "Современный"
 
-#: arforms-form-builder.php:1636
+#: arforms-form-builder.php:1637
 #: core/helpers/arflitemainhelper.php:316
 #@ arforms-form-builder
 msgid "Moldova"
 msgstr "Молдова"
 
-#: arforms-form-builder.php:1641
+#: arforms-form-builder.php:1642
 #: core/helpers/arflitemainhelper.php:317
 #@ arforms-form-builder
 msgid "Monaco"
@@ -4363,13 +4363,13 @@ msgstr "Монако"
 msgid "Monday"
 msgstr "понедельник"
 
-#: arforms-form-builder.php:1646
+#: arforms-form-builder.php:1647
 #: core/helpers/arflitemainhelper.php:318
 #@ arforms-form-builder
 msgid "Mongolia"
 msgstr "Монголия"
 
-#: arforms-form-builder.php:1651
+#: arforms-form-builder.php:1652
 #: core/helpers/arflitemainhelper.php:319
 #@ arforms-form-builder
 msgid "Montenegro"
@@ -4390,13 +4390,13 @@ msgstr "Месяцы"
 msgid "months"
 msgstr "месяцы"
 
-#: arforms-form-builder.php:1656
+#: arforms-form-builder.php:1657
 #: core/helpers/arflitemainhelper.php:320
 #@ arforms-form-builder
 msgid "Montserrat"
 msgstr "Монсеррат"
 
-#: arforms-form-builder.php:1661
+#: arforms-form-builder.php:1662
 #: core/helpers/arflitemainhelper.php:321
 #@ arforms-form-builder
 msgid "Morocco"
@@ -4413,7 +4413,7 @@ msgstr "Most Powerful Form Builder to create wide variety of forms within a minu
 msgid "Move"
 msgstr "Шаг"
 
-#: arforms-form-builder.php:1666
+#: arforms-form-builder.php:1667
 #: core/helpers/arflitemainhelper.php:322
 #@ arforms-form-builder
 msgid "Mozambique"
@@ -4446,7 +4446,7 @@ msgstr "Выбор из нескольких вариантов"
 msgid "Multiline Text"
 msgstr "Многострочный текст"
 
-#: arforms-form-builder.php:1671
+#: arforms-form-builder.php:1672
 #: core/helpers/arflitemainhelper.php:323
 #@ arforms-form-builder
 msgid "Myanmar"
@@ -4457,30 +4457,30 @@ msgstr "Мьянма"
 msgid "N/A"
 msgstr "N / A"
 
-#: arforms-form-builder.php:1676
+#: arforms-form-builder.php:1677
 #: core/helpers/arflitemainhelper.php:324
 #@ arforms-form-builder
 msgid "Namibia"
 msgstr "Намибия"
 
-#: arforms-form-builder.php:1681
+#: arforms-form-builder.php:1682
 #: core/helpers/arflitemainhelper.php:325
 #@ arforms-form-builder
 msgid "Nauru"
 msgstr "Науру"
 
-#: core/classes/class.arforms_form_builder.php:699
+#: core/classes/class.arforms_form_builder.php:703
 #@ arforms-form-builder
 msgid "Need Help ?"
 msgstr "Нужна помощь ?"
 
-#: arforms-form-builder.php:1686
+#: arforms-form-builder.php:1687
 #: core/helpers/arflitemainhelper.php:326
 #@ arforms-form-builder
 msgid "Nepal"
 msgstr "Непал"
 
-#: arforms-form-builder.php:1691
+#: arforms-form-builder.php:1692
 #: core/helpers/arflitemainhelper.php:327
 #@ arforms-form-builder
 msgid "Netherlands"
@@ -4491,7 +4491,7 @@ msgstr "Нидерланды"
 msgid "Neutral"
 msgstr "нейтральный"
 
-#: arforms-form-builder.php:1696
+#: arforms-form-builder.php:1697
 #@ arforms-form-builder
 msgid "New Caledonia"
 msgstr "Новая Каледония"
@@ -4501,13 +4501,13 @@ msgstr "Новая Каледония"
 msgid "New Form"
 msgstr "Новая форма"
 
-#: arforms-form-builder.php:1701
+#: arforms-form-builder.php:1702
 #: core/helpers/arflitemainhelper.php:328
 #@ arforms-form-builder
 msgid "New Zealand"
 msgstr "Новая Зеландия"
 
-#: core/classes/class.arforms_form_builder.php:982
+#: core/classes/class.arforms_form_builder.php:986
 #: core/controllers/arflitemaincontroller.php:2450
 #: core/helpers/arflitefieldhelper.php:815
 #@ arforms-form-builder
@@ -4519,25 +4519,25 @@ msgstr "следующий"
 msgid "Next Entry"
 msgstr "Следующая запись"
 
-#: arforms-form-builder.php:1706
+#: arforms-form-builder.php:1707
 #: core/helpers/arflitemainhelper.php:329
 #@ arforms-form-builder
 msgid "Nicaragua"
 msgstr "Никарагуа"
 
-#: arforms-form-builder.php:1711
+#: arforms-form-builder.php:1712
 #: core/helpers/arflitemainhelper.php:330
 #@ arforms-form-builder
 msgid "Niger"
 msgstr "Нигер"
 
-#: arforms-form-builder.php:1716
+#: arforms-form-builder.php:1717
 #: core/helpers/arflitemainhelper.php:331
 #@ arforms-form-builder
 msgid "Nigeria"
 msgstr "Нигерия"
 
-#: arforms-form-builder.php:1721
+#: arforms-form-builder.php:1722
 #@ arforms-form-builder
 msgid "Niue"
 msgstr "Niue"
@@ -4580,7 +4580,7 @@ msgstr "нет"
 msgid "No data available in table"
 msgstr "Данные отсутствуют в таблице"
 
-#: core/classes/class.arforms_form_builder.php:666
+#: core/classes/class.arforms_form_builder.php:670
 #@ arforms-form-builder
 msgid "No data found"
 msgstr "Данные не найдены"
@@ -4643,7 +4643,7 @@ msgstr "Нет, может позже"
 msgid "None"
 msgstr "Никто"
 
-#: arforms-form-builder.php:1726
+#: arforms-form-builder.php:1727
 #@ arforms-form-builder
 msgid "Norfolk Island"
 msgstr "Остров Норфолк"
@@ -4658,25 +4658,25 @@ msgstr "нормальный"
 msgid "Normal submission"
 msgstr "Нормальная подача"
 
-#: arforms-form-builder.php:1731
+#: arforms-form-builder.php:1732
 #: core/helpers/arflitemainhelper.php:291
 #@ arforms-form-builder
 msgid "North Korea"
 msgstr "Северная Корея"
 
-#: arforms-form-builder.php:1566
+#: arforms-form-builder.php:1567
 #: core/helpers/arflitemainhelper.php:304
 #@ arforms-form-builder
 msgid "North Macedonia"
 msgstr "Северная Македония"
 
-#: arforms-form-builder.php:1736
+#: arforms-form-builder.php:1737
 #: core/helpers/arflitemainhelper.php:333
 #@ arforms-form-builder
 msgid "Northern Mariana Islands"
 msgstr "Северные Марианские острова"
 
-#: arforms-form-builder.php:1741
+#: arforms-form-builder.php:1742
 #: core/helpers/arflitemainhelper.php:332
 #@ arforms-form-builder
 msgid "Norway"
@@ -4775,7 +4775,7 @@ msgstr "ноябрь"
 msgid "Number"
 msgstr "Число"
 
-#: arforms-form-builder.php:748
+#: arforms-form-builder.php:749
 #@ arforms-form-builder
 msgid "Number Elements"
 msgstr "Числовые элементы"
@@ -4880,7 +4880,7 @@ msgstr "ОК, ты это заслужил"
 msgid "Okay"
 msgstr "Ладно"
 
-#: arforms-form-builder.php:1746
+#: arforms-form-builder.php:1747
 #: core/helpers/arflitemainhelper.php:334
 #@ arforms-form-builder
 msgid "Oman"
@@ -5002,44 +5002,44 @@ msgstr "URL страницы"
 msgid "PageBreak Timer Settings"
 msgstr "Настройки таймера разрыва страниц"
 
-#: arforms-form-builder.php:1751
+#: arforms-form-builder.php:1752
 #: core/helpers/arflitemainhelper.php:335
 #@ arforms-form-builder
 msgid "Pakistan"
 msgstr "Пакистан"
 
-#: arforms-form-builder.php:1756
+#: arforms-form-builder.php:1757
 #: core/helpers/arflitemainhelper.php:336
 #@ arforms-form-builder
 msgid "Palau"
 msgstr "Palau"
 
-#: arforms-form-builder.php:1761
+#: arforms-form-builder.php:1762
 #: core/helpers/arflitemainhelper.php:337
 #@ arforms-form-builder
 msgid "Palestine"
 msgstr "Палестина"
 
-#: arforms-form-builder.php:1766
+#: arforms-form-builder.php:1767
 #: core/helpers/arflitemainhelper.php:338
 #@ arforms-form-builder
 msgid "Panama"
 msgstr "Панама"
 
-#: arforms-form-builder.php:1771
+#: arforms-form-builder.php:1772
 #: core/helpers/arflitemainhelper.php:339
 #@ arforms-form-builder
 msgid "Papua New Guinea"
 msgstr "Папуа - Новая Гвинея"
 
-#: arforms-form-builder.php:1776
+#: arforms-form-builder.php:1777
 #: core/helpers/arflitemainhelper.php:340
 #@ arforms-form-builder
 msgid "Paraguay"
 msgstr "Парагвай"
 
-#: core/classes/class.arforms_form_builder.php:1000
-#: core/classes/class.arforms_form_builder.php:1006
+#: core/classes/class.arforms_form_builder.php:1004
+#: core/classes/class.arforms_form_builder.php:1010
 #@ arforms-form-builder
 msgid "Partial Filled Form Entries"
 msgstr "Частично заполненные формы"
@@ -5065,13 +5065,13 @@ msgstr "В ожидании"
 msgid "Persian"
 msgstr "персидский"
 
-#: arforms-form-builder.php:1781
+#: arforms-form-builder.php:1782
 #: core/helpers/arflitemainhelper.php:341
 #@ arforms-form-builder
 msgid "Peru"
 msgstr "Перу"
 
-#: arforms-form-builder.php:1786
+#: arforms-form-builder.php:1787
 #: core/helpers/arflitemainhelper.php:342
 #@ arforms-form-builder
 msgid "Philippines"
@@ -5082,7 +5082,7 @@ msgstr "Филиппины"
 msgid "Phone"
 msgstr "Телефон"
 
-#: arforms-form-builder.php:743
+#: arforms-form-builder.php:744
 #@ arforms-form-builder
 msgid "Phone Elements"
 msgstr "Элементы телефона"
@@ -5303,8 +5303,8 @@ msgstr "Пожалуйста, выберите действующее дейст
 #: core/classes/class.arforms_block_widget.php:61
 #: core/classes/class.arforms_block_widget.php:83
 #: core/classes/class.arforms_block_widget.php:102
-#: core/controllers/arfliteformcontroller.php:7143
-#: core/controllers/arfliteformcontroller.php:7155
+#: core/controllers/arfliteformcontroller.php:7151
+#: core/controllers/arfliteformcontroller.php:7163
 #: core/controllers/arflitemaincontroller.php:1973
 #: core/views/arflite_form_preview.php:10
 #@ arforms-form-builder
@@ -5373,7 +5373,7 @@ msgstr "Пожалуйста, подождите, пока вы будете п�
 msgid "Please, Select appropriate option"
 msgstr "Пожалуйста, выберите подходящий вариант"
 
-#: arforms-form-builder.php:1791
+#: arforms-form-builder.php:1792
 #: core/helpers/arflitemainhelper.php:343
 #@ arforms-form-builder
 msgid "Poland"
@@ -5386,7 +5386,7 @@ msgstr "Польша"
 msgid "Polish"
 msgstr "польский"
 
-#: arforms-form-builder.php:1796
+#: arforms-form-builder.php:1797
 #: core/helpers/arflitemainhelper.php:344
 #@ arforms-form-builder
 msgid "Portugal"
@@ -5447,7 +5447,7 @@ msgstr "Название пресета"
 msgid "Preview"
 msgstr "предварительный просмотр"
 
-#: core/classes/class.arforms_form_builder.php:985
+#: core/classes/class.arforms_form_builder.php:989
 #: core/controllers/arflitemaincontroller.php:2456
 #: core/helpers/arflitefieldhelper.php:814
 #@ arforms-form-builder
@@ -5471,13 +5471,13 @@ msgstr "профессионал"
 msgid "Proceed"
 msgstr "Продолжить"
 
-#: arforms-form-builder.php:1801
+#: arforms-form-builder.php:1802
 #: core/helpers/arflitemainhelper.php:345
 #@ arforms-form-builder
 msgid "Puerto Rico"
 msgstr "Пуэрто-Рико"
 
-#: arforms-form-builder.php:1806
+#: arforms-form-builder.php:1807
 #: core/helpers/arflitemainhelper.php:346
 #@ arforms-form-builder
 msgid "Qatar"
@@ -5548,7 +5548,7 @@ msgstr "Запись не может быть удалена"
 
 #: core/controllers/arfliteformcontroller.php:242
 #: core/controllers/arfliteformcontroller.php:772
-#: core/controllers/arfliteformcontroller.php:7166
+#: core/controllers/arfliteformcontroller.php:7174
 #: core/controllers/arfliterecordcontroller.php:3225
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:1116
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:1264
@@ -5637,7 +5637,7 @@ msgstr "Сброс"
 msgid "Reset Style"
 msgstr "Сбросить Стиль"
 
-#: arforms-form-builder.php:1811
+#: arforms-form-builder.php:1812
 #@ arforms-form-builder
 msgid "Reunion"
 msgstr "воссоединение"
@@ -5669,7 +5669,7 @@ msgstr "Правильно"
 msgid "Right to Left"
 msgstr "Справа налево"
 
-#: arforms-form-builder.php:1816
+#: arforms-form-builder.php:1817
 #: core/helpers/arflitemainhelper.php:347
 #@ arforms-form-builder
 msgid "Romania"
@@ -5698,7 +5698,7 @@ msgstr "РТЛ"
 msgid "Running Total (Math Logic) is Enabled"
 msgstr "Подведение итогов (математическая логика) включено"
 
-#: arforms-form-builder.php:1821
+#: arforms-form-builder.php:1822
 #: core/helpers/arflitemainhelper.php:348
 #@ arforms-form-builder
 msgid "Russia"
@@ -5711,51 +5711,51 @@ msgstr "Россия"
 msgid "Russian"
 msgstr "русский"
 
-#: arforms-form-builder.php:1826
+#: arforms-form-builder.php:1827
 #: core/helpers/arflitemainhelper.php:349
 #@ arforms-form-builder
 msgid "Rwanda"
 msgstr "Руанда"
 
-#: arforms-form-builder.php:1831
+#: arforms-form-builder.php:1832
 #@ arforms-form-builder
 msgid "Saint Barthelemy"
 msgstr "Сен-Бартельми"
 
-#: arforms-form-builder.php:1836
+#: arforms-form-builder.php:1837
 #@ arforms-form-builder
 msgid "Saint Helena"
 msgstr "Остров Святой Елены"
 
-#: arforms-form-builder.php:1841
+#: arforms-form-builder.php:1842
 #: core/helpers/arflitemainhelper.php:350
 #@ arforms-form-builder
 msgid "Saint Kitts and Nevis"
 msgstr "Сент-Китс и Невис"
 
-#: arforms-form-builder.php:1846
+#: arforms-form-builder.php:1847
 #: core/helpers/arflitemainhelper.php:351
 #@ arforms-form-builder
 msgid "Saint Lucia"
 msgstr "Сент-Люсия"
 
-#: arforms-form-builder.php:1851
+#: arforms-form-builder.php:1852
 #@ arforms-form-builder
 msgid "Saint Martin"
 msgstr "Святой мартин"
 
-#: arforms-form-builder.php:1856
+#: arforms-form-builder.php:1857
 #@ arforms-form-builder
 msgid "Saint Pierre and Miquelon"
 msgstr "Сен-Пьер и Микелон"
 
-#: arforms-form-builder.php:1861
+#: arforms-form-builder.php:1862
 #: core/helpers/arflitemainhelper.php:352
 #@ arforms-form-builder
 msgid "Saint Vincent and the Grenadines"
 msgstr "Святой Винсент и Гренадины"
 
-#: arforms-form-builder.php:1866
+#: arforms-form-builder.php:1867
 #: core/helpers/arflitemainhelper.php:353
 #@ arforms-form-builder
 msgid "Samoa"
@@ -5771,13 +5771,13 @@ msgstr "Образцы форм"
 msgid "Sample RegExp"
 msgstr "Образец RegExp"
 
-#: arforms-form-builder.php:1871
+#: arforms-form-builder.php:1872
 #: core/helpers/arflitemainhelper.php:354
 #@ arforms-form-builder
 msgid "San Marino"
 msgstr "Сан-Марино"
 
-#: arforms-form-builder.php:1876
+#: arforms-form-builder.php:1877
 #: core/helpers/arflitemainhelper.php:355
 #@ arforms-form-builder
 msgid "Sao Tome and Principe"
@@ -5799,7 +5799,7 @@ msgstr "Доволен"
 msgid "Saturday"
 msgstr "суббота"
 
-#: arforms-form-builder.php:1881
+#: arforms-form-builder.php:1882
 #: core/helpers/arflitemainhelper.php:356
 #@ arforms-form-builder
 msgid "Saudi Arabia"
@@ -6045,7 +6045,7 @@ msgstr "Отправить тестовое письмо"
 msgid "Send test mail"
 msgstr "Отправить тестовое письмо"
 
-#: arforms-form-builder.php:1886
+#: arforms-form-builder.php:1887
 #: core/helpers/arflitemainhelper.php:357
 #@ arforms-form-builder
 msgid "Senegal"
@@ -6056,7 +6056,7 @@ msgstr "Сенегал"
 msgid "September"
 msgstr "сентябрь"
 
-#: arforms-form-builder.php:1891
+#: arforms-form-builder.php:1892
 #@ arforms-form-builder
 msgid "Serbia"
 msgstr "Сербия"
@@ -6147,7 +6147,7 @@ msgstr "настройки"
 msgid "Settings Saved."
 msgstr "Настройки сохранены."
 
-#: arforms-form-builder.php:1896
+#: arforms-form-builder.php:1897
 #: core/helpers/arflitemainhelper.php:359
 #@ arforms-form-builder
 msgid "Seychelles"
@@ -6217,7 +6217,7 @@ msgstr "Показать единицы"
 msgid "Showing"
 msgstr "показ"
 
-#: arforms-form-builder.php:1901
+#: arforms-form-builder.php:1902
 #: core/helpers/arflitemainhelper.php:360
 #@ arforms-form-builder
 msgid "Sierra Leone"
@@ -6229,7 +6229,7 @@ msgstr "Сьерра-Леоне"
 msgid "Sign out successfully."
 msgstr "Выйдите из системы успешно."
 
-#: arforms-form-builder.php:1906
+#: arforms-form-builder.php:1907
 #: core/helpers/arflitemainhelper.php:361
 #@ arforms-form-builder
 msgid "Singapore"
@@ -6242,7 +6242,7 @@ msgstr "Сингапур"
 msgid "Single Line Text"
 msgstr "Однострочный текст"
 
-#: arforms-form-builder.php:1911
+#: arforms-form-builder.php:1912
 #@ arforms-form-builder
 msgid "Sint Maarten"
 msgstr "Синт-Мартен"
@@ -6292,13 +6292,13 @@ msgstr "Слайдер Трек"
 msgid "Slovak"
 msgstr "словацкий"
 
-#: arforms-form-builder.php:1916
+#: arforms-form-builder.php:1917
 #: core/helpers/arflitemainhelper.php:362
 #@ arforms-form-builder
 msgid "Slovakia"
 msgstr "Словакия"
 
-#: arforms-form-builder.php:1921
+#: arforms-form-builder.php:1922
 #: core/helpers/arflitemainhelper.php:363
 #@ arforms-form-builder
 msgid "Slovenia"
@@ -6357,13 +6357,13 @@ msgstr "Имя пользователя SMTP"
 msgid "Solid"
 msgstr "твердый"
 
-#: arforms-form-builder.php:1926
+#: arforms-form-builder.php:1927
 #: core/helpers/arflitemainhelper.php:364
 #@ arforms-form-builder
 msgid "Solomon Islands"
 msgstr "Соломоновы острова"
 
-#: arforms-form-builder.php:1931
+#: arforms-form-builder.php:1932
 #: core/helpers/arflitemainhelper.php:365
 #@ arforms-form-builder
 msgid "Somalia"
@@ -6470,19 +6470,19 @@ msgstr "Извините, ваш запрос не может быть обра�
 msgid "Sorry, Your request could not be processed due to security reasons."
 msgstr "К сожалению, ваш запрос не может быть обработан по соображениям безопасности."
 
-#: arforms-form-builder.php:1936
+#: arforms-form-builder.php:1937
 #: core/helpers/arflitemainhelper.php:366
 #@ arforms-form-builder
 msgid "South Africa"
 msgstr "Южная Африка"
 
-#: arforms-form-builder.php:1941
+#: arforms-form-builder.php:1942
 #: core/helpers/arflitemainhelper.php:292
 #@ arforms-form-builder
 msgid "South Korea"
 msgstr "Южная Корея"
 
-#: arforms-form-builder.php:1946
+#: arforms-form-builder.php:1947
 #@ arforms-form-builder
 msgid "South Sudan"
 msgstr "южный Судан"
@@ -6492,7 +6492,7 @@ msgstr "южный Судан"
 msgid "Space Between Two Fields"
 msgstr "Пространство между двумя полями"
 
-#: arforms-form-builder.php:1951
+#: arforms-form-builder.php:1952
 #: core/helpers/arflitemainhelper.php:367
 #@ arforms-form-builder
 msgid "Spain"
@@ -6531,7 +6531,7 @@ msgstr "Распространение"
 msgid "Sr"
 msgstr "Sr"
 
-#: arforms-form-builder.php:1956
+#: arforms-form-builder.php:1957
 #: core/helpers/arflitemainhelper.php:368
 #@ arforms-form-builder
 msgid "Sri Lanka"
@@ -6642,8 +6642,8 @@ msgstr "Отправить настройки шрифта"
 msgid "Submit Tracking Script"
 msgstr "Отправить скрипт отслеживания"
 
-#: arforms-form-builder.php:778
 #: arforms-form-builder.php:779
+#: arforms-form-builder.php:780
 #@ arforms-form-builder
 msgid "Submit Wrapper"
 msgstr "Отправить Обертку"
@@ -6666,8 +6666,8 @@ msgstr "Форма отправки"
 msgid "Success"
 msgstr "Успех"
 
-#: arforms-form-builder.php:784
 #: arforms-form-builder.php:785
+#: arforms-form-builder.php:786
 #: core/views/arflite_settings_form.php:188
 #@ arforms-form-builder
 msgid "Success Message"
@@ -6688,7 +6688,7 @@ msgstr "Позиция сообщения об успехе/ошибке"
 msgid "Successfully removed file"
 msgstr "Успешно удаленный файл"
 
-#: arforms-form-builder.php:1961
+#: arforms-form-builder.php:1962
 #: core/helpers/arflitemainhelper.php:369
 #@ arforms-form-builder
 msgid "Sudan"
@@ -6705,24 +6705,24 @@ msgstr "Суффикс"
 msgid "Sunday"
 msgstr "Воскресенье"
 
-#: arforms-form-builder.php:1966
+#: arforms-form-builder.php:1967
 #: core/helpers/arflitemainhelper.php:370
 #@ arforms-form-builder
 msgid "Suriname"
 msgstr "Суринам"
 
-#: arforms-form-builder.php:1971
+#: arforms-form-builder.php:1972
 #@ arforms-form-builder
 msgid "Svalbard and Jan Mayen"
 msgstr "Шпицберген и Ян Майен"
 
-#: arforms-form-builder.php:1976
+#: arforms-form-builder.php:1977
 #: core/helpers/arflitemainhelper.php:371
 #@ arforms-form-builder
 msgid "Swaziland"
 msgstr "Свазиленд"
 
-#: arforms-form-builder.php:1981
+#: arforms-form-builder.php:1982
 #: core/helpers/arflitemainhelper.php:372
 #@ arforms-form-builder
 msgid "Sweden"
@@ -6741,13 +6741,13 @@ msgstr "шведский"
 msgid "Switch"
 msgstr "переключатель"
 
-#: arforms-form-builder.php:1986
+#: arforms-form-builder.php:1987
 #: core/helpers/arflitemainhelper.php:373
 #@ arforms-form-builder
 msgid "Switzerland"
 msgstr "Швейцария"
 
-#: arforms-form-builder.php:1991
+#: arforms-form-builder.php:1992
 #: core/helpers/arflitemainhelper.php:374
 #@ arforms-form-builder
 msgid "Syria"
@@ -6759,13 +6759,13 @@ msgstr "Сирия"
 msgid "Tablet View"
 msgstr "Планшетный вид"
 
-#: arforms-form-builder.php:1996
+#: arforms-form-builder.php:1997
 #: core/helpers/arflitemainhelper.php:375
 #@ arforms-form-builder
 msgid "Taiwan"
 msgstr "Тайвань"
 
-#: arforms-form-builder.php:2001
+#: arforms-form-builder.php:2002
 #: core/helpers/arflitemainhelper.php:376
 #@ arforms-form-builder
 msgid "Tajikistan"
@@ -6778,7 +6778,7 @@ msgstr "Таджикистан"
 msgid "Tamil"
 msgstr "тамильский"
 
-#: arforms-form-builder.php:2006
+#: arforms-form-builder.php:2007
 #: core/helpers/arflitemainhelper.php:377
 #@ arforms-form-builder
 msgid "Tanzania"
@@ -6828,12 +6828,12 @@ msgstr "Цвет текста"
 msgid "Text Direction"
 msgstr "Направление текста"
 
-#: arforms-form-builder.php:738
+#: arforms-form-builder.php:739
 #@ arforms-form-builder
 msgid "Textarea Elements"
 msgstr "Текстовые элементы"
 
-#: arforms-form-builder.php:733
+#: arforms-form-builder.php:734
 #@ arforms-form-builder
 msgid "Textbox Elements"
 msgstr "Элементы текстового поля"
@@ -6845,7 +6845,7 @@ msgstr "Элементы текстового поля"
 msgid "Thai"
 msgstr "тайский"
 
-#: arforms-form-builder.php:2011
+#: arforms-form-builder.php:2012
 #: core/helpers/arflitemainhelper.php:378
 #@ arforms-form-builder
 msgid "Thailand"
@@ -6920,14 +6920,14 @@ msgstr "При удалении этой записи произошла оши�
 msgid "There is an issue while uploading a file. Please try again"
 msgstr "При загрузке файла возникла проблема. Пожалуйста, попробуйте еще раз"
 
-#: core/classes/class.arforms_form_builder.php:950
+#: core/classes/class.arforms_form_builder.php:954
 #: core/controllers/arflitemaincontroller.php:2448
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:631
 #@ arforms-form-builder
 msgid "There is no any form found"
 msgstr "Там не найдено ни одной формы"
 
-#: core/classes/class.arforms_form_builder.php:981
+#: core/classes/class.arforms_form_builder.php:985
 #: core/controllers/arflitemaincontroller.php:2436
 #@ arforms-form-builder
 msgid "There is no entry found"
@@ -7130,7 +7130,7 @@ msgstr "Четверг"
 msgid "Time"
 msgstr "Время"
 
-#: arforms-form-builder.php:763
+#: arforms-form-builder.php:764
 #@ arforms-form-builder
 msgid "Time Elements"
 msgstr "Элементы времени"
@@ -7145,7 +7145,7 @@ msgstr "Стиль таймера"
 msgid "Timestamp"
 msgstr "Отметка"
 
-#: arforms-form-builder.php:2016
+#: arforms-form-builder.php:2017
 #@ arforms-form-builder
 msgid "Timor-Leste"
 msgstr "Восточный Тимор"
@@ -7202,24 +7202,24 @@ msgstr "Чтобы экспортировать эту форму, сначал�
 msgid "to set dynamic minimum date please use the below short-code"
 msgstr "чтобы установить динамическую минимальную дату, используйте приведенный ниже короткий код"
 
-#: arforms-form-builder.php:2021
+#: arforms-form-builder.php:2022
 #: core/helpers/arflitemainhelper.php:379
 #@ arforms-form-builder
 msgid "Togo"
 msgstr "Идти"
 
-#: arforms-form-builder.php:2026
+#: arforms-form-builder.php:2027
 #@ arforms-form-builder
 msgid "Tokelau"
 msgstr "Токелау"
 
-#: arforms-form-builder.php:2031
+#: arforms-form-builder.php:2032
 #: core/helpers/arflitemainhelper.php:380
 #@ arforms-form-builder
 msgid "Tonga"
 msgstr "Тонга"
 
-#: core/controllers/arfliteformcontroller.php:6577
+#: core/controllers/arfliteformcontroller.php:6585
 #: core/views/arflite_field_option_popup.php:852
 #@ arforms-form-builder
 msgid "Tooltip"
@@ -7252,7 +7252,7 @@ msgstr "верхний"
 msgid "total"
 msgstr "Всего"
 
-#: arforms-form-builder.php:2036
+#: arforms-form-builder.php:2037
 #: core/helpers/arflitemainhelper.php:381
 #@ arforms-form-builder
 msgid "Trinidad and Tobago"
@@ -7264,13 +7264,13 @@ msgstr "Тринидад и Тобаго"
 msgid "Tuesday"
 msgstr "вторник"
 
-#: arforms-form-builder.php:2041
+#: arforms-form-builder.php:2042
 #: core/helpers/arflitemainhelper.php:382
 #@ arforms-form-builder
 msgid "Tunisia"
 msgstr "Тунис"
 
-#: arforms-form-builder.php:2046
+#: arforms-form-builder.php:2047
 #: core/helpers/arflitemainhelper.php:383
 #@ arforms-form-builder
 msgid "Turkey"
@@ -7283,18 +7283,18 @@ msgstr "индейка"
 msgid "Turkish"
 msgstr "турецкий"
 
-#: arforms-form-builder.php:2051
+#: arforms-form-builder.php:2052
 #: core/helpers/arflitemainhelper.php:384
 #@ arforms-form-builder
 msgid "Turkmenistan"
 msgstr "Туркменистан"
 
-#: arforms-form-builder.php:2056
+#: arforms-form-builder.php:2057
 #@ arforms-form-builder
 msgid "Turks and Caicos Islands"
 msgstr "Острова Теркс и Кайкос"
 
-#: arforms-form-builder.php:2061
+#: arforms-form-builder.php:2062
 #: core/helpers/arflitemainhelper.php:385
 #@ arforms-form-builder
 msgid "Tuvalu"
@@ -7327,18 +7327,18 @@ msgstr "Сокращения штата США"
 msgid "U.S. States"
 msgstr "Штаты США"
 
-#: arforms-form-builder.php:2066
+#: arforms-form-builder.php:2067
 #@ arforms-form-builder
 msgid "U.S. Virgin Islands"
 msgstr "Виргинские острова США"
 
-#: arforms-form-builder.php:2071
+#: arforms-form-builder.php:2072
 #: core/helpers/arflitemainhelper.php:386
 #@ arforms-form-builder
 msgid "Uganda"
 msgstr "Уганда"
 
-#: arforms-form-builder.php:2076
+#: arforms-form-builder.php:2077
 #: core/helpers/arflitemainhelper.php:387
 #@ arforms-form-builder
 msgid "Ukraine"
@@ -7366,19 +7366,19 @@ msgstr "Снять все"
 msgid "Under 18"
 msgstr "До 18"
 
-#: arforms-form-builder.php:2081
+#: arforms-form-builder.php:2082
 #: core/helpers/arflitemainhelper.php:388
 #@ arforms-form-builder
 msgid "United Arab Emirates"
 msgstr "Объединенные Арабские Эмираты"
 
-#: arforms-form-builder.php:2086
+#: arforms-form-builder.php:2087
 #: core/helpers/arflitemainhelper.php:389
 #@ arforms-form-builder
 msgid "United Kingdom"
 msgstr "объединенное Королевство"
 
-#: arforms-form-builder.php:2091
+#: arforms-form-builder.php:2092
 #: core/helpers/arflitemainhelper.php:390
 #@ arforms-form-builder
 msgid "United States"
@@ -7411,7 +7411,7 @@ msgstr "Обновить"
 msgid "Update ARForms Database"
 msgstr "Обновить базу данных ARForms"
 
-#: core/classes/class.arforms_form_builder.php:1809
+#: core/classes/class.arforms_form_builder.php:1813
 #: core/controllers/arfliteformcontroller.php:134
 #: core/controllers/arflitesettingcontroller.php:145
 #@ arforms-form-builder
@@ -7433,7 +7433,7 @@ msgstr "урду"
 msgid "URL"
 msgstr "URL"
 
-#: arforms-form-builder.php:2096
+#: arforms-form-builder.php:2097
 #: core/helpers/arflitemainhelper.php:391
 #@ arforms-form-builder
 msgid "Uruguay"
@@ -7490,7 +7490,7 @@ msgstr "Используя API"
 msgid "Using Web-form"
 msgstr "Использование веб-формы"
 
-#: arforms-form-builder.php:2101
+#: arforms-form-builder.php:2102
 #: core/helpers/arflitemainhelper.php:392
 #@ arforms-form-builder
 msgid "Uzbekistan"
@@ -7506,8 +7506,8 @@ msgstr "Проверить значение по умолчанию"
 msgid "Validation"
 msgstr "Проверка"
 
-#: arforms-form-builder.php:790
 #: arforms-form-builder.php:791
+#: arforms-form-builder.php:792
 #@ arforms-form-builder
 msgid "Validation (error)"
 msgstr "Ошибка проверки)"
@@ -7532,19 +7532,19 @@ msgstr "Стиль сообщения проверки"
 msgid "Value"
 msgstr "Ценность"
 
-#: arforms-form-builder.php:2106
+#: arforms-form-builder.php:2107
 #: core/helpers/arflitemainhelper.php:393
 #@ arforms-form-builder
 msgid "Vanuatu"
 msgstr "Вануату"
 
-#: arforms-form-builder.php:2111
+#: arforms-form-builder.php:2112
 #: core/helpers/arflitemainhelper.php:394
 #@ arforms-form-builder
 msgid "Vatican City"
 msgstr "Ватикан"
 
-#: arforms-form-builder.php:2116
+#: arforms-form-builder.php:2117
 #: core/helpers/arflitemainhelper.php:395
 #@ arforms-form-builder
 msgid "Venezuela"
@@ -7591,7 +7591,7 @@ msgstr "очень доволен"
 msgid "Very Unsatisfied"
 msgstr "Очень неудовлетворен"
 
-#: arforms-form-builder.php:2121
+#: arforms-form-builder.php:2122
 #: core/helpers/arflitemainhelper.php:396
 #@ arforms-form-builder
 msgid "Vietnam"
@@ -7629,7 +7629,7 @@ msgstr "Виргинские острова, Британские"
 msgid "Virgin Islands, U.S."
 msgstr "Виргинские острова, США"
 
-#: arforms-form-builder.php:2126
+#: arforms-form-builder.php:2127
 #@ arforms-form-builder
 msgid "Wallis and Futuna"
 msgstr "Уоллис и Футуна"
@@ -7674,7 +7674,7 @@ msgstr "Код веб-формы от Mailchimp"
 msgid "Webhook"
 msgstr "Webhook"
 
-#: arforms-form-builder.php:768
+#: arforms-form-builder.php:769
 #@ arforms-form-builder
 msgid "Website Elements"
 msgstr "Элементы сайта"
@@ -7712,7 +7712,7 @@ msgstr "Будни"
 msgid "weeks"
 msgstr "недель"
 
-#: arforms-form-builder.php:2131
+#: arforms-form-builder.php:2132
 #@ arforms-form-builder
 msgid "Western Sahara"
 msgstr "Западная Сахара"
@@ -7803,7 +7803,7 @@ msgstr "лет"
 msgid "years"
 msgstr "лет"
 
-#: arforms-form-builder.php:2136
+#: arforms-form-builder.php:2137
 #: core/helpers/arflitemainhelper.php:399
 #@ arforms-form-builder
 msgid "Yemen"
@@ -7854,7 +7854,7 @@ msgstr "Вы конвертируете"
 msgid "You are using ARForms Premium plugin on your website and it is an extension to ARForms Lite, so, If you deactivate ARForms Lite then it will automatically deactivate ARForms Premium and all the add-ons"
 msgstr "Вы используете плагин ARForms Premium на своем веб-сайте, и он является расширением ARForms Lite, поэтому, если вы деактивируете ARForms Lite, он автоматически деактивирует ARForms Premium и все надстройки."
 
-#: core/classes/class.arforms_form_builder.php:1697
+#: core/classes/class.arforms_form_builder.php:1701
 #: core/helpers/arfliteformhelper.php:133
 #: core/models/arflitesettingmodel.php:116
 #@ arforms-form-builder
@@ -7902,18 +7902,18 @@ msgstr "Ваше тестовое письмо не отправлено по к
 msgid "Your test mail is successfully sent"
 msgstr "Ваше тестовое письмо успешно отправлено"
 
-#: core/classes/class.arforms_form_builder.php:714
+#: core/classes/class.arforms_form_builder.php:718
 #@ arforms-form-builder
 msgid "YouTube Channel"
 msgstr "YouTube канал"
 
-#: arforms-form-builder.php:2141
+#: arforms-form-builder.php:2142
 #: core/helpers/arflitemainhelper.php:400
 #@ arforms-form-builder
 msgid "Zambia"
 msgstr "Замбия"
 
-#: arforms-form-builder.php:2146
+#: arforms-form-builder.php:2147
 #: core/helpers/arflitemainhelper.php:401
 #@ arforms-form-builder
 msgid "Zimbabwe"
@@ -7959,8 +7959,8 @@ msgstr "Что-то пошло не так"
 msgid "log download successfully"
 msgstr "журнал скачан успешно"
 
-#: core/classes/class.arforms_form_builder.php:1022
-#: core/classes/class.arforms_form_builder.php:1034
+#: core/classes/class.arforms_form_builder.php:1026
+#: core/classes/class.arforms_form_builder.php:1038
 #: core/views/arf_debug_log.php:71
 #@ arforms-form-builder
 msgid "Debug Logs"
@@ -8155,7 +8155,7 @@ msgstr "capability_error"
 msgid "success"
 msgstr "успех"
 
-#: core/classes/class.arforms_form_builder.php:895
+#: core/classes/class.arforms_form_builder.php:899
 #@ arforms-form-builder
 msgid "Settings saved successfully"
 msgstr "Настройки успешно сохранены"
@@ -9075,12 +9075,6 @@ msgstr "Журнал отладки платежных шлюзов"
 msgid "Paypal Debug Log"
 msgstr "Журнал отладки PayPal"
 
-#. translators: plugin header field 'Version'
-#: arforms-form-builder.php:0
-#@ arforms-form-builder
-msgid "1.7.2"
-msgstr "1.7.2"
-
 #: core/views/arflite_edit.php:4378
 #@ arforms-form-builder
 msgid "ARFLite_form_all_values_no_separate_valueThis will be replaced with form's all fields & labels without separate values."
@@ -9137,4 +9131,10 @@ msgstr "Сообщение об ошибке hCaptcha"
 #@ arforms-form-builder
 msgid "Invalid hCaptcha. Please try again"
 msgstr "Неверный hCaptcha. Попробуйте еще раз."
+
+#. translators: plugin header field 'Version'
+#: arforms-form-builder.php:0
+#@ arforms-form-builder
+msgid "1.7.3"
+msgstr "1.7.3"
 

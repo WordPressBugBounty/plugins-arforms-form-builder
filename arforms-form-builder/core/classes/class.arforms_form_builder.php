@@ -468,6 +468,10 @@ class arforms_form_builder{
 
 					if( 'material' == $lite_form_css['arfinputstyle'] ){
 						$filename1 = FORMPATH . '/core/css_create_materialize.php';
+
+						$wp_upload_dir = wp_upload_dir();
+						$target_path = $wp_upload_dir['basedir'] . '/arforms/maincss';
+						
 					    $css1 = $warn1 = "/* WARNING: Any changes made to this file will be lost when your ARForms settings are updated */";
 					    $css1 .= "\n";
 					    ob_start();

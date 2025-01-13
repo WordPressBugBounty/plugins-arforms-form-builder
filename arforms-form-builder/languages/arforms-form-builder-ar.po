@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARForms Form Builder v1.7.2\n"
+"Project-Id-Version: ARForms Form Builder v1.7.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-18 08:29:13+0000\n"
+"PO-Revision-Date: 2025-01-08 09:54:23+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid "%1$s form has been submitted on %2$s."
 msgstr "تم إرسال نموذج %1$s إلى %2$s."
 
 #: core/models/arflitenotifymodel.php:169
-#: core/models/arflitenotifymodel.php:1405
+#: core/models/arflitenotifymodel.php:1461
 #, php-format
 #@ arforms-form-builder
 msgid "%1$s Form submitted on %2$s"
@@ -403,7 +403,7 @@ msgstr "إضافة رمز (نمط Bootstrap)"
 msgid "Add Image"
 msgstr "إضافة صورة"
 
-#: core/classes/class.arforms_form_builder.php:1788
+#: core/classes/class.arforms_form_builder.php:1792
 #: core/controllers/arfliteformcontroller.php:260
 #: core/controllers/arfliteprocontroller.php:65
 #: core/views/arflite_list.php:90
@@ -437,7 +437,7 @@ msgstr "أضف إلى الصفحة"
 msgid "Add-On listing is currently unavailable. Please try again later."
 msgstr "قائمة الوظائف الإضافية غير متوفرة حاليًا. الرجاء معاودة المحاولة في وقت لاحق."
 
-#: core/classes/class.arforms_form_builder.php:1796
+#: core/classes/class.arforms_form_builder.php:1800
 #: core/controllers/arfliteprocontroller.php:75
 #@ arforms-form-builder
 msgid "Add-ons"
@@ -453,7 +453,7 @@ msgstr "إضافة / تحرير العروض المخصصة"
 msgid "Add/Edit Forms and Templates"
 msgstr "إضافة / تحرير النماذج والقوالب"
 
-#: core/classes/class.arforms_form_builder.php:1796
+#: core/classes/class.arforms_form_builder.php:1800
 #: core/controllers/arfliteprocontroller.php:75
 #: core/controllers/arflitesettingcontroller.php:130
 #@ arforms-form-builder
@@ -493,7 +493,7 @@ msgstr "خيارات الخط المتقدمة"
 msgid "Advanced Form Options"
 msgstr "خيارات النموذج المتقدمة"
 
-#: arforms-form-builder.php:936
+#: arforms-form-builder.php:937
 #: core/helpers/arflitemainhelper.php:192
 #@ arforms-form-builder
 msgid "Afghanistan"
@@ -520,12 +520,12 @@ msgstr "الفئة العمرية"
 msgid "Ajax based submission"
 msgstr "التقديم المستند إلى أياكس"
 
-#: arforms-form-builder.php:941
+#: arforms-form-builder.php:942
 #@ arforms-form-builder
 msgid "Aland Islands"
 msgstr "جزر آلاند"
 
-#: arforms-form-builder.php:946
+#: arforms-form-builder.php:947
 #: core/helpers/arflitemainhelper.php:193
 #@ arforms-form-builder
 msgid "Albania"
@@ -537,7 +537,7 @@ msgstr "ألبانيا"
 msgid "Albanian"
 msgstr "الألبانية"
 
-#: arforms-form-builder.php:951
+#: arforms-form-builder.php:952
 #: core/helpers/arflitemainhelper.php:194
 #@ arforms-form-builder
 msgid "Algeria"
@@ -569,31 +569,31 @@ msgstr "السماح فقط بأرقام حتى 6 أرقام. على سبيل ا
 msgid "Allow phone number like"
 msgstr "السماح برقم الهاتف مثل"
 
-#: arforms-form-builder.php:956
+#: arforms-form-builder.php:957
 #: core/helpers/arflitemainhelper.php:195
 #@ arforms-form-builder
 msgid "American Samoa"
 msgstr "ساموا الأمريكية"
 
-#: core/classes/class.arforms_form_builder.php:998
-#: core/classes/class.arforms_form_builder.php:1005
+#: core/classes/class.arforms_form_builder.php:1002
+#: core/classes/class.arforms_form_builder.php:1009
 #@ arforms-form-builder
 msgid "Analytics / Chart"
 msgstr "تحليلات / مخطط"
 
-#: arforms-form-builder.php:961
+#: arforms-form-builder.php:962
 #: core/helpers/arflitemainhelper.php:196
 #@ arforms-form-builder
 msgid "Andorra"
 msgstr "أندورا"
 
-#: arforms-form-builder.php:966
+#: arforms-form-builder.php:967
 #: core/helpers/arflitemainhelper.php:197
 #@ arforms-form-builder
 msgid "Angola"
 msgstr "أنغولا"
 
-#: arforms-form-builder.php:971
+#: arforms-form-builder.php:972
 #: core/helpers/arflitemainhelper.php:198
 #@ arforms-form-builder
 msgid "Anguilla"
@@ -622,7 +622,7 @@ msgstr "مدة الرسوم المتحركة"
 msgid "Antarctica"
 msgstr "أنتاركتيكا"
 
-#: arforms-form-builder.php:976
+#: arforms-form-builder.php:977
 #: core/helpers/arflitemainhelper.php:200
 #@ arforms-form-builder
 msgid "Antigua and Barbuda"
@@ -798,7 +798,7 @@ msgstr "لن يخزن ARForms Lite أي بيانات شخصية باستثناء
 msgid "ARForms Samples"
 msgstr "عينات ARForms"
 
-#: arforms-form-builder.php:981
+#: arforms-form-builder.php:982
 #: core/helpers/arflitemainhelper.php:201
 #@ arforms-form-builder
 msgid "Argentina"
@@ -809,7 +809,7 @@ msgstr "الأرجنتين"
 msgid "ARMember Successfully installed."
 msgstr "تم تثبيت ARMember بنجاح."
 
-#: arforms-form-builder.php:986
+#: arforms-form-builder.php:987
 #: core/helpers/arflitemainhelper.php:202
 #@ arforms-form-builder
 msgid "Armenia"
@@ -826,7 +826,7 @@ msgstr "أرمني"
 msgid "ARPrice Successfully installed."
 msgstr "تم تثبيت ARPrice بنجاح."
 
-#: arforms-form-builder.php:991
+#: arforms-form-builder.php:992
 #: core/helpers/arflitemainhelper.php:203
 #@ arforms-form-builder
 msgid "Aruba"
@@ -842,13 +842,13 @@ msgstr "في"
 msgid "August"
 msgstr "أغسطس"
 
-#: arforms-form-builder.php:996
+#: arforms-form-builder.php:997
 #: core/helpers/arflitemainhelper.php:204
 #@ arforms-form-builder
 msgid "Australia"
 msgstr "أستراليا"
 
-#: arforms-form-builder.php:1001
+#: arforms-form-builder.php:1002
 #: core/helpers/arflitemainhelper.php:205
 #@ arforms-form-builder
 msgid "Austria"
@@ -894,7 +894,7 @@ msgstr "الوظائف الإضافية المتاحة"
 msgid "AWEBER LIST"
 msgstr "قائمة AWEBER"
 
-#: arforms-form-builder.php:1006
+#: arforms-form-builder.php:1007
 #: core/helpers/arflitemainhelper.php:206
 #@ arforms-form-builder
 msgid "Azerbaijan"
@@ -938,25 +938,25 @@ msgstr "موضع صورة الخلفية- X"
 msgid "Background Image Position-Y"
 msgstr "موضع صورة الخلفية- Y"
 
-#: arforms-form-builder.php:1011
+#: arforms-form-builder.php:1012
 #: core/helpers/arflitemainhelper.php:207
 #@ arforms-form-builder
 msgid "Bahamas"
 msgstr "جزر البهاما"
 
-#: arforms-form-builder.php:1016
+#: arforms-form-builder.php:1017
 #: core/helpers/arflitemainhelper.php:208
 #@ arforms-form-builder
 msgid "Bahrain"
 msgstr "البحرين"
 
-#: arforms-form-builder.php:1021
+#: arforms-form-builder.php:1022
 #: core/helpers/arflitemainhelper.php:209
 #@ arforms-form-builder
 msgid "Bangladesh"
 msgstr "بنغلاديش"
 
-#: arforms-form-builder.php:1026
+#: arforms-form-builder.php:1027
 #: core/helpers/arflitemainhelper.php:210
 #@ arforms-form-builder
 msgid "Barbados"
@@ -989,19 +989,19 @@ msgstr "قبل إلغاء تنشيط المكون الإضافي ARForms Lite ،
 msgid "begin"
 msgstr "ابدأ"
 
-#: arforms-form-builder.php:1031
+#: arforms-form-builder.php:1032
 #: core/helpers/arflitemainhelper.php:211
 #@ arforms-form-builder
 msgid "Belarus"
 msgstr "روسيا البيضاء"
 
-#: arforms-form-builder.php:1036
+#: arforms-form-builder.php:1037
 #: core/helpers/arflitemainhelper.php:212
 #@ arforms-form-builder
 msgid "Belgium"
 msgstr "بلجيكا"
 
-#: arforms-form-builder.php:1041
+#: arforms-form-builder.php:1042
 #: core/helpers/arflitemainhelper.php:213
 #@ arforms-form-builder
 msgid "Belize"
@@ -1012,25 +1012,25 @@ msgstr "بليز"
 msgid "Bengali"
 msgstr "بنغالي"
 
-#: arforms-form-builder.php:1046
+#: arforms-form-builder.php:1047
 #: core/helpers/arflitemainhelper.php:214
 #@ arforms-form-builder
 msgid "Benin"
 msgstr "بنين"
 
-#: arforms-form-builder.php:1051
+#: arforms-form-builder.php:1052
 #: core/helpers/arflitemainhelper.php:215
 #@ arforms-form-builder
 msgid "Bermuda"
 msgstr "برمودا"
 
-#: arforms-form-builder.php:1056
+#: arforms-form-builder.php:1057
 #: core/helpers/arflitemainhelper.php:216
 #@ arforms-form-builder
 msgid "Bhutan"
 msgstr "بوتان"
 
-#: core/classes/class.arforms_form_builder.php:1807
+#: core/classes/class.arforms_form_builder.php:1811
 #: core/controllers/arflitesettingcontroller.php:143
 #@ arforms-form-builder
 msgid "Black Friday Sale"
@@ -1056,7 +1056,7 @@ msgstr "طمس"
 msgid "bold"
 msgstr "بالخط العريض"
 
-#: arforms-form-builder.php:1061
+#: arforms-form-builder.php:1062
 #: core/helpers/arflitemainhelper.php:217
 #@ arforms-form-builder
 msgid "Bolivia"
@@ -1107,7 +1107,7 @@ msgstr "نمط الحدود"
 msgid "Border Type"
 msgstr "نوع الحدود"
 
-#: arforms-form-builder.php:1066
+#: arforms-form-builder.php:1067
 #: core/helpers/arflitemainhelper.php:218
 #@ arforms-form-builder
 msgid "Bosnia and Herzegovina"
@@ -1119,7 +1119,7 @@ msgstr "البوسنة والهرسك"
 msgid "Bosnian"
 msgstr "البوسنية"
 
-#: arforms-form-builder.php:1071
+#: arforms-form-builder.php:1072
 #: core/helpers/arflitemainhelper.php:219
 #@ arforms-form-builder
 msgid "Botswana"
@@ -1138,18 +1138,18 @@ msgstr "بوتسوانا"
 msgid "Bottom"
 msgstr "الأسفل"
 
-#: arforms-form-builder.php:1076
+#: arforms-form-builder.php:1077
 #: core/helpers/arflitemainhelper.php:220
 #@ arforms-form-builder
 msgid "Brazil"
 msgstr "البرازيل"
 
-#: arforms-form-builder.php:1081
+#: arforms-form-builder.php:1082
 #@ arforms-form-builder
 msgid "British Indian Ocean Territory"
 msgstr "إقليم المحيط البريطاني الهندي"
 
-#: arforms-form-builder.php:1086
+#: arforms-form-builder.php:1087
 #@ arforms-form-builder
 msgid "British Virgin Islands"
 msgstr "جزر فيرجن البريطانية"
@@ -1159,13 +1159,13 @@ msgstr "جزر فيرجن البريطانية"
 msgid "Browser Name"
 msgstr "اسم المتصفح"
 
-#: arforms-form-builder.php:1091
+#: arforms-form-builder.php:1092
 #: core/helpers/arflitemainhelper.php:221
 #@ arforms-form-builder
 msgid "Brunei"
 msgstr "بروناي"
 
-#: arforms-form-builder.php:1096
+#: arforms-form-builder.php:1097
 #: core/helpers/arflitemainhelper.php:222
 #@ arforms-form-builder
 msgid "Bulgaria"
@@ -1186,13 +1186,13 @@ msgstr "البلغارية"
 msgid "Bulk Actions"
 msgstr "إجراءات جملة"
 
-#: arforms-form-builder.php:1101
+#: arforms-form-builder.php:1102
 #: core/helpers/arflitemainhelper.php:223
 #@ arforms-form-builder
 msgid "Burkina Faso"
 msgstr "بوركينا فاسو"
 
-#: arforms-form-builder.php:1106
+#: arforms-form-builder.php:1107
 #: core/helpers/arflitemainhelper.php:224
 #@ arforms-form-builder
 msgid "Burundi"
@@ -1233,13 +1233,13 @@ msgstr "تنسيق تاريخ التقويم"
 msgid "Calendar localization"
 msgstr "توطين التقويم"
 
-#: arforms-form-builder.php:1111
+#: arforms-form-builder.php:1112
 #: core/helpers/arflitemainhelper.php:225
 #@ arforms-form-builder
 msgid "Cambodia"
 msgstr "كمبوديا"
 
-#: arforms-form-builder.php:1116
+#: arforms-form-builder.php:1117
 #: core/helpers/arflitemainhelper.php:226
 #@ arforms-form-builder
 msgid "Cameroon"
@@ -1257,7 +1257,7 @@ msgstr "اسم الحملة"
 msgid "Can you mention it?"
 msgstr "هل يمكنك ذكر ذلك؟"
 
-#: arforms-form-builder.php:1121
+#: arforms-form-builder.php:1122
 #: core/helpers/arflitemainhelper.php:227
 #@ arforms-form-builder
 msgid "Canada"
@@ -1321,13 +1321,13 @@ msgstr "كندا"
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: arforms-form-builder.php:1126
+#: arforms-form-builder.php:1127
 #: core/helpers/arflitemainhelper.php:228
 #@ arforms-form-builder
 msgid "Cape Verde"
 msgstr "الرأس الأخضر"
 
-#: arforms-form-builder.php:1131
+#: arforms-form-builder.php:1132
 #@ arforms-form-builder
 msgid "Caribbean Netherlands"
 msgstr "الكاريبي الكاريبي"
@@ -1339,7 +1339,7 @@ msgstr "الكاريبي الكاريبي"
 msgid "Catalan"
 msgstr "الكاتالونية"
 
-#: arforms-form-builder.php:1136
+#: arforms-form-builder.php:1137
 #: core/helpers/arflitemainhelper.php:229
 #@ arforms-form-builder
 msgid "Cayman Islands"
@@ -1352,13 +1352,13 @@ msgstr "جزر كايمان"
 msgid "Center"
 msgstr "مركز"
 
-#: arforms-form-builder.php:1141
+#: arforms-form-builder.php:1142
 #: core/helpers/arflitemainhelper.php:230
 #@ arforms-form-builder
 msgid "Central African Republic"
 msgstr "جمهورية افريقيا الوسطى"
 
-#: arforms-form-builder.php:1146
+#: arforms-form-builder.php:1147
 #: core/helpers/arflitemainhelper.php:231
 #@ arforms-form-builder
 msgid "Chad"
@@ -1413,13 +1413,13 @@ msgstr "مربعات الاختيار"
 msgid "Checked Icon Styling"
 msgstr "تصميم رمز تم التحقق منه"
 
-#: arforms-form-builder.php:1151
+#: arforms-form-builder.php:1152
 #: core/helpers/arflitemainhelper.php:232
 #@ arforms-form-builder
 msgid "Chile"
 msgstr "تشيلي"
 
-#: arforms-form-builder.php:1156
+#: arforms-form-builder.php:1157
 #: core/helpers/arflitemainhelper.php:233
 #@ arforms-form-builder
 msgid "China"
@@ -1462,7 +1462,7 @@ msgstr "اختر ملف"
 msgid "Choose Option"
 msgstr "إختر خيارا"
 
-#: arforms-form-builder.php:1161
+#: arforms-form-builder.php:1162
 #@ arforms-form-builder
 msgid "Christmas Island"
 msgstr "جزيرة الكريسماس"
@@ -1555,17 +1555,17 @@ msgstr "سر العميل"
 msgid "Clock Settings"
 msgstr "إعدادات الساعة"
 
-#: core/classes/class.arforms_form_builder.php:721
+#: core/classes/class.arforms_form_builder.php:725
 #@ arforms-form-builder
 msgid "Close"
 msgstr "يغلق"
 
-#: arforms-form-builder.php:1166
+#: arforms-form-builder.php:1167
 #@ arforms-form-builder
 msgid "Cocos Islands"
 msgstr "جزر كوكوس"
 
-#: arforms-form-builder.php:1171
+#: arforms-form-builder.php:1172
 #: core/helpers/arflitemainhelper.php:234
 #@ arforms-form-builder
 msgid "Colombia"
@@ -1591,7 +1591,7 @@ msgstr "نظام الألوان"
 msgid "Comma ( , )"
 msgstr "فاصلة (،)"
 
-#: arforms-form-builder.php:1176
+#: arforms-form-builder.php:1177
 #: core/helpers/arflitemainhelper.php:235
 #@ arforms-form-builder
 msgid "Comoros"
@@ -1672,12 +1672,12 @@ msgstr "Confirmation Message"
 msgid "Congo"
 msgstr "الكونغو"
 
-#: arforms-form-builder.php:1181
+#: arforms-form-builder.php:1182
 #@ arforms-form-builder
 msgid "Congo (DRC)"
 msgstr "الكونغو (جمهورية الكونغو الديمقراطية)"
 
-#: arforms-form-builder.php:1186
+#: arforms-form-builder.php:1187
 #@ arforms-form-builder
 msgid "Congo (Republic)"
 msgstr "الكونغو (جمهورية)"
@@ -1709,7 +1709,7 @@ msgstr "تحويل نوع الحقل"
 msgid "Convert To Field Type"
 msgstr "تحويل إلى نوع الحقل"
 
-#: arforms-form-builder.php:1191
+#: arforms-form-builder.php:1192
 #@ arforms-form-builder
 msgid "Cook Islands"
 msgstr "جزر كوك"
@@ -1724,13 +1724,13 @@ msgstr "نسخ"
 msgid "Copied to Clipboard"
 msgstr "نسخ إلى الحافظة"
 
-#: arforms-form-builder.php:1196
+#: arforms-form-builder.php:1197
 #: core/helpers/arflitemainhelper.php:237
 #@ arforms-form-builder
 msgid "Costa Rica"
 msgstr "كوستا ريكا"
 
-#: arforms-form-builder.php:1201
+#: arforms-form-builder.php:1202
 #@ arforms-form-builder
 msgid "Cote d'Ivoire"
 msgstr "ساحل العاج"
@@ -1768,7 +1768,7 @@ msgstr "أنشئت في"
 msgid "Credit Card"
 msgstr "بطاقة الائتمان"
 
-#: arforms-form-builder.php:1206
+#: arforms-form-builder.php:1207
 #: core/helpers/arflitemainhelper.php:238
 #@ arforms-form-builder
 msgid "Croatia"
@@ -1786,18 +1786,18 @@ msgstr "الكرواتية"
 msgid "CSV File Separator"
 msgstr "فاصل ملف CSV"
 
-#: core/controllers/arfliteformcontroller.php:7093
+#: core/controllers/arfliteformcontroller.php:7101
 #@ arforms-form-builder
 msgid "CSV generated successfully."
 msgstr "تم إنشاء ملف CSV بنجاح."
 
-#: arforms-form-builder.php:1211
+#: arforms-form-builder.php:1212
 #: core/helpers/arflitemainhelper.php:239
 #@ arforms-form-builder
 msgid "Cuba"
 msgstr "كوبا"
 
-#: arforms-form-builder.php:1216
+#: arforms-form-builder.php:1217
 #@ arforms-form-builder
 msgid "Curacao"
 msgstr "كوراكاو"
@@ -1836,7 +1836,7 @@ msgstr "خيارات الخط المخصصة"
 msgid "CVC/CVV"
 msgstr "CVC / CVV"
 
-#: arforms-form-builder.php:1221
+#: arforms-form-builder.php:1222
 #: core/helpers/arflitemainhelper.php:240
 #@ arforms-form-builder
 msgid "Cyprus"
@@ -1849,7 +1849,7 @@ msgstr "قبرص"
 msgid "Czech"
 msgstr "التشيكية"
 
-#: arforms-form-builder.php:1226
+#: arforms-form-builder.php:1227
 #: core/helpers/arflitemainhelper.php:241
 #@ arforms-form-builder
 msgid "Czech Republic"
@@ -1879,7 +1879,7 @@ msgstr "متقطع"
 msgid "Date"
 msgstr "تاريخ"
 
-#: arforms-form-builder.php:758
+#: arforms-form-builder.php:759
 #@ arforms-form-builder
 msgid "Date Elements"
 msgstr "عناصر التاريخ"
@@ -1899,7 +1899,7 @@ msgstr "التاريخ غير صالح"
 msgid "Date range"
 msgstr "نطاق الموعد"
 
-#: core/controllers/arfliteformcontroller.php:6558
+#: core/controllers/arfliteformcontroller.php:6566
 #@ arforms-form-builder
 msgid "Datepicker / Timepicker"
 msgstr "Datepicker / Timepicker"
@@ -2038,7 +2038,7 @@ msgstr "حذف الحقل"
 msgid "Delete Forms and Templates"
 msgstr "حذف النماذج والقوالب"
 
-#: arforms-form-builder.php:1231
+#: arforms-form-builder.php:1232
 #: core/helpers/arflitemainhelper.php:242
 #@ arforms-form-builder
 msgid "Denmark"
@@ -2086,7 +2086,7 @@ msgstr "نموذج عرض ARForms Lite"
 msgid "Display Title and Description"
 msgstr "عرض العنوان والوصف"
 
-#: arforms-form-builder.php:1236
+#: arforms-form-builder.php:1237
 #: core/helpers/arflitemainhelper.php:243
 #@ arforms-form-builder
 msgid "Djibouti"
@@ -2102,13 +2102,13 @@ msgstr "لا تقم بمسح النص الافتراضي على التركيز."
 msgid "Do not pass the validation with default value."
 msgstr "لا تجتاز عملية التحقق بالقيمة الافتراضية."
 
-#: arforms-form-builder.php:1241
+#: arforms-form-builder.php:1242
 #: core/helpers/arflitemainhelper.php:244
 #@ arforms-form-builder
 msgid "Dominica"
 msgstr "دومينيكا"
 
-#: arforms-form-builder.php:1246
+#: arforms-form-builder.php:1247
 #: core/helpers/arflitemainhelper.php:245
 #@ arforms-form-builder
 msgid "Dominican Republic"
@@ -2119,7 +2119,7 @@ msgstr "جمهورية الدومنيكان"
 msgid "Dotted"
 msgstr "منقط"
 
-#: core/controllers/arfliteformcontroller.php:6551
+#: core/controllers/arfliteformcontroller.php:6559
 #@ arforms-form-builder
 msgid "Drop Down"
 msgstr "اسقاط"
@@ -2158,7 +2158,7 @@ msgstr "خيار ديناميكي"
 msgid "East Timor"
 msgstr "تيمور الشرقية"
 
-#: arforms-form-builder.php:1251
+#: arforms-form-builder.php:1252
 #: core/helpers/arflitemainhelper.php:247
 #@ arforms-form-builder
 msgid "Ecuador"
@@ -2192,13 +2192,13 @@ msgstr "خيارات التحرير"
 msgid "Edit Text"
 msgstr "تحرير النص"
 
-#: arforms-form-builder.php:1256
+#: arforms-form-builder.php:1257
 #: core/helpers/arflitemainhelper.php:248
 #@ arforms-form-builder
 msgid "Egypt"
 msgstr "مصر"
 
-#: arforms-form-builder.php:1261
+#: arforms-form-builder.php:1262
 #: core/helpers/arflitemainhelper.php:249
 #@ arforms-form-builder
 msgid "El Salvador"
@@ -2226,7 +2226,7 @@ msgstr "عنوان بريد الكتروني"
 msgid "Email Attachment:"
 msgstr "مرفق البريد الالكتروني:"
 
-#: arforms-form-builder.php:753
+#: arforms-form-builder.php:754
 #@ arforms-form-builder
 msgid "Email Elements"
 msgstr "عناصر البريد الإلكتروني"
@@ -2241,8 +2241,8 @@ msgstr "تنسيق البريد الإلكتروني"
 msgid "Email is invalid"
 msgstr "البريد الإلكتروني غير صالح"
 
-#: core/classes/class.arforms_form_builder.php:1019
-#: core/classes/class.arforms_form_builder.php:1031
+#: core/classes/class.arforms_form_builder.php:1023
+#: core/classes/class.arforms_form_builder.php:1035
 #@ arforms-form-builder
 msgid "Email Marketing Tools"
 msgstr "أدوات التسويق عبر البريد الإلكتروني"
@@ -2406,13 +2406,13 @@ msgstr "الإدخال غير موجود لفترة زمنية محددة"
 msgid "equals"
 msgstr "يساوي"
 
-#: arforms-form-builder.php:1266
+#: arforms-form-builder.php:1267
 #: core/helpers/arflitemainhelper.php:250
 #@ arforms-form-builder
 msgid "Equatorial Guinea"
 msgstr "غينيا الإستوائية"
 
-#: arforms-form-builder.php:1271
+#: arforms-form-builder.php:1272
 #: core/helpers/arflitemainhelper.php:251
 #@ arforms-form-builder
 msgid "Eritrea"
@@ -2458,7 +2458,7 @@ msgstr "خلفية حالة الخطأ"
 msgid "Esperanto"
 msgstr "إسبرانتو"
 
-#: arforms-form-builder.php:1276
+#: arforms-form-builder.php:1277
 #: core/helpers/arflitemainhelper.php:252
 #@ arforms-form-builder
 msgid "Estonia"
@@ -2471,7 +2471,7 @@ msgstr "إستونيا"
 msgid "Estonian"
 msgstr "الإستونية"
 
-#: arforms-form-builder.php:1281
+#: arforms-form-builder.php:1282
 #: core/helpers/arflitemainhelper.php:253
 #@ arforms-form-builder
 msgid "Ethiopia"
@@ -2528,12 +2528,12 @@ msgstr "تصدير إلى CSV"
 msgid "Exported File Content"
 msgstr "محتوى الملف المصدر"
 
-#: core/classes/class.arforms_form_builder.php:707
+#: core/classes/class.arforms_form_builder.php:711
 #@ arforms-form-builder
 msgid "Facebook Community"
 msgstr "مجتمع الفيسبوك"
 
-#: arforms-form-builder.php:1286
+#: arforms-form-builder.php:1287
 #@ arforms-form-builder
 msgid "Falkland Islands"
 msgstr "جزر فوكلاند"
@@ -2548,7 +2548,7 @@ msgstr "جزر فوكلاند"
 msgid "Family"
 msgstr "أسرة"
 
-#: arforms-form-builder.php:1291
+#: arforms-form-builder.php:1292
 #@ arforms-form-builder
 msgid "Faroe Islands"
 msgstr "جزر فاروس"
@@ -2595,8 +2595,8 @@ msgstr "حقل الوصف"
 msgid "Field inner spacing"
 msgstr "التباعد الداخلي للحقل"
 
-#: arforms-form-builder.php:727
 #: arforms-form-builder.php:728
+#: arforms-form-builder.php:729
 #@ arforms-form-builder
 msgid "Field label"
 msgstr "تسمية الميدان"
@@ -2674,12 +2674,12 @@ msgstr "ستفقد قيم الحقول بمجرد تحويلها إلى"
 msgid "Field Width"
 msgstr "عرض المجال"
 
-#: arforms-form-builder.php:722
+#: arforms-form-builder.php:723
 #@ arforms-form-builder
 msgid "Field Wrapper"
 msgstr "غلاف الحقل"
 
-#: arforms-form-builder.php:721
+#: arforms-form-builder.php:722
 #@ arforms-form-builder
 msgid "Field wrapper"
 msgstr "المجمع الميداني"
@@ -2700,7 +2700,7 @@ msgstr "المجمع الميداني"
 msgid "Fields"
 msgstr "مجالات"
 
-#: arforms-form-builder.php:1296
+#: arforms-form-builder.php:1297
 #: core/helpers/arflitemainhelper.php:254
 #@ arforms-form-builder
 msgid "Fiji"
@@ -2736,7 +2736,7 @@ msgstr "الفلبينية"
 msgid "filtered from"
 msgstr "تمت تصفيته من"
 
-#: arforms-form-builder.php:1301
+#: arforms-form-builder.php:1302
 #: core/helpers/arflitemainhelper.php:255
 #@ arforms-form-builder
 msgid "Finland"
@@ -2749,7 +2749,7 @@ msgstr "فنلندا"
 msgid "Finnish"
 msgstr "الفنلندية"
 
-#: core/classes/class.arforms_form_builder.php:984
+#: core/classes/class.arforms_form_builder.php:988
 #: core/controllers/arflitemaincontroller.php:2454
 #@ arforms-form-builder
 msgid "First"
@@ -2760,7 +2760,7 @@ msgstr "أول"
 msgid "Flat"
 msgstr "مسطحة"
 
-#: core/controllers/arfliteformcontroller.php:6565
+#: core/controllers/arfliteformcontroller.php:6573
 #: core/views/arflite_edit.php:5077
 #@ arforms-form-builder
 msgid "Font Awesome"
@@ -2825,13 +2825,13 @@ msgstr "حد النموذج"
 msgid "Form Description"
 msgstr "وصف النموذج"
 
-#: arforms-form-builder.php:715
 #: arforms-form-builder.php:716
+#: arforms-form-builder.php:717
 #@ arforms-form-builder
 msgid "Form description"
 msgstr "وصف النموذج"
 
-#: core/classes/class.arforms_form_builder.php:1790
+#: core/classes/class.arforms_form_builder.php:1794
 #: core/controllers/arfliteprocontroller.php:67
 #: core/controllers/arfliterecordcontroller.php:330
 #: core/views/arf_view_records.php:315
@@ -2839,8 +2839,8 @@ msgstr "وصف النموذج"
 msgid "Form Entries"
 msgstr "إدخالات النموذج"
 
-#: core/classes/class.arforms_form_builder.php:996
-#: core/classes/class.arforms_form_builder.php:1004
+#: core/classes/class.arforms_form_builder.php:1000
+#: core/classes/class.arforms_form_builder.php:1008
 #@ arforms-form-builder
 msgid "Form Entries Data"
 msgstr "بيانات إدخالات النموذج"
@@ -2856,8 +2856,8 @@ msgstr "إدخال النموذج"
 msgid "Form Global CSS"
 msgstr "نموذج CSS العالمي"
 
-#: arforms-form-builder.php:703
 #: arforms-form-builder.php:704
+#: arforms-form-builder.php:705
 #@ arforms-form-builder
 msgid "Form inner wrapper"
 msgstr "شكل غلاف داخلي"
@@ -2892,8 +2892,8 @@ msgstr "تم حذف النموذج بنجاح"
 msgid "Form is successfully updated"
 msgstr "تم تحديث النموذج بنجاح"
 
-#: arforms-form-builder.php:697
 #: arforms-form-builder.php:698
+#: arforms-form-builder.php:699
 #@ arforms-form-builder
 msgid "Form outer wrapper"
 msgstr "شكل غلاف خارجي"
@@ -2921,12 +2921,12 @@ msgstr "طريقة تقديم النموذج"
 
 #: core/helpers/arfliteformhelper.php:128
 #: core/helpers/arfliteformhelper.php:395
-#: core/models/arflitenotifymodel.php:939
+#: core/models/arflitenotifymodel.php:968
 #@ arforms-form-builder
 msgid "Form submitted on"
 msgstr "تم إرسال النموذج في"
 
-#: arforms-form-builder.php:709
+#: arforms-form-builder.php:710
 #: core/views/arflite_edit.php:3286
 #: core/views/arflite_list.php:125
 #: core/views/arflite_new-selection-modal.php:70
@@ -2935,7 +2935,7 @@ msgstr "تم إرسال النموذج في"
 msgid "Form Title"
 msgstr "عنوان النموذج"
 
-#: arforms-form-builder.php:710
+#: arforms-form-builder.php:711
 #@ arforms-form-builder
 msgid "Form title"
 msgstr "عنوان النموذج"
@@ -2965,7 +2965,7 @@ msgstr "إعدادات عرض النموذج"
 msgid "Form(s) Only"
 msgstr "الشكل (النماذج) فقط"
 
-#: core/classes/class.arforms_form_builder.php:1786
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #@ arforms-form-builder
@@ -2994,7 +2994,7 @@ msgstr "قائمة النماذج غير متاحة حاليًا. الرجاء �
 msgid "Found a better plugin"
 msgstr "العثور على مكون إضافي أفضل"
 
-#: arforms-form-builder.php:1306
+#: arforms-form-builder.php:1307
 #: core/helpers/arflitemainhelper.php:256
 #@ arforms-form-builder
 msgid "France"
@@ -3016,13 +3016,13 @@ msgstr "فرنسي"
 msgid "French (Canadian)"
 msgstr "كندي فرنسي)"
 
-#: arforms-form-builder.php:1311
+#: arforms-form-builder.php:1312
 #: core/helpers/arflitemainhelper.php:257
 #@ arforms-form-builder
 msgid "French Guiana"
 msgstr "غيانا الفرنسية"
 
-#: arforms-form-builder.php:1316
+#: arforms-form-builder.php:1317
 #: core/helpers/arflitemainhelper.php:258
 #@ arforms-form-builder
 msgid "French Polynesia"
@@ -3067,13 +3067,13 @@ msgstr "من البريد الإلكترونى"
 msgid "From/Replyto Name"
 msgstr "من / رد على الاسم"
 
-#: arforms-form-builder.php:1321
+#: arforms-form-builder.php:1322
 #: core/helpers/arflitemainhelper.php:259
 #@ arforms-form-builder
 msgid "Gabon"
 msgstr "الغابون"
 
-#: arforms-form-builder.php:1326
+#: arforms-form-builder.php:1327
 #: core/helpers/arflitemainhelper.php:260
 #@ arforms-form-builder
 msgid "Gambia"
@@ -3097,9 +3097,9 @@ msgstr "خيارات عامة"
 msgid "General setting saved successfully."
 msgstr "تم حفظ الإعداد العام بنجاح."
 
-#: core/classes/class.arforms_form_builder.php:1016
-#: core/classes/class.arforms_form_builder.php:1028
-#: core/classes/class.arforms_form_builder.php:1792
+#: core/classes/class.arforms_form_builder.php:1020
+#: core/classes/class.arforms_form_builder.php:1032
+#: core/classes/class.arforms_form_builder.php:1796
 #: core/controllers/arfliteprocontroller.php:69
 #: core/controllers/arflitesettingcontroller.php:126
 #: core/views/arflite_settings_form.php:64
@@ -3107,7 +3107,7 @@ msgstr "تم حفظ الإعداد العام بنجاح."
 msgid "General Settings"
 msgstr "الاعدادات العامة"
 
-#: arforms-form-builder.php:1331
+#: arforms-form-builder.php:1332
 #: core/helpers/arflitemainhelper.php:261
 #@ arforms-form-builder
 msgid "Georgia"
@@ -3130,7 +3130,7 @@ msgstr "الألمانية (النمسا)"
 msgid "German (Switzerland)"
 msgstr "الألمانية (سويسرا)"
 
-#: arforms-form-builder.php:1336
+#: arforms-form-builder.php:1337
 #: core/helpers/arflitemainhelper.php:262
 #@ arforms-form-builder
 msgid "Germany"
@@ -3146,13 +3146,13 @@ msgstr "احصل على رمز التفعيل"
 msgid "Get It"
 msgstr "احصل عليه"
 
-#: arforms-form-builder.php:1341
+#: arforms-form-builder.php:1342
 #: core/helpers/arflitemainhelper.php:263
 #@ arforms-form-builder
 msgid "Ghana"
 msgstr "غانا"
 
-#: arforms-form-builder.php:1346
+#: arforms-form-builder.php:1347
 #: core/helpers/arflitemainhelper.php:264
 #@ arforms-form-builder
 msgid "Gibraltar"
@@ -3192,7 +3192,7 @@ msgstr "أعطى جوجل / أحب"
 msgid "greater than"
 msgstr "أكثر من"
 
-#: arforms-form-builder.php:1351
+#: arforms-form-builder.php:1352
 #: core/helpers/arflitemainhelper.php:265
 #@ arforms-form-builder
 msgid "Greece"
@@ -3205,13 +3205,13 @@ msgstr "اليونان"
 msgid "Greek"
 msgstr "اليونانية"
 
-#: arforms-form-builder.php:1356
+#: arforms-form-builder.php:1357
 #: core/helpers/arflitemainhelper.php:266
 #@ arforms-form-builder
 msgid "Greenland"
 msgstr "الأرض الخضراء"
 
-#: arforms-form-builder.php:1361
+#: arforms-form-builder.php:1362
 #: core/helpers/arflitemainhelper.php:267
 #@ arforms-form-builder
 msgid "Grenada"
@@ -3222,41 +3222,41 @@ msgstr "غرينادا"
 msgid "Group Name"
 msgstr "أسم المجموعة"
 
-#: core/classes/class.arforms_form_builder.php:1798
+#: core/classes/class.arforms_form_builder.php:1802
 #: core/controllers/arflitesettingcontroller.php:134
 #@ arforms-form-builder
 msgid "Growth Plugins"
 msgstr "ملحقات النمو"
 
-#: arforms-form-builder.php:1366
+#: arforms-form-builder.php:1367
 #@ arforms-form-builder
 msgid "Guadeloupe"
 msgstr "غواديلوب"
 
-#: arforms-form-builder.php:1371
+#: arforms-form-builder.php:1372
 #: core/helpers/arflitemainhelper.php:268
 #@ arforms-form-builder
 msgid "Guam"
 msgstr "غوام"
 
-#: arforms-form-builder.php:1376
+#: arforms-form-builder.php:1377
 #: core/helpers/arflitemainhelper.php:269
 #@ arforms-form-builder
 msgid "Guatemala"
 msgstr "غواتيمالا"
 
-#: arforms-form-builder.php:1381
+#: arforms-form-builder.php:1382
 #@ arforms-form-builder
 msgid "Guernsey"
 msgstr "غيرنسي"
 
-#: arforms-form-builder.php:1386
+#: arforms-form-builder.php:1387
 #: core/helpers/arflitemainhelper.php:270
 #@ arforms-form-builder
 msgid "Guinea"
 msgstr "غينيا"
 
-#: arforms-form-builder.php:1391
+#: arforms-form-builder.php:1392
 #: core/helpers/arflitemainhelper.php:271
 #@ arforms-form-builder
 msgid "Guinea-Bissau"
@@ -3267,13 +3267,13 @@ msgstr "غينيا - بيساو"
 msgid "Gujarati"
 msgstr "الغوجاراتية"
 
-#: arforms-form-builder.php:1396
+#: arforms-form-builder.php:1397
 #: core/helpers/arflitemainhelper.php:272
 #@ arforms-form-builder
 msgid "Guyana"
 msgstr "غيانا"
 
-#: arforms-form-builder.php:1401
+#: arforms-form-builder.php:1402
 #: core/helpers/arflitemainhelper.php:273
 #@ arforms-form-builder
 msgid "Haiti"
@@ -3343,13 +3343,13 @@ msgstr "إخفاء رسالة النجاح بعد"
 msgid "Hindi"
 msgstr "هندي"
 
-#: arforms-form-builder.php:1406
+#: arforms-form-builder.php:1407
 #: core/helpers/arflitemainhelper.php:274
 #@ arforms-form-builder
 msgid "Honduras"
 msgstr "هندوراس"
 
-#: arforms-form-builder.php:1411
+#: arforms-form-builder.php:1412
 #: core/helpers/arflitemainhelper.php:275
 #@ arforms-form-builder
 msgid "Hong Kong"
@@ -3416,7 +3416,7 @@ msgstr "لغة البرمجة"
 msgid "Hungarian"
 msgstr "المجري"
 
-#: arforms-form-builder.php:1416
+#: arforms-form-builder.php:1417
 #: core/helpers/arflitemainhelper.php:276
 #@ arforms-form-builder
 msgid "Hungary"
@@ -3438,7 +3438,7 @@ msgstr "اشتريت إصدارًا مميزًا من ARForms"
 msgid "I understand the risk"
 msgstr "أنا أفهم الخطر"
 
-#: arforms-form-builder.php:1421
+#: arforms-form-builder.php:1422
 #: core/helpers/arflitemainhelper.php:277
 #@ arforms-form-builder
 msgid "Iceland"
@@ -3498,7 +3498,7 @@ msgstr "الصورة غير صالحة"
 msgid "Image URL"
 msgstr "رابط الصورة"
 
-#: arforms-form-builder.php:773
+#: arforms-form-builder.php:774
 #@ arforms-form-builder
 msgid "Image URL Elements"
 msgstr "عناصر عنوان URL للصورة"
@@ -3513,7 +3513,7 @@ msgstr "عرض الصورة"
 msgid "Import"
 msgstr "استيراد"
 
-#: core/classes/class.arforms_form_builder.php:1794
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3525,7 +3525,7 @@ msgstr "استيراد و تصدير"
 msgid "Import / Export Forms"
 msgstr "نماذج الاستيراد / التصدير"
 
-#: core/classes/class.arforms_form_builder.php:1794
+#: core/classes/class.arforms_form_builder.php:1798
 #: core/controllers/arfliteprocontroller.php:71
 #: core/controllers/arflitesettingcontroller.php:128
 #@ arforms-form-builder
@@ -3553,7 +3553,7 @@ msgstr "غير متوافق مع السمة أو البرنامج المساعد
 msgid "Incorrect Field"
 msgstr "حقل غير صحيح"
 
-#: arforms-form-builder.php:1426
+#: arforms-form-builder.php:1427
 #: core/helpers/arflitemainhelper.php:278
 #@ arforms-form-builder
 msgid "India"
@@ -3564,7 +3564,7 @@ msgstr "الهند"
 msgid "Individual Steps"
 msgstr "خطوات فردية"
 
-#: arforms-form-builder.php:1431
+#: arforms-form-builder.php:1432
 #: core/helpers/arflitemainhelper.php:279
 #@ arforms-form-builder
 msgid "Indonesia"
@@ -3687,19 +3687,19 @@ msgstr "الحد الأدنى لطول الأحرف غير صالح"
 msgid "IP Address"
 msgstr "عنوان IP"
 
-#: arforms-form-builder.php:1436
+#: arforms-form-builder.php:1437
 #: core/helpers/arflitemainhelper.php:280
 #@ arforms-form-builder
 msgid "Iran"
 msgstr "إيران"
 
-#: arforms-form-builder.php:1441
+#: arforms-form-builder.php:1442
 #: core/helpers/arflitemainhelper.php:281
 #@ arforms-form-builder
 msgid "Iraq"
 msgstr "العراق"
 
-#: arforms-form-builder.php:1446
+#: arforms-form-builder.php:1447
 #: core/helpers/arflitemainhelper.php:282
 #@ arforms-form-builder
 msgid "Ireland"
@@ -3710,12 +3710,12 @@ msgstr "أيرلندا"
 msgid "is"
 msgstr "يكون"
 
-#: arforms-form-builder.php:1451
+#: arforms-form-builder.php:1452
 #@ arforms-form-builder
 msgid "Isle of Man"
 msgstr "جزيرة آيل أوف مان"
 
-#: arforms-form-builder.php:1456
+#: arforms-form-builder.php:1457
 #: core/helpers/arflitemainhelper.php:283
 #@ arforms-form-builder
 msgid "Israel"
@@ -3733,13 +3733,13 @@ msgstr "إيطالي"
 msgid "italic"
 msgstr "مائل"
 
-#: arforms-form-builder.php:1461
+#: arforms-form-builder.php:1462
 #: core/helpers/arflitemainhelper.php:284
 #@ arforms-form-builder
 msgid "Italy"
 msgstr "إيطاليا"
 
-#: arforms-form-builder.php:1466
+#: arforms-form-builder.php:1467
 #: core/helpers/arflitemainhelper.php:285
 #@ arforms-form-builder
 msgid "Jamaica"
@@ -3750,7 +3750,7 @@ msgstr "جامايكا"
 msgid "January"
 msgstr "كانون الثاني"
 
-#: arforms-form-builder.php:1471
+#: arforms-form-builder.php:1472
 #: core/helpers/arflitemainhelper.php:286
 #@ arforms-form-builder
 msgid "Japan"
@@ -3763,12 +3763,12 @@ msgstr "اليابان"
 msgid "Japanese"
 msgstr "اليابانية"
 
-#: arforms-form-builder.php:1476
+#: arforms-form-builder.php:1477
 #@ arforms-form-builder
 msgid "Jersey"
 msgstr "جيرسي"
 
-#: arforms-form-builder.php:1481
+#: arforms-form-builder.php:1482
 #: core/helpers/arflitemainhelper.php:287
 #@ arforms-form-builder
 msgid "Jordan"
@@ -3789,19 +3789,19 @@ msgstr "يونيو"
 msgid "Kannada"
 msgstr "الكانادا"
 
-#: arforms-form-builder.php:1486
+#: arforms-form-builder.php:1487
 #: core/helpers/arflitemainhelper.php:288
 #@ arforms-form-builder
 msgid "Kazakhstan"
 msgstr "كازاخستان"
 
-#: arforms-form-builder.php:1491
+#: arforms-form-builder.php:1492
 #: core/helpers/arflitemainhelper.php:289
 #@ arforms-form-builder
 msgid "Kenya"
 msgstr "كينيا"
 
-#: arforms-form-builder.php:1496
+#: arforms-form-builder.php:1497
 #: core/helpers/arflitemainhelper.php:290
 #@ arforms-form-builder
 msgid "Kiribati"
@@ -3814,18 +3814,18 @@ msgstr "كيريباتي"
 msgid "Korean"
 msgstr "الكورية"
 
-#: arforms-form-builder.php:1501
+#: arforms-form-builder.php:1502
 #@ arforms-form-builder
 msgid "Kosovo"
 msgstr "كوسوفو"
 
-#: arforms-form-builder.php:1506
+#: arforms-form-builder.php:1507
 #: core/helpers/arflitemainhelper.php:293
 #@ arforms-form-builder
 msgid "Kuwait"
 msgstr "الكويت"
 
-#: arforms-form-builder.php:1511
+#: arforms-form-builder.php:1512
 #: core/helpers/arflitemainhelper.php:294
 #@ arforms-form-builder
 msgid "Kyrgyzstan"
@@ -3877,19 +3877,19 @@ msgstr "عرض الملصق"
 msgid "Lack of documentation"
 msgstr "عدم وجود وثائق"
 
-#: arforms-form-builder.php:1516
+#: arforms-form-builder.php:1517
 #: core/helpers/arflitemainhelper.php:295
 #@ arforms-form-builder
 msgid "Laos"
 msgstr "لاوس"
 
-#: core/classes/class.arforms_form_builder.php:983
+#: core/classes/class.arforms_form_builder.php:987
 #: core/controllers/arflitemaincontroller.php:2452
 #@ arforms-form-builder
 msgid "Last"
 msgstr "الاخير"
 
-#: arforms-form-builder.php:1521
+#: arforms-form-builder.php:1522
 #: core/helpers/arflitemainhelper.php:296
 #@ arforms-form-builder
 msgid "Latvia"
@@ -3902,7 +3902,7 @@ msgstr "لاتفيا"
 msgid "Latvian"
 msgstr "اللاتفية"
 
-#: arforms-form-builder.php:1526
+#: arforms-form-builder.php:1527
 #: core/helpers/arflitemainhelper.php:297
 #@ arforms-form-builder
 msgid "Lebanon"
@@ -3930,7 +3930,7 @@ msgstr "اليسار"
 msgid "Left to Right"
 msgstr "من اليسار إلى اليمين"
 
-#: arforms-form-builder.php:1531
+#: arforms-form-builder.php:1532
 #: core/helpers/arflitemainhelper.php:298
 #@ arforms-form-builder
 msgid "Lesotho"
@@ -3941,19 +3941,19 @@ msgstr "ليسوتو"
 msgid "less than"
 msgstr "أقل من"
 
-#: arforms-form-builder.php:1536
+#: arforms-form-builder.php:1537
 #: core/helpers/arflitemainhelper.php:299
 #@ arforms-form-builder
 msgid "Liberia"
 msgstr "ليبيريا"
 
-#: arforms-form-builder.php:1541
+#: arforms-form-builder.php:1542
 #: core/helpers/arflitemainhelper.php:300
 #@ arforms-form-builder
 msgid "Libya"
 msgstr "ليبيا"
 
-#: arforms-form-builder.php:1546
+#: arforms-form-builder.php:1547
 #: core/helpers/arflitemainhelper.php:301
 #@ arforms-form-builder
 msgid "Liechtenstein"
@@ -4000,7 +4000,7 @@ msgstr "اسم القائمة"
 msgid "List name"
 msgstr "اسم القائمة"
 
-#: arforms-form-builder.php:1551
+#: arforms-form-builder.php:1552
 #: core/helpers/arflitemainhelper.php:302
 #@ arforms-form-builder
 msgid "Lithuania"
@@ -4028,18 +4028,18 @@ msgstr "تحميل JS & CSS في جميع الصفحات"
 msgid "LTR"
 msgstr "لتر"
 
-#: arforms-form-builder.php:1556
+#: arforms-form-builder.php:1557
 #: core/helpers/arflitemainhelper.php:303
 #@ arforms-form-builder
 msgid "Luxembourg"
 msgstr "لوكسمبورج"
 
-#: arforms-form-builder.php:1561
+#: arforms-form-builder.php:1562
 #@ arforms-form-builder
 msgid "Macau"
 msgstr "ماكاو"
 
-#: arforms-form-builder.php:1571
+#: arforms-form-builder.php:1572
 #: core/helpers/arflitemainhelper.php:305
 #@ arforms-form-builder
 msgid "Madagascar"
@@ -4050,7 +4050,7 @@ msgstr "مدغشقر"
 msgid "Main Input Colors"
 msgstr "ألوان الإدخال الرئيسية"
 
-#: arforms-form-builder.php:1576
+#: arforms-form-builder.php:1577
 #: core/helpers/arflitemainhelper.php:306
 #@ arforms-form-builder
 msgid "Malawi"
@@ -4066,31 +4066,31 @@ msgstr "لغة الملايو"
 msgid "Malayalam"
 msgstr "المالايالامية"
 
-#: arforms-form-builder.php:1581
+#: arforms-form-builder.php:1582
 #: core/helpers/arflitemainhelper.php:307
 #@ arforms-form-builder
 msgid "Malaysia"
 msgstr "ماليزيا"
 
-#: arforms-form-builder.php:1586
+#: arforms-form-builder.php:1587
 #: core/helpers/arflitemainhelper.php:308
 #@ arforms-form-builder
 msgid "Maldives"
 msgstr "جزر المالديف"
 
-#: arforms-form-builder.php:1591
+#: arforms-form-builder.php:1592
 #: core/helpers/arflitemainhelper.php:309
 #@ arforms-form-builder
 msgid "Mali"
 msgstr "مالي"
 
-#: arforms-form-builder.php:1596
+#: arforms-form-builder.php:1597
 #: core/helpers/arflitemainhelper.php:310
 #@ arforms-form-builder
 msgid "Malta"
 msgstr "مالطا"
 
-#: core/classes/class.arforms_form_builder.php:1786
+#: core/classes/class.arforms_form_builder.php:1790
 #: core/controllers/arfliteformcontroller.php:259
 #: core/controllers/arfliteprocontroller.php:63
 #: core/views/arflite_list.php:50
@@ -4119,23 +4119,23 @@ msgstr "مارس"
 msgid "Margin"
 msgstr "حافة"
 
-#: arforms-form-builder.php:1601
+#: arforms-form-builder.php:1602
 #: core/helpers/arflitemainhelper.php:311
 #@ arforms-form-builder
 msgid "Marshall Islands"
 msgstr "جزر مارشال"
 
-#: arforms-form-builder.php:1606
+#: arforms-form-builder.php:1607
 #@ arforms-form-builder
 msgid "Martinique"
 msgstr "مارتينيك"
 
-#: core/controllers/arfliteformcontroller.php:6571
+#: core/controllers/arfliteformcontroller.php:6579
 #@ arforms-form-builder
 msgid "Mask Input"
 msgstr "إدخال القناع"
 
-#: core/controllers/arfliteformcontroller.php:6584
+#: core/controllers/arfliteformcontroller.php:6592
 #@ arforms-form-builder
 msgid "Material"
 msgstr "مواد"
@@ -4176,13 +4176,13 @@ msgstr "مصفوفة"
 msgid "Matrix Field Background Color"
 msgstr "لون خلفية حقل المصفوفة"
 
-#: arforms-form-builder.php:1611
+#: arforms-form-builder.php:1612
 #: core/helpers/arflitemainhelper.php:312
 #@ arforms-form-builder
 msgid "Mauritania"
 msgstr "موريتانيا"
 
-#: arforms-form-builder.php:1616
+#: arforms-form-builder.php:1617
 #: core/helpers/arflitemainhelper.php:313
 #@ arforms-form-builder
 msgid "Mauritius"
@@ -4216,7 +4216,7 @@ msgstr "أقصى"
 msgid "May"
 msgstr "مايو"
 
-#: arforms-form-builder.php:1621
+#: arforms-form-builder.php:1622
 #@ arforms-form-builder
 msgid "Mayotte"
 msgstr "مايوت"
@@ -4276,13 +4276,13 @@ msgstr "سيتم عرض الرسالة عند إدراج بيانات غير ص�
 msgid "Message will be displayed when required fields is left blank."
 msgstr "سيتم عرض الرسالة عند ترك الحقول المطلوبة فارغة."
 
-#: arforms-form-builder.php:1626
+#: arforms-form-builder.php:1627
 #: core/helpers/arflitemainhelper.php:314
 #@ arforms-form-builder
 msgid "Mexico"
 msgstr "المكسيك"
 
-#: arforms-form-builder.php:1631
+#: arforms-form-builder.php:1632
 #: core/helpers/arflitemainhelper.php:315
 #@ arforms-form-builder
 msgid "Micronesia"
@@ -4345,13 +4345,13 @@ msgstr "واجهه جوال"
 msgid "Modern"
 msgstr "عصري"
 
-#: arforms-form-builder.php:1636
+#: arforms-form-builder.php:1637
 #: core/helpers/arflitemainhelper.php:316
 #@ arforms-form-builder
 msgid "Moldova"
 msgstr "مولدوفا"
 
-#: arforms-form-builder.php:1641
+#: arforms-form-builder.php:1642
 #: core/helpers/arflitemainhelper.php:317
 #@ arforms-form-builder
 msgid "Monaco"
@@ -4363,13 +4363,13 @@ msgstr "موناكو"
 msgid "Monday"
 msgstr "الإثنين"
 
-#: arforms-form-builder.php:1646
+#: arforms-form-builder.php:1647
 #: core/helpers/arflitemainhelper.php:318
 #@ arforms-form-builder
 msgid "Mongolia"
 msgstr "منغوليا"
 
-#: arforms-form-builder.php:1651
+#: arforms-form-builder.php:1652
 #: core/helpers/arflitemainhelper.php:319
 #@ arforms-form-builder
 msgid "Montenegro"
@@ -4390,13 +4390,13 @@ msgstr "الشهور"
 msgid "months"
 msgstr "الشهور"
 
-#: arforms-form-builder.php:1656
+#: arforms-form-builder.php:1657
 #: core/helpers/arflitemainhelper.php:320
 #@ arforms-form-builder
 msgid "Montserrat"
 msgstr "مونتسيرات"
 
-#: arforms-form-builder.php:1661
+#: arforms-form-builder.php:1662
 #: core/helpers/arflitemainhelper.php:321
 #@ arforms-form-builder
 msgid "Morocco"
@@ -4413,7 +4413,7 @@ msgstr "Most Powerful Form Builder to create wide variety of forms within a minu
 msgid "Move"
 msgstr "نقل"
 
-#: arforms-form-builder.php:1666
+#: arforms-form-builder.php:1667
 #: core/helpers/arflitemainhelper.php:322
 #@ arforms-form-builder
 msgid "Mozambique"
@@ -4446,7 +4446,7 @@ msgstr "تحديد متعدد"
 msgid "Multiline Text"
 msgstr "نص متعدد الخطوط"
 
-#: arforms-form-builder.php:1671
+#: arforms-form-builder.php:1672
 #: core/helpers/arflitemainhelper.php:323
 #@ arforms-form-builder
 msgid "Myanmar"
@@ -4457,30 +4457,30 @@ msgstr "ميانمار"
 msgid "N/A"
 msgstr "لا يوجد"
 
-#: arforms-form-builder.php:1676
+#: arforms-form-builder.php:1677
 #: core/helpers/arflitemainhelper.php:324
 #@ arforms-form-builder
 msgid "Namibia"
 msgstr "ناميبيا"
 
-#: arforms-form-builder.php:1681
+#: arforms-form-builder.php:1682
 #: core/helpers/arflitemainhelper.php:325
 #@ arforms-form-builder
 msgid "Nauru"
 msgstr "ناورو"
 
-#: core/classes/class.arforms_form_builder.php:699
+#: core/classes/class.arforms_form_builder.php:703
 #@ arforms-form-builder
 msgid "Need Help ?"
 msgstr "تحتاج مساعدة؟"
 
-#: arforms-form-builder.php:1686
+#: arforms-form-builder.php:1687
 #: core/helpers/arflitemainhelper.php:326
 #@ arforms-form-builder
 msgid "Nepal"
 msgstr "نيبال"
 
-#: arforms-form-builder.php:1691
+#: arforms-form-builder.php:1692
 #: core/helpers/arflitemainhelper.php:327
 #@ arforms-form-builder
 msgid "Netherlands"
@@ -4491,7 +4491,7 @@ msgstr "هولندا"
 msgid "Neutral"
 msgstr "محايد"
 
-#: arforms-form-builder.php:1696
+#: arforms-form-builder.php:1697
 #@ arforms-form-builder
 msgid "New Caledonia"
 msgstr "كاليدونيا الجديدة"
@@ -4501,13 +4501,13 @@ msgstr "كاليدونيا الجديدة"
 msgid "New Form"
 msgstr "صيغة جديدة"
 
-#: arforms-form-builder.php:1701
+#: arforms-form-builder.php:1702
 #: core/helpers/arflitemainhelper.php:328
 #@ arforms-form-builder
 msgid "New Zealand"
 msgstr "نيوزيلندا"
 
-#: core/classes/class.arforms_form_builder.php:982
+#: core/classes/class.arforms_form_builder.php:986
 #: core/controllers/arflitemaincontroller.php:2450
 #: core/helpers/arflitefieldhelper.php:815
 #@ arforms-form-builder
@@ -4519,25 +4519,25 @@ msgstr "التالى"
 msgid "Next Entry"
 msgstr "الإدخال التالي"
 
-#: arforms-form-builder.php:1706
+#: arforms-form-builder.php:1707
 #: core/helpers/arflitemainhelper.php:329
 #@ arforms-form-builder
 msgid "Nicaragua"
 msgstr "نيكاراغوا"
 
-#: arforms-form-builder.php:1711
+#: arforms-form-builder.php:1712
 #: core/helpers/arflitemainhelper.php:330
 #@ arforms-form-builder
 msgid "Niger"
 msgstr "النيجر"
 
-#: arforms-form-builder.php:1716
+#: arforms-form-builder.php:1717
 #: core/helpers/arflitemainhelper.php:331
 #@ arforms-form-builder
 msgid "Nigeria"
 msgstr "نيجيريا"
 
-#: arforms-form-builder.php:1721
+#: arforms-form-builder.php:1722
 #@ arforms-form-builder
 msgid "Niue"
 msgstr "نيوي"
@@ -4580,7 +4580,7 @@ msgstr "لا"
 msgid "No data available in table"
 msgstr "لا توجد بيانات متاحة في الجدول"
 
-#: core/classes/class.arforms_form_builder.php:666
+#: core/classes/class.arforms_form_builder.php:670
 #@ arforms-form-builder
 msgid "No data found"
 msgstr "لاتوجد بيانات"
@@ -4643,7 +4643,7 @@ msgstr "لا ربما في وقت لاحق"
 msgid "None"
 msgstr "لا يوجد"
 
-#: arforms-form-builder.php:1726
+#: arforms-form-builder.php:1727
 #@ arforms-form-builder
 msgid "Norfolk Island"
 msgstr "جزيرة نورفولك"
@@ -4658,25 +4658,25 @@ msgstr "عادي"
 msgid "Normal submission"
 msgstr "التقديم العادي"
 
-#: arforms-form-builder.php:1731
+#: arforms-form-builder.php:1732
 #: core/helpers/arflitemainhelper.php:291
 #@ arforms-form-builder
 msgid "North Korea"
 msgstr "كوريا الشمالية"
 
-#: arforms-form-builder.php:1566
+#: arforms-form-builder.php:1567
 #: core/helpers/arflitemainhelper.php:304
 #@ arforms-form-builder
 msgid "North Macedonia"
 msgstr "مقدونيا الشمالية"
 
-#: arforms-form-builder.php:1736
+#: arforms-form-builder.php:1737
 #: core/helpers/arflitemainhelper.php:333
 #@ arforms-form-builder
 msgid "Northern Mariana Islands"
 msgstr "جزر مريانا الشمالية"
 
-#: arforms-form-builder.php:1741
+#: arforms-form-builder.php:1742
 #: core/helpers/arflitemainhelper.php:332
 #@ arforms-form-builder
 msgid "Norway"
@@ -4775,7 +4775,7 @@ msgstr "شهر نوفمبر"
 msgid "Number"
 msgstr "رقم"
 
-#: arforms-form-builder.php:748
+#: arforms-form-builder.php:749
 #@ arforms-form-builder
 msgid "Number Elements"
 msgstr "عناصر العدد"
@@ -4880,7 +4880,7 @@ msgstr "حسنًا ، أنت تستحق ذلك"
 msgid "Okay"
 msgstr "حسنا"
 
-#: arforms-form-builder.php:1746
+#: arforms-form-builder.php:1747
 #: core/helpers/arflitemainhelper.php:334
 #@ arforms-form-builder
 msgid "Oman"
@@ -5002,44 +5002,44 @@ msgstr "رابط الصفحة"
 msgid "PageBreak Timer Settings"
 msgstr "إعدادات مؤقت PageBreak"
 
-#: arforms-form-builder.php:1751
+#: arforms-form-builder.php:1752
 #: core/helpers/arflitemainhelper.php:335
 #@ arforms-form-builder
 msgid "Pakistan"
 msgstr "باكستان"
 
-#: arforms-form-builder.php:1756
+#: arforms-form-builder.php:1757
 #: core/helpers/arflitemainhelper.php:336
 #@ arforms-form-builder
 msgid "Palau"
 msgstr "بالاو"
 
-#: arforms-form-builder.php:1761
+#: arforms-form-builder.php:1762
 #: core/helpers/arflitemainhelper.php:337
 #@ arforms-form-builder
 msgid "Palestine"
 msgstr "فلسطين"
 
-#: arforms-form-builder.php:1766
+#: arforms-form-builder.php:1767
 #: core/helpers/arflitemainhelper.php:338
 #@ arforms-form-builder
 msgid "Panama"
 msgstr "بنما"
 
-#: arforms-form-builder.php:1771
+#: arforms-form-builder.php:1772
 #: core/helpers/arflitemainhelper.php:339
 #@ arforms-form-builder
 msgid "Papua New Guinea"
 msgstr "بابوا غينيا الجديدة"
 
-#: arforms-form-builder.php:1776
+#: arforms-form-builder.php:1777
 #: core/helpers/arflitemainhelper.php:340
 #@ arforms-form-builder
 msgid "Paraguay"
 msgstr "باراغواي"
 
-#: core/classes/class.arforms_form_builder.php:1000
-#: core/classes/class.arforms_form_builder.php:1006
+#: core/classes/class.arforms_form_builder.php:1004
+#: core/classes/class.arforms_form_builder.php:1010
 #@ arforms-form-builder
 msgid "Partial Filled Form Entries"
 msgstr "إدخالات نموذج معبأ جزئيًا"
@@ -5065,13 +5065,13 @@ msgstr "قيد الانتظار"
 msgid "Persian"
 msgstr "اللغة الفارسية"
 
-#: arforms-form-builder.php:1781
+#: arforms-form-builder.php:1782
 #: core/helpers/arflitemainhelper.php:341
 #@ arforms-form-builder
 msgid "Peru"
 msgstr "بيرو"
 
-#: arforms-form-builder.php:1786
+#: arforms-form-builder.php:1787
 #: core/helpers/arflitemainhelper.php:342
 #@ arforms-form-builder
 msgid "Philippines"
@@ -5082,7 +5082,7 @@ msgstr "الفلبين"
 msgid "Phone"
 msgstr "هاتف"
 
-#: arforms-form-builder.php:743
+#: arforms-form-builder.php:744
 #@ arforms-form-builder
 msgid "Phone Elements"
 msgstr "عناصر الهاتف"
@@ -5303,8 +5303,8 @@ msgstr "يرجى تحديد إجراء صالح."
 #: core/classes/class.arforms_block_widget.php:61
 #: core/classes/class.arforms_block_widget.php:83
 #: core/classes/class.arforms_block_widget.php:102
-#: core/controllers/arfliteformcontroller.php:7143
-#: core/controllers/arfliteformcontroller.php:7155
+#: core/controllers/arfliteformcontroller.php:7151
+#: core/controllers/arfliteformcontroller.php:7163
 #: core/controllers/arflitemaincontroller.php:1973
 #: core/views/arflite_form_preview.php:10
 #@ arforms-form-builder
@@ -5373,7 +5373,7 @@ msgstr "رجاءا انتظر بينما يتم توجيهك."
 msgid "Please, Select appropriate option"
 msgstr "من فضلك ، حدد الخيار المناسب"
 
-#: arforms-form-builder.php:1791
+#: arforms-form-builder.php:1792
 #: core/helpers/arflitemainhelper.php:343
 #@ arforms-form-builder
 msgid "Poland"
@@ -5386,7 +5386,7 @@ msgstr "بولندا"
 msgid "Polish"
 msgstr "تلميع"
 
-#: arforms-form-builder.php:1796
+#: arforms-form-builder.php:1797
 #: core/helpers/arflitemainhelper.php:344
 #@ arforms-form-builder
 msgid "Portugal"
@@ -5447,7 +5447,7 @@ msgstr "عنوان محدد مسبقًا"
 msgid "Preview"
 msgstr "معاينة"
 
-#: core/classes/class.arforms_form_builder.php:985
+#: core/classes/class.arforms_form_builder.php:989
 #: core/controllers/arflitemaincontroller.php:2456
 #: core/helpers/arflitefieldhelper.php:814
 #@ arforms-form-builder
@@ -5471,13 +5471,13 @@ msgstr "طليعة"
 msgid "Proceed"
 msgstr "يتابع"
 
-#: arforms-form-builder.php:1801
+#: arforms-form-builder.php:1802
 #: core/helpers/arflitemainhelper.php:345
 #@ arforms-form-builder
 msgid "Puerto Rico"
 msgstr "بورتوريكو"
 
-#: arforms-form-builder.php:1806
+#: arforms-form-builder.php:1807
 #: core/helpers/arflitemainhelper.php:346
 #@ arforms-form-builder
 msgid "Qatar"
@@ -5548,7 +5548,7 @@ msgstr "تعذر حذف السجل"
 
 #: core/controllers/arfliteformcontroller.php:242
 #: core/controllers/arfliteformcontroller.php:772
-#: core/controllers/arfliteformcontroller.php:7166
+#: core/controllers/arfliteformcontroller.php:7174
 #: core/controllers/arfliterecordcontroller.php:3225
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:1116
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:1264
@@ -5637,7 +5637,7 @@ msgstr "إعادة تعيين"
 msgid "Reset Style"
 msgstr "إعادة تعيين النمط"
 
-#: arforms-form-builder.php:1811
+#: arforms-form-builder.php:1812
 #@ arforms-form-builder
 msgid "Reunion"
 msgstr "جمع شمل"
@@ -5669,7 +5669,7 @@ msgstr "حق"
 msgid "Right to Left"
 msgstr "من اليمين الى اليسار"
 
-#: arforms-form-builder.php:1816
+#: arforms-form-builder.php:1817
 #: core/helpers/arflitemainhelper.php:347
 #@ arforms-form-builder
 msgid "Romania"
@@ -5698,7 +5698,7 @@ msgstr "RTL"
 msgid "Running Total (Math Logic) is Enabled"
 msgstr "تم تمكين Total Running (Math Logic)"
 
-#: arforms-form-builder.php:1821
+#: arforms-form-builder.php:1822
 #: core/helpers/arflitemainhelper.php:348
 #@ arforms-form-builder
 msgid "Russia"
@@ -5711,51 +5711,51 @@ msgstr "روسيا"
 msgid "Russian"
 msgstr "الروسية"
 
-#: arforms-form-builder.php:1826
+#: arforms-form-builder.php:1827
 #: core/helpers/arflitemainhelper.php:349
 #@ arforms-form-builder
 msgid "Rwanda"
 msgstr "رواندا"
 
-#: arforms-form-builder.php:1831
+#: arforms-form-builder.php:1832
 #@ arforms-form-builder
 msgid "Saint Barthelemy"
 msgstr "سانت بارتيليمي"
 
-#: arforms-form-builder.php:1836
+#: arforms-form-builder.php:1837
 #@ arforms-form-builder
 msgid "Saint Helena"
 msgstr "سانت هيلانة"
 
-#: arforms-form-builder.php:1841
+#: arforms-form-builder.php:1842
 #: core/helpers/arflitemainhelper.php:350
 #@ arforms-form-builder
 msgid "Saint Kitts and Nevis"
 msgstr "سانت كيتس ونيفيس"
 
-#: arforms-form-builder.php:1846
+#: arforms-form-builder.php:1847
 #: core/helpers/arflitemainhelper.php:351
 #@ arforms-form-builder
 msgid "Saint Lucia"
 msgstr "القديسة لوسيا"
 
-#: arforms-form-builder.php:1851
+#: arforms-form-builder.php:1852
 #@ arforms-form-builder
 msgid "Saint Martin"
 msgstr "القديس مارتن"
 
-#: arforms-form-builder.php:1856
+#: arforms-form-builder.php:1857
 #@ arforms-form-builder
 msgid "Saint Pierre and Miquelon"
 msgstr "سانت بيير وميكلون"
 
-#: arforms-form-builder.php:1861
+#: arforms-form-builder.php:1862
 #: core/helpers/arflitemainhelper.php:352
 #@ arforms-form-builder
 msgid "Saint Vincent and the Grenadines"
 msgstr "سانت فنسنت وجزر غرينادين"
 
-#: arforms-form-builder.php:1866
+#: arforms-form-builder.php:1867
 #: core/helpers/arflitemainhelper.php:353
 #@ arforms-form-builder
 msgid "Samoa"
@@ -5771,13 +5771,13 @@ msgstr "نماذج من النماذج"
 msgid "Sample RegExp"
 msgstr "نموذج RegExp"
 
-#: arforms-form-builder.php:1871
+#: arforms-form-builder.php:1872
 #: core/helpers/arflitemainhelper.php:354
 #@ arforms-form-builder
 msgid "San Marino"
 msgstr "سان مارينو"
 
-#: arforms-form-builder.php:1876
+#: arforms-form-builder.php:1877
 #: core/helpers/arflitemainhelper.php:355
 #@ arforms-form-builder
 msgid "Sao Tome and Principe"
@@ -5799,7 +5799,7 @@ msgstr "راض"
 msgid "Saturday"
 msgstr "يوم السبت"
 
-#: arforms-form-builder.php:1881
+#: arforms-form-builder.php:1882
 #: core/helpers/arflitemainhelper.php:356
 #@ arforms-form-builder
 msgid "Saudi Arabia"
@@ -6045,7 +6045,7 @@ msgstr "إرسال بريد إلكتروني تجريبي"
 msgid "Send test mail"
 msgstr "إرسال بريد تجريبي"
 
-#: arforms-form-builder.php:1886
+#: arforms-form-builder.php:1887
 #: core/helpers/arflitemainhelper.php:357
 #@ arforms-form-builder
 msgid "Senegal"
@@ -6056,7 +6056,7 @@ msgstr "السنغال"
 msgid "September"
 msgstr "سبتمبر"
 
-#: arforms-form-builder.php:1891
+#: arforms-form-builder.php:1892
 #@ arforms-form-builder
 msgid "Serbia"
 msgstr "صربيا"
@@ -6147,7 +6147,7 @@ msgstr "الإعدادات"
 msgid "Settings Saved."
 msgstr "تم حفظ الإعدادات."
 
-#: arforms-form-builder.php:1896
+#: arforms-form-builder.php:1897
 #: core/helpers/arflitemainhelper.php:359
 #@ arforms-form-builder
 msgid "Seychelles"
@@ -6217,7 +6217,7 @@ msgstr "عرض الوحدات"
 msgid "Showing"
 msgstr "عرض"
 
-#: arforms-form-builder.php:1901
+#: arforms-form-builder.php:1902
 #: core/helpers/arflitemainhelper.php:360
 #@ arforms-form-builder
 msgid "Sierra Leone"
@@ -6229,7 +6229,7 @@ msgstr "سيرا ليون"
 msgid "Sign out successfully."
 msgstr "تسجيل الخروج بنجاح."
 
-#: arforms-form-builder.php:1906
+#: arforms-form-builder.php:1907
 #: core/helpers/arflitemainhelper.php:361
 #@ arforms-form-builder
 msgid "Singapore"
@@ -6242,7 +6242,7 @@ msgstr "سنغافورة"
 msgid "Single Line Text"
 msgstr "نص سطر واحد"
 
-#: arforms-form-builder.php:1911
+#: arforms-form-builder.php:1912
 #@ arforms-form-builder
 msgid "Sint Maarten"
 msgstr "سينت مارتن"
@@ -6292,13 +6292,13 @@ msgstr "المسار المنزلق"
 msgid "Slovak"
 msgstr "السلوفاكية"
 
-#: arforms-form-builder.php:1916
+#: arforms-form-builder.php:1917
 #: core/helpers/arflitemainhelper.php:362
 #@ arforms-form-builder
 msgid "Slovakia"
 msgstr "سلوفاكيا"
 
-#: arforms-form-builder.php:1921
+#: arforms-form-builder.php:1922
 #: core/helpers/arflitemainhelper.php:363
 #@ arforms-form-builder
 msgid "Slovenia"
@@ -6357,13 +6357,13 @@ msgstr "اسم مستخدم SMTP"
 msgid "Solid"
 msgstr "صلب"
 
-#: arforms-form-builder.php:1926
+#: arforms-form-builder.php:1927
 #: core/helpers/arflitemainhelper.php:364
 #@ arforms-form-builder
 msgid "Solomon Islands"
 msgstr "جزر سليمان"
 
-#: arforms-form-builder.php:1931
+#: arforms-form-builder.php:1932
 #: core/helpers/arflitemainhelper.php:365
 #@ arforms-form-builder
 msgid "Somalia"
@@ -6470,19 +6470,19 @@ msgstr "عذرًا ، تعذرت معالجة طلبك لأسباب أمنية."
 msgid "Sorry, Your request could not be processed due to security reasons."
 msgstr "عذرًا ، لا يمكن معالجة طلبك لأسباب أمنية."
 
-#: arforms-form-builder.php:1936
+#: arforms-form-builder.php:1937
 #: core/helpers/arflitemainhelper.php:366
 #@ arforms-form-builder
 msgid "South Africa"
 msgstr "جنوب أفريقيا"
 
-#: arforms-form-builder.php:1941
+#: arforms-form-builder.php:1942
 #: core/helpers/arflitemainhelper.php:292
 #@ arforms-form-builder
 msgid "South Korea"
 msgstr "كوريا الجنوبية"
 
-#: arforms-form-builder.php:1946
+#: arforms-form-builder.php:1947
 #@ arforms-form-builder
 msgid "South Sudan"
 msgstr "جنوب السودان"
@@ -6492,7 +6492,7 @@ msgstr "جنوب السودان"
 msgid "Space Between Two Fields"
 msgstr "مسافة بين حقلين"
 
-#: arforms-form-builder.php:1951
+#: arforms-form-builder.php:1952
 #: core/helpers/arflitemainhelper.php:367
 #@ arforms-form-builder
 msgid "Spain"
@@ -6531,7 +6531,7 @@ msgstr "الانتشار"
 msgid "Sr"
 msgstr "ريال سعودى"
 
-#: arforms-form-builder.php:1956
+#: arforms-form-builder.php:1957
 #: core/helpers/arflitemainhelper.php:368
 #@ arforms-form-builder
 msgid "Sri Lanka"
@@ -6642,8 +6642,8 @@ msgstr "إرسال إعدادات الخط"
 msgid "Submit Tracking Script"
 msgstr "إرسال نص التتبع"
 
-#: arforms-form-builder.php:778
 #: arforms-form-builder.php:779
+#: arforms-form-builder.php:780
 #@ arforms-form-builder
 msgid "Submit Wrapper"
 msgstr "يقدم غلاف"
@@ -6666,8 +6666,8 @@ msgstr "نموذج التقديم"
 msgid "Success"
 msgstr "نجاح"
 
-#: arforms-form-builder.php:784
 #: arforms-form-builder.php:785
+#: arforms-form-builder.php:786
 #: core/views/arflite_settings_form.php:188
 #@ arforms-form-builder
 msgid "Success Message"
@@ -6688,7 +6688,7 @@ msgstr "موضع رسالة الخطأ / النجاح"
 msgid "Successfully removed file"
 msgstr "تمت إزالة الملف بنجاح"
 
-#: arforms-form-builder.php:1961
+#: arforms-form-builder.php:1962
 #: core/helpers/arflitemainhelper.php:369
 #@ arforms-form-builder
 msgid "Sudan"
@@ -6705,24 +6705,24 @@ msgstr "لاحقة"
 msgid "Sunday"
 msgstr "الأحد"
 
-#: arforms-form-builder.php:1966
+#: arforms-form-builder.php:1967
 #: core/helpers/arflitemainhelper.php:370
 #@ arforms-form-builder
 msgid "Suriname"
 msgstr "سورينام"
 
-#: arforms-form-builder.php:1971
+#: arforms-form-builder.php:1972
 #@ arforms-form-builder
 msgid "Svalbard and Jan Mayen"
 msgstr "سفالبارد وجان ماين"
 
-#: arforms-form-builder.php:1976
+#: arforms-form-builder.php:1977
 #: core/helpers/arflitemainhelper.php:371
 #@ arforms-form-builder
 msgid "Swaziland"
 msgstr "سوازيلاند"
 
-#: arforms-form-builder.php:1981
+#: arforms-form-builder.php:1982
 #: core/helpers/arflitemainhelper.php:372
 #@ arforms-form-builder
 msgid "Sweden"
@@ -6741,13 +6741,13 @@ msgstr "السويدية"
 msgid "Switch"
 msgstr "مفتاح كهربائي"
 
-#: arforms-form-builder.php:1986
+#: arforms-form-builder.php:1987
 #: core/helpers/arflitemainhelper.php:373
 #@ arforms-form-builder
 msgid "Switzerland"
 msgstr "سويسرا"
 
-#: arforms-form-builder.php:1991
+#: arforms-form-builder.php:1992
 #: core/helpers/arflitemainhelper.php:374
 #@ arforms-form-builder
 msgid "Syria"
@@ -6759,13 +6759,13 @@ msgstr "سوريا"
 msgid "Tablet View"
 msgstr "عرض الكمبيوتر اللوحي"
 
-#: arforms-form-builder.php:1996
+#: arforms-form-builder.php:1997
 #: core/helpers/arflitemainhelper.php:375
 #@ arforms-form-builder
 msgid "Taiwan"
 msgstr "تايوان"
 
-#: arforms-form-builder.php:2001
+#: arforms-form-builder.php:2002
 #: core/helpers/arflitemainhelper.php:376
 #@ arforms-form-builder
 msgid "Tajikistan"
@@ -6778,7 +6778,7 @@ msgstr "طاجيكستان"
 msgid "Tamil"
 msgstr "التاميل"
 
-#: arforms-form-builder.php:2006
+#: arforms-form-builder.php:2007
 #: core/helpers/arflitemainhelper.php:377
 #@ arforms-form-builder
 msgid "Tanzania"
@@ -6828,12 +6828,12 @@ msgstr "لون الخط"
 msgid "Text Direction"
 msgstr "اتجاه النص"
 
-#: arforms-form-builder.php:738
+#: arforms-form-builder.php:739
 #@ arforms-form-builder
 msgid "Textarea Elements"
 msgstr "عناصر Textarea"
 
-#: arforms-form-builder.php:733
+#: arforms-form-builder.php:734
 #@ arforms-form-builder
 msgid "Textbox Elements"
 msgstr "عناصر مربع النص"
@@ -6845,7 +6845,7 @@ msgstr "عناصر مربع النص"
 msgid "Thai"
 msgstr "التايلاندية"
 
-#: arforms-form-builder.php:2011
+#: arforms-form-builder.php:2012
 #: core/helpers/arflitemainhelper.php:378
 #@ arforms-form-builder
 msgid "Thailand"
@@ -6920,14 +6920,14 @@ msgstr "حدث خطأ في حذف هذا الإدخال"
 msgid "There is an issue while uploading a file. Please try again"
 msgstr "هناك مشكلة أثناء تحميل ملف. حاول مرة اخرى"
 
-#: core/classes/class.arforms_form_builder.php:950
+#: core/classes/class.arforms_form_builder.php:954
 #: core/controllers/arflitemaincontroller.php:2448
 #: integrations/Payments/PayPal/class.arforms_paypal_payment_gatway.php:631
 #@ arforms-form-builder
 msgid "There is no any form found"
 msgstr "لم يتم العثور على أي شكل"
 
-#: core/classes/class.arforms_form_builder.php:981
+#: core/classes/class.arforms_form_builder.php:985
 #: core/controllers/arflitemaincontroller.php:2436
 #@ arforms-form-builder
 msgid "There is no entry found"
@@ -7130,7 +7130,7 @@ msgstr "الخميس"
 msgid "Time"
 msgstr "زمن"
 
-#: arforms-form-builder.php:763
+#: arforms-form-builder.php:764
 #@ arforms-form-builder
 msgid "Time Elements"
 msgstr "عناصر الوقت"
@@ -7145,7 +7145,7 @@ msgstr "نمط الموقت"
 msgid "Timestamp"
 msgstr "الطابع الزمني"
 
-#: arforms-form-builder.php:2016
+#: arforms-form-builder.php:2017
 #@ arforms-form-builder
 msgid "Timor-Leste"
 msgstr "تيمور ليشتي"
@@ -7202,24 +7202,24 @@ msgstr "لتصدير هذا النموذج ، تحتاج أولاً إلى حف�
 msgid "to set dynamic minimum date please use the below short-code"
 msgstr "لتعيين الحد الأدنى للتاريخ الديناميكي ، يرجى استخدام الرمز المختصر أدناه"
 
-#: arforms-form-builder.php:2021
+#: arforms-form-builder.php:2022
 #: core/helpers/arflitemainhelper.php:379
 #@ arforms-form-builder
 msgid "Togo"
 msgstr "توجو"
 
-#: arforms-form-builder.php:2026
+#: arforms-form-builder.php:2027
 #@ arforms-form-builder
 msgid "Tokelau"
 msgstr "توكيلاو"
 
-#: arforms-form-builder.php:2031
+#: arforms-form-builder.php:2032
 #: core/helpers/arflitemainhelper.php:380
 #@ arforms-form-builder
 msgid "Tonga"
 msgstr "تونغا"
 
-#: core/controllers/arfliteformcontroller.php:6577
+#: core/controllers/arfliteformcontroller.php:6585
 #: core/views/arflite_field_option_popup.php:852
 #@ arforms-form-builder
 msgid "Tooltip"
@@ -7252,7 +7252,7 @@ msgstr "أعلى"
 msgid "total"
 msgstr "مجموع"
 
-#: arforms-form-builder.php:2036
+#: arforms-form-builder.php:2037
 #: core/helpers/arflitemainhelper.php:381
 #@ arforms-form-builder
 msgid "Trinidad and Tobago"
@@ -7264,13 +7264,13 @@ msgstr "ترينداد وتوباغو"
 msgid "Tuesday"
 msgstr "الثلاثاء"
 
-#: arforms-form-builder.php:2041
+#: arforms-form-builder.php:2042
 #: core/helpers/arflitemainhelper.php:382
 #@ arforms-form-builder
 msgid "Tunisia"
 msgstr "تونس"
 
-#: arforms-form-builder.php:2046
+#: arforms-form-builder.php:2047
 #: core/helpers/arflitemainhelper.php:383
 #@ arforms-form-builder
 msgid "Turkey"
@@ -7283,18 +7283,18 @@ msgstr "ديك رومي"
 msgid "Turkish"
 msgstr "اللغة التركية"
 
-#: arforms-form-builder.php:2051
+#: arforms-form-builder.php:2052
 #: core/helpers/arflitemainhelper.php:384
 #@ arforms-form-builder
 msgid "Turkmenistan"
 msgstr "تركمانستان"
 
-#: arforms-form-builder.php:2056
+#: arforms-form-builder.php:2057
 #@ arforms-form-builder
 msgid "Turks and Caicos Islands"
 msgstr "جزر تركس وكايكوس"
 
-#: arforms-form-builder.php:2061
+#: arforms-form-builder.php:2062
 #: core/helpers/arflitemainhelper.php:385
 #@ arforms-form-builder
 msgid "Tuvalu"
@@ -7327,18 +7327,18 @@ msgstr "اختصارات الدولة الأمريكية"
 msgid "U.S. States"
 msgstr "الولايات المتحدة"
 
-#: arforms-form-builder.php:2066
+#: arforms-form-builder.php:2067
 #@ arforms-form-builder
 msgid "U.S. Virgin Islands"
 msgstr "جزر فيرجن الأمريكية"
 
-#: arforms-form-builder.php:2071
+#: arforms-form-builder.php:2072
 #: core/helpers/arflitemainhelper.php:386
 #@ arforms-form-builder
 msgid "Uganda"
 msgstr "أوغندا"
 
-#: arforms-form-builder.php:2076
+#: arforms-form-builder.php:2077
 #: core/helpers/arflitemainhelper.php:387
 #@ arforms-form-builder
 msgid "Ukraine"
@@ -7366,19 +7366,19 @@ msgstr "الغاءالكل"
 msgid "Under 18"
 msgstr "تحت 18"
 
-#: arforms-form-builder.php:2081
+#: arforms-form-builder.php:2082
 #: core/helpers/arflitemainhelper.php:388
 #@ arforms-form-builder
 msgid "United Arab Emirates"
 msgstr "الإمارات العربية المتحدة"
 
-#: arforms-form-builder.php:2086
+#: arforms-form-builder.php:2087
 #: core/helpers/arflitemainhelper.php:389
 #@ arforms-form-builder
 msgid "United Kingdom"
 msgstr "المملكة المتحدة"
 
-#: arforms-form-builder.php:2091
+#: arforms-form-builder.php:2092
 #: core/helpers/arflitemainhelper.php:390
 #@ arforms-form-builder
 msgid "United States"
@@ -7411,7 +7411,7 @@ msgstr "تحديث"
 msgid "Update ARForms Database"
 msgstr "تحديث قاعدة بيانات ARForms"
 
-#: core/classes/class.arforms_form_builder.php:1809
+#: core/classes/class.arforms_form_builder.php:1813
 #: core/controllers/arfliteformcontroller.php:134
 #: core/controllers/arflitesettingcontroller.php:145
 #@ arforms-form-builder
@@ -7433,7 +7433,7 @@ msgstr "الأردية"
 msgid "URL"
 msgstr "URL"
 
-#: arforms-form-builder.php:2096
+#: arforms-form-builder.php:2097
 #: core/helpers/arflitemainhelper.php:391
 #@ arforms-form-builder
 msgid "Uruguay"
@@ -7490,7 +7490,7 @@ msgstr "باستخدام API"
 msgid "Using Web-form"
 msgstr "استخدام نموذج الويب"
 
-#: arforms-form-builder.php:2101
+#: arforms-form-builder.php:2102
 #: core/helpers/arflitemainhelper.php:392
 #@ arforms-form-builder
 msgid "Uzbekistan"
@@ -7506,8 +7506,8 @@ msgstr "التحقق من القيمة الافتراضية"
 msgid "Validation"
 msgstr "التحقق"
 
-#: arforms-form-builder.php:790
 #: arforms-form-builder.php:791
+#: arforms-form-builder.php:792
 #@ arforms-form-builder
 msgid "Validation (error)"
 msgstr "خطئ في التحقق)"
@@ -7532,19 +7532,19 @@ msgstr "نمط رسالة التحقق"
 msgid "Value"
 msgstr "القيمة"
 
-#: arforms-form-builder.php:2106
+#: arforms-form-builder.php:2107
 #: core/helpers/arflitemainhelper.php:393
 #@ arforms-form-builder
 msgid "Vanuatu"
 msgstr "فانواتو"
 
-#: arforms-form-builder.php:2111
+#: arforms-form-builder.php:2112
 #: core/helpers/arflitemainhelper.php:394
 #@ arforms-form-builder
 msgid "Vatican City"
 msgstr "مدينة الفاتيكان"
 
-#: arforms-form-builder.php:2116
+#: arforms-form-builder.php:2117
 #: core/helpers/arflitemainhelper.php:395
 #@ arforms-form-builder
 msgid "Venezuela"
@@ -7591,7 +7591,7 @@ msgstr "راضٍ جدًا"
 msgid "Very Unsatisfied"
 msgstr "غير راض جدا"
 
-#: arforms-form-builder.php:2121
+#: arforms-form-builder.php:2122
 #: core/helpers/arflitemainhelper.php:396
 #@ arforms-form-builder
 msgid "Vietnam"
@@ -7629,7 +7629,7 @@ msgstr "جزر العذراء البريطانية"
 msgid "Virgin Islands, U.S."
 msgstr "جزر فيرجن ، الولايات المتحدة"
 
-#: arforms-form-builder.php:2126
+#: arforms-form-builder.php:2127
 #@ arforms-form-builder
 msgid "Wallis and Futuna"
 msgstr "واليس وفوتونا"
@@ -7674,7 +7674,7 @@ msgstr "رمز نموذج الويب من Mailchimp"
 msgid "Webhook"
 msgstr "الرد التلقائي على الويب"
 
-#: arforms-form-builder.php:768
+#: arforms-form-builder.php:769
 #@ arforms-form-builder
 msgid "Website Elements"
 msgstr "عناصر الموقع"
@@ -7712,7 +7712,7 @@ msgstr "أيام الأسبوع"
 msgid "weeks"
 msgstr "أسابيع"
 
-#: arforms-form-builder.php:2131
+#: arforms-form-builder.php:2132
 #@ arforms-form-builder
 msgid "Western Sahara"
 msgstr "الصحراء الغربية"
@@ -7803,7 +7803,7 @@ msgstr "سنوات"
 msgid "years"
 msgstr "سنوات"
 
-#: arforms-form-builder.php:2136
+#: arforms-form-builder.php:2137
 #: core/helpers/arflitemainhelper.php:399
 #@ arforms-form-builder
 msgid "Yemen"
@@ -7854,7 +7854,7 @@ msgstr "أنت تقوم بالتحويل"
 msgid "You are using ARForms Premium plugin on your website and it is an extension to ARForms Lite, so, If you deactivate ARForms Lite then it will automatically deactivate ARForms Premium and all the add-ons"
 msgstr "أنت تستخدم البرنامج الإضافي ARForms Premium على موقع الويب الخاص بك وهو امتداد لـ ARForms Lite، لذا، إذا قمت بإلغاء تنشيط ARForms Lite، فسيتم تلقائيًا إلغاء تنشيط ARForms Premium وجميع الوظائف الإضافية"
 
-#: core/classes/class.arforms_form_builder.php:1697
+#: core/classes/class.arforms_form_builder.php:1701
 #: core/helpers/arfliteformhelper.php:133
 #: core/models/arflitesettingmodel.php:116
 #@ arforms-form-builder
@@ -7902,18 +7902,18 @@ msgstr "لم يتم إرسال بريدك التجريبي لسبب ما ، ير
 msgid "Your test mail is successfully sent"
 msgstr "تم إرسال بريدك التجريبي بنجاح"
 
-#: core/classes/class.arforms_form_builder.php:714
+#: core/classes/class.arforms_form_builder.php:718
 #@ arforms-form-builder
 msgid "YouTube Channel"
 msgstr "قناة يوتيوب"
 
-#: arforms-form-builder.php:2141
+#: arforms-form-builder.php:2142
 #: core/helpers/arflitemainhelper.php:400
 #@ arforms-form-builder
 msgid "Zambia"
 msgstr "زامبيا"
 
-#: arforms-form-builder.php:2146
+#: arforms-form-builder.php:2147
 #: core/helpers/arflitemainhelper.php:401
 #@ arforms-form-builder
 msgid "Zimbabwe"
@@ -7959,8 +7959,8 @@ msgstr "هناك خطأ ما"
 msgid "log download successfully"
 msgstr "تم تنزيل السجل بنجاح"
 
-#: core/classes/class.arforms_form_builder.php:1022
-#: core/classes/class.arforms_form_builder.php:1034
+#: core/classes/class.arforms_form_builder.php:1026
+#: core/classes/class.arforms_form_builder.php:1038
 #: core/views/arf_debug_log.php:71
 #@ arforms-form-builder
 msgid "Debug Logs"
@@ -8155,7 +8155,7 @@ msgstr "capability_error"
 msgid "success"
 msgstr "نجاح"
 
-#: core/classes/class.arforms_form_builder.php:895
+#: core/classes/class.arforms_form_builder.php:899
 #@ arforms-form-builder
 msgid "Settings saved successfully"
 msgstr "تم حفظ الإعدادات بنجاح"
@@ -9075,12 +9075,6 @@ msgstr "سجل تصحيح أخطاء بوابات الدفع"
 msgid "Paypal Debug Log"
 msgstr "سجل تصحيح أخطاء Paypal"
 
-#. translators: plugin header field 'Version'
-#: arforms-form-builder.php:0
-#@ arforms-form-builder
-msgid "1.7.2"
-msgstr "1.7.2"
-
 #: core/views/arflite_edit.php:4378
 #@ arforms-form-builder
 msgid "ARFLite_form_all_values_no_separate_valueThis will be replaced with form's all fields & labels without separate values."
@@ -9137,4 +9131,10 @@ msgstr "رسالة فشل hCaptcha"
 #@ arforms-form-builder
 msgid "Invalid hCaptcha. Please try again"
 msgstr "hCaptcha غير صالح. يرجى المحاولة مرة أخرى"
+
+#. translators: plugin header field 'Version'
+#: arforms-form-builder.php:0
+#@ arforms-form-builder
+msgid "1.7.3"
+msgstr "1.7.3"
 

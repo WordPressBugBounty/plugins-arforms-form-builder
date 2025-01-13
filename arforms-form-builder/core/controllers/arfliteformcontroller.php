@@ -4719,6 +4719,10 @@ class arfliteformcontroller {
 										$image_size      = 120;
 									}
 
+									$use_separate_value = ( !empty( $field['separate_value'] ) && 1 == $field['separate_value'] ) ? true : false;
+
+									$checkbox_input_cls = ( true == $use_separate_value ) ? ' arf_checkbox_separate_value ' : '';
+
 									foreach ( $field['options'] as $opt_key => $opt ) {
 										$label_image = '';
 										if ( isset( $atts ) && isset( $atts['opt'] ) && ( $atts['opt'] != $opt_key ) ) {
@@ -4766,8 +4770,8 @@ class arfliteformcontroller {
 										if ( ! isset( $atts ) || ! isset( $atts['label'] ) || $atts['label'] ) {
 											$_REQUEST['arfaction'] = ( isset( $_REQUEST['arfaction'] ) ) ? sanitize_text_field( $_REQUEST['arfaction'] ) : '';
 
-											$return_string .= "<div class='arf_checkbox_input_wrapper'>";
-											$return_string .= '<input type="checkbox" name="' . $field_name . '[]" data-type="checkbox" id="field_' . $field['id'] . '-' . $opt_key . '-' . $arflite_data_uniq_id . '" value="' . esc_attr( $field_val ) . '" ' . $checked . ' ';
+											$return_string .= "<div class='arf_checkbox_input_wrapper {$checkbox_input_cls}'>";
+											$return_string .= '<input type="checkbox" name="' . $field_name . '[]" data-type="checkbox" id="field_' . $field['id'] . '-' . $opt_key . '-' . $arflite_data_uniq_id . '" value="' . esc_attr( $field_val ) . '" data-label="'.html_entity_decode($opt).'" ' . $checked . ' ';
 
 											$return_string .= $arf_input_field_html;
 											if ( $k == 0 ) {
@@ -4851,6 +4855,10 @@ class arfliteformcontroller {
 
 									if ( isset( $field['align'] ) && ( $field['align'] == 'arf_col_2' || $field['align'] == 'arf_col_3' || $field['align'] == 'arf_col_4' ) ) {
 										$return_string .= '</div>';
+									}
+
+									if( true == $use_separate_value ){
+										$return_string .= "<input type='hidden' name='_item_meta[{$field['id']}]' />";
 									}
 								}
 								$return_string .= $field_standard_tooltip;
